@@ -1,0 +1,57 @@
+
+h1 {
+    padding: 1% 0% 0% 0%;
+    font-size: 30vh;
+    text-align: center;
+    margin: 0% 0% 0% 0%;
+    
+}
+
+h2 {
+    padding: 0% 0% 1% 0%;
+    font-size: 40px;
+    text-align: center;
+}
+
+
+
+
+.mea-culpa-regular {
+  font-family: "Mea Culpa", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.scroll {
+        align-content: center;
+}
+
+
+    .scroll-top {
+        width: 60%;
+        height: 10%;
+        margin: 0px 20% 0% 20%;
+
+    }
+    .scroll-bottom {
+        width: 60%;
+        height: 10%;
+        margin: -4px 20% 0% 20%;
+    }
+
+    .scroll-body {
+        background-image: url(images/scroll-body.PNG);
+        overflow: hidden;
+        height: 0;
+        width: 56% ;
+        margin: -5px 22% -5px 22% ;
+    }
+
+    .scroll-body:click {
+        background-image: url(images/scroll-body.PNG);
+        overflow: hidden;
+        height: 0;
+        width: 56% ;
+        margin: -5px 22% -5px 22% ;
+    }
