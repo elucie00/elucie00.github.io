@@ -1,26 +1,42 @@
-
-h1 {
-    padding: 1% 0% 0% 0%;
-    font-size: 30vh;
-    text-align: center;
-    margin: 0% 0% 0% 0%;
-    
+body {
+    background-image: url(images/tapestry.jpg);
+    background-size: cover;
+    background-position: center;
 }
-
-h2 {
-    padding: 0% 0% 1% 0%;
-    font-size: 40px;
-    text-align: center;
-}
-
-
-
 
 .mea-culpa-regular {
   font-family: "Mea Culpa", cursive;
-  font-weight: 400;
+  font-weight: 600;
   font-style: normal;
 }
+
+h1 {
+    background-repeat: no-repeat;
+    background-position-y:top ;
+    background-position-x: center;
+    padding: 1% 0% 0% 0%;
+    font-size: 30vh;
+    text-align: center;
+    margin: 0% 0% -1% 0%;
+    color: #f5f5f5;
+    text-shadow: 5px 2px 5px #710000;
+}
+
+
+
+h2 {
+    padding: 0% 0% 1% 0%;
+    margin: 0% ;
+    font-size: 40px;
+    text-align: center;
+    color: #f5f5f5;
+    text-shadow: 5px 2px 5px #710000;
+}
+
+
+
+
+
 
 
 .scroll {
@@ -40,18 +56,44 @@ h2 {
         margin: -4px 20% 0% 20%;
     }
 
+    /* .scroll-body {
+        background-image: url(images/scroll-body.PNG);
+        overflow: hidden;
+        height: 0;
+        width: 56% ;
+        margin: -5px 22% -5px 22% ;
+    } */
+
     .scroll-body {
         background-image: url(images/scroll-body.PNG);
         overflow: hidden;
         height: 0;
         width: 56% ;
         margin: -5px 22% -5px 22% ;
+        transition: height 60s;
     }
 
-    .scroll-body:click {
-        background-image: url(images/scroll-body.PNG);
-        overflow: hidden;
-        height: 0;
-        width: 56% ;
-        margin: -5px 22% -5px 22% ;
-    }
+
+        .scroll-body img {
+            object-fit: contain;
+            overflow: hidden;
+            height: 2.2em;
+            
+        }
+
+        .scroll-body .website {
+            font-size: 1.5em;
+            padding: 1em 1em 1em 1.5em ;
+        }
+
+        .scroll-body a {
+            padding: .5em;
+            text-decoration: none;
+            color: #222 ;
+        }
+
+        .scroll-body a:hover {
+            padding: .5em;
+            text-decoration: none;
+            color: #b93535 ;
+        }
