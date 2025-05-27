@@ -1,5 +1,5 @@
 body {
-    background-image: url(images/tapestry.jpg);
+    background-image: url(../images/tapestry.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -65,7 +65,7 @@ h2 {
     } */
 
     .scroll-body {
-        background-image: url(images/scroll-body.PNG);
+        background-image: url(../images/scroll-body.PNG) ;
         overflow: hidden;
         height: 0;
         width: 56% ;
