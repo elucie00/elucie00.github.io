@@ -36,6 +36,14 @@ html {
         background-size: 100%;
 }
 
+.building-process-header {
+    background-image: url(../images/headers/building-process-header.jpg);
+        height: 100% ;
+        width: 100% ;
+        background-attachment: fixed ;
+        background-repeat: no-repeat;
+        background-size: 100%;
+}
 
 /* BANNER HEADERS! */
 
@@ -61,7 +69,7 @@ header {
 .section-title {
     font-size: 37px;
     padding: 5px;
-    margin: 5px 15px 5px 5px;
+    /* margin: 5px 15px 5px 5px; */
     width: 100%;
     color: #f5f5f5;
     text-decoration: none;
@@ -164,6 +172,78 @@ p {
         margin: 0px;
         align-content: end;
     }
+
+
+
+/* GALLERY MODALS! */
+
+/* .modal-dialog {
+    margin: 0px;
+    max-width: 100%;
+    height: 100%;
+    justify-content: center;
+     margin: 0px 10% 0px 10%;
+} */
+
+.modal-content {
+  
+} 
+
+
+
+/* MODAL GALLERY CARD */
+
+
+.modal-content .gallery-card {
+    width: 100%;
+    height: 100%;
+    background-color: #f5f5f5;
+    color: #000;
+    
+}
+
+.modal-content .gallery-card:hover {
+    border: none;
+}
+
+.modal-content .card-img-top {
+    height: 50%;
+    width: 100%;
+    object-fit: cover ;
+    overflow:auto;
+   
+    
+}
+.modal-content .card-img-top img {
+    object-position: center;
+    
+}
+
+.modal-content .card-body {
+    height:10%;
+    padding: 0em .5em 2em .5em;
+}
+
+
+    .modal-content .card-text {
+        height: 60%;
+        padding: 0em .2em 0em .2em ;
+        margin: 0px;
+        line-height: 1.2;
+        align-content: center;
+        font-size: 1.5em;
+    }
+
+    h5.card-location {
+        height: 40%;
+        font-size: 1em;
+        padding: 0px .2em .5em .2em ;
+        margin: 0px;
+        align-content: end;
+    }
+
+
+
 
 /* FOOTER */
 
