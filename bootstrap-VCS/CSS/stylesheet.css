@@ -52,24 +52,12 @@ header {
     height: 100%;
 }
 
-/* .banner-header-utility {
-    background-image:url(../images/headers/utility-sheds-banner.PNG) ;    
-        height: auto ;
-        width: 100vw ;
-        background-repeat: no-repeat;
-        background-size: 100% 100%;
-        background-position: center;
-        text-shadow: 2px 2px 1px #15253f;
-} */
-
-
-
 /* TEMPLATES/HEADINGS! */
 
 .section-title {
     font-size: 37px;
     padding: 5px;
-    /* margin: 5px 15px 5px 5px; */
+    margin: .5em 0em .4em 0em;
     width: 100%;
     color: #f5f5f5;
     text-decoration: none;
@@ -82,7 +70,7 @@ header {
 }
 
 .sub-heading {
-        margin: .5em 0px 0px 0px;
+        margin: .5em 0em .2em 0em;
         color: #f5f5f5;
         text-underline-offset: 7px;
         background-color: #415a77;
@@ -94,6 +82,10 @@ header {
     }
 
 /* BODY! */
+
+.red {
+    color:red;
+}
 
 p {
     font-size: 18px;
@@ -113,6 +105,35 @@ p {
   background-color: #415a77;
   color: #f5f5f5
 }
+
+
+/* SECTIONS */
+
+.jump-to-section {
+
+}
+
+.info-section-1 {
+
+}
+
+.shed-features {
+
+}
+
+.info-section-2 {
+
+}
+
+.shed-pricing {
+
+}
+
+.shed-gallery {
+
+}
+
+
 
 
 
