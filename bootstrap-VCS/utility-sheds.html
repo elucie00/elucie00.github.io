@@ -190,7 +190,7 @@
 
 
 
-
+<!-- PRICING -->
   
     <div class="row p-0 m-0">
         <div class="col-12 col-md-7 col-lg-5 p-0 m-0">
@@ -314,6 +314,9 @@
     </div>
 </div>
 
+
+<!-- GALLERY -->
+
   <div class="row p-0 m-0">
     <div class="col-12 col-md-7 col-lg-5 p-0 m-0">
         <div class="section-title" id="gallery">Utility Shed Gallery:</div>
@@ -326,43 +329,6 @@
   <div class="row text-center mx-auto my-0 px-0 g-4 justify-content-center">
 
 
-<!-- Modal -->
- 
-    <div class="modal fade" id="barn-sash" tabindex="-1" aria-labelledby="barn-sash" aria-hidden="true">
-      <div class="modal-dialog modal-lg">
-        <div class="modal-content mh-100">
-          <div class="modal-header py-3">
-        <h1 class="modal-title fs-4 mx-auto" id="barn-sash">10x16 Utility shed with 2x3 barn sash windows</h1>
-        <button type="button" class="btn-close m-0 text-end" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-          <div class="gallery-card">
-              <img src="images/utility-sheds/barn-sash.jpg" class="card-img-top img-fluid" alt="a 10x16 Utility shed with 2x3 barn sash windows">
-          </div>
-<button class="btn btn-primary" data-bs-target="#barnard-vt" data-bs-toggle="modal">Open second modal</button>
-        </div>
-      </div>
-    </div>
- 
-
-<!-- Modal -->
-
-<div class="modal fade" id="barnard-vt" tabindex="-1" aria-labelledby="barnard-vt" aria-hidden="true">
-      <div class="modal-dialog modal-lg">
-        <div class="modal-content mh-100">
-          <div class="modal-header py-3">
-        <h1 class="modal-title fs-4 mx-auto" id="barnard-vt">10x14 Utility shed with barn sash windows</h1>
-        <button type="button" class="btn-close m-0 text-end" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-          <div class="gallery-card">
-              <img src="images/utility-sheds/barnard-vt.jpg" class="card-img-top img-fluid" alt="a Utility shed in Barnard VT">
-          </div>
-
-        </div>
-      </div>
-    </div>
-
-
-
     <div class="col-sm-8 col-md-5 col-lg-3 px-1 mx-4">
       <div data-bs-toggle="modal" data-bs-target="#barn-sash">
         <div class="gallery-card">
@@ -371,6 +337,24 @@
               <p class="card-text">10x16 Utility shed with 2x3 barn sash windows</p>
               <h5 class="card-location"></h5>
             </div>
+        </div>
+      </div>
+    </div>
+<!-- Modal barn-sash-->
+    <div class="modal fade m-0 p-0 container-fluid" id="barn-sash" tabindex="-1" aria-labelledby="barn-sash" aria-hidden="true">
+      <div class="modal-dialog modal-xl modal-dialog-centered p-0 my-3 mx-auto mw-100">
+        <div class="modal-content mx-auto mx-sm-0 p-0">
+          <button class="btn d-none d-sm-inline-block p-3 m-0 m-md-2 modal-previous" data-bs-target="#barnard-vt" data-bs-toggle="modal">&larr;</button>
+          <div class="modal-gallery-card">
+            <div class="modal-header py-3">
+              <h5 class="modal-title fs-4 mx-auto" id="barn-sashLabel">10x16 Utility shed with 2x3 barn sash windows</h5>
+              <button type="button" class="btn-close m-0 text-end" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="gallery-card">
+                <img src="images/utility-sheds/barn-sash.jpg" class="card-img-top img-fluid" alt="a 10x16 Utility shed with 2x3 barn sash windows">
+            </div>
+          </div>
+          <button class="btn d-none d-sm-inline-block p-3 m-0 m-md-2 modal-next" data-bs-target="#barnard-vt" data-bs-toggle="modal" data-bs-dismiss="modal">&rarr;</button>
         </div>
       </div>
     </div>
@@ -386,9 +370,27 @@
         </div>
       </div>
     </div>
+    <!-- Modal barnard-vt-->
+<div class="modal fade m-0 p-0 container-fluid" id="barnard-vt" aria-hidden="true" aria-labelledby="barnard-vt" tabindex="-1">
+      <div class="modal-dialog modal-xl modal-dialog-centered mx-auto mw-100">
+        <div class="modal-content mx-auto mx-sm-0 p-0">
+          <button class="btn d-none d-sm-inline-block p-3 m-0 m-md-2 modal-previous" data-bs-target="#barn-sash" data-bs-toggle="modal">&larr;</button>
+          <div class="modal-gallery-card">
+            <div class="modal-header py-3">
+              <h5 class="modal-title fs-4 mx-auto" id="barnard-vt">10x14 Utility shed with barn sash windows</h5>
+              <button type="button" class="btn-close m-0 text-end" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="gallery-card">
+                <img src="images/utility-sheds/barnard-vt.jpg" class="card-img-top img-fluid" alt="a 10x16 Utility shed with 2x3 barn sash windows">
+            </div>
+          </div>
+            <button class="btn d-none d-sm-inline-block p-3 m-0 m-md-2 modal-next" data-bs-target="#barn-sash" data-bs-toggle="modal">&rarr;</button>
+        </div>
+      </div>
+    </div>
 
     <div class="col-sm-8 col-md-5 col-lg-3 px-1 mx-4">
-      <a target="_blank" href="images/utility-sheds/barre-vt.jpg">
+      <div data-bs-toggle="modal" data-bs-target="#barre-vt">
         <div class="gallery-card">
           <img src="images/utility-sheds/barre-vt.jpg" class="card-img-top" alt="an 8x10 Utility shed">
           <div class="card-body">
@@ -396,11 +398,29 @@
             <h5 class="card-location">Barre, Vermont</h5>
           </div>
         </div>
-      </a>
+      </div>
     </div>
+    <!-- Modal NAME-->
+    <div class="modal fade m-0 p-0 container-fluid" id="NAME" aria-hidden="true" aria-labelledby="NAME" tabindex="-1">
+          <div class="modal-dialog modal-xl modal-dialog-centered mx-auto mw-100">
+            <div class="modal-content mx-auto mx-sm-0 p-0">
+              <button class="btn d-none d-sm-inline-block p-3 m-0 m-md-2 modal-previous" data-bs-target="#PREV NAME" data-bs-toggle="modal">&larr;</button>
+              <div class="modal-gallery-card">
+                <div class="modal-header py-3">
+                  <h5 class="modal-title fs-4 mx-auto" id="NAME">DESCRIPTION</h5>
+                  <button type="button" class="btn-close m-0 text-end" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="gallery-card">
+                    <img src="images/utility-sheds" class="card-img-top img-fluid" alt="ALT TEXT">
+                </div>
+              </div>
+                <button class="btn d-none d-sm-inline-block p-3 m-0 m-md-2 modal-next" data-bs-target="#NEXT NAME" data-bs-toggle="modal">&rarr;</button>
+            </div>
+          </div>
+        </div>
 
     <div class="col-sm-8 col-md-5 col-lg-3 px-1 mx-4">
-      <a target="_blank" href="images/utility-sheds/burlington-vt.jpg">
+      <div data-bs-toggle="modal" data-bs-target="#burlington-vt">
         <div class="gallery-card">
           <img src="images/utility-sheds/burlington-vt.jpg" class="card-img-top" alt="a 10x12 Utility shed with barn sash windows">
           <div class="card-body">
@@ -408,11 +428,11 @@
             <h5 class="card-location">Burlington, Vermont</h5>
           </div>
         </div>
-      </a>
+      </div>
     </div>
 
     <div class="col-sm-8 col-md-5 col-lg-3 px-1 mx-4">
-      <a target="_blank" href="images/utility-sheds/colchester-vt-overhang.jpg">
+      <div data-bs-toggle="modal" data-bs-target="#colchester-vt-overhang">
         <div class="gallery-card">
           <img src="images/utility-sheds/colchester-vt-overhang.jpg" class="card-img-top" alt="an 8x10 Utility shed with vinyl windows upgrade">
           <div class="card-body">
@@ -420,11 +440,11 @@
             <h5 class="card-location">Colchester, Vermont</h5>
           </div>
         </div>
-      </a>
+      </div>
     </div>
 
     <div class="col-sm-8 col-md-5 col-lg-3 px-1 mx-4">
-      <a target="_blank" href="images/utility-sheds/colchester-vt.jpg">
+      <div data-bs-toggle="modal" data-bs-target="#colchester-vt">
         <div class="gallery-card">
           <img src="images/utility-sheds/colchester-vt.jpg" class="card-img-top" alt="a 12x16 Utility shed with overhang, vent and window upgrades">
           <div class="card-body">
@@ -432,11 +452,11 @@
             <h5 class="card-location">Colchester, Vermont</h5>
           </div>
         </div>
-      </a>
+      </div>
     </div>
 
     <div class="col-sm-8 col-md-5 col-lg-3 px-1 mx-4">
-      <a target="_blank" href="images/utility-sheds/essex-vt.jpg">
+      <div data-bs-toggle="modal" data-bs-target="#essex-vt">
         <div class="gallery-card">
           <img src="images/utility-sheds/essex-vt.jpg" class="card-img-top" alt="an 8x10 Utility shed with 4x10 large overhang">
           <div class="card-body">
@@ -444,11 +464,11 @@
             <h5 class="card-location">Essex Junction, Vermont</h5>
           </div>
         </div>
-      </a>
+      </div>
     </div>
 
     <div class="col-sm-8 col-md-5 col-lg-3 px-1 mx-4">
-      <a target="_blank" href="images/utility-sheds/ira-vt.jpg">
+      <div data-bs-toggle="modal" data-bs-target="#ira-vt">
         <div class="gallery-card">
           <img src="images/utility-sheds/ira-vt.jpg" class="card-img-top" alt="an 8x10 Utility shed">
           <div class="card-body">
@@ -456,11 +476,11 @@
             <h5 class="card-location">Ira, Vermont</h5>
           </div>
         </div>
-      </a>
+      </div>
     </div>
 
     <div class="col-sm-8 col-md-5 col-lg-3 px-1 mx-4">
-      <a target="_blank" href="images/utility-sheds/winhall-vt.jpg">
+      <div data-bs-toggle="modal" data-bs-target="#winhall-vt">
         <div class="gallery-card">
           <img src="images/utility-sheds/winhall-vt.jpg" class="card-img-top" alt="a 12x14 Utility shed with 5x14 large overhang">
           <div class="card-body">
@@ -468,11 +488,11 @@
             <h5 class="card-location">Winhall, Vermont</h5>
           </div>
         </div>
-      </a>
+      </div>
     </div>
 
     <div class="col-sm-8 col-md-5 col-lg-3 px-1 mx-4">
-      <a target="_blank" href="images/utility-sheds/pittsfield-vt.jpg">
+      <div data-bs-toggle="modal" data-bs-target="#pittsfield-vt">
         <div class="gallery-card">
           <img src="images/utility-sheds/pittsfield-vt.jpg" class="card-img-top" alt="an 8x12 Utilty shed">
           <div class="card-body">
@@ -480,11 +500,11 @@
             <h5 class="card-location">Pittsfield, Vermont</h5>
           </div>
         </div>
-      </a>
+      </div>
     </div>
 
     <div class="col-sm-8 col-md-5 col-lg-3 px-1 mx-4">
-      <a target="_blank" href="images/utility-sheds/sandgate-vt.jpg">
+      <div data-bs-toggle="modal" data-bs-target="#sandgate-vt">
         <div class="gallery-card">
           <img src="images/utility-sheds/sandgate-vt.jpg" class="card-img-top" alt="an 8x12 Utilty shed">
           <div class="card-body">
@@ -492,11 +512,11 @@
             <h5 class="card-location">Sandgate, Vermont</h5>
           </div>
         </div>
-      </a>
+      </div>
     </div>
 
     <div class="col-sm-8 col-md-5 col-lg-3 px-1 mx-4">
-      <a target="_blank" href="images/utility-sheds/sburlington-vt.jpg">
+      <div data-bs-toggle="modal" data-bs-target="#sburlington-vt">
         <div class="gallery-card">
           <img src="images/utility-sheds/sburlington-vt.jpg" class="card-img-top" alt="a 10x14 Utilty shed">
           <div class="card-body">
@@ -504,11 +524,11 @@
             <h5 class="card-location">South Burlington, Vermont</h5>
           </div>
         </div>
-      </a>
+      </div>
     </div>
 
     <div class="col-sm-8 col-md-5 col-lg-3 px-1 mx-4">
-      <a target="_blank" href="images/utility-sheds/warren-vt.jpg">
+      <div data-bs-toggle="modal" data-bs-target="#warren-vt">
         <div class="gallery-card">
           <img src="images/utility-sheds/warren-vt.jpg" class="card-img-top" alt="an 8x12 Utilty shed">
           <div class="card-body">
@@ -516,11 +536,11 @@
             <h5 class="card-location">Warren, Vermont</h5>
           </div>
         </div>
-      </a>
+      </div>
     </div>
 
     <div class="col-sm-8 col-md-5 col-lg-3 px-1 mx-4">
-      <a target="_blank" href="images/utility-sheds/waterbury-vt.jpg">
+      <div data-bs-toggle="modal" data-bs-target="#waterbury-vt">
         <div class="gallery-card">
           <img src="images/utility-sheds/waterbury-vt.jpg" class="card-img-top" alt="a 10x14 Utility priced shed">
           <div class="card-body">
@@ -528,11 +548,11 @@
             <h5 class="card-location">Waterbury, Vermont</h5>
           </div>
         </div>
-      </a>
+      </div>
     </div>
 
     <div class="col-sm-8 col-md-5 col-lg-3 px-1 mx-4">
-      <a target="_blank" href="images/utility-sheds/windham-vt.jpg">
+      <div data-bs-toggle="modal" data-bs-target="#windham-vt">
         <div class="gallery-card">
           <img src="images/utility-sheds/windham-vt.jpg" class="card-img-top" alt="an 8x12 Utility shed">
           <div class="card-body">
@@ -540,17 +560,12 @@
             <h5 class="card-location">Windham, Vermont</h5>
           </div>
         </div>
-        </a>
+        </div>
     </div>
 
 
   </div>
 </div>
-
-
-
-
-
 
 </main>
 
