@@ -21,14 +21,17 @@ body {
     
     }
     .navbar-collapse {
-
+    position: absolute;
+    height: 100vh;
+    top: 0;
+    width: 100vw;
     }
     .navbar-nav {
-    overflow:scroll;
+    overflow:auto;
     background-color: #212529;
     width: 10em;
-   height: 93.5vh;
-    margin: 5px;
+    height: 100vh;
+  
     text-align: center;
   }
 
