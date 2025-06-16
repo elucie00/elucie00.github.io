@@ -26,26 +26,26 @@ body {
     top: 0;
     width: 100vw;
     }
+    
     .navbar-nav {
     overflow:auto;
     background-color: #212529;
-    width: 10em;
+    width: 11em;
     height: 100vh;
-  
     text-align: center;
   }
 
-  .navbar-nav ul {
-
-  }
+  
   .navbar-nav li {
     width: 100%;
-    padding: .1em;
-  
   }
+
+  .nav-item {
+    height: 9%;
+    vertical-align: middle;
+}
     .bg-dark {
         --bs-bg-opacity: .5;
-
 }
     html {
         scroll-padding-top: 0;
@@ -75,16 +75,26 @@ body {
 
 /* LARGE HEADERS! */
 
+
+
+
 .index-header {
     background-image: url(../images/headers/home-page.jpg);
         height: 100% ;
-        width: 100% ;
+        width: 100vw ;
         background-attachment: fixed ;
         background-repeat: no-repeat;
         background-size: 100%;
+        overflow:hidden;
+        object-fit: cover;
+        
 }
 
-.building-process-header {
+.index-header,.process-header h1,h2 {
+text-shadow: .04em .04em 0em #15253f;
+}
+
+.process-header {
     background-image: url(../images/headers/building-process-header.jpg);
         height: 100% ;
         width: 100% ;
@@ -96,8 +106,10 @@ body {
 /* BANNER HEADERS! */
 
 
-header {
-    height: 100%;
+header img {
+    height: 25vh;
+    overflow:hidden;
+    object-fit: cover;
 }
 
 /* TEMPLATES/HEADINGS! */

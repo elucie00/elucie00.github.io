@@ -14,10 +14,13 @@
   <div class="container-fluid p-0 m-0 w-100">
     
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+      <span class="navbar-toggler-icon"></span>Navigation
     </button>
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <div class="collapse navbar-collapse" id="navbarNavDropdown" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <ul class="navbar-nav">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>Navigation
+          </button>
         <li class="nav-item">
           <a class="nav-link text-center" href="index.html"><h6>Home</h6></a>
         </li>
@@ -25,7 +28,7 @@
           <a class="nav-link text-center" href="utility-sheds.html"><h6>Utility Sheds</h6></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-center" href="select-sheds.html"><h6>Select Sheds</h6></a>
+          <a class="nav-link text-center" aria-current="page" href="select-sheds.html"><h6>Select Sheds</h6></a>
         </li>
         <li class="nav-item">
           <a class="nav-link text-center" href="custom-sheds.html"><h6>Custom Sheds</h6></a>
@@ -48,7 +51,7 @@
           </ul>
         </li>
         <li class="nav-item">
-          <a class="nav-link active text-center" aria-current="page" href="process.html"><h6>Building Process</h6></a>
+          <a class="nav-link active text-center" href="process.html"><h6>Building Process</h6></a>
         </li>
         <li class="nav-item">
           <a class="nav-link text-center" href="reviews.html"><h6>Reviews and Testimonials</h6></a>
@@ -64,10 +67,11 @@
   </div>
 </nav>
 
-<header class="building-process-header">
-    <div class="container w-100 m-0 pt-3">
-        <div class="row m-2 p-2">
-            <h1 class="display-4 my-5 py-5">Building Process</h1>
+<!-- HEADER -->
+<header class="process-header container-fluid">
+    <div class=" w-100 m-0 py-sm-4 py-lg-5 col-12">
+        <div class="row">
+            <h1 class="display-3 py-5 my-md-2">Building Process</h1>
         </div>
     </div>
 </header>
