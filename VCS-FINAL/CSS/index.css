@@ -14,7 +14,6 @@
     object-fit: cover;
     color: #F5F5F5;
     margin: 0em 0em 2rem 0rem;
-    border-bottom:#495057 .3rem solid;
 }
     .gradient {
         background-image: linear-gradient(to right, #212529cb , #21252996 ,#21252900 , #21252900);
@@ -108,8 +107,6 @@
     height: 100%;
     margin: 0rem 0em .5rem 0em;
     background-color: #1b263b;
-    border-top:#495057 .2rem solid;
-    border-bottom:#495057 .2rem solid;
 }
     .schedule-now {
         width: 60%;
@@ -163,8 +160,6 @@
     margin: 0rem 0em 2.5rem 0em;
     padding: 0em 0em;
     background-color: #f5f5f5a9;
-    border-top:#495057 .3rem solid;
-    border-bottom:#495057 .3rem solid;
 }
 
     .index-section-2 img {
@@ -246,8 +241,6 @@
     background-color: #2125299f;
     margin: 0rem 0em 2.5rem 0em;
     padding: 0em 1em;
-    border-top:#495057 .3rem solid;
-    border-bottom:#495057 .3rem solid;
 }
     .index-section-3 .section-title{
         margin: 1rem 0 1.5rem 1rem;
