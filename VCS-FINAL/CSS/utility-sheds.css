@@ -1,0 +1,117 @@
+.info-section-1 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 0rem 0em 2.5rem 0em;
+    padding: 0em 1em;
+}
+
+    .info-section-1 img {
+        width:50%;
+        padding: .5em;
+        object-fit: cover;
+        overflow: hidden;
+    }
+
+    .info-section-1 .text {
+            width:50%;
+            padding: .5em;
+        }
+    
+    .info-section-1 p {
+        padding: .5em;
+        margin: 0em;
+    }
+
+.features {
+    width: 100%;
+    margin: 0rem 0em 2.5rem 0em;
+    padding: 0em 1em;
+}
+
+    .features .sub-heading{
+        width: 45%;
+    }
+
+.features table{
+    width: 95%;
+    background-color: #cbd2dc;
+    text-align: center;
+    margin: 0em auto;
+    color:#212529;
+    font-size: 1.2em;
+    border-radius: 1em;
+}
+
+    .features tr{
+        
+    }
+
+        .features td{
+        border:#212529 .1em solid;
+        text-align: left;
+        padding: 1em 1em;
+        
+    }
+
+.info-section-2 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 0rem 0em 2.5rem 0em;
+    padding: 0em 1em;
+    background-color: #415A77;
+}
+
+    .info-section-2 img {
+        width:50%;
+        padding: .5em;
+        object-fit: cover;
+        overflow: hidden;
+    }
+
+    .info-section-2 .text {
+            width:50%;
+            padding: .5em;
+        }
+    
+    .info-section-2 p {
+        padding: .5em;
+        margin: 0em;
+    }
+
+
+    /* PRICING */
+.pricing {
+        margin: 0rem 0em 2.5rem 0em;
+        padding: 0em 1em;
+    }
+
+    .pricing table{
+        width: 95%;
+        color: #212529;
+        background-color: #F5F5F5;
+        margin: 0em auto;
+        text-align: center;
+        font-size:1.2em;
+        letter-spacing: .05em;
+    }
+    
+    .pricing th{
+        font-size: 2em;
+        font-weight: 400;
+    }
+
+        .pricing td{
+            padding: 1em;
+        }
+
+        .pricing tr:nth-child(2n){
+            background-color: #DEE2E6;
+        }
+
+            .pricing tbody tr:hover{
+                background-color: #415A77;
+                color: #F5F5F5
+            }
+    

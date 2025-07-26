@@ -13,6 +13,79 @@ body {
     margin: 0em;
     padding: 0em;
 }
+
+/* NEW NAV BAR */
+
+.nav-button {
+    list-style-image: none;
+}
+
+
+
+
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: #212529;
+    color: #6c757d;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width:10%;
+    align-content: center;
+    letter-spacing: 1px;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+  color: #c6c8c9;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+   transition: .2s;
+    letter-spacing: 1px;
+    color:#c6c8c9;
+}
+
+
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    color:#e2e3e5;
+    font-size: 18px;
+    background-color: #6c757d;;}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {
+    display:block;
+}
+
+
+
+
+
 /* NAV BAR! */
 
 @media only screen and (max-width : 991px) {
@@ -26,13 +99,14 @@ body {
     top: 0;
     width: 100vw;
     }
-    
+
     .navbar-nav {
     overflow:auto;
     background-color: #212529;
     width: 11em;
     height: 100vh;
     text-align: center;
+ margin-right: 80vw;
   }
 
   
@@ -57,8 +131,8 @@ body {
 
 .nav-item {
     width:10%;
-   align-content: center;
-   letter-spacing: 1px;
+    align-content: center;
+    letter-spacing: 1px;
 }
 
 .dropdown-item {
@@ -167,6 +241,12 @@ p {
 .table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
   background-color: #415a77;
   color: #f5f5f5
+}
+
+/* INDEX SECTIONS */
+
+.index-section-1 {
+
 }
 
 
