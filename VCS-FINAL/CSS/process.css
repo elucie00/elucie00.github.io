@@ -13,35 +13,36 @@
         width:100%;
     }
 
-    /* PROCESS SECTION 1 */
-    .section-1 {
-     display: flex;
+    /* BUILDING PROCESS SECTION 1 */
+.section-1 {
+    display: flex;
     flex-direction: row;
     width: 100%;
-    margin: 0rem 0em 1.5rem 0em;
+    margin: 0rem 0em 1rem 0em;
     padding: .2em 0em;
 }
 
     .section-1 img {
-        width:50%;
+        width:40%;
         padding: .5em;
         padding-right: 0em;
         object-fit: cover;
         overflow: hidden;
+        object-position: left;
     }
 
     .section-1 .text {
-            width:50%;
-            padding: .5em;
-        }
+        width:60%;
+        padding: .5em;
+    }
     
     .section-1 p {
-        padding: .5em;
+        padding: 0rem 1rem .7rem 1rem;
         margin: 0em;
     }
 
 
-/* INDEX SCHEDULE NOW BANNER */
+/* BUILDING PROCESS BANNER */
 .banner {
     display: flex;
     width: 100%;
@@ -49,200 +50,106 @@
     margin: 0rem 0em .5rem 0em;
     background-color: #1b263b;
 }
-    .schedule-now {
+    .banner .option-1 {
         width: 60%;
         height: 100%;
         background-color: #3066be;
-        padding: 4.5em 1em;
-        text-align: center;
+        padding: 2rem 2rem;
+        align-self: center;
     }
 
-    .banner .contact {
+        .banner h4{
+            margin: 0;
+            font-size: 1.4rem;
+            line-height: 1.3;
+            font-weight: 400;
+            text-align: center;
+        }
+
+    .banner .option-2 {
         width: 40%;
         height: 100%;
         padding: 0em 1em;
+        align-self: center;
     }
-        .banner h4{
-        margin: 0;
-        padding: 0;
-        font-size: 1.8rem;
-        font-weight: 400;
-        font-style: italic;
-        }
         .banner h6{
-            margin: 1rem 0 .2rem 0 ;
-            padding: 0;
+            margin: 0 ;
+            padding: .5rem;
             font-size: 1.2rem;
-        }
-        .banner .contact a{
-            width: 70%;
-            display: block;
-            margin: 0rem 0rem 0rem 6rem;
-            padding: .4rem 1rem;
-            color:#F5F5F5;
-            background-color: #fdc500;
-            font-size: 1.1rem;
-            border-radius: .3rem;
-            text-shadow: #212529 .04rem .04rem .05rem;
-        }
-
-            .banner .contact a:hover{
-                background-color: #ffce1d;
-                transition: .3s;
-            }
-    
-
-/* INDEX SECTION 2 */
-
-.index-section-2 {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    margin: 0rem 0em 1rem 0em;
-    padding: 0em 0em;
-    background-color: #f5f5f5a9;
-}
-
-    .index-section-2 img {
-        width: 50%;
-        padding: .5em;
-        object-fit: cover;
-        overflow: hidden;
-    }
-
-    .index-section-2 .text {
-        width: 50%;
-        padding: .5rem .8rem .5rem .2rem;
-        color: #212529; 
-    }
-    
-    .index-section-2 h5 {
-        padding: .2rem 0rem;
-        margin: 0em;
-        font-style: italic;
-        font-size: 1.3rem;
-        align-content: center;
-    }
-
-    .index-section-2 .option {
-        display: flex; 
-    }
-
-        .index-section-2 .option p {
-            padding: .2rem .7rem .5rem 1.3rem;
-            margin: 0em;
-            width: 70%; 
-        }
-        .index-section-2 .option a {
-            width: 25%;
-            height: 4rem;
-            padding: .3rem 0rem;
-            margin: .6rem;
             text-align: center;
-            background-color: #212529;
-            border: #495057 1px solid; 
-            align-self: center;
-            color: #f5f5f5;
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            font-size: 1.1rem;
-            border-radius: .7rem;
         }
-            .index-section-2 .option a:hover {
-                color:#e2e3e5;
-                background-color: #495057;
-                border: #f5f5f5 1px solid;
-                transition: .2s;
-            }
 
-            .index-section-2 .option a p {
-                width: 60%;
-                
-            }
+/* BUILDING PROCESS SECTION 2 */
 
-        .index-section-2 .option .arrow {
-                font-size: 2.1rem;
-                margin:0;
-                padding:0;
-                width:40%;
-            }
-
-
-/* INDEX SECTION 3 */
-
-.index-section-3 {
+.section-2 {
     width: 100%;
-    background-image: url(../images/index/barnard-vt-bg.jpg);
+    background-image: url(../images/building-process/zip-system.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100%;
     background-blend-mode:darken;
-    background-color: #2125299f;
+    background-color: #212529aa;
     margin: 0rem 0em 1rem 0em;
     padding: .5rem 1em;
 }
-    .index-section-3 .section-title{
-        margin: 2rem 0 1.5rem 1rem;
+.section-2 .sub-heading {
+        width: 50%;
+        margin: .5rem 0;
     }
 
-    .index-section-3 .reviews{
-        width:100%;
+
+    .section-2 .text {
         display: flex;
         flex-direction: row;
-        justify-content: space-evenly;
+        padding: .2rem .7rem;
     }
 
-        .index-section-3 .review{
-            width:40%;
-            display: flex;
-            flex-direction: column;
-            padding: 1rem;
-            margin: 1rem 1rem;
-            background-color: #415a77;
-            border:#F5F5F5 .2rem solid;
-            border-radius: 1em;
+        .section-2 svg {
+            margin: .2rem;
+            align-self: center;
         }
 
-            .index-section-3 .review .text{
-                height: 93%;
-                padding: 0rem;
-                
-            }
-            .index-section-3 .review p{
-               padding: .15rem 1rem;
-               margin: 0;
-            }
-            .index-section-3 .review h5{
-                height: 7%;
-                padding: .7rem .7rem .5rem .7rem;
-                margin: 0;
-            }
-            .index-section-3 .review h5 span{
-                display: inline;
-                font-size: 1rem;
+        .section-2 p {
+                padding: .5rem;
+                margin: 0em;
+                width: 70%; 
+                color: #F5F5F5;
+                align-self: center;
             }
 
-            .index-section-3 a{
-            width: 30%;
-            display: block;
-            margin: 1rem auto;
-            padding: .6rem 1rem;
-            color: #f5f5f5;
-            background-color: #212529;
-            border: #495057 1px solid;
-            font-size: 1.5rem;
-            text-align: center;
-            border-radius: .3rem;
-            text-shadow: #212529 .04rem .04rem .05rem;
-            }
-            .index-section-3 a:hover{
-                color:#e2e3e5;
-                background-color: #495057;
-                border: #f5f5f5 1px solid;
-                transition: .2s;
-            }
+  
+        
+
+/* BUILDING PROCESS SECTION 3 */
+
+.section-3 {
+    
+}
+    .section-3 .section-title{
+        margin: 2rem 0 1.5rem 1rem;
+    }
+     
+    .section-3 a{
+    width: 30%;
+    display: block;
+    margin: 1rem auto;
+    padding: .6rem 1rem;
+    color: #f5f5f5;
+    background-color: #212529;
+    border: #495057 1px solid;
+    font-size: 1.5rem;
+    text-align: center;
+    border-radius: .3rem;
+    text-shadow: #212529 .04rem .04rem .05rem;
+    }
+    
+        .index-section-3 a:hover{
+            color:#e2e3e5;
+            background-color: #495057;
+            border: #f5f5f5 1px solid;
+            transition: .2s;
+        }
 
 /* INDEX SECTION 4 */
 

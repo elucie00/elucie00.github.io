@@ -29,6 +29,15 @@ h1,h2 {
     text-shadow: .1em .1em 0em #15253f;
 }
 
+
+.italic {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: 700;
+}
+
 /* NAVIGATION */
 
 nav {
@@ -129,7 +138,7 @@ nav {
     overflow:hidden;
     object-fit: cover;
     color: #F5F5F5;
-    margin: 0em 0em 2rem 0rem;
+    margin: 0em 0em 1rem 0rem;
 }
 
 .gradient {
@@ -293,7 +302,6 @@ nav {
 
 .gallery-card:hover {
 
-    border: 1px #212529 solid;
 }
     .gallery-card img{
         height: 70%;
