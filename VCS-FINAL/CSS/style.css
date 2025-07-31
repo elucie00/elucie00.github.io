@@ -27,15 +27,6 @@ p {
 }
 
 
-p .light {
-    color: f5f5f5;
-    text-shadow: #212529 .05rem .05rem .05rem;
-}
-
-p .dark {
-    color: #212529;
-    text-shadow: #f5f5f5 .05rem .05rem .05rem;
-}
 h1,h2 {
     text-shadow: .1em .1em 0em #15253f;
 }
