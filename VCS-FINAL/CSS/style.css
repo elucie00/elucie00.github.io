@@ -293,16 +293,18 @@ nav {
     color:#212529;
     font-size: 1.2em;
     border-radius: 1em;
+    text-shadow: #f5f5f5 .08rem .08rem .05rem;
 }
 
     .features tr{
-        
+        height: 3rem;
     }
 
         .features td{
         border:#212529 .1em solid;
         text-align: left;
         padding: 1em 1em;
+        width: 50%;
     }
 
 
