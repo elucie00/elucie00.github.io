@@ -66,7 +66,7 @@ function faqClose() {
 
 // UTILITY SHED GALLERY
     function createUtilityGallery() {
-        const template = document.getElementById('gallery-card-template');
+        const template = document.getElementById('utility-gallery-card-template');
         const gallery = template.parentNode;
         let gallery_content = [
           { imgSrc: 'images/utility-sheds/barn-sash.jpg',
@@ -140,7 +140,7 @@ function faqClose() {
 
 // BLANK SHED GALLERY
     function createBLANKGallery() {
-        const template = document.getElementById('gallery-card-template');
+        const template = document.getElementById('BLANK-gallery-card-template');
         const gallery = template.parentNode;
         let gallery_content = [
           { imgSrc: '',
@@ -209,7 +209,7 @@ function faqClose() {
 
 // BUILDING PROCESS GALLERY
         function createProcessGallery() {
-        const template = document.getElementById('gallery-card-template');
+        const template = document.getElementById('process-gallery-card-template');
         const gallery = template.parentNode;
         let gallery_content = [
           { imgSrc: 'images/building-process/2x4-framing.jpg',

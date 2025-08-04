@@ -32,8 +32,6 @@
         padding-left: 0em;
         object-fit: cover;
         overflow: hidden;
-        border-top:3px solid #cbd2dc;
-        border-right:3px solid #cbd2dc;
     }
 
     .info-section-1 .text {
