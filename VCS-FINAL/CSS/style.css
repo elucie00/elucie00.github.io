@@ -300,13 +300,21 @@ nav {
         height: 3rem;
     }
 
-        .features td{
+    .features td{
         border:#212529 .1em solid;
         text-align: left;
         padding: 1em 1em;
         width: 50%;
     }
 
+    .features ul {
+        margin: 0rem 0rem 0 1.2rem;
+        padding: 0rem;
+    }
+
+    .features li {
+        padding-left: .5rem;
+    }
 
     /* SHED PRICING TABLE/SECTION */
 
@@ -318,7 +326,7 @@ nav {
     .pricing table{
         width: 95%;
         color: #212529;
-        background-color: #F5F5F5;
+        background-color: #DEE2E6;
         margin: 0em auto;
         text-align: center;
         font-size:1.2em;
@@ -328,14 +336,16 @@ nav {
     .pricing th{
         font-size: 2em;
         font-weight: 400;
+        background-color: #F5F5F5;
     }
 
         .pricing td{
             padding: 1em;
+            width: 50%;
         }
 
         .pricing tr:nth-child(2n){
-            background-color: #DEE2E6;
+        background-color: #F5F5F5;
         }
 
             .pricing tbody tr:hover{
@@ -413,35 +423,44 @@ object-position: center;
         font-size: 1em;
     }
 
-
-
-
-
-/* FOOTER */
-
+/* SKIP TOP JUMP BACK TO TOP */
 
 .skip-top {
-        width: 100%;
-        height: 5% ;
-        font-size: 20px;
-        text-align: right;
-        padding: 1em 6em .5em 1em;
+        width: 5%;
+        height: 20% ;
+        font-size: 1rem;
+        text-align: center;
+        padding: .3rem;
+        margin: -1.5rem;
+        background-color: #212529;
+        border: #495057 1px solid; 
+        border-radius: .3em;
+        position:sticky;
+        top: 90%;
+        left: 94.5%;
+        z-index: 99;  
     }
+
     .skip-top a {
     color:#f5f5f5 ;
-    background-color: #3066BE;
-    vertical-align: middle;
-    padding: .5em 3em;
-    background-color: #212529;
-    border: #495057 1px solid; 
-    border-radius: .3em;
+    padding: 0rem;
+    text-decoration: none;
+
+
     }
-    .skip-top a:hover {
+    .skip-top:hover {
         background-color: #495057;
         border: #f5f5f5 1px solid;
         text-decoration: underline 1px #f5f5f5;
+        text-decoration: none;
     }
 
+    .skip-top svg{
+        display:block;
+        justify-content: center;
+    }
+
+/* FOOTER */
 
 footer {
 background-color: #212529;

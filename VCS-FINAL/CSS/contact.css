@@ -14,13 +14,13 @@
 /* SECTION 1 */
 
 .section-1 {
-    margin: 1rem 0em 0rem 0em;
+    margin: .5rem 0em 0rem 0em;
     padding: .2em 0em;
     width:100%;
 }
 
 .section-title {
-    margin: 0 0 1rem 1rem;
+    margin: 0 0 .5rem 1rem;
 }
 
 .content {
