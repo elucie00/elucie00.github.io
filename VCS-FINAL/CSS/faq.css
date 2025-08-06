@@ -16,6 +16,7 @@
         width:100%;
     }
 
+    
 /* SECTION 1 */
 .section-title{
     width: 100%;
@@ -27,7 +28,7 @@
 }
 
 .section-1 {
-    margin: .5em 0rem .5rem 2rem;
+    margin: .5rem 0rem .5rem 2rem;
 }
 
 /* BOOTSTRAP ACCORDIAN */
@@ -75,14 +76,14 @@ border: none;
         width: 60%;
         height: 100%;
         background-color: #3066be;
-        padding: 2.5rem 1em;
+        padding: 2.5rem 1rem;
         text-align: center;
     }
 
     .banner .contact {
         width: 40%;
         height: 100%;
-        padding: 0em 1em;
+        padding: 0rem 1rem;
     }
         .banner h4{
         margin: 0;
