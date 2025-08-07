@@ -96,8 +96,9 @@
             height: 7%;
             align-self: center;
             text-align: center;
-            text-shadow: #212529 .04rem .04rem .05rem;
+            text-shadow: #212529 .05rem .05rem 0rem;
             margin-top: .5rem;
+            align-content: center;
         }
 
         .img-card a:hover {
@@ -149,7 +150,7 @@
             background-color: #fdc500;
             font-size: 1.1rem;
             border-radius: .3rem;
-            text-shadow: #212529 .04rem .04rem .05rem;
+            text-shadow: #212529 .05rem .05rem 0rem;
         }
 
             .banner .contact a:hover{
@@ -205,6 +206,7 @@
             height: 4rem;
             padding: .3rem 0rem;
             margin: .6rem;
+            background-color: #212529;
             text-align: center;
             border: #495057 1px solid; 
             align-self: center;
@@ -301,7 +303,7 @@
             font-size: 1.5rem;
             text-align: center;
             border-radius: .3rem;
-            text-shadow: #212529 .04rem .04rem .05rem;
+            text-shadow: #212529 .05rem .05rem 0rem;
             }
             .index-section-3 a:hover{
                 color:#e2e3e5;

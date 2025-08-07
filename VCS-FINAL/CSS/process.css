@@ -65,7 +65,7 @@
     .section-1 p {
         padding: 0rem 1rem .7rem 1rem;
         margin: 0rem;
-        text-shadow: #212529 .08rem .08rem .05rem;
+        text-shadow: #212529 .08rem .08rem 0rem;
     }
 
 
@@ -91,7 +91,7 @@
             line-height: 1.3;
             font-weight: 400;
             text-align: center;
-            text-shadow: #212529 .06rem .06rem .05rem;
+            text-shadow: #212529 .06rem .06rem 0rem;
         }
 
     .banner .option-2 {
@@ -105,7 +105,7 @@
             padding: .5rem;
             font-size: 1.2rem;
             text-align: center;
-            text-shadow: #212529 .06rem .06rem .05rem;
+            text-shadow: #212529 .06rem .06rem 0rem;
         }
 
 
@@ -113,7 +113,7 @@
 
 .section-2 {
     width: 100%;
-    background-image: url(../images/building-process/zip-system.jpg);
+    background-image: url(../images/building-process/zip-system-bg.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -148,7 +148,7 @@
                 color: #F5F5F5;
                 align-self: center;
                 line-height: 1.7;
-                text-shadow: #212529 .08rem .08rem .05rem;
+                text-shadow: #212529 .08rem .08rem 0rem;
             }
 
   
@@ -178,7 +178,7 @@
         height:70%;
         text-align: center;
         justify-content: center;
-        text-shadow: #212529 .05rem .05rem .05rem;
+        text-shadow: #212529 .05rem .05rem 0rem;
     
     }
      

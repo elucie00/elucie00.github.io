@@ -253,7 +253,7 @@ nav {
     color:#212529;
     font-size: 1.2rem;
     border-radius: 1rem;
-    text-shadow: #f5f5f5 .08rem .08rem .05rem;
+    text-shadow: #f5f5f5 .05rem .05rem .0rem;
 }
 
     .features tr{
@@ -338,8 +338,8 @@ nav {
 .gallery-card {
     display: flex;
     flex-direction: column;
-    width: 300px;
-    height:375px;
+    width: 340px;
+    height:430px;
     text-align: center;
     background-color:#f5f5f5;
     border-radius: .3rem;
