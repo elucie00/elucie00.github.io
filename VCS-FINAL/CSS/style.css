@@ -371,7 +371,7 @@ object-position: center;
 }
 
     .card-body p {
-        height: 50%;
+        height: 70%;
         margin: 0rem ;
         padding: 0rem .2rem;
         font-size: 1.1rem;
@@ -379,7 +379,7 @@ object-position: center;
     }
 
     .card-body h5 {
-        height: 50%;
+        height: 30%;
         margin: 0rem ;
         padding: 0rem;
         align-content: center;
