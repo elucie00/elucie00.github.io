@@ -1,0 +1,63 @@
+/* HEADER */
+
+.large-header {
+    background-image: url(../images/headers/select-vs-custom.jpg);
+    background-position: center ;
+    height: 90vh;
+    margin-bottom: 0rem;
+}
+.gradient {
+        background-image: linear-gradient(to right, #212529ab , #21252958 ,#21252900 , #21252900);
+        height: 100%;
+        width:100%;
+    }
+
+
+/* SECTION 1 */
+
+    .section-1 {
+    width: 100%;
+    margin: 0rem 0rem 1.5rem 0rem;
+    padding: .5rem 0rem;
+    background-color: #f5f5f5a9;
+}
+
+    .section-1 .section-title{
+        width:50%;
+        margin: .5rem 0 .5rem 1rem;
+    }
+
+    .section-1 .sub-heading{
+        width: 85%;
+        text-align: center;
+        margin: .5rem auto;
+    }
+
+    .section-1 .text {
+        display: flex;
+        flex-direction: row;
+        padding: .5rem; 
+    }
+
+        .section-1 .option {
+            width: 50%;
+            padding: 1rem;
+            color: #212529; 
+        }
+
+    .section-1 .text .option img {
+        height: 40%;
+        width: 80%;
+        object-fit: cover;
+        overflow: hidden;
+        margin: 0rem auto;
+        display: block;
+    }
+            .section-1 .option p {
+                width: 80%;
+                padding: .5rem;
+                margin: 0rem auto;
+            }
+
+
+/* SECTION 2 */

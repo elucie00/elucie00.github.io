@@ -20,6 +20,7 @@
         <a class="nav-button" href="custom-sheds.html">Custom Sheds</a>
         <a class="nav-button" href="sugar-houses.html">Sugar Houses</a>
         <a class="nav-button" href="upgrades.html">Options & Upgrades</a>
+        <a class="nav-button-wide" href="select-vs-custom.html">Select vs Custom Shed</a>
         <div class="dropdown">
             <div onclick="dropdownNav()" class="dropbtn">Gallery</div>
             <div id="myDropdown" class="dropdown-content">
@@ -63,7 +64,7 @@
                 <div class="sub-heading">Quality That Matters</div>
                 <p>Why settle for a drop-off-the-back-of-a-truck shed when you can have a site 
                     built shed for less money?</p>
-                <p>The most storage space for the least amount of money. My Utility sheds are 
+                <p>The most storage space for the least amount of money. My Utility Sheds are 
                     built better than most factory made sheds for hundreds less. These attractive sheds are 
                     built with the lumber in the right places and will hold up to a Vermont winter.</p>
                 <p>No sales tax! Built on your site as a construction service. Why pay more?</p>
@@ -88,24 +89,24 @@
                             <td><ul><li>5/8″ T1-11 siding covering exterior</li></ul></td>
                         </tr>
                         <tr>
-                            <td><ul><li>BLANK</li></ul></td>
+                            <td><ul><li>4″ to 6″ overhang</li></ul></td>
                             <td><ul><li>1/2″ OSB roof sheathing</li></ul></td>
                         </tr>
                         <tr>
                             <td><ul><li>Walls framed 16″ on center</li></ul></td>
-                            <td><ul><li>Double doors with an opening 4′ or 5′ wide on 10' × 16' or larger</li></ul></ul></td>
+                            <td><ul><li>Pressure treated 2×6 floor joists spaced 24″ on center</li></ul></ul></td>
                         </tr>
                         <tr>
-                            <td><ul><li>Roof framed with 2×8 ridgeboard and 2×6 rafters 24″ on center</li></ul></td>
+                            <td><ul><li>Double doors with an opening 4′ or 5′ wide on 10' × 16' or larger</li></ul></td>
                             <td><ul><li>5/8″ Advantech tongue and groove sheathing cover on floor</li></ul></td>
                         </tr>
                         <tr>
-                            <td><ul><li>Pressure treated 2×6 floor joists spaced 24″ on center</li></ul></td>
-                            <td><ul><li>4×4 pressure treated runners</li></ul></td>
+                            <td><ul><li>Roof framed with 2×8 ridgeboard and 2×6 rafters 24″ on center</li></ul></td>
+                            <td><ul><li>Architectural shingles</li></ul></td>
                         </tr>
                         <tr>
-                            <td><ul><li>4″ to 6″ overhang</li></ul></td>
-                            <td><ul><li>Architectural shingles</li></ul></td>
+                            <td><ul><li>BLANK</li></ul></td>
+                            <td><ul><li>4×4 pressure treated runners</li></ul></td>
                         </tr>
                        
                     </tbody>       
@@ -247,8 +248,38 @@
             </div>
         </div>
 
+    </div>
 
-        <!-- GALLERY MODALS! -->
+    <div class="modal" style="display:none;">
+
+        <div class="modal-body">
+            <div class="prev">
+                <p>&lsaquo;</p>
+            </div>
+            <div class="modal-card">
+                <div class="js-modal">
+                    <div id="utility-modal-card-template" class="gallery-card">
+                        <div class="card-body">
+                            <p class="card-text"></p>
+                            <h5 class="card-location"></h5>
+                        </div>
+                        <img src="" class="card-img-top">
+                    </div>
+                </div>
+            </div>
+            <div class="next">
+                <p>&rsaquo;</p>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+
+            <!-- GALLERY MODALS!
             <div class="modal fade m-0 p-0 container-fluid" id="NAME" aria-hidden="true" aria-labelledby="NAME" tabindex="-1">
               <div class="modal-dialog modal-xl modal-dialog-centered mx-auto mw-100">
                 <div class="modal-content mx-auto mx-sm-0 p-0">
@@ -265,10 +296,7 @@
                     <button class="btn d-none d-sm-inline-block p-3 m-0 m-md-2 modal-next" data-bs-target="#NEXT NAME" data-bs-toggle="modal">&rarr;</button>
                 </div>
               </div>
-            </div>
-
-    </div>
-
+            </div> -->
 </main>
 
     <!-- FOOTER -->

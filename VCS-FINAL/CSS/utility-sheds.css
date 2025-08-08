@@ -91,4 +91,129 @@
 
 
 
+/* GALLERY MODAL */ 
+
+.modal {
+    height: 100vh;
+    width:100vw;
+    background-color: #21252978;
+    display: block;
+}
+
+    .modal-body {
+        display: flex;
+        flex-direction: row;
+        height:100%;
+        margin: 0rem 2rem;
+    }
+
+        .modal .prev,.modal .next {
+            width: 5%;
+            align-content: center;
+        }
+
+
+        .modal .prev {
+            background-color: #415A77;
+            height: 30%;
+            align-content: center;
+            margin:auto;
+            text-align: center;
+        }
+
+        .modal .next {
+            background-color: #415A77;
+            height: 30%;
+            align-content: center;
+            margin:auto;
+            text-align: center;
+        }
+
+            .modal .prev p,.modal .next p{
+                font-size: 3rem;
+                padding: .5rem;
+                align-content: center;
+                margin: 0rem;
+                height:100%;
+
+            }
+
+        #utility-modal-card-template {
+            margin: 0rem;
+            height:100%;
+
+        }
+
+        .modal .modal-card {
+            width: 95%;
+        }
+
+
+        .modal .js-modal {
+            height:100%;
+        }
+
+
+.js-modal {
+
+}
+
+
+/* GALLERY CARD WITHIN MODAL */
+
+.modal .gallery-card {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color:#f5f5f5;
+    border-radius: .3rem;
+    margin: 1rem 0rem;
+    padding: .5rem;
+}
+
+.modal .card-body {
+        height: 15%;
+        line-height: 1.2;
+        display: flex;
+        flex-direction: column;
+        padding: .5rem 0rem 0rem 0rem;
+        
+    }
+
+        .modal .card-body p {
+            height: 70%;
+            margin: 0rem ;
+            padding: 0rem .2rem;
+            font-size: 1.1rem;
+            align-content: center;
+        }
+
+        .modal .card-body h5 {
+            height: 30%;
+            margin: 0rem ;
+            padding: 0rem;
+            align-content: center;
+            font-size: 1rem;
+        }
+
+
+
+    .modal .gallery-card img{
+        height: 100%;
+        object-fit: cover;
+        overflow: hidden;
+    }
+
+    .modal .card-img-top img{
+        object-position: center;
+        height: 100%;
+    }
+
+    
+
+
+
+
+
     

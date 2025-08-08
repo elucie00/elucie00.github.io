@@ -54,7 +54,7 @@ nav {
     z-index: 100;
 }
     .nav-button {
-        width: 9%;
+        width: 8.2%;
         text-align: center;
         align-content: center;
         color: #ADB5BD;
@@ -63,11 +63,35 @@ nav {
         padding: .4rem;
            
     }
+
+    .nav-button-wide {
+        width: 9.5%;
+        text-align: center;
+        align-content: center;
+        color: #ADB5BD;
+        letter-spacing: 1px;
+        font-weight: 600;
+        padding: 0rem;
+    }
+        .nav-button-wide:hover {
+            color: #C6C8C9;  
+        }
+
         .nav-button:hover {
             color: #C6C8C9;  
         }
+
+        .nav-button-wide-active {
+            width: 9.5%;
+            text-align: center;
+            align-content: center;
+            color: #F8F9FA;
+            letter-spacing: 1px;
+            font-weight: 600;
+            padding: 0rem;
+        }
         .nav-button-active {
-            width: 9%;
+            width: 8.2%;
             text-align: center;
             align-content: center;
             color: #F8F9FA;
@@ -92,7 +116,7 @@ nav {
             .dropdown {
                 position: relative;
                 display: inline-block;
-                width: 9%;
+                width: 8.2%;
                 text-align: center;
                 align-content: center;
                 color: #ADB5BD;
@@ -199,7 +223,7 @@ nav {
     background-color: #415a77;
     border-radius: .75rem;
     border:3px solid #cbd2dc;
-    width: 100% ;
+    width: 100%;
     font-size: 2rem;
     padding: 5px 15px 7px 15px;
     text-shadow: #212529 .08rem .08rem .05rem;
