@@ -38,9 +38,9 @@
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
 }
-    .features .heading .title{
+    .features .title{
         width:36%;
-        font-size: 2.2rem;
+        font-size: 2rem;
         font-weight: 500;
         font-style: italic;
         text-align: left;
@@ -73,7 +73,7 @@
             table.included-features th{
                 border-top-left-radius: 1rem;
                 border-top-right-radius: 1rem;
-                padding: 1rem 1rem 1rem 1.5rem;
+                padding: 0rem;
                 font-size: 1.8rem;
                 font-weight: 400;
             }

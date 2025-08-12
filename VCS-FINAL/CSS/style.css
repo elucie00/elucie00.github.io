@@ -23,7 +23,7 @@ a {
 
 p {
     font-size: 1.2rem;
-    
+    margin: 0rem;
 }
 
 
@@ -259,9 +259,13 @@ nav {
     /* SHED FEATURES TABLE/SECTION */
 
 .features {
-    width: 100%;
-    margin: 0rem 0rem 2.5rem 0rem;
-    padding: 0rem 1rem;
+    margin: 0rem 0rem 1.5rem 0rem;
+    padding: 1rem 1rem;
+    background-image:url(../images/upgrades/wood-background.jpg) ;
+    background-blend-mode:darken;
+    background-color: #2125299c;
+    border-top:3px solid #cbd2dc;
+    border-bottom:3px solid #cbd2dc;
 }
 
 .features .section-title {
@@ -303,9 +307,13 @@ nav {
     /* SHED PRICING TABLE/SECTION */
 
 .pricing {
-        margin: 0rem 0rem 2.5rem 0rem;
-        padding: 0rem 1rem;
-
+    margin: 0rem 0rem 1.5rem 0rem;
+    padding: 1rem 1rem;
+    background-image:url(../images/upgrades/wood-2-background.jpg) ;
+    background-blend-mode:darken;
+    background-color: #2125299c;
+    border-top:3px solid #cbd2dc;
+    border-bottom:3px solid #cbd2dc;
     }
 
     .pricing table{

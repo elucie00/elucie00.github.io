@@ -94,8 +94,158 @@
                 transition: .2s;
             }
 
+
+/* UPGRADES SECTIONS */
+
+.upgrade-section {
+    width: 100%;
+    margin: 0rem 0rem 1rem 0rem;
+    padding: .5rem 0rem 0rem 0rem;
+    border-top:3px solid #cbd2dc;
+    border-bottom:3px solid #cbd2dc;
+    color:#f5f5f5;
+    text-shadow: #212529 .08rem .08rem 0rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+.upgrade-section .section-title {
+        margin: 0 0 1rem 1rem;
+}
+
+.upgrade-section .content {
+    padding: 0rem 2rem 1rem;
+    display:flex;
+    flex-direction: row;
+}
+
+        .upgrade-section .sub-heading {
+            width: 60%;
+            margin: 0rem;
+        }
+
+    .upgrade-section .content .sub-section{
+        width: 60%;
+        display:flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+
+            .upgrade-section .content .option{
+                width:100%;
+                display: flex;
+                flex-direction: row;
+                padding: 1rem 2rem;
+            }
+
+            
+
+                .upgrade-section .content .option p{
+                    width: 85%;
+                }
+
+                .upgrade-section .content .option .price{
+                    width: 15%;
+                    text-align: center;
+                }
+
+        
+
+.upgrade-section .sub-content {
+    padding: 0rem 2rem;
+    background-color: #1b263b;
+    border: 3px solid #cbd2dc;
+    border-bottom: none;
+}
+
+
+
+
 /* WINDOW UPGRADES */
 
-.windows {
-    
+#window.upgrade-section {
+    background-image:url(../images/upgrades/wood-background.jpg) ;
+    background-blend-mode:darken;
+    background-color: #212529b6;
+   
+}
+
+
+    /* VINYL CAROUSEL */
+    .upgrade-section .content .carousel.slide{
+        width: 40%;
+        height: 200px;
+        padding: 0rem .3rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+                }
+
+
+        .carousel.slide .carousel-item img{
+            object-fit:cover ;
+            overflow:hidden;
+            width: 100%;
+            height: 200px;
+            margin: 0rem auto;
+            object-position: center;
+        }
+
+        .carousel.slide .carousel-item .carousel-caption{
+            padding: 0rem;
+        }
+
+            .carousel.slide .carousel-inner {
+                width: 90%;
+            }
+
+            .carousel.slide .carousel-control-prev {
+                width:5% ;
+            }
+
+            .carousel.slide .carousel-control-next {
+                width:5% ;
+            }
+
+
+
+
+
+
+/* DOOR UPGRADES */
+
+#door.upgrade-section {
+    background-image:url(../images/upgrades/wood-background.jpg) ;
+    background-blend-mode:darken;
+    background-color: #212529b6;
+   
+}
+
+/* SIDING UPGRADES */
+
+#siding.upgrade-section {
+    background-image:url(../images/upgrades/wood-background.jpg) ;
+    background-blend-mode:darken;
+    background-color: #212529b6;
+   
+}
+
+/* ROOF UPGRADES */
+
+#roof.upgrade-section {
+    background-image:url(../images/upgrades/wood-background.jpg) ;
+    background-blend-mode:darken;
+    background-color: #212529b6;
+   
+}
+
+/* MISC UPGRADES */
+
+#misc.upgrade-section {
+    background-image:url(../images/upgrades/wood-background.jpg) ;
+    background-blend-mode:darken;
+    background-color: #212529b6;
+   
 }
