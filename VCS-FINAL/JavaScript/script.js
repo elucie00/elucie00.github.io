@@ -283,6 +283,8 @@ function faqClose() {
 
 
 // SELECT SHED GALLERY
+
+// PAGE 1
     function createSelectGallery() {
         const template = document.getElementById("select-gallery-card-template");
         const gallery = template.parentNode;
@@ -347,7 +349,7 @@ function faqClose() {
             desc: "Multi-purpose Select Shed with metal roof and siding upgrades",
             loc: "Plymouth, Vermont"},
 
-          { imgSrc: "images/select-sheds/gallery/proctor-vt.jpg",
+            { imgSrc: "images/select-sheds/gallery/proctor-vt.jpg",
             desc: "12' x 16' Select Shed with sliding doors, barn sash windows and heavy duty ramp",
             loc: "Proctor, Vermont"},
           { imgSrc: "images/select-sheds/gallery/putney-vt.jpg",
@@ -376,6 +378,7 @@ function faqClose() {
           { imgSrc: "",
             desc: "",
             loc: ""}
+
         ];
         gallery_content.forEach(content => {
             let card = template.cloneNode(true);
@@ -389,8 +392,6 @@ function faqClose() {
     document.addEventListener("DOMContentLoaded", function() {
         createSelectGallery(); 
     });
-
-
 
 
 // CUSTOM SHED GALLERY

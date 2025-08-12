@@ -344,7 +344,7 @@ nav {
 
 /* GALLERY  */
 
-.js-gallery {
+.gallery .js-gallery {
     display: flex;
     flex-direction: row;
     width: 100%;
