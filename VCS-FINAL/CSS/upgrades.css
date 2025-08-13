@@ -47,7 +47,7 @@
             display: flex;
             flex-direction: column;
         }
-    
+
     .section-1 .text-1 {
         padding: .5rem 1rem;
         margin: 0rem;
@@ -99,8 +99,8 @@
 
 .upgrade-section {
     width: 100%;
-    margin: 0rem 0rem 1rem 0rem;
-    padding: .5rem 0rem 0rem 0rem;
+    margin: 0rem;
+    padding: 1rem 0rem 0rem 0rem;
     border-top:3px solid #cbd2dc;
     border-bottom:3px solid #cbd2dc;
     color:#f5f5f5;
@@ -115,59 +115,73 @@
 }
 
 .upgrade-section .content {
-    padding: 0rem 2rem 1rem;
+    padding: 0rem 1rem 2rem 2rem;
     display:flex;
-    flex-direction: row;
-    align-items: center;
+    flex-direction: column;
+
 }
 
         .upgrade-section .sub-heading {
-            width: 60%;
-            margin: 0rem;
+            width: 35%;
+            margin: 0rem 0rem 0rem 2rem;
+
+        }
+
+
+        .upgrade-section .content p.intro{
+            width: 44%;
+            padding: 1rem 1rem 0rem 1rem;
+            font-style: italic;
         }
 
     .upgrade-section .content .sub-section{
-        width: 60%;
+        width: 100%;
+        height: 100%;
         display:flex;
-        flex-direction: column;
-        justify-content: space-evenly;
+        flex-direction: row;
+        justify-content: space-between;
+        align-self: flex-start;
     }
+        .upgrade-section .content .text{
+                width:50%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
 
-        .upgrade-section .sub-section p{
-            width: 90%;
-            padding: 1rem 2rem;
-            font-style: italic;
         }
-            .upgrade-section .content .option{
+            .upgrade-section .text .option{
                 width:100%;
                 display: flex;
                 flex-direction: row;
-                padding: 1rem 2rem;
-                margin: .5rem 0rem;
+                padding: 1rem .7rem ;
+                margin: 1rem 0rem;
                 background-color: #2125297b;
             }
 
-            
+
 
                 .upgrade-section .content .option p{
-                    width: 85%;
+                    width: 90%;
                     padding: 0rem;
+                    
                 }
 
                 .upgrade-section .content .option .price{
-                    width: 15%;
+                    width: 10%;
                     text-align: center;
+                    align-self: center;
                 }
 
-        
+
 /* UPGRADES CAROUSEL */
     .upgrade-section .content .carousel.slide{
-        width: 40%;
+        width: 48%;
         height: 300px;
-        padding: 0rem .3rem;
+        padding: 0rem;
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
+        align-self: center;
     }
         .carousel.slide .carousel-item img{
             object-fit:cover ;
@@ -181,21 +195,15 @@
             padding: 0rem;
         }
             .carousel.slide .carousel-inner {
-                width: 90%;
+                width: 88%;
             }
             .carousel.slide .carousel-control-prev,.carousel-control-next {
-                width:5% ;
+                width:6% ;
             }
 
-
-
-
-
-
-
-
+/* BOTTOM SUB CONTENT      */
 .upgrade-section .sub-content {
-    padding: 0rem 2rem;
+    padding: 1rem 2rem;
     background-color: #1b263b;
     border: 3px solid #cbd2dc;
     border-bottom: none;
@@ -213,15 +221,21 @@
 }
 
 
-    
+
+
+
 /* DOOR UPGRADES */
 
 #door.upgrade-section {
     background-image:url(../images/upgrades/wood-background.jpg) ;
     background-blend-mode:darken;
     background-color: #212529b6;
-   
 }
+
+        .upgrade-section#door .content p.intro{
+            width: 52%;
+            padding: 1rem 0rem 0rem 1rem;
+        }
 
 /* SIDING UPGRADES */
 
@@ -229,8 +243,49 @@
     background-image:url(../images/upgrades/wood-background.jpg) ;
     background-blend-mode:darken;
     background-color: #212529b6;
-   
 }
+#siding.upgrade-section .content{
+    padding: 0rem 1rem 2rem 2rem;
+    display:flex;
+    flex-direction: row;
+}
+    #siding.upgrade-section .content .text{
+        width:50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+        #siding.upgrade-section .content .text .intro{
+            width: 100%;
+            padding: .5rem 1rem;
+            font-style: italic;
+            font-size: 1.5rem;
+        }
+        #siding.upgrade-section .content .text ul{
+            padding: 0rem 0rem 0rem 2.5rem;
+            margin: 0rem;
+            list-style-position: inside;
+        }
+            #siding.upgrade-section .content .text li{
+                width: 90%;
+                background-color: #2125297b;
+                padding: 1rem;
+                margin: 1rem 0rem;
+                font-size: 1.2rem;
+            }
+
+/* CAROUSEL SIDING */
+    #siding.upgrade-section .content .carousel.slide{
+        width: 55%;
+        height: 300px;
+        padding: 0rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-self: center;
+    }
+
 
 /* ROOF UPGRADES */
 
@@ -238,8 +293,58 @@
     background-image:url(../images/upgrades/wood-background.jpg) ;
     background-blend-mode:darken;
     background-color: #212529b6;
-   
 }
+
+
+.upgrade-section #pitch-overhang.content .text{
+    width:55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.upgrade-section #pitch-overhang.content .carousel.slide{
+    width: 45%;
+    height: 300px;
+    padding: 0rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-self: center;
+}
+
+
+
+    .upgrade-section #pitch-overhang.content .option p{
+        width: 67%;
+        padding: 0rem;
+        
+    }
+
+    .upgrade-section #pitch-overhang.content .option .price{
+        width: 33%;
+        text-align: center;
+        align-self: center;
+    }
+
+
+    #metal-roof.sub-heading {
+        width: 40%;
+        margin: 0rem 0rem 0rem 2rem;
+    }
+
+    .upgrade-section #metal-roof.content .option p{
+        width: 70%;
+        padding: 0rem;
+    }
+
+    .upgrade-section #metal-roof.content .option .price{
+        width: 30%;
+        text-align: center;
+        align-self: center;
+    }
+
 
 /* MISC UPGRADES */
 
@@ -247,5 +352,26 @@
     background-image:url(../images/upgrades/wood-background.jpg) ;
     background-blend-mode:darken;
     background-color: #212529b6;
-   
 }
+
+    .upgrade-section #shutters.content .option p{
+        width: 70%;
+        padding: 0rem;
+    }
+
+    .upgrade-section #shutters.content .option .price{
+        width: 30%;
+        text-align: center;
+        align-self: center;
+    }
+
+.upgrade-section #lofts.content .option p{
+        width: 70%;
+        padding: 0rem;
+    }
+
+    .upgrade-section #lofts.content .option .price{
+        width: 30%;
+        text-align: center;
+        align-self: center;
+    }

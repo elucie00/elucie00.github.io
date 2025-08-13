@@ -18,8 +18,8 @@
 
 .info-section-1 {
     width: 100%;
-    margin: 0rem 0rem 1.5rem 0rem;
-    padding: .2rem 0rem;
+    margin: 0rem;
+    padding: .5rem 0rem;
     background-color: #415a77;
     border-top:3px solid #cbd2dc;
     border-bottom:3px solid #cbd2dc;
@@ -87,10 +87,9 @@
     flex-direction: row;
     width: 100%;
     margin: 0rem 0rem 1.5rem 0rem;
-    padding: .2rem 0rem;
+    padding: .5rem 0rem;
     background-color: #f5f5f5a9;
-    border-top:5px solid #495057;
-    border-bottom:5px solid #495057;
+    border-bottom:3px solid #cbd2dc;
     color:#212529;
 
 }

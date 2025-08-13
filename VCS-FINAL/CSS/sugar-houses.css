@@ -17,8 +17,8 @@
 
 .info-section-1 {
     width: 100%;
-    margin: 0rem 0rem 1.5rem 0rem;
-    padding: 0rem 0rem;
+    margin: 0rem;
+    padding: .5rem 0rem;
     background-color: #415a77;
     border-top:3px solid #cbd2dc;
     border-bottom:3px solid #cbd2dc;
@@ -124,6 +124,10 @@
 
 
 .pricing {
+
+}
+
+.pricing .content {
     display: flex;
     flex-direction: row;
 }

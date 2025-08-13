@@ -76,11 +76,9 @@ nav {
         .nav-button-wide:hover {
             color: #C6C8C9;  
         }
-
         .nav-button:hover {
             color: #C6C8C9;  
         }
-
         .nav-button-wide-active {
             width: 9.5%;
             text-align: center;
@@ -259,9 +257,10 @@ nav {
     /* SHED FEATURES TABLE/SECTION */
 
 .features {
-    margin: 0rem 0rem 1.5rem 0rem;
-    padding: 1rem 1rem;
+    margin: 0rem;
+    padding: 1.5rem 1rem;
     background-image:url(../images/upgrades/wood-background.jpg) ;
+    background-size: 100%;
     background-blend-mode:darken;
     background-color: #2125299c;
     border-top:3px solid #cbd2dc;
@@ -308,10 +307,11 @@ nav {
 
 .pricing {
     margin: 0rem 0rem 1.5rem 0rem;
-    padding: 1rem 1rem;
+    padding: 1.5rem 1rem;
     background-image:url(../images/upgrades/wood-2-background.jpg) ;
+    background-size: 100%;
     background-blend-mode:darken;
-    background-color: #2125299c;
+    background-color: #2125297e;
     border-top:3px solid #cbd2dc;
     border-bottom:3px solid #cbd2dc;
     }
