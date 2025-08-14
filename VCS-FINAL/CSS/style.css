@@ -24,6 +24,7 @@ a {
 p {
     font-size: 1.2rem;
     margin: 0rem;
+    line-height: 1.9rem;
 }
 
 
@@ -58,7 +59,7 @@ nav {
         text-align: center;
         align-content: center;
         color: #ADB5BD;
-        letter-spacing: 1px;
+        letter-spacing: .05rem;
         font-weight: 600;
         padding: .4rem;
            
@@ -69,7 +70,7 @@ nav {
         text-align: center;
         align-content: center;
         color: #ADB5BD;
-        letter-spacing: 1px;
+        letter-spacing: .05rem;
         font-weight: 600;
         padding: 0rem;
     }
@@ -84,7 +85,7 @@ nav {
             text-align: center;
             align-content: center;
             color: #F8F9FA;
-            letter-spacing: 1px;
+            letter-spacing: .05rem;
             font-weight: 600;
             padding: 0rem;
         }
@@ -93,7 +94,7 @@ nav {
             text-align: center;
             align-content: center;
             color: #F8F9FA;
-            letter-spacing: 1px;
+            letter-spacing: .05rem;
             font-weight: 600;
             padding: .4rem;
         }
@@ -118,7 +119,7 @@ nav {
                 text-align: center;
                 align-content: center;
                 color: #ADB5BD;
-                letter-spacing: 1px;
+                letter-spacing: .05rem;
                 font-weight: 600;
             }
             /* Dropdown Content (Hidden by Default) */
@@ -126,25 +127,25 @@ nav {
                 display: none;
                 position: absolute;
                 background-color: #212529;
-                min-width: 160px;
-                letter-spacing: 1px;
+                min-width: 10rem;
+                letter-spacing: .05rem;
                 color:#c6c8c9;
             }
             /* Change color of dropdown links on hover */
             .dropdown-content a:hover {
                 color:#e2e3e5;
-                font-size: 17px;
+                font-size: 1rem;
                 background-color: #495057;
-                border: #f5f5f5 1px solid;
+                border: #f5f5f5 .05rem solid;
                 transition: .3s;
             }
             /* Links inside the dropdown */
             .dropdown-content a {
             color: #ADB5BD;
-            padding: 12px 16px;
+            padding: .75rem 1rem;
             text-decoration: none;
             display: block;
-            border: #495057 1px solid;
+            border: #495057 .05rem solid;
             }
             /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
             .show {
@@ -202,7 +203,7 @@ nav {
 /* TEMPLATES/HEADINGS! */
 
 .section-title {
-    font-size: 37px;
+    font-size: 2.3rem;
     padding: .15rem;
     margin: 0 0 1.5rem 1rem;
     width: 40%;
@@ -211,7 +212,7 @@ nav {
     text-shadow: #212529 .08rem .08rem .05rem;
     background-color: #1b263b;
     border-radius: .75rem;
-    border:3px solid #415a77;
+    border: .18rem solid #415a77;
     text-align: center;
 }
 
@@ -220,10 +221,10 @@ nav {
     color: #f5f5f5;
     background-color: #415a77;
     border-radius: .75rem;
-    border:3px solid #cbd2dc;
+    border:.18rem solid #cbd2dc;
     width: 100%;
     font-size: 2rem;
-    padding: 5px 15px 7px 15px;
+    padding:.5rem 1rem;
     text-shadow: #212529 .08rem .08rem .05rem;
 }
 
@@ -245,12 +246,12 @@ nav {
 }
     .jump-to a {
         background-color: #212529;
-        border: #495057 1px solid;
+        border: #495057 .05rem solid;
 
     }
         .jump-to a:hover {
         background-color: #495057;
-        border: #f5f5f5 1px solid;
+        border: #f5f5f5 .05rem solid;
     }
 
 
@@ -263,8 +264,8 @@ nav {
     background-size: 100%;
     background-blend-mode:darken;
     background-color: #2125299c;
-    border-top:3px solid #cbd2dc;
-    border-bottom:3px solid #cbd2dc;
+    border-top:.18rem solid #cbd2dc;
+    border-bottom:.18rem solid #cbd2dc;
 }
 
 .features .section-title {
@@ -312,8 +313,8 @@ nav {
     background-size: 100%;
     background-blend-mode:darken;
     background-color: #2125297e;
-    border-top:3px solid #cbd2dc;
-    border-bottom:3px solid #cbd2dc;
+    border-top:.18rem solid #cbd2dc;
+    border-bottom:.18rem solid #cbd2dc;
     }
 
     .pricing table{
@@ -370,8 +371,8 @@ nav {
 .gallery-card {
     display: flex;
     flex-direction: column;
-    width: 340px;
-    height:430px;
+    width: 21.25rem;
+    height: 26.75rem;
     text-align: center;
     background-color:#f5f5f5;
     border-radius: .3rem;
@@ -428,7 +429,7 @@ object-position: center;
         padding: .3rem;
         margin: -1.5rem;
         background-color: #212529;
-        border: #495057 1px solid; 
+        border: #495057 .05rem solid; 
         border-radius: .3rem;
         position:sticky;
         top: 90%;
@@ -445,8 +446,8 @@ object-position: center;
     }
     .skip-top:hover {
         background-color: #495057;
-        border: #f5f5f5 1px solid;
-        text-decoration: underline 1px #f5f5f5;
+        border: #f5f5f5 .05rem solid;
+        text-decoration: underline .05rem #f5f5f5;
         text-decoration: none;
     }
 
@@ -480,9 +481,9 @@ background-color: #212529;
         }
 
     footer .about-us {
-     font-size: 17px;
+     font-size: 1rem;
      text-align: center;
-     padding: 0px 1.2rem 5px 1.2rem;
+     padding: 0rem 1.2rem .5rem 1.2rem;
      line-height: 1.5;
    }
 
@@ -492,9 +493,9 @@ background-color: #212529;
     text-decoration: none;
     text-align: center;
     color: #9FA6B2 ;
-    letter-spacing: 2px;
-    font-size: 25px;
-    padding: 15px;
+    letter-spacing: .12rem;
+    font-size: 1.5rem;
+    padding: 1rem;
     transition: color .2s;
 }
 
@@ -509,9 +510,9 @@ background-color: #212529;
         text-align: center;
         color: #d8dce3 ;
         font-weight: 500;
-        letter-spacing: 2px;
-        font-size: 25px;
-        padding: 15px;
+        letter-spacing: .12rem;
+        font-size: 1.5rem;
+        padding: 1rem;
     }
 
 .contact-info {
@@ -524,12 +525,12 @@ background-color: #212529;
     .contact-info a{
          margin: 0rem .5rem .5rem 3rem;
          text-decoration: none;
-         font-size: 16px;
+         font-size: 1rem;
     }
 .contact-info iframe{
          margin: 0rem 0rem .5rem 3rem;
     } 
     .contact-info p{
         margin: 0rem 0rem .5rem 3rem;
-        font-size: 16px;
+        font-size: 1rem;
     }

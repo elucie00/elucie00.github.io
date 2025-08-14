@@ -208,7 +208,7 @@
             margin: .6rem;
             background-color: #212529;
             text-align: center;
-            border: #495057 1px solid; 
+            border: #495057 .05rem solid; 
             align-self: center;
             color: #f5f5f5;
             display: flex;
@@ -220,7 +220,7 @@
             .index-section-2 .option a:hover {
                 color:#e2e3e5;
                 background-color: #495057;
-                border: #f5f5f5 1px solid;
+                border: #f5f5f5 .05rem solid;
                 transition: .2s;
             }
 
@@ -299,7 +299,7 @@
             padding: .6rem 1rem;
             color: #f5f5f5;
             background-color: #212529;
-            border: #495057 1px solid;
+            border: #495057 .05rem solid;
             font-size: 1.5rem;
             text-align: center;
             border-radius: .3rem;
@@ -308,7 +308,7 @@
             .index-section-3 a:hover{
                 color:#e2e3e5;
                 background-color: #495057;
-                border: #f5f5f5 1px solid;
+                border: #f5f5f5 .05rem solid;
                 transition: .2s;
             }
 

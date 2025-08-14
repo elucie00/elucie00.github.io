@@ -23,8 +23,8 @@
     margin: 0rem ;
     padding: .5rem 0rem;
     background-color: #415a77;
-    border-top:3px solid #cbd2dc;
-    border-bottom:3px solid #cbd2dc;
+    border-top:.18rem solid #cbd2dc;
+    border-bottom:.18rem solid #cbd2dc;
     color:#f5f5f5;
     text-shadow: #212529 .08rem .08rem 0rem;
 }
@@ -32,7 +32,7 @@
 
 .info-section-1 .section-title {
     margin: .5rem 0 .5rem 1rem;
-    border:3px solid #cbd2dc;
+    border:.18rem solid #cbd2dc;
 }
 .info-section-1 .content{
     display: flex;
