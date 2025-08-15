@@ -211,7 +211,7 @@
 /* WINDOW UPGRADES */
 
 #window.upgrade-section {
-    background-image:url(../images/upgrades/wood-background.jpg) ;
+    background-image:url(../images/background-images/wood-background.jpg) ;
     background-blend-mode:darken;
     background-color: #212529b6;
 }
@@ -220,7 +220,7 @@
 /* DOOR UPGRADES */
 
 #door.upgrade-section {
-    background-image:url(../images/upgrades/wood-background.jpg) ;
+    background-image:url(../images/background-images/wood-background.jpg) ;
     background-blend-mode:darken;
     background-color: #212529b6;
 }
@@ -234,7 +234,7 @@
 /* SIDING UPGRADES */
 
 #siding.upgrade-section {
-    background-image:url(../images/upgrades/wood-background.jpg) ;
+    background-image:url(../images/background-images/wood-background.jpg) ;
     background-blend-mode:darken;
     background-color: #212529b6;
 }
@@ -284,7 +284,7 @@
 /* ROOF UPGRADES */
 
 #roof.upgrade-section {
-    background-image:url(../images/upgrades/wood-background.jpg) ;
+    background-image:url(../images/background-images/wood-background.jpg) ;
     background-blend-mode:darken;
     background-color: #212529b6;
 }
@@ -336,7 +336,7 @@
 /* MISC UPGRADES */
 
 #misc.upgrade-section {
-    background-image:url(../images/upgrades/wood-background.jpg) ;
+    background-image:url(../images/upgrades/background.jpg) ;
     background-blend-mode:darken;
     background-color: #212529b6;
 }

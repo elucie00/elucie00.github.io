@@ -17,38 +17,38 @@
 /* SECTION 1 */
 
 .section-1 {
-    margin: .5rem 0rem 0rem 0rem;
-    padding: .2rem 0rem;
     width:100%;
+    margin: .2rem 0rem;
+    padding: 1rem 0rem .5rem 0rem;
+    background-color: #415a77;
+    border-top:.18rem solid #cbd2dc;
+    border-bottom:.18rem solid #cbd2dc;
 }
 
 .section-title {
     margin: 0 0 .5rem 1rem;
 }
 
-.content {
+.section-1 .content {
     display: flex;
     flex-direction: row;
     width: 100%;
-    background-color: #1b263b;
-    border-top:.18rem solid #cbd2dc;
-    border-bottom:.18rem solid #cbd2dc;
+
 }
-
-
-    .contact {
+    .section-1 .contact {
         width: 50%;
         height: 100%;
         padding: 0rem 0rem 0rem 3rem;
         display: flex;
         flex-direction: column;
+            border:none;
     }
-        .contact h6{
+        .section-1 .contact h6{
             margin: 1.5rem 0 1rem 0;
             padding: 0;
             font-size: 1.5rem;
         }
-        .contact a{
+        .section-1 .contact a{
             width: 68%;
             display: block;
             margin: 0rem 10%;
@@ -61,30 +61,87 @@
             font-weight: 500;
             text-shadow: #212529 .04rem .04rem .05rem;
         }
-
-            .contact a:hover{
+            .section-1 .contact a:hover{
                 color:#f5f5f5;
                 background-color: #495057;
                 border: #f5f5f5 .05rem solid;
                 transition: .3s;
             }
 
-        .contact .text{
+        .section-1 .contact .text{
             margin: 1.5rem 0;
             padding: 0rem;
             font-style: italic;
-
         }
-        .contact p{
+        .section-1 .contact p{
             margin: 0;
             padding: .2rem 0rem;
             font-size: 1.5rem;
         }
-
     .section-1 .content img {
         width:50%;
         padding: 0rem .5rem;
         padding-right: 0rem;
         object-fit: cover;
         overflow: hidden;
+    }
+
+
+    /* SECTION 2 */
+
+
+.section-2 {
+    margin: 0rem 0rem 0rem 0rem;
+    padding: .2rem 0rem;
+    width:100%;
+    background-image:url(../images/background-images/wood-background.jpg) ;
+    background-blend-mode:darken;
+    background-color: #212529b6;
+    /* border-top:.18rem solid #cbd2dc; */
+    border-bottom:.18rem solid #cbd2dc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+
+.section-2 .content {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+}
+
+    .section-2 .text {
+        width: 50%;
+        height: 100%;
+        padding: 0rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section-2 .sub-heading{
+        margin: 1rem 1rem;
+        width: 80%;
+    }
+
+        .section-2 .text p{
+            margin: 0;
+            padding: .5rem 2rem;
+            font-size: 1.5rem;
+            line-height: 1.5;
+        }
+    .section-2 .content .fb{
+        width:50%;
+        padding: .5rem;
+        overflow: hidden;
+        justify-content: center;
+        display: flex;
+    }
+
+    .section-2 .content iframe{
+        margin: 0rem auto;
+        overflow: hidden;
+        width: 500px;
     }

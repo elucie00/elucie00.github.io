@@ -289,19 +289,19 @@ function faqClose() {
         const template = document.getElementById("select-gallery-card-template");
         const gallery = template.parentNode;
         let gallery_content = [
-          { imgSrc: "images/select-sheds/gallery/8x12-t1-11.jpg",
+          { imgSrc: "images/select-sheds/gallery/ira-vt.jpg",
             desc: "8' x 12' Select Shed with T1-11 siding and 2x2 barn sash window",
             loc: "Ira, Vermont"},
-          { imgSrc: "images/select-sheds/gallery/10x14-metalroof-upgrade.jpg",
+          { imgSrc: "images/select-sheds/gallery/jamaica-vt.jpg",
             desc: "10' x 14' Select Shed with metal roof upgrade",
             loc: "Jamaica, Vermont"},
-          { imgSrc: "images/select-sheds/gallery/10x14-overhang.jpg",
+          { imgSrc: "images/select-sheds/gallery/hubbardston-ma.jpg",
             desc: "10' x 14' Select Shed with 10/12 steep roof pitch upgrade and large overhang",
             loc: "Hubbardston, Massachusetts"},
 
-          { imgSrc: "images/select-sheds/gallery/12x16-flowerboxes.jpg",
+          { imgSrc: "images/select-sheds/gallery/windham-nh.jpg",
             desc: "12' x 16' Select Shed with barn sash windows and flower boxes. 8’ wide double doors",
-            loc: "Wyndham, New Hampshire"},
+            loc: "Windham, New Hampshire"},
           { imgSrc: "images/select-sheds/gallery/burlington-vt.jpg",
             desc: "Saltbox style Select Shed with a 2x2 barn sash window",
             loc: "Burlington, Vermont"},
