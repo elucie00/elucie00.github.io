@@ -53,7 +53,7 @@
     }
     
     .info-section-1 p {
-        padding: .5rem;
+        padding: .5rem 1rem;
         margin: 0rem;
     }
 
@@ -140,8 +140,6 @@
     margin: 0rem;
     padding: .5rem 0rem;
     background-color: #415a77;
-    border-top:.18rem solid #cbd2dc;
-    border-bottom:.18rem solid #cbd2dc;
     color:#f5f5f5;
     text-shadow: #212529 .08rem .08rem .05rem;
 }
@@ -172,7 +170,7 @@
     }
     
     .info-section-2 p {
-        padding: .5rem;
+        padding: .5rem 1rem;
         margin: 0rem;
     }
 
@@ -196,3 +194,87 @@
             border: #f5f5f5 .05rem solid;
             transition: .2s;
         }
+
+/* PRICING */
+
+.pricing {
+        margin: 0rem;
+}
+
+
+
+/* INFO SECTION 3 */
+
+.info-section-3 {
+    width: 100%;
+    margin: 0rem 0rem 1.5rem 0rem;
+    padding: 0rem;
+    background-color: #415a77;
+    border-bottom:.18rem solid #cbd2dc;
+    color:#f5f5f5;
+    text-shadow: #212529 .08rem .08rem .05rem;
+}
+.info-section-3 .sub-heading {
+    width: 60%;
+}
+.info-section-3 .content{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+    .info-section-3 .text.one {
+        width:75%;
+        height:100%;
+        padding: 1rem .5rem;
+        font-size: 1.2rem;
+    }
+
+        .info-section-3 .text.one p{
+            padding: .5rem 3rem .5rem 1rem;
+        }
+
+    .info-section-3 .text.two {
+        width:25%;
+        padding: 0rem .5rem;
+        object-fit: cover;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+        .info-section-3 .text.two p{
+        text-align: center;
+        font-size: 1.05rem;
+        padding: .5rem 0rem;
+        line-height: 1.45;
+        }
+
+
+    
+    .info-section-3 p {
+        padding: .5rem;
+        margin: 0rem;
+    }
+
+    .info-section-3 a{
+        width: 50%;
+        height:10%;
+        display: block;
+        color: #f5f5f5;
+        background-color: #212529;
+        border: #495057 .05rem solid;
+        text-align: center;
+        border-radius: .3rem;
+        text-shadow: #212529 .04rem .04rem .05rem;
+        padding: .7rem;
+        margin: .5rem 1rem;
+    }
+
+        .info-section-3 a:hover{
+            color:#e2e3e5;
+            background-color: #495057;
+            border: #f5f5f5 .05rem solid;
+            transition: .2s;
+        }
+

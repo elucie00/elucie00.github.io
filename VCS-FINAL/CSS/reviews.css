@@ -116,7 +116,7 @@
     display: flex;
     flex-direction: column;
 
-    padding: 1rem 3.5rem;
+    padding: 1rem 0rem;
 }
 
 
@@ -128,8 +128,14 @@
         padding:0rem;
         margin: 1.5rem 0rem;
         align-self: baseline;
-        
     }
+        .review-container.left{
+            padding: 0rem 2rem 0rem 2.5rem;
+        }
+
+        .review-container.right{
+            padding: 0rem 2.5rem 0rem 2rem;
+        }
     .review-container img{
         width:30%;
         height: 20rem;
@@ -140,21 +146,18 @@
         align-self: center;
     }
 
-    .review-container.left img{
-        border-left: none;
-    }
-
-    .review-container.left .review{
+    .review-container.review{
         align-self: center;
     }
 
-    .review-container.right img{
-        border-right: none;
-    }
+    
+        .review-container.left img{
+            margin-left: -.12rem;
+        }
+        .review-container.right img{
+            margin-right: -.12rem;
+        }
 
-    .review-container.right .review{
-        align-self: center;
-    }
 
          .review{
             position: relative;
