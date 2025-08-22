@@ -3,7 +3,6 @@
 .shed-header {
     background-image: url(../images/headers/select-sheds-banner.PNG)
 }
-
 .gradient {
         background-image: linear-gradient(to right, #21252974 , #21252943 , #21252900 , #21252900 ,#21252900);
         height: 100%;
@@ -17,15 +16,18 @@
 /* INFO SECTION 1 */
 
     .info-section-1 img {
-        width:45%;
+        /* width:45%; */
     }
     .info-section-1 .text {
-        width:55%;
+        /* width:55%; */
+    } 
+
+    .info-section-1 .sub-heading{
+        padding:.5rem .75rem;
     }
-    
     .info-section-1 a{
         width: 50%;
-        height:10%;
+        /* height:12%; */
         font-size: 1.2rem;
         display: block;
         color: #f5f5f5;
@@ -44,17 +46,17 @@
             transition: .2s;
         }
 
+
 /* INFO SECTION 2 */
 
+    .info-section-2 .text {
+        /* width:60%; */
+    }
 
     .info-section-2 img {
-        width:40%;
+        /* width:40%; */
+    
     }
-
-    .info-section-2 .text {
-        width:60%;
-    }
-
         .info-section-2 p a{
             color:#f5f5f5;
             text-decoration: none;
@@ -62,25 +64,21 @@
             .info-section-2 p a:hover{
                 text-decoration: underline;
             }
-
         .info-section-2 p.red{
             color: #e90202;
         }
 
 
-
 /*INFO SECTION 3 */
-
+ @media only screen and (min-width : 992px) {
 .info-section-3 {
-    width:100%; 
+   
     margin: 0rem 0rem 1.5rem 0rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+   
 }
-
+ }
     .info-section-3 #carousel{
-        width: 53%;
+        /* width: 53%; */
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
@@ -105,7 +103,7 @@
             }
 
 .info-section-3 .text{
-    width: 44%;
+    /* width: 44%; */
     background-color: #f5f5f5;
     align-self: center;
     padding: .5rem;
@@ -124,3 +122,16 @@
         color: #212529;
         line-height: 1.5;
     }   
+
+
+    @media only screen and (max-width : 992px) {
+        .info-section-3 {
+            flex-direction: column-reverse;
+            justify-content: space-evenly;
+        }
+
+         .info-section-3 .carousel-item img{
+            height:auto;
+         }
+
+    }
