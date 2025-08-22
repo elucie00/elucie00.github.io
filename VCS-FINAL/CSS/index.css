@@ -17,6 +17,7 @@
 @media only screen and (max-width : 768px) {
     .index-header{
         background-attachment: scroll;
+        background-size: cover;
     }
 }
     .gradient {
@@ -37,7 +38,7 @@
         text-shadow: .1rem .1rem 0rem #15253f;
     }
     .index-header h3 {
-        margin: 1.6rem 0 1.6rem 1rem;
+        margin: 1rem 0 1.6rem 1rem;
         font-size: 2rem;
         text-shadow: .1rem .1rem 0rem #15253f;
     }
