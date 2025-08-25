@@ -14,14 +14,18 @@
 <body id="utility-sheds-html" >
 
 <!-- NAVIGATION -->
-<nav>
+<nav id="navBar">
+    <button id="menuClose">
+        Menu
+            <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" class="bi bi-dash-circle-fill" viewBox="0 0 16 16"><path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M4.5 7.5a.5.5 0 0 0 0 1h7a.5.5 0 0 0 0-1z"/></svg>
+    </button>
     <a class="nav-button" href="index.html">Home</a>
-    <a class="nav-button-active" href="utility-sheds.html">Utility Sheds</a>
+    <a class="nav-button active" href="utility-sheds.html">Utility Sheds</a>
     <a class="nav-button" href="select-sheds.html">Select Sheds</a>
     <a class="nav-button" href="custom-sheds.html">Custom Sheds</a>
     <a class="nav-button" href="sugar-houses.html">Sugar Houses</a>
     <a class="nav-button" href="upgrades.html">Options & Upgrades</a>
-    <a class="nav-button-wide" href="select-vs-custom.html">Select vs Custom Shed</a>
+    <a class="nav-button wide" href="select-vs-custom.html">Select vs Custom Shed</a>
     <div class="dropdown">
         <div onclick="dropdownNav()" class="dropbtn">Gallery</div>
         <div id="myDropdown" class="dropdown-content">
@@ -36,6 +40,14 @@
     <a class="nav-button" href="faq.html">FAQ's</a>
     <a class="nav-button" href="contact.html">Contact Us</a>
 </nav>
+<!-- COLLAPSIBLE NAV BAR -->
+<button id="navBackdrop">
+    <button id="menuOpen">
+        <p>Menu
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/></svg>
+        </p>
+    </button>
+</button>
 
 <!-- HEADER -->
 <header class="shed-header container-fluid m-0 p-0">
@@ -128,7 +140,7 @@
         <div class="respon-table">
             <div class="thead">
                 <div class="respon-row">
-                    <div class="t-heading">Shed Size</div>
+                    <div class="t-heading align-self-center">Shed Size</div>
                     <div class="t-heading">Bottom Line Pricing</div>
                 </div>
             </div>

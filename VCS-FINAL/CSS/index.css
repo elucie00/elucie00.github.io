@@ -18,6 +18,7 @@
     .index-header{
         background-attachment: scroll;
         background-size: cover;
+        object-position: left;
     }
 }
     .gradient {

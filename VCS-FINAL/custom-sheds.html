@@ -14,14 +14,18 @@
 <body id="custom-sheds-html">
 
 <!-- NAVIGATION -->
-<nav>
+<nav id="navBar">
+    <button id="menuClose">
+        Menu
+            <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" class="bi bi-dash-circle-fill" viewBox="0 0 16 16"><path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M4.5 7.5a.5.5 0 0 0 0 1h7a.5.5 0 0 0 0-1z"/></svg>
+    </button>
     <a class="nav-button" href="index.html">Home</a>
     <a class="nav-button" href="utility-sheds.html">Utility Sheds</a>
     <a class="nav-button" href="select-sheds.html">Select Sheds</a>
-    <a class="nav-button-active" href="custom-sheds.html">Custom Sheds</a>
+    <a class="nav-button active" href="custom-sheds.html">Custom Sheds</a>
     <a class="nav-button" href="sugar-houses.html">Sugar Houses</a>
     <a class="nav-button" href="upgrades.html">Options & Upgrades</a>
-    <a class="nav-button-wide" href="select-vs-custom.html">Select vs Custom Shed</a>
+    <a class="nav-button wide" href="select-vs-custom.html">Select vs Custom Shed</a>
     <div class="dropdown">
         <div onclick="dropdownNav()" class="dropbtn">Gallery</div>
         <div id="myDropdown" class="dropdown-content">
@@ -36,6 +40,14 @@
     <a class="nav-button" href="faq.html">FAQ's</a>
     <a class="nav-button" href="contact.html">Contact Us</a>
 </nav>
+<!-- COLLAPSIBLE NAV BAR -->
+<button id="navBackdrop">
+    <button id="menuOpen">
+        <p>Menu
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/></svg>
+        </p>
+    </button>
+</button>
 
 <!-- HEADER -->
 <header class="shed-header container-fluid m-0 p-0">
@@ -58,12 +70,13 @@
 <main class="container-fluid">
     
     <!-- INFO SECTION 1 -->
-    <div class="info-section-1">
-        <div class="section-title" id="info">Custom Shed Info:</div>
-        <div class="content">
-            <img src="images/custom-sheds/hebron-nh-intro.jpg">
-            <div class="text">
-                <div class="sub-heading">Built On Site, Built Better, Built to Last</div>
+    <div class="info-section-1 px-0 px-md-2">
+        <div class="col-11 col-lg-5 text-center text-md-start mx-auto mx-lg-0">
+        <div class="section-title" id="info">Custom Shed Info:</div></div>
+        <div class="content row">
+            <img src="images/custom-sheds/hebron-nh-intro.jpg" class="img-fluid col-12 col-lg-5 p-lg-2 ps-lg-0 object-fit-cover">
+            <div class="text col-12 col-lg-7">
+                <div class="sub-heading col-11 col-lg-12 mx-auto mx-md-0 text-center text-md-start">Built On Site, Built Better, Built to Last</div>
                 <p>If you are looking for a high-end structure with great curb appeal that can increase your 
                     property value, choose a Custom Shed. Superior in every way to what’s available in the 
                     local shed market.</p>
@@ -84,247 +97,243 @@
 
     <!-- FEATURES -->
     <div class="features">
-            <div class="section-title">Custom Shed Included Features:</div>
-            <table class="secondary">
-                <thead>
-                    <tr>
-                        <th colspan="3" rowspan="2">
-                            <div class="heading">
-                                <div class="title">Customizable Options:</div>
-                                <div class="text">
-                                    Customize your shed the way you want.  Your choice of roof pitch, siding, and windows from the options listed below are included in the base price of your Custom Shed
-                                </div>
-                            </div>
-                        </th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td><ul><li>Steep 10/12" or 12/12" roof pitch</li></ul></td>
-                        <td><ul><li>T1-11, Board and Batten, Shiplap or Novelty siding</li></ul></td>
-                        <td><ul><li>Two windows of your choice. Three windows included on sheds <span class="italic">larger</span> than 12' × 16'</li></ul></td>
-                    </tr>
-                </tbody>
-            </table>
+        <div class="col-12 col-lg-7 text-center text-md-start mx-auto mx-lg-0">
+        <div class="section-title">Custom Shed Included Features:</div></div>
             
-            <table class="included-features">
-                <thead>
-                    <tr>
-                        <th colspan="2" rowspan="2">
-                            <div class="title">Other Included Features:</div>
-                        </th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td><ul><li>10″ to 12″ overhang with soffit detail</li></ul></td>
-                        <td><ul><li>1/2″ weather-proof zip system sheathing</li></ul></td>
-                    </tr>
-
-                    <tr>
-                        <td><ul><li>Walls framed with 2×4 spaced 16″ on center</li></ul></td>
-                        <td><ul><li>Tall sidewalls</li></ul></td>
-                    </tr>
-                    <tr>
-                        <td><ul><li>Double doors with an opening up to 6′ wide</li></ul></td>
-                        <td><ul><li>3 heavy duty hinges on each door</li></ul></td>
-                    </tr>
-                    <tr>
-                        <td><ul><li>Roof framed with 2×8 ridgeboard and 2×6 rafters spaced 16″ on center</li></ul></td>
-                        <td><ul><li>Architectural shingles with 30 year warranty</li></ul></td>
-                    </tr>
-                    <tr>
-                        <td><ul><li>Regular duty ramp included</li></ul></td>
-                        <td><ul><li>4×4 pressure treated runners</li></ul></td>
-                    </tr>
-                    <tr>
-                        <td><ul><li>Pressure treated 2×6 floor joist spaced 16″ on center</li></ul></td>
-                        <td><ul><li>3/4″ Advantech tongue and groove sheathing cover on floor</li></ul></td>
-                    </tr>
+        <div class="respon-table secondary mb-4">
+            <div class="heading row">
+                <div class="title col-12 col-lg-4">Customizable Options:</div>
+                <div class="text col-12 col-lg-8 px-3 py-2 px-lg-2 py-lg-3 text-center text-lg-start">
+                    Customize your shed the way you want.  Your choice of roof pitch, siding, and windows 
+                    from the options listed below are included in the base price of your Custom Shed
+                </div>
+            </div>
+            <div class="tbody">
+                <div class="respon-row">
+                    <div class="cell"><ul><li>Steep 10/12" or 12/12" roof pitch</li></ul></div>
+                    <div class="cell"><ul><li>T1-11, Board and Batten, Shiplap or Novelty siding</li></ul></div>
+                    <div class="cell"><ul><li>Two windows of your choice. Three windows included on sheds larger than 12' × 16'</li></ul></div>
+                </div>
                 
-                </tbody>       
-            </table>
+                
+            </div>       
+        </div>
 
-            
+        <div class="respon-table">
+            <div class="heading">
+                <div class="title">Other Included Features:</div>
+            </div>
+            <div class="tbody">
+                <div class="respon-row">
+                    <div class="cell"><ul><li>10″ to 12″ overhang with soffit detail</li></ul></div>
+                    <div class="cell"><ul><li>1/2″ weather-proof zip system sheathing</li></ul></div>
+                </div>
+                <div class="respon-row">
+                    <div class="cell"><ul><li>Walls framed with 2×4 spaced 16″ on center</li></ul></div>
+                    <div class="cell"><ul><li>Tall sidewalls</li></ul></div>
+                </div>
+                <div class="respon-row">
+                    <div class="cell"><ul><li>Double doors with an opening up to 6′ wide</li></ul></div>
+                    <div class="cell"><ul><li>3 heavy duty hinges on each door</li></ul></div>
+                </div>
+                <div class="respon-row">
+                    <div class="cell"><ul><li>Roof framed with 2×8 ridgeboard and 2×6 rafters spaced 16″ on center</li></ul></div>
+                    <div class="cell"><ul><li>Architectural shingles with 30 year warranty</li></ul></div>
+                </div>
+                <div class="respon-row">
+                    <div class="cell"><ul><li>Regular duty ramp included</li></ul></div>
+                    <div class="cell"><ul><li>4×4 pressure treated runners</li></ul></div>
+                </div>
+                <div class="respon-row">
+                    <div class="cell"><ul><li>Pressure treated 2×6 floor joist spaced 16″ on center</li></ul></div>
+                    <div class="cell"><ul><li>3/4″ Advantech tongue and groove sheathing cover on floor</li></ul></div>
+                </div>
+            </div>       
+        </div>
     </div>
+
 
     <!-- INFO SECTION 2 -->
-    <div class="info-section-2">
-        <div class="text">
-            <div class="sub-heading">What You Want Built Where You Want</div>
-            <p>No matter where you go to buy a shed it will be an investment. That’s why it is important 
-                to look at all the details. If your goal is a building that’s going to last for many 
-                years go with a high quality, built on site shed that’s built to last.</p>
-            <p>Don’t settle for a lightweight dropped-off-the-back-of-a-truck shed. Have a custom shed 
-                built on site. Have the doors and windows where you want them. Have the shed built 
-                where you want it. Why buy something off of a shed sales yard where your choices are 
-                limited?</p>
+    <div class="info-section-2 px-0 px-md-2">
+        <div class="content row">
+            <div class="text col-12 col-lg-7">
+                <div class="sub-heading col-11 col-lg-11 mx-auto mx-md-0 text-center text-md-start">What You Want Built Where You Want</div>
+                <p>No matter where you go to buy a shed it will be an investment. That’s why it is important 
+                    to look at all the details. If your goal is a building that’s going to last for many 
+                    years go with a high quality, built on site shed that’s built to last.</p>
+                <p>Don’t settle for a lightweight dropped-off-the-back-of-a-truck shed. Have a custom shed 
+                    built on site. Have the doors and windows where you want them. Have the shed built 
+                    where you want it. Why buy something off of a shed sales yard where your choices are 
+                    limited?</p>
+            </div>
+            <img src="images/custom-sheds/woodstock-vt-info.jpg" class="img-fluid col-12 col-lg-5 p-lg-2 pe-lg-0 object-fit-cover">
         </div>
-        <img src="images/custom-sheds/woodstock-vt-info.jpg">
     </div>
+
 
     <!-- PRICING -->
     <div class="pricing">
-    <div class="section-title" id="pricing">Custom Shed Pricing:</div>
-        <table>
-            <thead>
-                <tr>
-                <th>Shed Size</th>
-                <th>Bottom Line Pricing</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>
+        <div class="col-12 col-lg-6 text-center text-md-start mx-auto mx-lg-0">
+        <div class="section-title" id="pricing">Custom Shed Pricing:</div></div>
+        
+        <div class="respon-table">
+            <div class="thead">
+                <div class="respon-row">
+                    <div class="t-heading align-self-center">Shed Size</div>
+                    <div class="t-heading">Bottom Line Pricing</div>
+                </div>
+            </div>
+            <div class="tbody">
+                <div class="respon-row">
+                    <div class="cell">
                         <svg class="me-3 currentColor" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-rulers" viewBox="0 0 16 16"><path d="M1 0a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h5v-1H2v-1h4v-1H4v-1h2v-1H2v-1h4V9H4V8h2V7H2V6h4V2h1v4h1V4h1v2h1V2h1v4h1V4h1v2h1V2h1v4h1V1a1 1 0 0 0-1-1z"/></svg>
-                        8' x 10' with 6' 6" sidewalls</td>
-                    <td>
+                        8' x 10' with 6' 6" sidewalls</div>
+                    <div class="cell">
                         <svg class="me-2 currentColor" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-tag-fill" viewBox="0 0 16 16"><path d="M2 1a1 1 0 0 0-1 1v4.586a1 1 0 0 0 .293.707l7 7a1 1 0 0 0 1.414 0l4.586-4.586a1 1 0 0 0 0-1.414l-7-7A1 1 0 0 0 6.586 1zm4 3.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0"/></svg>
-                        $10,200</td>
-                </tr>
-                <tr>
-                    <td>
+                        $10,200</div>
+                </div>
+                <div class="respon-row">
+                    <div class="cell">
                         <svg class="me-3 currentColor" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-rulers" viewBox="0 0 16 16"><path d="M1 0a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h5v-1H2v-1h4v-1H4v-1h2v-1H2v-1h4V9H4V8h2V7H2V6h4V2h1v4h1V4h1v2h1V2h1v4h1V4h1v2h1V2h1v4h1V1a1 1 0 0 0-1-1z"/></svg>
-                        8' x 12' with 6' 6" sidewalls</td>
-                    <td>
+                        8' x 12' with 6' 6" sidewalls</div>
+                    <div class="cell">
                         <svg class="me-2 currentColor" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-tag-fill" viewBox="0 0 16 16"><path d="M2 1a1 1 0 0 0-1 1v4.586a1 1 0 0 0 .293.707l7 7a1 1 0 0 0 1.414 0l4.586-4.586a1 1 0 0 0 0-1.414l-7-7A1 1 0 0 0 6.586 1zm4 3.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0"/></svg>
-                        $10,800</td>
-                </tr>
-                <tr>
-                    <td>
+                        $10,800</div>
+                </div>
+                <div class="respon-row">
+                    <div class="cell">
                         <svg class="me-3 currentColor" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-rulers" viewBox="0 0 16 16"><path d="M1 0a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h5v-1H2v-1h4v-1H4v-1h2v-1H2v-1h4V9H4V8h2V7H2V6h4V2h1v4h1V4h1v2h1V2h1v4h1V4h1v2h1V2h1v4h1V1a1 1 0 0 0-1-1z"/></svg>
-                        8' x 14' with 6' 6" sidewalls</td>
-                    <td>
+                        8' x 14' with 6' 6" sidewalls</div>
+                    <div class="cell">
                         <svg class="me-2 currentColor" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-tag-fill" viewBox="0 0 16 16"><path d="M2 1a1 1 0 0 0-1 1v4.586a1 1 0 0 0 .293.707l7 7a1 1 0 0 0 1.414 0l4.586-4.586a1 1 0 0 0 0-1.414l-7-7A1 1 0 0 0 6.586 1zm4 3.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0"/></svg>
-                        $11,200</td>
-                </tr>
-                <tr>
-                    <td>
+                        $11,200</div>
+                </div>
+                <div class="respon-row">
+                    <div class="cell">
                         <svg class="me-3 currentColor" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-rulers" viewBox="0 0 16 16"><path d="M1 0a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h5v-1H2v-1h4v-1H4v-1h2v-1H2v-1h4V9H4V8h2V7H2V6h4V2h1v4h1V4h1v2h1V2h1v4h1V4h1v2h1V2h1v4h1V1a1 1 0 0 0-1-1z"/></svg>
-                        8' x 16' with 6' 6" sidewalls</td>
-                    <td>
+                        8' x 16' with 6' 6" sidewalls</div>
+                    <div class="cell">
                         <svg class="me-2 currentColor" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-tag-fill" viewBox="0 0 16 16"><path d="M2 1a1 1 0 0 0-1 1v4.586a1 1 0 0 0 .293.707l7 7a1 1 0 0 0 1.414 0l4.586-4.586a1 1 0 0 0 0-1.414l-7-7A1 1 0 0 0 6.586 1zm4 3.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0"/></svg>
-                        $12,400</td>
-                </tr>
-                <tr>
-                    <td>
+                        $12,400</div>
+                </div>
+                <div class="respon-row">
+                    <div class="cell">
                         <svg class="me-3 currentColor" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-rulers" viewBox="0 0 16 16"><path d="M1 0a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h5v-1H2v-1h4v-1H4v-1h2v-1H2v-1h4V9H4V8h2V7H2V6h4V2h1v4h1V4h1v2h1V2h1v4h1V4h1v2h1V2h1v4h1V1a1 1 0 0 0-1-1z"/></svg>
-                        10' x 10' with 7' 6" sidewalls</td>
-                    <td>
+                        10' x 10' with 7' 6" sidewalls</div>
+                    <div class="cell">
                         <svg class="me-2 currentColor" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-tag-fill" viewBox="0 0 16 16"><path d="M2 1a1 1 0 0 0-1 1v4.586a1 1 0 0 0 .293.707l7 7a1 1 0 0 0 1.414 0l4.586-4.586a1 1 0 0 0 0-1.414l-7-7A1 1 0 0 0 6.586 1zm4 3.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0"/></svg>
-                        $10,900</td>
-                </tr>
-                <tr>
-                    <td>
+                        $10,900</div>
+                </div>
+                <div class="respon-row">
+                    <div class="cell">
                         <svg class="me-3 currentColor" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-rulers" viewBox="0 0 16 16"><path d="M1 0a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h5v-1H2v-1h4v-1H4v-1h2v-1H2v-1h4V9H4V8h2V7H2V6h4V2h1v4h1V4h1v2h1V2h1v4h1V4h1v2h1V2h1v4h1V1a1 1 0 0 0-1-1z"/></svg>
-                        10' x 12' with 7' 6" sidewalls</td>
-                    <td>
+                        10' x 12' with 7' 6" sidewalls</div>
+                    <div class="cell">
                         <svg class="me-2 currentColor" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-tag-fill" viewBox="0 0 16 16"><path d="M2 1a1 1 0 0 0-1 1v4.586a1 1 0 0 0 .293.707l7 7a1 1 0 0 0 1.414 0l4.586-4.586a1 1 0 0 0 0-1.414l-7-7A1 1 0 0 0 6.586 1zm4 3.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0"/></svg>
-                        $11,500</td>
-                </tr>
-                <tr>
-                    <td>
+                        $11,500</div>
+                </div>
+                <div class="respon-row">
+                    <div class="cell">
                         <svg class="me-3 currentColor" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-rulers" viewBox="0 0 16 16"><path d="M1 0a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h5v-1H2v-1h4v-1H4v-1h2v-1H2v-1h4V9H4V8h2V7H2V6h4V2h1v4h1V4h1v2h1V2h1v4h1V4h1v2h1V2h1v4h1V1a1 1 0 0 0-1-1z"/></svg>
-                        10' x 14' with 7' 6" sidewalls</td>
-                    <td>
+                        10' x 14' with 7' 6" sidewalls</div>
+                    <div class="cell">
                         <svg class="me-2 currentColor" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-tag-fill" viewBox="0 0 16 16"><path d="M2 1a1 1 0 0 0-1 1v4.586a1 1 0 0 0 .293.707l7 7a1 1 0 0 0 1.414 0l4.586-4.586a1 1 0 0 0 0-1.414l-7-7A1 1 0 0 0 6.586 1zm4 3.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0"/></svg>
-                        $13,600</td>
-                </tr>
-                <tr>
-                    <td>
+                        $13,600</div>
+                </div>
+                <div class="respon-row">
+                    <div class="cell">
                         <svg class="me-3 currentColor" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-rulers" viewBox="0 0 16 16"><path d="M1 0a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h5v-1H2v-1h4v-1H4v-1h2v-1H2v-1h4V9H4V8h2V7H2V6h4V2h1v4h1V4h1v2h1V2h1v4h1V4h1v2h1V2h1v4h1V1a1 1 0 0 0-1-1z"/></svg>
-                        10' x 16' with 7' 6" sidewalls</td>
-                    <td>
+                        10' x 16' with 7' 6" sidewalls</div>
+                    <div class="cell">
                         <svg class="me-2 currentColor" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-tag-fill" viewBox="0 0 16 16"><path d="M2 1a1 1 0 0 0-1 1v4.586a1 1 0 0 0 .293.707l7 7a1 1 0 0 0 1.414 0l4.586-4.586a1 1 0 0 0 0-1.414l-7-7A1 1 0 0 0 6.586 1zm4 3.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0"/></svg>
-                        $14,200</td>
-                </tr>
-                <tr>
-                    <td>
+                        $14,200</div>
+                </div>
+                <div class="respon-row">
+                    <div class="cell">
                         <svg class="me-3 currentColor" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-rulers" viewBox="0 0 16 16"><path d="M1 0a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h5v-1H2v-1h4v-1H4v-1h2v-1H2v-1h4V9H4V8h2V7H2V6h4V2h1v4h1V4h1v2h1V2h1v4h1V4h1v2h1V2h1v4h1V1a1 1 0 0 0-1-1z"/></svg>
-                        10' x 18' with 7' 6" sidewalls</td>
-                    <td>
+                        10' x 18' with 7' 6" sidewalls</div>
+                    <div class="cell">
                         <svg class="me-2 currentColor" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-tag-fill" viewBox="0 0 16 16"><path d="M2 1a1 1 0 0 0-1 1v4.586a1 1 0 0 0 .293.707l7 7a1 1 0 0 0 1.414 0l4.586-4.586a1 1 0 0 0 0-1.414l-7-7A1 1 0 0 0 6.586 1zm4 3.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0"/></svg>
-                        $16,900</td>
-                </tr>
-                <tr>
-                    <td>
+                        $16,900</div>
+                </div>
+                <div class="respon-row">
+                    <div class="cell">
                         <svg class="me-3 currentColor" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-rulers" viewBox="0 0 16 16"><path d="M1 0a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h5v-1H2v-1h4v-1H4v-1h2v-1H2v-1h4V9H4V8h2V7H2V6h4V2h1v4h1V4h1v2h1V2h1v4h1V4h1v2h1V2h1v4h1V1a1 1 0 0 0-1-1z"/></svg>
-                        10' x 20' with 7' 6" sidewalls</td>
-                    <td>
+                        10' x 20' with 7' 6" sidewalls</div>
+                    <div class="cell">
                         <svg class="me-2 currentColor" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-tag-fill" viewBox="0 0 16 16"><path d="M2 1a1 1 0 0 0-1 1v4.586a1 1 0 0 0 .293.707l7 7a1 1 0 0 0 1.414 0l4.586-4.586a1 1 0 0 0 0-1.414l-7-7A1 1 0 0 0 6.586 1zm4 3.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0"/></svg>
-                        $18,200</td>
-                </tr>
-                <tr>
-                    <td>
+                        $18,200</div>
+                </div>
+                <div class="respon-row">
+                    <div class="cell">
                         <svg class="me-3 currentColor" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-rulers" viewBox="0 0 16 16"><path d="M1 0a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h5v-1H2v-1h4v-1H4v-1h2v-1H2v-1h4V9H4V8h2V7H2V6h4V2h1v4h1V4h1v2h1V2h1v4h1V4h1v2h1V2h1v4h1V1a1 1 0 0 0-1-1z"/></svg>
-                        12' × 12' with 7' 10" sidewalls</td>
-                    <td>
+                        12' × 12' with 7' 10" sidewalls</div>
+                    <div class="cell">
                         <svg class="me-2 currentColor" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-tag-fill" viewBox="0 0 16 16"><path d="M2 1a1 1 0 0 0-1 1v4.586a1 1 0 0 0 .293.707l7 7a1 1 0 0 0 1.414 0l4.586-4.586a1 1 0 0 0 0-1.414l-7-7A1 1 0 0 0 6.586 1zm4 3.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0"/></svg>
-                        $14,200</td>
-                </tr>
-                <tr>
-                    <td>
+                        $14,200</div>
+                </div>
+                <div class="respon-row">
+                    <div class="cell">
                         <svg class="me-3 currentColor" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-rulers" viewBox="0 0 16 16"><path d="M1 0a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h5v-1H2v-1h4v-1H4v-1h2v-1H2v-1h4V9H4V8h2V7H2V6h4V2h1v4h1V4h1v2h1V2h1v4h1V4h1v2h1V2h1v4h1V1a1 1 0 0 0-1-1z"/></svg>
-                        12' × 14' with 7' 10" sidewalls</td>
-                    <td>
+                        12' × 14' with 7' 10" sidewalls</div>
+                    <div class="cell">
                         <svg class="me-2 currentColor" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-tag-fill" viewBox="0 0 16 16"><path d="M2 1a1 1 0 0 0-1 1v4.586a1 1 0 0 0 .293.707l7 7a1 1 0 0 0 1.414 0l4.586-4.586a1 1 0 0 0 0-1.414l-7-7A1 1 0 0 0 6.586 1zm4 3.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0"/></svg>
-                        $17,200</td>
-                </tr>
-                <tr>
-                    <td>
+                        $17,200</div>
+                </div>
+                <div class="respon-row">
+                    <div class="cell">
                         <svg class="me-3 currentColor" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-rulers" viewBox="0 0 16 16"><path d="M1 0a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h5v-1H2v-1h4v-1H4v-1h2v-1H2v-1h4V9H4V8h2V7H2V6h4V2h1v4h1V4h1v2h1V2h1v4h1V4h1v2h1V2h1v4h1V1a1 1 0 0 0-1-1z"/></svg>
-                        12' × 16' with 7' 10" sidewalls</td>
-                    <td>
+                        12' × 16' with 7' 10" sidewalls</div>
+                    <div class="cell">
                         <svg class="me-2 currentColor" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-tag-fill" viewBox="0 0 16 16"><path d="M2 1a1 1 0 0 0-1 1v4.586a1 1 0 0 0 .293.707l7 7a1 1 0 0 0 1.414 0l4.586-4.586a1 1 0 0 0 0-1.414l-7-7A1 1 0 0 0 6.586 1zm4 3.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0"/></svg>
-                        $18,800</td>
-                </tr>
-                <tr>
-                    <td>
+                        $18,800</div>
+                </div>
+                <div class="respon-row">
+                    <div class="cell">
                         <svg class="me-3 currentColor" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-rulers" viewBox="0 0 16 16"><path d="M1 0a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h5v-1H2v-1h4v-1H4v-1h2v-1H2v-1h4V9H4V8h2V7H2V6h4V2h1v4h1V4h1v2h1V2h1v4h1V4h1v2h1V2h1v4h1V1a1 1 0 0 0-1-1z"/></svg>
-                        12' × 18' with 7' 10" sidewalls</td>
-                    <td>
+                        12' × 18' with 7' 10" sidewalls</div>
+                    <div class="cell">
                         <svg class="me-2 currentColor" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-tag-fill" viewBox="0 0 16 16"><path d="M2 1a1 1 0 0 0-1 1v4.586a1 1 0 0 0 .293.707l7 7a1 1 0 0 0 1.414 0l4.586-4.586a1 1 0 0 0 0-1.414l-7-7A1 1 0 0 0 6.586 1zm4 3.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0"/></svg>
-                        $21,800</td>
-                </tr>
-                <tr>
-                    <td>
+                        $21,800</div>
+                </div>
+                <div class="respon-row">
+                    <div class="cell">
                         <svg class="me-3 currentColor" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-rulers" viewBox="0 0 16 16"><path d="M1 0a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h5v-1H2v-1h4v-1H4v-1h2v-1H2v-1h4V9H4V8h2V7H2V6h4V2h1v4h1V4h1v2h1V2h1v4h1V4h1v2h1V2h1v4h1V1a1 1 0 0 0-1-1z"/></svg>
-                        12' × 20' with 7' 10" sidewalls</td>
-                    <td>
+                        12' × 20' with 7' 10" sidewalls</div>
+                    <div class="cell">
                         <svg class="me-2 currentColor" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-tag-fill" viewBox="0 0 16 16"><path d="M2 1a1 1 0 0 0-1 1v4.586a1 1 0 0 0 .293.707l7 7a1 1 0 0 0 1.414 0l4.586-4.586a1 1 0 0 0 0-1.414l-7-7A1 1 0 0 0 6.586 1zm4 3.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0"/></svg>
-                        $23,800</td>
-                </tr>
-                <tr>
-                    <td>
+                        $23,800</div>
+                </div>
+                <div class="respon-row">
+                    <div class="cell">
                         <svg class="me-3 currentColor" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-rulers" viewBox="0 0 16 16"><path d="M1 0a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h5v-1H2v-1h4v-1H4v-1h2v-1H2v-1h4V9H4V8h2V7H2V6h4V2h1v4h1V4h1v2h1V2h1v4h1V4h1v2h1V2h1v4h1V1a1 1 0 0 0-1-1z"/></svg>
-                        12' × 24' with 7' 10" sidewalls</td>
-                    <td>
+                        12' × 24' with 7' 10" sidewalls</div>
+                    <div class="cell">
                         <svg class="me-2 currentColor" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-tag-fill" viewBox="0 0 16 16"><path d="M2 1a1 1 0 0 0-1 1v4.586a1 1 0 0 0 .293.707l7 7a1 1 0 0 0 1.414 0l4.586-4.586a1 1 0 0 0 0-1.414l-7-7A1 1 0 0 0 6.586 1zm4 3.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0"/></svg>
-                        $26,200</td>
-                </tr>
-            </tbody>
-        </table>
+                        $26,200</div>
+                </div>     
+            </div>
+        </div>
     </div>
 
+
     <!-- INFO SECTION 3 -->
-    <div class="info-section-3">
-        <div class="content">
-        <div class="text one">
-            <div class="sub-heading">Upgrade Your Custom Shed</div>
-                <p>Windows, your choice of siding, 10/12 or 12/12 steep roof pitch, 6′ wide 
-                    double doors and a ramp. All included with the base price!</p>
-                <p>Unlike a Utility or Select Shed, a Custom shed can be equipped with almost any upgrade. 
-                    Additional doors, windows, roof dormers, custom made flower boxes, and more!</p>
-                <p>Upgrade to a metal roof for 20% of the base price of a Custom shed</p>
-                <p>Make sure to check out our Options & Upgrades page to explore all of the features and 
-                    customizations available for your shed!</p>
-                <a href="upgrades.html">Options & Upgrades &rarr;</a>
-        </div>
-        <div class="text two">
-            <img src="images/custom-sheds/shed-builder-magazine.jpg">
-            <p>This Custom Shed I built in Huntington, Vermont made the front cover of Shed Builder Magazine</p>
-        </div>
-        </div>
+    <div class="info-section-3 row">
+            <div class="text one col-12 col-lg-8">
+                <div class="sub-heading col-11 col-lg-11 mx-auto mx-md-0 text-center text-md-start"">Upgrade Your Custom Shed</div>
+                    <p>Windows, your choice of siding, 10/12 or 12/12 steep roof pitch, 6′ wide 
+                        double doors and a ramp. All included with the base price!</p>
+                    <p>Unlike a Utility or Select Shed, a Custom shed can be equipped with almost any upgrade. 
+                        Additional doors, windows, roof dormers, custom made flower boxes, and more!</p>
+                    <p>Upgrade to a metal roof for 20% of the base price of a Custom shed</p>
+                    <p>Make sure to check out our Options & Upgrades page to explore all of the features and 
+                        customizations available for your shed!</p>
+                    <a href="upgrades.html" class="col-11 col-md-8 col-lg-6">Options & Upgrades &rarr;</a>
+            </div>
+            <div class="text two col-12 col-lg-4">
+                <img src="images/custom-sheds/shed-builder-magazine.jpg" class="img-fluid col-12 col-sm-6 col-lg-12 mx-auto px-lg-5 p-2 object-fit-cover">
+                <p class="col-12 col-sm-5 col-lg-12 m-auto ">This Custom Shed I built in Huntington, Vermont made the front cover of Shed Builder Magazine</p>
+            </div>
     </div>
 
     <!-- GALLERY -->
