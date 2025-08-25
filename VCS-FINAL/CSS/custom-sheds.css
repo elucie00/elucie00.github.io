@@ -27,14 +27,6 @@
 
 /* CUSTOM SHED FEATURES */
 
-
-.features .respon-table .secondary{
-    width: 95%;
-}
-
-.respon-table .secondary .respon-row{
-    width:100%;
-}
     .features .secondary .cell{
         width:33.33%;
     }
@@ -61,26 +53,7 @@
             font-weight: 400;
             font-style: italic;
             text-align: left;
-            
-        
         }  
-        table.included-features {
-            margin-top: 1rem;
-        }
-            table.included-features thead{
-                color: #f5f5f5;
-                text-shadow: #212529 .08rem .08rem 0rem;
-                background-color: #415A77;
-                font-style: italic;
-                text-align: left;
-            }
-            table.included-features th{
-                border-top-left-radius: 1rem;
-                border-top-right-radius: 1rem;
-                padding: 0rem;
-                font-size: 1.8rem;
-                font-weight: 400;
-            }
 
 @media only screen and (max-width : 768px) {
 

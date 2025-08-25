@@ -138,14 +138,29 @@
         }
     .review-container img{
         width:30%;
-        height: 20rem;
-        object-fit: cover;
+        height: auto;
+        object-fit: contain;
         overflow: hidden;
         border:#F5F5F5 .2rem solid;
         border-radius: 1rem;
         align-self: center;
     }
 
+
+    .review-container .double-image{
+        width:30%;
+        
+        border-radius: 1rem;
+        align-self: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .review-container .double-image img{
+        width:100%;
+    }
+
+    
     .review-container.review{
         align-self: center;
     }
