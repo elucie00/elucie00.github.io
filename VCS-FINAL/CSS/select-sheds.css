@@ -25,27 +25,6 @@
     .info-section-1 .sub-heading{
         padding:.5rem .75rem;
     }
-    .info-section-1 a{
-        width: 50%;
-        /* height:12%; */
-        font-size: 1.2rem;
-        display: block;
-        color: #f5f5f5;
-        background-color: #212529;
-        border: #495057 .05rem solid;
-        text-align: center;
-        border-radius: .3rem;
-        text-shadow: #212529 .04rem .04rem .05rem;
-        padding: .7rem;
-        margin: .5rem 1rem;
-    }
-        .info-section-1 a:hover{
-            color:#e2e3e5;
-            background-color: #495057;
-            border: #f5f5f5 .05rem solid;
-            transition: .2s;
-        }
-
 
 /* INFO SECTION 2 */
 
@@ -57,13 +36,7 @@
         /* width:40%; */
     
     }
-        .info-section-2 p a{
-            color:#f5f5f5;
-            text-decoration: none;
-        }
-            .info-section-2 p a:hover{
-                text-decoration: underline;
-            }
+
         .info-section-2 p.red{
             color: #e90202;
         }

@@ -13,86 +13,87 @@
         width:100%;
     }
 
+/* JUMP TO SECTION */
+
+.jump-to{
+    padding: .5rem 0rem;
+}
+
+.jump-to .btn{
+    width:20%;
+}
+
 
 /* SECTION 1 */
+
 .section-1 {
-    width: 100%;
     margin: 0rem;
-    padding: 0rem 0rem;
+    padding: 1rem 0rem 0rem 0rem;
     background-color: #415a77;
-    border-top:.18rem solid #cbd2dc;
-    border-bottom:.18rem solid #cbd2dc;
     color:#f5f5f5;
-    text-shadow: #212529 .08rem .08rem 0rem;
+    text-shadow: #212529 .08rem .08rem .05rem;
 }
 
-.section-1 .section-title {
-    margin: .5rem 0 .5rem 1rem;
-    border:.18rem solid #cbd2dc;
-}
-.section-1 .content{
-    display: flex;
-    flex-direction: row;
-    width: 100%;
+.section-1 .section-title{
+    margin: 0 0 .5rem 0rem;
+    border: .18rem solid #cbd2dc;
 }
     .section-1 img {
-        width:30%;
-        padding-left: 0rem;
-        object-fit: cover;
+        padding: .3rem 0rem 0rem 0rem;
+        object-fit: contain;
         overflow: hidden;
     }
-    .section-1 .text {
-            width:70%;
-            padding: 0rem;
-            display: flex;
-            flex-direction: column;
-        }
 
-    .section-1 .text-1 {
-        width:100%;
-        height: 55%;
-        padding: .5rem 1rem;
+    .section-1 .caption p{
+        font-size: 1rem;
+        text-align: center;
+        line-height: 1.8;
+    }
+
+.section-1 .text {
+    padding: 0rem;
+}  
+    .section-1 .text-1 p {
         margin: 0rem;
-        line-height: 2rem;
+        padding: .5rem 1.5rem;
     }
-    .section-1 .text-2{
-        width:100%;
-        height: 45%;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        background-color: #1b263b;
-        border: .18rem solid #cbd2dc;
-        border-bottom: none;
-            
+
+.section-1 .text-2{
+    background-color: #1b263b;
+    border: .18rem solid #cbd2dc;
+    border-bottom: none;
+    padding: .5rem;
+}
+
+    .section-1 .text-2 .section {
+        padding: 0rem .5rem;
     }
-       .section-1 .text-2 .contact{
-                width: 50%;
-                margin: 0rem;
-                padding: .5rem;
-                align-content: center;
-            }
-        .text-2 .option-2 {
-                width: 45%;
-                height:100%;
-                align-items: center;
-                justify-content: center;
-            }
-        .section-1 .option-2 a{
-            width: 100%;
-            height: 30%;
-            text-align: center;
-            align-content: center;
-            font-size: 1.2rem;
+
+    .section-1 .text-2 .section p{
+        padding: .5rem;
+    }
+    .section-1 .text-2 .contact {
+        padding: 0rem ;
+        display:flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .section-1 .text-2 .contact h6{
+        padding-top: .5rem;
+    }
+        .section-1 .text-2 .contact a{
+            display: block;
+            padding: .4rem .4rem;
             color: #f5f5f5;
             background-color: #212529;
             border: #495057 .05rem solid;
+            font-size: 1.1rem;
             border-radius: .3rem;
-            padding:.5rem;
-            display: block;
-            margin: 1.5rem 0rem;
+            text-shadow: #212529 .05rem .05rem 0rem;
+            overflow-wrap: break-word;
         }
-            .section-1 .option-2 a:hover{
+            .section-1 .text-2 .contact a:hover{
                 color:#e2e3e5;
                 background-color: #495057;
                 border: #f5f5f5 .05rem solid;
@@ -100,14 +101,17 @@
             }
 
 
+
+
+
 /* ALL UPGRADES SECTIONS */
 
 .upgrade-section {
-    width: 100%;
+    /* width: 100%; */
     margin: 0rem;
     padding: 1rem 0rem 0rem 0rem;
     border-top:.18rem solid #cbd2dc;
-    border-bottom:.18rem solid #cbd2dc;
+    border-bottom: none;
     color:#f5f5f5;
     text-shadow: #212529 .08rem .08rem 0rem;
     background-position: center;
@@ -116,39 +120,39 @@
     background-size: 100%;
 }
 .upgrade-section .section-title {
-        margin: 0 0 1rem 1rem;
+        margin: 0 0 1rem 0rem;
 }
     .upgrade-section .content {
-        padding: 0rem 1rem 2rem 2rem;
+        padding: 0rem;
         display:flex;
         flex-direction: column;
     }
         .upgrade-section .sub-heading {
-            width: 35%;
-            margin: 0rem 0rem 0rem 2rem;
+            /* width: 35%; */
+            margin: 0rem;
         }
         .upgrade-section .content p.intro{
-            width: 44%;
+            /* width: 44%; */
             padding: 1rem 1rem 0rem 1rem;
             font-style: italic;
         }
         .upgrade-section .content .sub-section{
-            width: 100%;
-            height: 100%;
+            /* width: 100%; */
+            /* height: 100%; */
             display:flex;
             flex-direction: row;
             justify-content: space-between;
             align-self: flex-start;
         }
             .upgrade-section .content .text{
-                    width:50%;
+                    /* width:50%; */
                     display: flex;
                     flex-direction: column;
                     justify-content: center;
 
             }
                 .upgrade-section .text .option{
-                    width:100%;
+                    /* width:100%; */
                     display: flex;
                     flex-direction: row;
                     padding: 1rem .7rem ;
@@ -156,11 +160,11 @@
                     background-color: #2125297b;
                 }
                     .upgrade-section .content .option p{
-                        width: 90%;
+                        /* width: 90%; */
                         padding: 0rem; 
                     }
                     .upgrade-section .content .option .price{
-                        width: 10%;
+                        /* width: 10%; */
                         text-align: center;
                         align-self: center;
                     }
@@ -168,7 +172,7 @@
 
 /* UPGRADES CAROUSEL */
     .upgrade-section .content .carousel.slide{
-        width: 48%;
+        /* width: 48%; */
         height: 18.75rem;
         padding: 0rem;
         display: flex;
@@ -179,7 +183,7 @@
         .carousel.slide .carousel-item img{
             object-fit:cover ;
             overflow:hidden;
-            width: 100%;
+            /* width: 100%; */
             height: 18.75rem;
             margin: 0rem auto;
             object-position: center;
@@ -211,11 +215,16 @@
 /* WINDOW UPGRADES */
 
 #window.upgrade-section {
-    background-image:url(../images/background-images/wood-background.jpg) ;
+    background-image:url(../images/background-images/wood-2-background.jpg) ;
     background-blend-mode:darken;
     background-color: #212529b6;
 }
 
+@media only screen and (max-width : 768px) {
+    .upgrade-section{
+        background-size: cover;
+    }
+}
 
 /* DOOR UPGRADES */
 
@@ -227,42 +236,36 @@
 
     /* DOOR UPGRADE INTRO TEXT */
     .upgrade-section#door .content p.intro{
-        width: 52%;
+        /* width: 52%; */
         padding: 1rem 0rem 0rem 1rem;
     }
 
 /* SIDING UPGRADES */
 
 #siding.upgrade-section {
-    background-image:url(../images/background-images/wood-background.jpg) ;
+    background-image:url(../images/background-images/wood-2-background.jpg) ;
     background-blend-mode:darken;
     background-color: #212529b6;
+    
 }
 #siding.upgrade-section .content{
     padding: 0rem 1rem 2rem 2rem;
-    display:flex;
-    flex-direction: row;
+
 }
-    #siding.upgrade-section .content .text{
-        width:50%;
+    #siding.upgrade-section .content .text p{
+        /* width:50%; */
         display: flex;
         flex-direction: column;
         justify-content: center;
-
+        font-size: 1.5rem;
     }
-        #siding.upgrade-section .content .text .intro{
-            width: 100%;
-            padding: .5rem 1rem;
-            font-style: italic;
-            font-size: 1.5rem;
-        }
         #siding.upgrade-section .content .text ul{
             padding: 0rem 0rem 0rem 2.5rem;
             margin: 0rem;
             list-style-position: inside;
         }
             #siding.upgrade-section .content .text li{
-                width: 90%;
+                /* width: 90%; */
                 background-color: #2125297b;
                 padding: 1rem;
                 margin: 1rem 0rem;
@@ -271,7 +274,7 @@
 
     /* CAROUSEL SIDING */
     #siding.upgrade-section .content .carousel.slide{
-        width: 55%;
+        /* width: 55%; */
         height: 18.75rem;
         padding: 0rem;
         display: flex;
@@ -292,13 +295,13 @@
     /* ROOF PITCH/OVERHANG UPGRADE SUB-SECTION */
 
     .upgrade-section #pitch-overhang.content .text{
-        width:55%;
+        /* width:55%; */
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
     .upgrade-section #pitch-overhang.content .carousel.slide{
-        width: 45%;
+        /* width: 45%; */
         height: 18.75rem;
         padding: 0rem;
         display: flex;
@@ -307,11 +310,11 @@
         align-self: center;
     }
     .upgrade-section #pitch-overhang.content .option p{
-        width: 70%;
+        /* width: 70%; */
         padding: 0rem;
     }
     .upgrade-section #pitch-overhang.content .option .price{
-        width: 30%;
+        /* width: 30%; */
         text-align: center;
         align-self: center;
     }
@@ -319,15 +322,15 @@
 
     /* ROOF METAL ROOF UPGRADE SUB-SECTION */
     #metal-roof.sub-heading {
-        width: 40%;
+        /* width: 40%; */
         margin: 0rem 0rem 0rem 2rem;
     }
     .upgrade-section #metal-roof.content .option p{
-        width: 70%;
+        /* width: 70%; */
         padding: 0rem;
     }
     .upgrade-section #metal-roof.content .option .price{
-        width: 30%;
+        /* width: 30%; */
         text-align: center;
         align-self: center;
     }
@@ -336,7 +339,7 @@
 /* MISC UPGRADES */
 
 #misc.upgrade-section {
-    background-image:url(../images/upgrades/background.jpg) ;
+    background-image:url(../images/background-images/wood-2-background.jpg) ;
     background-blend-mode:darken;
     background-color: #212529b6;
 }
@@ -344,11 +347,11 @@
 
     /* MISC SHUTTERS/FLOWERBOX UPGRADE SUB-SECTION */
     .upgrade-section #shutters.content .option p{
-        width: 70%;
+        /* width: 70%; */
         padding: 0rem;
     }
     .upgrade-section #shutters.content .option .price{
-        width: 30%;
+        /* width: 30%; */
         text-align: center;
         align-self: center;
     }
@@ -357,12 +360,12 @@
     /* MISC LOFTS UPGRADE SUB-SECTION */
 
     .upgrade-section #lofts.content .option p{
-            width: 70%;
+            /* width: 70%; */
             padding: 0rem;
     }
 
     .upgrade-section #lofts.content .option .price{
-        width: 30%;
+        /* width: 30%; */
         text-align: center;
         align-self: center;
     }
