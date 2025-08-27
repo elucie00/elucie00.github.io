@@ -188,17 +188,26 @@
             margin: 0rem;
             text-shadow: #212529 .08rem .08rem .05rem;
             position: sticky;
-            top: 10%;
+            /* top: 9%; */
         }
 
-@media only screen and (max-width : 768px) {
+@media only screen and (min-width : 1105px) {
+.features table thead tr{
+        top: 16%;
+    }
+}
+@media only screen and (min-width : 1141px) {
+.features table thead tr{
+        top: 10%;
+    }
+}
+@media only screen and (max-width : 1105px) {
     .features table thead tr{
         top: 0;
-        height: 6rem;
+        height: 6.25rem;
         vertical-align:bottom ;
     }
 }
-
         .features table tbody{
             text-shadow: none;
             background-color: #cbd2dc;
