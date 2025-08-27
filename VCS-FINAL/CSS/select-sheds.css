@@ -12,6 +12,11 @@
         justify-content: center;
     }
 
+@media only screen and (max-width : 590px) {
+    .shed-header {
+        background-image: url(../images/headers/select-shed-header-small.jpg);
+    }
+}
 
 /* INFO SECTION 1 */
 

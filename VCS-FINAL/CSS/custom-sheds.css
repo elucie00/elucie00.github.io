@@ -13,6 +13,12 @@
         justify-content: center;
     }
 
+
+@media only screen and (max-width : 590px) {
+    .shed-header {
+        background-image: url(../images/headers/custom-shed-header-small.jpg);
+    }
+}
 /* INFO SECTION 1 */
 
 .info-section-1 img {
@@ -59,7 +65,6 @@
 @media only screen and (max-width : 768px) {
 
     .features .secondary .cell{
-        padding: 1.5rem 2.5rem;
         width: 100%;
     }
 }

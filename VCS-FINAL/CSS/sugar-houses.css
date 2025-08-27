@@ -11,7 +11,11 @@
         justify-content: center;
     }
 
-
+@media only screen and (max-width : 650px) {
+    .shed-header {
+        background-image: url(../images/headers/sugarhouse-header-small.jpg);
+    }
+}
 
 /* SUGAR HOUSES SECTION 1 */
 
@@ -76,9 +80,7 @@
 
 
 @media only screen and (max-width : 768px) {
-
     .features .secondary .cell{
-        padding: 1.5rem 2.5rem;
         width: 100%;
     }
 }

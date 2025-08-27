@@ -100,10 +100,6 @@
                 transition: .2s;
             }
 
-
-
-
-
 /* ALL UPGRADES SECTIONS */
 
 .upgrade-section {
@@ -118,6 +114,11 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100%;
+}
+@media only screen and (max-width : 768px) {
+    .upgrade-section{
+        background-size: cover;
+    }
 }
 .upgrade-section .section-title {
         margin: 0 0 1rem 0rem;
@@ -220,12 +221,6 @@
     background-color: #212529b6;
 }
 
-@media only screen and (max-width : 768px) {
-    .upgrade-section{
-        background-size: cover;
-    }
-}
-
 /* DOOR UPGRADES */
 
 #door.upgrade-section {
@@ -323,7 +318,7 @@
     /* ROOF METAL ROOF UPGRADE SUB-SECTION */
     #metal-roof.sub-heading {
         /* width: 40%; */
-        margin: 0rem 0rem 0rem 2rem;
+        margin: 0rem;
     }
     .upgrade-section #metal-roof.content .option p{
         /* width: 70%; */
