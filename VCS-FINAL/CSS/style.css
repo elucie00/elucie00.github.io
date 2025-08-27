@@ -331,7 +331,7 @@ nav {
     @media only screen and (max-width : 992px) {
         .large-header {
             background-attachment:scroll;
-            width:100%;
+
         }
     }
 
@@ -406,7 +406,7 @@ a#optionsupgradesbutton{
 
 .jump-to {
     text-align: center;
-    padding: .5rem 1rem;
+    padding: .5rem;
     background-image: linear-gradient(to top, #343a40 , #233047 , #233047);
 }
     .jump-to a {
@@ -419,6 +419,9 @@ a#optionsupgradesbutton{
         border: #f5f5f5 .05rem solid;
     }
 
+    .jump-to .btn{
+        width:33.33%
+    }
 
     /* INFO SECTION 1 UTILITY/SELECT/CUSTOM SHEDS */
 
@@ -519,10 +522,9 @@ a#optionsupgradesbutton{
     font-size: 1.2rem;
     border-radius: 1rem;
     text-shadow: #f5f5f5 .05rem .05rem .0rem;
-    flex-wrap: wrap;
+
 }
     .features .respon-row{
-
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -559,8 +561,6 @@ a#optionsupgradesbutton{
     color:#212529;
     border-radius: 1rem;
     text-shadow: #f5f5f5 .05rem .05rem .0rem;
-    flex-wrap: wrap;
-   
 }
     .features .respon-row{
         display: flex;
