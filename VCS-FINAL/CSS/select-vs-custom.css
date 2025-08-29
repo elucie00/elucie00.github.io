@@ -74,8 +74,7 @@
                     padding:0;
                     width:20%;
                 }
-
-
+                
 
 /* SECTION 2 */
 
@@ -267,12 +266,12 @@
 
 /* MOBILE VERSION OF FEATURES TABLE */
 
-.features .pricing{
+.features .resp-table-features .pricing{
     display:none
 }
 
 @media only screen and (max-width : 576px) {
-.features .pricing{
+.features .resp-table-features .pricing{
     display:block
 }
 }
@@ -300,12 +299,12 @@ padding: 0rem .25rem;
     align-content: center;
 }
 
-.pricing{
+ .resp-table-features .pricing{
     padding: .5rem;
 }
 
 
-    .pricing .t-heading{
+    .resp-table-features .pricing .t-heading{
         width:26%;
         font-size: 1.2rem;
         font-weight: 400;
@@ -319,28 +318,28 @@ padding: 0rem .25rem;
         align-content: center;
         border:#212529 .01rem solid;
     }
-.pricing .t-heading.feature{
+.resp-table-features .pricing .t-heading.feature{
     width:48%;
 }
 
-    .pricing .cell{
+    .resp-table-features .pricing .cell{
             padding: .5rem;
             width: 26%;
             align-content: center;
         }
 
-    .pricing .cell.feature{
+    .resp-table-features .pricing .cell.feature{
             width: 48%;
             font-size: 1.2rem;
         }
 
-        .pricing .cell svg{
+        .resp-table-features .pricing .cell svg{
             display: block;
             margin:0rem;
             width:100%;
         }
 
-            .pricing .tbody {
+            .resp-table-features .pricing .tbody {
                 height:100%;
             }
 

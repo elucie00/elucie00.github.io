@@ -125,12 +125,6 @@
                     transition: .3s;
                 }
     
-
-
-
-
-
-
 /* INDEX SECTION 2 */
 
 .index-section-2 {
@@ -171,7 +165,7 @@
             align-items: center;
             font-size: 1.1rem;
             border-radius: .7rem;
-            overflow-wrap: break-word;
+
         }
             .index-section-2 .option a:hover {
                 color:#e2e3e5;

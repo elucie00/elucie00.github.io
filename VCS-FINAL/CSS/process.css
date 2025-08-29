@@ -72,7 +72,7 @@
 /* BUILDING PROCESS SECTION 2 */
 
 .section-2 {
-    width: 100%;
+    display: flex;
     background-image: url(../images/building-process/zip-system-bg.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -80,8 +80,7 @@
     background-size: 100%;
     background-blend-mode:darken;
     background-color: #212529aa;
-    margin: 0rem;
-    padding: 1rem 0rem;
+    padding: .5rem 1rem;
 }
 
 @media only screen and (max-width : 768px) {
@@ -89,205 +88,142 @@
         background-size: cover;
     }
 }
-
-.section-2 .section-title{
-    width:60%;
-}
-.section-2 .sub-heading {
-        width: 50%;
-        margin: 1.5rem 0 .5rem 2rem;
-        
+    .section-2 .option {
+        display: flex; 
+        flex-wrap: wrap;
+        padding: .25rem ;
+        margin: .75rem 0rem;
+        background-color: #1d2e434f;
+        justify-content: space-between ;
+        align-items: center;
     }
-
-
-    .section-2 .text {
-        display: flex;
-        flex-direction: row;
-        padding: .3rem 2rem;
-    }
-
-        .section-2 svg {
-            margin: .2rem;
-            align-self: center;
+        .section-2 .option svg {
+            width: 7%;
         }
-
-        .section-2 p {
-                padding: .5rem .7rem;
-                margin: 0rem;
-                width: 70%; 
-                color: #F5F5F5;
-                align-self: center;
-                line-height: 1.7;
-                text-shadow: #212529 .08rem .08rem 0rem;
+        .section-2 .option p {
+            width: 93%;
+            padding: .5rem;
+        }
+        @media only screen and (max-width : 575px) {
+    .section-2 .option svg {
+        width: 100%;
             }
+    .section-2 .option p {
+        width: 100%;
+        padding: .5rem;
+    }
+}
+            .section-2 .option a:hover {
+                color:#e2e3e5;
+                background-color: #495057;
+                border: #f5f5f5 .05rem solid;
+                transition: .2s;
+            }
+            .section-2 .option a p {
+                width: 80%;
+                padding:0rem;
+            }
+            .section-2 .option .arrow {
+                    font-size: 2.1rem;
+                    margin:0;
+                    padding:0;
+                    width:20%;
+                }
 
-  
-        
 
 /* BUILDING PROCESS SECTION 3 */
 
 .section-3 {
-    width: 100%;
-    margin: 0rem 0rem 1rem 0rem;
-    padding: 0rem 1rem;
+    padding: 0rem ;
     background-color: #415A77;
     font-size: 1.2rem;
     border:.25rem solid #cbd2dc;
 }
 
-
 .section-3 .section-title{
-        margin: 1rem 0rem;
-        width: 40%;
         border:.18rem solid #cbd2dc;
     }
-
-    .section-3 .content{
-        display: flex;
-        flex-direction: row;
-        height:70%;
+    .section-3 .option-1 {
         text-align: center;
-        justify-content: center;
-        text-shadow: #212529 .05rem .05rem 0rem;
-    
+        display: flex;
+        flex-direction: column;
     }
-     
-        .section-3 .option-1 {
-            width: 45%;  
-            height:24rem;
-            display: flex;
-            flex-direction: column;  
-            align-items: center;
+    .section-3 .option-2 {
+        text-align: center;
+    }
+        .section-3 .option-2 p{
+            font-style: italic;
+            font-size: 1.6rem;
         }
-
-        .section-3 .text{
-            width: 10%;
-            height:100%;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            margin: 2rem 0rem;
-            font-size: 1.8rem;
+        .section-3 h4{
+            margin: 0;
+            padding: .5rem;
+            font-size: 1.5rem;
+            font-weight: 400;
             font-style: italic;
         }
-
-
-        .section-3 .option-2 {
-            width: 45%;
-            height:24rem;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
+        .section-3 h6{
+            margin: 0rem ;
+            padding: .5rem 1rem;
+            font-size: 1.2rem;
         }
 
-            .section-3 .option-1 h5 {
-                width:100%;
-                height: 30%;
-                text-align: center;
-                font-size: 1.4rem;
-                padding:.5rem 0rem ;
-                margin: 0rem;
-                display: block;
-                align-content: center;
-                line-height: 1.5;
-            }
-                    .section-3 .option-1 h5 a{
-                        padding: 0rem;
-                        margin: 0rem;
-                        color:#F5F5F5;
-                        font-size: 1.4rem;
-                        display: inline;
-                        background-color: #f5f5f500;
-                        border: none;
-                    }
-                        .section-3 .option-1 h5 a:hover{
-                            padding: 0rem;
-                            margin: 0rem;
-                            color:#F5F5F5;
-                            display: inline;
-                            background-color: #f5f5f500;
-                            border: none;
-                            text-decoration: underline #f5f5f5 .05rem;
-                        }
-
-
-            .section-3 .option-1 a{
-                width: 55%;
-                height:20%;
-                text-align: center;
-                font-size: 1.2rem;
+        .section-3 h5{
+            margin: 0rem ;
+            padding: 1rem 1rem;
+            font-size: 1.4rem;
+        }
+            .section-3 a{
+                padding: 1rem 1rem;
                 color: #f5f5f5;
                 background-color: #212529;
                 border: #495057 .05rem solid;
+                font-size: 1.1rem;
                 border-radius: .3rem;
-                margin:1rem;
-                padding:.5rem;
+                text-shadow: #212529 .05rem .05rem 0rem;
             }
-    
-            .section-3 .option-1 a:hover{
-                color:#e2e3e5;
-                background-color: #495057;
-                border: #f5f5f5 .05rem solid;
-                transition: .2s;
-            }
-            .section-3 .arrow {
-                font-size: 1.5rem;
-                width:100%;
-                height:10%;
-                text-align: center;
-                display: block;
-                line-height: 1;
-            }
-            .section-3 .blurb{
-                width: 130%;
-                height:39%;
-                text-align: center;
-                background-color: #1b263b;
-                align-content: center;
-                font-size: 1.3rem;
-                margin: 1.5rem 0rem 0rem 22%;
-                padding: 2rem;
-                border:.18rem solid #cbd2dc;
-                font-style: italic;
+                .section-3 a:hover{
+                    color:#e2e3e5;
+                    background-color: #495057;
+                    border: #f5f5f5 .05rem solid;
+                    transition: .3s;
+                }
+            .section-3 .text{
+                padding: .5rem 1rem 1.5rem 1rem;
             }
 
 
+        .section-3 .blurb{
+            text-align: center;
+            background-color: #1b263b;
+            align-content: center;
+            font-size: 1.3rem;
+            padding: 2rem;
+            border:.18rem solid #cbd2dc;
+            border-bottom: none;
+            border-left: none;
+            font-style: italic;
+        }
+                
+@media only screen and (max-width : 768px) {
+    .section-3 .blurb{
+        border:.18rem solid #cbd2dc;
+        border-right: none;
+        border-left: none;
+    }
+    }
 
-    .section-3 .option-2 h5{
-        width:100%;
-        height: 30%;
-        text-align: center;
-        font-size: 1.4rem;
-        padding:.5rem ;
-        margin: 0rem;
-        display: block;
-        align-content: center;
+.section-3 .option-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+    .section-3 .option-3 h5{
+        padding-right: 0;
     }
 
 
-        .section-3 .option-2 a{
-            width: 64%;
-            height: 20%;
-            text-align: center;
-            font-size: 1.2rem;
-            color: #f5f5f5;
-            background-color: #212529;
-            border: #495057 .05rem solid;
-            border-radius: .3rem;
-            margin: 1rem;
-            padding:.5rem;
-        }
-
-
-            .section-3 .option-2 a:hover{
-                color:#e2e3e5;
-                background-color: #495057;
-                border: #f5f5f5 .05rem solid;
-                transition: .2s;
-            }
-
-
-            
 
 /* BUILDING PROCESS GALLERY */
 

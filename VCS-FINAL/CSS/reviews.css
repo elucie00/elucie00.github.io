@@ -17,76 +17,51 @@
 /* SECTION 1 BANNER */
 
 .banner {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    height: 100%;
-    margin: 0rem;
-
+    background-color: #1b263b ;
 }
     .banner .section {
-        width: 60%;
-        height: 15rem;
-        display: flex;
-        flex-direction: column;
-        background-color: #1b263b;
-        padding: 0rem 1rem;
         text-align: center;
-        align-self: center;
     }
     .banner .contact {
-        width: 40%;
-        height: 100%;
         background-color: #3066be;
         display: flex;
         flex-direction: column;
+        justify-content: space-evenly;
         padding: 0rem 0rem 1rem 0rem;
     }
         .banner h4{
-            height: 100%;
             margin: 0;
-            padding: 0rem 2rem;
+            padding: 0rem 1rem;
             font-size: 1.5rem;
             font-weight: 400;
             font-style: italic;
-            align-content: center;
-            line-height: 1.8;
+            line-height: 1.5;
         }
-
         .banner h5{
-            height:10%;
-            width:100%;
             background-color: #1b263b;
             border:.15rem solid #cbd2dc;
-            margin:0rem;
             padding:.5rem;
             text-align: center;
         }
         .banner h6{
-            height: 20%;
             margin: 0rem ;
-            padding: .75rem 1rem;
+            padding: 1rem 1rem;
             font-size: 1.2rem;
         }
             .banner .contact a{
-                height: 25%;
-                width: 75%;
-                display: block;
                 margin: 0rem;
-                padding: .4rem .4rem;
+                padding: .5rem .5rem;
                 color:#F5F5F5;
                 background-color: #fdc500;
                 font-size: 1.1rem;
                 border-radius: .3rem;
                 text-shadow: #212529 .05rem .05rem 0rem;
-                align-self: center;
-                overflow-wrap: break-word;
             }
                 .banner .contact a:hover{
                     background-color: #ffce1d;
                     transition: .3s;
                 }
-    
+
 
 /* QUOTATION MARKS SVG */
 .review svg{
@@ -112,60 +87,43 @@
 /* REVIEWS SECTION */
 
 .reviews-section{
-    width:100%;
     display: flex;
     flex-direction: column;
-
     padding: 1rem 0rem;
 }
 
 
+@media only screen and (max-width : 992px) {
+    .review-container.right{
+        flex-direction: column-reverse;
+    }
+        .review-container.right img{
+            align-self: flex-start;
+        }
+    .review-container.left{
+            justify-content: flex-end;
+            }
+}
+
     .review-container{
-        width:100%;
-        display:flex;
-        flex-direction: row;
-        margin:0rem;
-        padding:0rem;
-        margin: 1.5rem 0rem;
-        align-self: baseline;
+        padding:1.5rem 0rem;
     }
         .review-container.left{
-            padding: 0rem 2rem 0rem 2.5rem;
-        }
-
-        .review-container.right{
-            padding: 0rem 2.5rem 0rem 2rem;
         }
     .review-container img{
-        width:30%;
-        height: auto;
         object-fit: contain;
         overflow: hidden;
         border:#F5F5F5 .2rem solid;
         border-radius: 1rem;
         align-self: center;
     }
-
-
     .review-container .double-image{
-        width:30%;
-        
-        border-radius: 1rem;
         align-self: center;
-        display: flex;
-        flex-direction: column;
     }
-
-    .review-container .double-image img{
-        width:100%;
-    }
-
     
     .review-container.review{
         align-self: center;
     }
-
-    
         .review-container.left img{
             margin-left: -.12rem;
         }
@@ -173,24 +131,19 @@
             margin-right: -.12rem;
         }
 
-
          .review{
             position: relative;
-            width:70%;
             display: flex;
             flex-direction: column;
-            padding: 1.5rem 1rem;
+            padding: 1rem 1rem;
             margin: 0rem;
             background-color: #415a77;
             border:#F5F5F5 .2rem solid;
             border-radius: 1rem;
         }
 
-
-
         .review .text{
             height: 93%;
-            padding: 0rem;  
         }
             .review p{
             padding: .15rem 1rem;
