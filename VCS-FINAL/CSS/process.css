@@ -83,7 +83,7 @@
     padding: .5rem 1rem;
 }
 
-@media only screen and (max-width : 768px) {
+@media only screen and (max-width : 1000px) {
     .section-2{
         background-size: cover;
     }
