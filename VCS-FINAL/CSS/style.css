@@ -662,26 +662,26 @@ a#optionsupgradesbutton{
     /* GALLERY PAGE BUTTONS */
 
     .page-select{
-        width: 100%;
         display: flex;
         flex-direction: row;
         justify-content: center;
         text-align: center;
     }
-
+    .page-select button{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
     #page{
         padding: .5rem 1rem;
-        align-self: center;
     }
         #page p{
             font-size: 1rem;
         }
 
     #prev,#next{
-        width: 9%;
-        height: 80%;
-        align-self: center;
-        padding: .3rem .5rem;
+        padding: 0rem .5rem;
         color: #f5f5f5;
         background-color: #212529;
         border: #495057 .05rem solid;
@@ -694,9 +694,21 @@ a#optionsupgradesbutton{
         background-color: #495057;
         border: #f5f5f5 .05rem solid;
         transition: .2s;
-
     }
 
+
+   button#prev:disabled,button#next:disabled{
+        padding: 0rem .5rem;
+        border-radius: .3rem;
+        color: #f5f5f5ae;
+        background-color: #495057;
+        border: #212529 .05rem solid;
+        cursor:default;
+    }
+
+.arrow{
+    font-size: 1.5rem;
+}
 
 
 .gallery{
@@ -864,7 +876,6 @@ footer.row {
     }
 
     a.quick-link-active {
-    width:100%;
         display: block;
         text-decoration: none;
         text-align: center;
@@ -874,26 +885,34 @@ footer.row {
         font-size: 1.5rem;
         padding: 1rem;
     }
+footer .card-row .card.info {
+            display: flex;
+            flex-direction: column;
+        
+        }
 
+@media only screen and (min-width : 1012px) { 
+    footer .card-row .card.info .body{
+        padding-left: 1rem;
+    }
+}
 .contact-info {
-    text-align: left;
     overflow: hidden;
-    width:60%;
+    padding-bottom: 1.5rem;
+
 }
     .contact-info h6{
-        margin: .6rem 0rem .2rem 0rem;
+        margin:0rem;
     }
 
     .contact-info a{
-         margin: 0rem .5rem .5rem 3rem;
          text-decoration: none;
          font-size: 1rem;
+         display: block;
     }
 .contact-info iframe{
-         margin: 0rem 0rem .5rem 3rem;
-         
+       
     } 
     .contact-info p{
-        margin: 0rem 0rem .5rem 3rem;
         font-size: 1rem;
     }
