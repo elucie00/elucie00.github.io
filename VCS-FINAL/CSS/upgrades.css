@@ -151,8 +151,8 @@
             .upgrade-section .content .text{
                     /* width:50%; */
                     display: flex;
-                    flex-direction: column;
-                    justify-content: center;
+                    /* flex-direction: column;
+                    justify-content: center; */
 
             }
                 .upgrade-section .text .option{
@@ -250,6 +250,13 @@
     padding: 0rem 1rem 2rem 2rem;
 
 }
+    #siding.upgrade-section .content .text{
+        /* width:50%; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
     #siding.upgrade-section .content .text p{
         /* width:50%; */
         display: flex;
@@ -258,7 +265,7 @@
         font-size: 1.5rem;
     }
         #siding.upgrade-section .content .text ul{
-            padding: 0rem 0rem 0rem 2.5rem;
+            padding: 0rem ;
             margin: 0rem;
             list-style-position: inside;
         }
