@@ -20,9 +20,12 @@
 }
 
 .jump-to .btn{
-    width:20%;
+
 }
 
+.btn-group{
+    flex-wrap: wrap;
+}
 
 /* SECTION 1 */
 

@@ -55,8 +55,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
 // FAQ DROPDOWN MENUS
 
-
-
 function faqClose() {
             document.getElementById("faq-body").style.height = 
             document.getElementById("faq-content").offsetHeight + "px";
@@ -66,153 +64,101 @@ function faqClose() {
 
 // UTILITY GALLERY MODAL
 
-    function createUtilityModal() {
-        const template = document.getElementById("utility-modal-card-template");
-        const modal = template.parentNode;
-        let modal_content = [
-          { imgSrc: "images/utility-sheds/gallery/barn-sash.jpg",
-            desc: "10' x 16' Utility Shed with 2x3 barn sash windows",
-            loc: ""},
-          { imgSrc: "images/utility-sheds/gallery/barnard-vt.jpg",
-            desc: "10' x 14' Utility Shed with barn sash windows",
-            loc: "Barnard, Vermont"},
-          { imgSrc: "images/utility-sheds/gallery/barre-vt.jpg",
-            desc: "8' x 10' Utility Shed",
-            loc: "Barre, Vermont"},  
-          { imgSrc: "images/utility-sheds/gallery/burlington-vt.jpg",
-            desc: "10' x 12' Utility Shed with barn sash windows",
-            loc: "Burlington, Vermont"},
-          { imgSrc: "images/utility-sheds/gallery/colchester-vt.jpg",
-            desc: "8' x 10' Utility Shed with vinyl windows upgrade",
-            loc: "Colchester, Vermont"},
-          { imgSrc: "images/utility-sheds/gallery/colchester-vt-overhang.jpg",
-            desc: "12' x 16' Utility Shed with overhang, vent and window upgrades",
-            loc: "Colchester, Vermont"},
+// function createUtilityModal() {
+//         const modalTemplate = document.getElementById("utilityModalTemplate");
+//         let modal_content =
+//           { desc: "TEST TEST TEST MODAL TESTING TEST TEST",
+//             imgSrc: "images/utility-sheds/gallery/barnard-vt.jpg"};
+//             modalItem.style = "";
+//             modalItem.children[0].children[0].textContent = content.desc;
+//             modalItem.children[1].setAttribute("src", content.imgSrc);
+//             modal.appendChild(card);
+//         };
+//     document.addEventListener("DOMContentLoaded", function() {
+//         createUtilityModal(); 
+//     });
 
-          { imgSrc: "images/utility-sheds/gallery/essex-vt.jpg",
-            desc: "8' x 10' Utility Shed with 4x10 large overhang",
-            loc: "Essex Junction, Vermont"},
-          { imgSrc: "images/utility-sheds/gallery/ira-vt.jpg",
-            desc: "8' x 10' Utility Shed",
-            loc: "Ira, Vermont"},
-          { imgSrc: "images/utility-sheds/gallery/winhall-vt.jpg",
-            desc: "12' x 14' Utility Shed with 5x14 large overhang",
-            loc: "Winhall, Vermont"},
 
-          { imgSrc: "images/utility-sheds/gallery/pittsfield-vt.jpg",
-            desc: "8' x 12' Utility Shed",
-            loc: "Pittsfield, Vermont"},
-          { imgSrc: "images/utility-sheds/gallery/sandgate-vt.jpg",
-            desc: "8' x 12' Utilty shed",
-            loc: "Sandgate, Vermont"},
-          { imgSrc: "images/utility-sheds/gallery/sburlington-vt.jpg",
-            desc: "10' x 14' Utilty shed",
-            loc: "South Burlington, Vermont"},
 
-          { imgSrc: "images/utility-sheds/gallery/warren-vt.jpg",
-            desc: "8' x 12' Utilty Shed",
-            loc: "Warren, Vermont"},
-          { imgSrc: "images/utility-sheds/gallery/waterbury-vt.jpg",
-            desc: "10' x 14' Utility priced shed",
-            loc: "Waterbury, Vermont"},
-          { imgSrc: "images/utility-sheds/gallery/windham-vt.jpg",
-            desc: "8' x 12' Utility Shed",
-            loc: "Windham, Vermont"}
-        ];
-        modal_content.forEach(content => {
-            let card = template.cloneNode(true);
-            card.style = "";
-            card.children[0].setAttribute("src", content.imgSrc);
-            card.children[1].children[0].textContent = content.desc;
-            card.children[1].children[1].textContent = content.loc;
-            modal.appendChild(card);
+
+
+
+
+// MAKE OPEN/CLOSE MODAL ON CLICK
+document.addEventListener('DOMContentLoaded', function createUtilityModal() {
+    const modalContent = document.getElementById('modalWButtons');
+    const galleryCardContentOpen = document.getElementById('utilityGalleryCardTemplate');
+    const modalClose = document.getElementById('closeButton');
+    const modalGalleryContainer = document.getElementById('modalGalleryContainer');
+    
+    if (galleryCardContentOpen) {
+        galleryCardContentOpen.addEventListener('click', function() {
+            modalGalleryContainer.style.display = 'block';
+          modalContent.style.display = 'flex';
+            // galleryCardContentOpen.style.display = 'flex';
         });
     }
-    // document.addEventListener("click", function() {
-    //     createUtilityModal(); 
-    // });
-
-
-
-
-
-
-
-
-
-
-
-
-// GALLERY TEMPLATE
-
-// BLANK SHED GALLERY
-    function createBLANKGallery() {
-        const template = document.getElementById("BLANK-gallery-card-template");
-        const gallery = template.parentNode;
-        let gallery_content = [
-          { imgSrc: "",
-            desc: "",
-            loc: ""},
-          { imgSrc: "",
-            desc: "",
-            loc: ""},
-          { imgSrc: "",
-            desc: "",
-            loc: ""},
-
-          { imgSrc: "",
-            desc: "",
-            loc: ""},
-          { imgSrc: "",
-            desc: "",
-            loc: ""},
-          { imgSrc: "",
-            desc: "",
-            loc: ""},
-
-          { imgSrc: "",
-            desc: "",
-            loc: ""},
-          { imgSrc: "",
-            desc: "",
-            loc: ""},
-          { imgSrc: "",
-            desc: "",
-            loc: ""},
-
-          { imgSrc: "",
-            desc: "",
-            loc: ""},
-          { imgSrc: "",
-            desc: "",
-            loc: ""},
-          { imgSrc: "",
-            desc: "",
-            loc: ""},
-
-          { imgSrc: "",
-            desc: "",
-            loc: ""},
-          { imgSrc: "",
-            desc: "",
-            loc: ""},
-          { imgSrc: "",
-            desc: "",
-            loc: ""}
-        ];
-        gallery_content.forEach(content => {
-            let card = template.cloneNode(true);
-            card.style = "";
-            card.children[0].setAttribute("src", content.imgSrc);
-            card.children[1].children[0].textContent = content.desc;
-            card.children[1].children[1].textContent = content.loc;
-            gallery.appendChild(card);
+    if (modalClose && modalContent && modalGalleryContainer) {
+        modalClose.addEventListener('click', function() {
+          modalContent.style.display = 'none';
+          modalClose.style.display = 'none';
+          // galleryCardContentOpen.style.display = 'none';
+          modalGalleryContainer.style.display = 'none';
         });
     }
-    document.addEventListener("DOMContentLoaded", function() {
-        createBLANKGallery(); 
-    });
 
+        if (modalGalleryContainer && modalContent) {
+        modalGalleryContainer.addEventListener('click', function() {
+          modalContent.style.display = 'none';
+          // galleryCardContentOpen.style.display = 'none';
+          modalGalleryContainer.style.display = 'none';
+          modalClose.style.display = 'none';
+        });
+    }
+});
+
+
+
+    
+
+
+
+
+
+
+
+
+  // let utilityModal=document.getElementById("utilityModal")
+  // let utilityModal_content = {
+  //   galleryCardContent
+  // }
+
+
+
+
+
+
+// Create a function
+// Get the image src and the text from the card
+//   - The card will be stored in a global variable which you should create a blank of for now
+// Get the modal by id
+// Update the modal's image src and text to be the same as the card
+// Update the modal's parent to be displayed
+
+// Create a function which will be called on card click and accepts the on click event
+// Get the card element from the on click event
+// Store the card in a global variable
+// Call the function you defined above to update the modal
+
+
+// Create a function that will be called by next and prev buttons
+// Get the next or previous sibling of the card stored in the global variable
+//  - Use a parameter on the function to decide if the next or prev should be gotten
+// Save the sibling as the new card in the global variable
+// Call the first function you defined
+
+// Create a function to close the modal
+// Get the model and display non the parent
 
 
 
@@ -221,78 +167,117 @@ function faqClose() {
 
 
 // UTILITY SHED GALLERY
-    function createUtilityGallery() {
-        const template = document.getElementById("utility-gallery-card-template");
-        const gallery = template.parentNode;
-        let gallery_content = [
-          { imgSrc: "images/utility-sheds/gallery/barnard-vt.jpg",
-            desc: "10' x 14' Utility Shed with barn sash windows",
-            loc: "Barnard, Vermont"},
-          { imgSrc: "images/utility-sheds/gallery/barre-vt.jpg",
-            desc: "8' x 10' Utility Shed",
-            loc: "Barre, Vermont"}, 
-          { imgSrc: "images/utility-sheds/gallery/barn-sash.jpg",
-            desc: "10' x 16' Utility Shed with 2x3 barn sash windows",
-            loc: "Brattleboro, Vermont"},
 
-          { imgSrc: "images/utility-sheds/gallery/burlington-vt.jpg",
-            desc: "10' x 12' Utility Shed with barn sash windows",
-            loc: "Burlington, Vermont"},
-          { imgSrc: "images/utility-sheds/gallery/colchester-vt.jpg",
-            desc: "8' x 10' Utility Shed with vinyl windows upgrade",
-            loc: "Colchester, Vermont"},
-          { imgSrc: "images/utility-sheds/gallery/colchester-vt-overhang.jpg",
-            desc: "12' x 16' Utility Shed with overhang, vent and window upgrades",
-            loc: "Colchester, Vermont"},
+  function createUtilityGallery() {
+    const template = document.getElementById("utilityGalleryCardTemplate");
+    const gallery = template.parentNode;
+    let gallery_content = [
+      { imgSrc: "images/utility-sheds/gallery/barnard-vt.jpg",
+        desc: "10' x 14' Utility Shed with barn sash windows",
+        loc: "Barnard, Vermont"},
+      { imgSrc: "images/utility-sheds/gallery/barre-vt.jpg",
+        desc: "8' x 10' Utility Shed",
+        loc: "Barre, Vermont"}, 
+      { imgSrc: "images/utility-sheds/gallery/barn-sash.jpg",
+        desc: "10' x 16' Utility Shed with 2x3 barn sash windows",
+        loc: "Brattleboro, Vermont"},
 
-          { imgSrc: "images/utility-sheds/gallery/essex-vt.jpg",
-            desc: "8' x 10' Utility Shed with 4x10 large overhang",
-            loc: "Essex Junction, Vermont"},
-          { imgSrc: "images/utility-sheds/gallery/ira-vt.jpg",
-            desc: "8' x 10' Utility Shed",
-            loc: "Ira, Vermont"},
-          { imgSrc: "images/utility-sheds/gallery/pittsfield-vt.jpg",
-            desc: "8' x 12' Utility Shed",
-            loc: "Pittsfield, Vermont"},
+      { imgSrc: "images/utility-sheds/gallery/burlington-vt.jpg",
+        desc: "10' x 12' Utility Shed with barn sash windows",
+        loc: "Burlington, Vermont"},
+      { imgSrc: "images/utility-sheds/gallery/colchester-vt.jpg",
+        desc: "8' x 10' Utility Shed with vinyl windows upgrade",
+        loc: "Colchester, Vermont"},
+      { imgSrc: "images/utility-sheds/gallery/colchester-vt-overhang.jpg",
+        desc: "12' x 16' Utility Shed with overhang, vent and window upgrades",
+        loc: "Colchester, Vermont"},
 
-          { imgSrc: "images/utility-sheds/gallery/sandgate-vt.jpg",
-            desc: "8' x 12' Utility shed",
-            loc: "Sandgate, Vermont"},
-          { imgSrc: "images/utility-sheds/gallery/sburlington-vt.jpg",
-            desc: "10' x 14' Utility shed",
-            loc: "South Burlington, Vermont"},
-          { imgSrc: "images/utility-sheds/gallery/warren-vt.jpg",
-            desc: "8' x 12' Utility Shed",
-            loc: "Warren, Vermont"},
+      { imgSrc: "images/utility-sheds/gallery/essex-vt.jpg",
+        desc: "8' x 10' Utility Shed with 4x10 large overhang",
+        loc: "Essex Junction, Vermont"},
+      { imgSrc: "images/utility-sheds/gallery/ira-vt.jpg",
+        desc: "8' x 10' Utility Shed",
+        loc: "Ira, Vermont"},
+      { imgSrc: "images/utility-sheds/gallery/pittsfield-vt.jpg",
+        desc: "8' x 12' Utility Shed",
+        loc: "Pittsfield, Vermont"},
 
-          { imgSrc: "images/utility-sheds/gallery/waterbury-vt.jpg",
-            desc: "10' x 14' Utility priced shed",
-            loc: "Waterbury, Vermont"},
-          { imgSrc: "images/utility-sheds/gallery/winhall-vt.jpg",
-            desc: "12' x 14' Utility Shed with 5x14 large overhang",
-            loc: "Winhall, Vermont"},
-          { imgSrc: "images/utility-sheds/gallery/windham-vt.jpg",
-            desc: "8' x 12' Utility Shed",
-            loc: "Windham, Vermont"}
-        ];
-        gallery_content.forEach(content => {
-            let card = template.cloneNode(true);
-            card.style = "";
-            card.children[0].setAttribute("src", content.imgSrc);
-            card.children[1].children[0].textContent = content.desc;
-            card.children[1].children[1].textContent = content.loc;
-            gallery.appendChild(card);
-        });
-    }
-    document.addEventListener("DOMContentLoaded", function() {
-        createUtilityGallery(); 
+      { imgSrc: "images/utility-sheds/gallery/sandgate-vt.jpg",
+        desc: "8' x 12' Utility shed",
+        loc: "Sandgate, Vermont"},
+      { imgSrc: "images/utility-sheds/gallery/sburlington-vt.jpg",
+        desc: "10' x 14' Utility shed",
+        loc: "South Burlington, Vermont"},
+      { imgSrc: "images/utility-sheds/gallery/warren-vt.jpg",
+        desc: "8' x 12' Utility Shed",
+        loc: "Warren, Vermont"},
+
+      { imgSrc: "images/utility-sheds/gallery/waterbury-vt.jpg",
+        desc: "10' x 14' Utility priced shed",
+        loc: "Waterbury, Vermont"},
+      { imgSrc: "images/utility-sheds/gallery/winhall-vt.jpg",
+        desc: "12' x 14' Utility Shed with 5x14 large overhang",
+        loc: "Winhall, Vermont"},
+      { imgSrc: "images/utility-sheds/gallery/windham-vt.jpg",
+        desc: "8' x 12' Utility Shed",
+        loc: "Windham, Vermont"}
+    ];
+    let i=0;
+    gallery_content.forEach(content => {
+      let card = template.cloneNode(true);
+      if (i < 18){
+        card.style= "";
+      }
+      card.children[0].setAttribute("src", content.imgSrc);
+      card.children[1].children[0].textContent = content.desc;
+      card.children[1].children[1].textContent = content.loc;
+      // card.setAttribute("id", "");
+      gallery.appendChild(card);
+      i++;
     });
+    template.remove();
+    document.getElementById("page").innerHTML="<p>Page 1/"+
+      Math.floor(gallery.children.length/18+1)+"</p>";
+  }
+  document.addEventListener("DOMContentLoaded", function() {
+      createUtilityGallery(); 
+  });
+  // let currentPage=0;
 
+  function replaceUtilityGallery(pageSwitch) {
+    let galleryContainer=document.getElementById("galleryContainer");
+    const maxPage = Math.floor(galleryContainer.children.length/18)
+    // disable buttons if page number index is less than 0 or more than the number of elements/18
+    if(currentPage+pageSwitch < 0 || currentPage+pageSwitch > maxPage){
+      return;
+    }
+    // disable prev button on first page and next button on last page
+    let prevButton=document.getElementById("prev");
+    let nextButton=document.getElementById("next");
+    if(currentPage+pageSwitch == 0) {
+      prevButton.disabled = true;
+    } else if(currentPage == 0) {
+      prevButton.disabled = false;
+    }
+    if(currentPage+pageSwitch == maxPage) {
+      nextButton.disabled = true;
+    } else if(currentPage == maxPage) {
+      nextButton.disabled = true;
+    }
 
-    
-
-
-
+    // get rid of first page elements
+    for (let i=0; i < galleryContainer.children.length; i++){
+      if (Math.floor(i/18) === currentPage){
+        galleryContainer.children[i].style= "display: none";}
+      // reveal next set of images
+      else if(Math.floor(i/18) === currentPage+pageSwitch){
+        galleryContainer.children[i].style="";}
+    }
+    // update current page number
+    currentPage=currentPage+pageSwitch;
+    document.getElementById("page").innerHTML = "<p>Page " + (currentPage + 1) + "/"
+                                                + (maxPage + 1) + "</p>";
+  }
 
 
 
@@ -398,7 +383,7 @@ function faqClose() {
       i++;
     });
     template.remove();
-      document.getElementById("page").innerHTML="<p>Page 1/"+
+    document.getElementById("page").innerHTML="<p>Page 1/"+
       Math.floor(gallery.children.length/18+1)+"</p>";
   }
   document.addEventListener("DOMContentLoaded", function() {
@@ -408,21 +393,24 @@ function faqClose() {
 
   function replaceSelectGallery(pageSwitch) {
     let galleryContainer=document.getElementById("galleryContainer");
+    const maxPage = Math.floor(galleryContainer.children.length/18)
     // disable buttons if page number index is less than 0 or more than the number of elements/18
-    if(currentPage+pageSwitch <0 || currentPage+pageSwitch > galleryContainer.children.length/18){
+    if(currentPage+pageSwitch < 0 || currentPage+pageSwitch > maxPage){
       return;
     }
     // disable prev button on first page and next button on last page
     let prevButton=document.getElementById("prev");
     let nextButton=document.getElementById("next");
-      if(currentPage+pageSwitch ==0){
-        prevButton.disabled = true;}
-        else if(currentPage+pageSwitch >0){
-          prevButton.disabled = false;}
-      if(currentPage+pageSwitch > galleryContainer.children.length/18-1){
-        nextButton.disabled = true;}
-        else if(currentPage+pageSwitch < galleryContainer.children.length/18-1){
-          nextButton.disabled = false;}
+    if(currentPage+pageSwitch == 0) {
+      prevButton.disabled = true;
+    } else if(currentPage == 0) {
+      prevButton.disabled = false;
+    }
+    if(currentPage+pageSwitch == maxPage) {
+      nextButton.disabled = true;
+    } else if(currentPage == maxPage) {
+      nextButton.disabled = false;
+    }
 
     // get rid of first page elements
     for (let i=0; i < galleryContainer.children.length; i++){
@@ -434,19 +422,12 @@ function faqClose() {
     }
     // update current page number
     currentPage=currentPage+pageSwitch;
-    document.getElementById("page").innerHTML="<p>Page "+(currentPage+1)+"/"+
-                    Math.floor(galleryContainer.children.length/18+1)+"</p>";
+    document.getElementById("page").innerHTML = "<p>Page " + (currentPage + 1) + "/"
+                                                + (maxPage + 1) + "</p>";
   }
 
-
-
-
+  
     
-    
-
-
-
-
 
 
 
@@ -787,3 +768,74 @@ function faqClose() {
     });
 
     
+
+
+    // GALLERY TEMPLATE
+
+// BLANK SHED GALLERY
+    function createBLANKGallery() {
+        const template = document.getElementById("BLANK-gallery-card-template");
+        const gallery = template.parentNode;
+        let gallery_content = [
+          { imgSrc: "",
+            desc: "",
+            loc: ""},
+          { imgSrc: "",
+            desc: "",
+            loc: ""},
+          { imgSrc: "",
+            desc: "",
+            loc: ""},
+
+          { imgSrc: "",
+            desc: "",
+            loc: ""},
+          { imgSrc: "",
+            desc: "",
+            loc: ""},
+          { imgSrc: "",
+            desc: "",
+            loc: ""},
+
+          { imgSrc: "",
+            desc: "",
+            loc: ""},
+          { imgSrc: "",
+            desc: "",
+            loc: ""},
+          { imgSrc: "",
+            desc: "",
+            loc: ""},
+
+          { imgSrc: "",
+            desc: "",
+            loc: ""},
+          { imgSrc: "",
+            desc: "",
+            loc: ""},
+          { imgSrc: "",
+            desc: "",
+            loc: ""},
+
+          { imgSrc: "",
+            desc: "",
+            loc: ""},
+          { imgSrc: "",
+            desc: "",
+            loc: ""},
+          { imgSrc: "",
+            desc: "",
+            loc: ""}
+        ];
+        gallery_content.forEach(content => {
+            let card = template.cloneNode(true);
+            card.style = "";
+            card.children[0].setAttribute("src", content.imgSrc);
+            card.children[1].children[0].textContent = content.desc;
+            card.children[1].children[1].textContent = content.loc;
+            gallery.appendChild(card);
+        });
+    }
+    document.addEventListener("DOMContentLoaded", function() {
+        createBLANKGallery(); 
+    });
