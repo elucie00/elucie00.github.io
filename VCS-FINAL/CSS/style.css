@@ -469,7 +469,7 @@ a#optionsupgradesbutton{
     flex-direction: row;
     width: 100%;
     margin: 0rem;
-    padding: 0rem;
+    padding: 1rem 0rem 0rem 0rem;
     background-color: #233047;
     background-image: linear-gradient(to top, #343a40 , #233047 , #233047 , #233047);
     color:#f5f5f5;
