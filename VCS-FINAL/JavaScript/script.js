@@ -82,60 +82,29 @@ function faqClose() {
 
 
 
-
-
 // MAKE OPEN/CLOSE MODAL ON CLICK
-document.addEventListener('DOMContentLoaded', function createUtilityModal() {
-    const modalContent = document.getElementById('modalWButtons');
-    const galleryCardContentOpen = document.getElementById('utilityGalleryCardTemplate');
-    const modalClose = document.getElementById('closeButton');
-    const modalGalleryContainer = document.getElementById('modalGalleryContainer');
+let currentCard;
+
+function createUtilityModal(ele) {
+    if (ele === null){
+      return
+    }
+    currentCard = ele;
+    // navigate to page
+    // scroll to card
+    let modalGalleryContainer = document.getElementById('modalGalleryContainer');
     
-    if (galleryCardContentOpen) {
-        galleryCardContentOpen.addEventListener('click', function() {
-            modalGalleryContainer.style.display = 'block';
-          modalContent.style.display = 'flex';
-            // galleryCardContentOpen.style.display = 'flex';
-        });
-    }
-    if (modalClose && modalContent && modalGalleryContainer) {
-        modalClose.addEventListener('click', function() {
-          modalContent.style.display = 'none';
-          modalClose.style.display = 'none';
-          // galleryCardContentOpen.style.display = 'none';
-          modalGalleryContainer.style.display = 'none';
-        });
-    }
-
-        if (modalGalleryContainer && modalContent) {
-        modalGalleryContainer.addEventListener('click', function() {
-          modalContent.style.display = 'none';
-          // galleryCardContentOpen.style.display = 'none';
-          modalGalleryContainer.style.display = 'none';
-          modalClose.style.display = 'none';
-        });
-    }
-});
-
-
-
+    modalGalleryContainer.children[0].children[1].children[1].setAttribute("src", ele.children[0].src);
+    modalGalleryContainer.children[0].children[0].children[0].innerHTML = ele.children[1].children[0].innerHTML;
+    if (modalGalleryContainer.style.display === 'none') {
+      modalGalleryContainer.style.display = 'flex';
+    } 
     
+  };
 
-
-
-
-
-
-
-
-  // let utilityModal=document.getElementById("utilityModal")
-  // let utilityModal_content = {
-  //   galleryCardContent
-  // }
-
-
-
-
+function switchCard(next) {
+  createUtilityModal(next ? currentCard.nextElementSibling : currentCard.previousElementSibling)
+}
 
 
 // Create a function
@@ -159,6 +128,12 @@ document.addEventListener('DOMContentLoaded', function createUtilityModal() {
 
 // Create a function to close the modal
 // Get the model and display non the parent
+
+
+
+
+
+
 
 
 
@@ -231,7 +206,7 @@ document.addEventListener('DOMContentLoaded', function createUtilityModal() {
       card.children[0].setAttribute("src", content.imgSrc);
       card.children[1].children[0].textContent = content.desc;
       card.children[1].children[1].textContent = content.loc;
-      // card.setAttribute("id", "");
+      card.setAttribute("id", "" );
       gallery.appendChild(card);
       i++;
     });
@@ -242,7 +217,7 @@ document.addEventListener('DOMContentLoaded', function createUtilityModal() {
   document.addEventListener("DOMContentLoaded", function() {
       createUtilityGallery(); 
   });
-  // let currentPage=0;
+  // let currentPage = 0;
 
   function replaceUtilityGallery(pageSwitch) {
     let galleryContainer=document.getElementById("galleryContainer");

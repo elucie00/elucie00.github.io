@@ -62,7 +62,7 @@
 
 /* GALLERY MODAL */ 
 
-.modal {
+/* .modal {
     height: 100vh;
     width:100vw;
     background-color: #21252978;
@@ -125,12 +125,12 @@
 
 .js-modal {
 
-}
+} */
 
 
 /* GALLERY CARD WITHIN MODAL */
 
-.modal .gallery-card {
+/* .modal .gallery-card {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -177,7 +177,7 @@
     .modal .card-img-top img{
         object-position: center;
         height: 100%;
-    }
+    } */
 
     
 
