@@ -811,7 +811,7 @@ object-position: center;
         overflow: hidden;
             object-fit: contain;
         justify-content: center;
-        padding: 1rem;
+        padding: 0rem;
         
         
     }
@@ -820,8 +820,8 @@ object-position: center;
     .modal-body{
         display: flex;
         background-color: #212529a8;
-        height: 10vh;
         justify-content: flex-end;
+        padding: .5rem;
         
     }
         .modal-text{
@@ -838,6 +838,7 @@ object-position: center;
             height: 100%;
             display: flex;
             justify-content: center;
+            align-self: flex-start;
             cursor: pointer;
         }
         #closeButton svg{
@@ -848,8 +849,7 @@ object-position: center;
     .imgAndButtons{
         display: flex;
         justify-content: center;
-
-padding: 1rem 0rem;
+        padding: 0rem;
         
     }
     .imgAndButtons button{
@@ -862,6 +862,9 @@ padding: 1rem 0rem;
         .imgAndButtons img{
             object-fit:contain ;
             height:80vh;
+        }
+        #modalPrev,#modalNext{
+            justify-content: center;
         }
         .imgAndButtons#modalPrev svg,.imgAndButtons#modalNext svg{
             text-align: center;
@@ -876,10 +879,6 @@ padding: 1rem 0rem;
             object-fit:contain ;
             height:auto;
         }
-
-        .modal-body{
-        height: 8vh;
-    }
         }
 
 /* SKIP TOP JUMP BACK TO TOP */
