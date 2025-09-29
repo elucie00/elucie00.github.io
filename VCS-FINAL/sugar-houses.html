@@ -345,13 +345,18 @@
 
 
 
-    <!-- GALLERY -->
+ <!-- SUGAR HOUSE GALLERY -->
     <div class="gallery">
         <div class="col-12 col-lg-6 text-center text-md-start px-2 px-md-3 mx-auto mx-lg-0 pt-4">
         <div class="section-title" id="gallery">Sugar House Gallery:</div></div>
 
-        <div class="js-gallery">
-            <div id="sugarhouse-gallery-card-template" class="gallery-card" style="display: none">
+        <div class="page-select">
+            <button type="button" disabled id="prev" class="col-2 col-sm-1 col-md-2 col-lg-1" onclick="replaceShedGallery(-1)"><span class="arrow">&larr;</span><span class="d-none d-md-inline px-1"> Previous</span></button>
+            <div id="page" class="col-4 col-sm-3 col-lg-2"><p>Page #/#</p></div>
+            <button  type="button" disabled id="next" class="col-2 col-sm-1 col-md-2 col-lg-1" onclick="replaceShedGallery(1)"><span class="d-none d-md-inline px-1">Next </span><span class="arrow">&rarr;</span></button>
+        </div>
+        <div class="js-gallery" id="galleryContainer">
+            <div id="sugarGalleryCardTemplate" class="gallery-card" style="display: none" onclick="createGalleryModal(this)">
                 <img src="" class="card-img-top">
                 <div class="card-body">
                     <p class="card-text"></p>
@@ -359,7 +364,43 @@
                 </div>
             </div>
         </div>
+        <div class="page-select pb-3">
+            <button type="button" disabled id="prev2" class="col-2 col-sm-1 col-md-2 col-lg-1" onclick="replaceShedGallery(-1)"><span class="arrow">&larr;</span><span class="d-none d-md-inline px-1"> Previous</span></button>
+            <div id="page2" class="col-4 col-sm-3 col-lg-2"><p>Page #/#</p></div>
+            <button  type="button" disabled id="next2" class="col-2 col-sm-1 col-md-2 col-lg-1" onclick="replaceShedGallery(1)"><span class="d-none d-md-inline px-1">Next </span><span class="arrow">&rarr;</span></button>
+        </div>
     </div>
+
+<!-- SUGAR HOUSE GALLERY MODAL -->
+<div id="modalGalleryContainer" class="container-fluid"  onclick="this.style='display:none'" style="display: none">
+    
+    <div class="modal-content col-11 mx-auto" id="modalContent">   
+        
+        <div id="modalBody" class="modal-body col-12">
+            <p class="modal-text col-10 col-sm-10"></p>
+            <div id="closeButton" class="col-2 col-sm-1" onclick="this.parentNode.parentNode.parentNode.style='display:none'">
+                <svg xmlns="http://www.w3.org/2000/svg" width="80%" height="100%" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16"><path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z"/></svg>
+            </div>
+        </div>
+        
+        <div id="imgAndButtons" class="imgAndButtons col-12">
+            <button type="button" id="modalPrev" class="d-sm-block col-sm-1 mx-1 me-lg-2" onclick="event.stopPropagation(); switchCard(false)">
+                <svg xmlns="http://www.w3.org/2000/svg" width="80%" height="auto" fill="currentColor" class="bi bi-chevron-compact-left" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M9.224 1.553a.5.5 0 0 1 .223.67L6.56 8l2.888 5.776a.5.5 0 1 1-.894.448l-3-6a.5.5 0 0 1 0-.448l3-6a.5.5 0 0 1 .67-.223"/></svg>
+            </button>
+
+            <input type="checkbox" id="zoomCheck" onclick="event.stopPropagation();">
+                <label for="zoomCheck" class="col-12 col-sm-10 col-lg-8 mx-0" onclick="event.stopPropagation();">
+                <img src="" class="modal-img" id="modalImage" onclick="event.stopPropagation();">
+                </label>
+
+            <button type="button" id="modalNext" class="d-sm-block col-sm-1 mx-1 me-lg-2" onclick="event.stopPropagation(); switchCard(true)">
+                <svg xmlns="http://www.w3.org/2000/svg" width="80%" height="auto" fill="currentColor" class="bi bi-chevron-compact-right" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M6.776 1.553a.5.5 0 0 1 .671.223l3 6a.5.5 0 0 1 0 .448l-3 6a.5.5 0 1 1-.894-.448L9.44 8 6.553 2.224a.5.5 0 0 1 .223-.671"/></svg>
+            </button>
+        </div>
+    </div>
+</div>
+  
+
 
 </main>
 
