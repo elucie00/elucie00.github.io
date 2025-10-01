@@ -702,9 +702,6 @@ button#next2:disabled {
   padding: 0rem 1rem;
 }
 
-#gallery-card-template {
-}
-
 .gallery-card {
   display: flex;
   flex-direction: column;
@@ -717,8 +714,6 @@ button#next2:disabled {
   padding: 0.5rem;
 }
 
-.gallery-card:hover {
-}
 .gallery-card img {
   height: 66%;
   object-fit: cover;

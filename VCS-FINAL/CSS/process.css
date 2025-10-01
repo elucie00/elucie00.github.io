@@ -1,294 +1,248 @@
-
 /* HEADER */
 
 .large-header {
-    background-image: url(../images/headers/building-process-header.jpg);
-    background-position: top;
+  background-image: url(../images/headers/building-process-header.jpg);
+  background-position: top;
 }
 
 .gradient {
-        background-image: linear-gradient(to right, #212529ab , #2125295f ,#21252900 , #21252900);
-        height: 100%;
-        width:100%;
-    }
-
+  background-image: linear-gradient(
+    to right,
+    #212529ab,
+    #2125295f,
+    #21252900,
+    #21252900
+  );
+  height: 100%;
+  width: 100%;
+}
 
 /* JUMP TO SECTION */
 .jump-to {
-    background-image: linear-gradient(to bottom, #1b263b , #1b263b6c, #343a40);
+  background-image: linear-gradient(to bottom, #1b263b, #1b263b6c, #343a40);
 }
 
 /* BUILDING PROCESS SECTION 1 */
 .section-1 {
-    display: flex;
-    flex-direction: row;
-    background-image: linear-gradient(to bottom, #343a40 , #343a40 , #1b263b5d , #1b263b);
-    background-color: #233047;
-    color:#f5f5f5;
-    text-shadow: #212529 .08rem .08rem .05rem;
+  display: flex;
+  flex-direction: row;
+  background-image: linear-gradient(
+    to bottom,
+    #343a40,
+    #343a40,
+    #1b263b5d,
+    #1b263b
+  );
+  background-color: #233047;
+  color: #f5f5f5;
+  text-shadow: #212529 0.08rem 0.08rem 0.05rem;
 }
-    .section-1 img {
-        padding: .5rem;
-        padding-right: 0rem;
-        object-fit: cover;
-        overflow: hidden;
-        object-position: left;
-    }
-    .section-1 .text {
-        padding: .5rem .5rem .5rem 1rem;
-    }
-    .section-1 p {
-        padding: 0rem 1rem .7rem 1rem;
-        margin: 0rem;
-        text-shadow: #212529 .08rem .08rem 0rem;
-    }
-
+.section-1 img {
+  padding: 0.5rem;
+  padding-right: 0rem;
+  object-fit: cover;
+  overflow: hidden;
+  object-position: left;
+}
+.section-1 .text {
+  padding: 0.5rem 0.5rem 0.5rem 1rem;
+}
+.section-1 p {
+  padding: 0rem 1rem 0.7rem 1rem;
+  margin: 0rem;
+  text-shadow: #212529 0.08rem 0.08rem 0rem;
+}
 
 /* BUILDING PROCESS BANNER */
 
 .banner {
-    background-color: #3066be;
+  background-color: #3066be;
 }
-    .banner .option-1 {
-        text-align: center;
-    }
-    .banner .option-2 {
-        background-color: #1b263b;
-        padding: 0rem ;
-    }
-        .banner h4{
-            margin: 0;
-            padding: 0rem 1rem;
-            font-size: 1.5rem;
-            font-weight: 400;
-            font-style: italic;
-        }
-        .banner h6{
-            margin: 0rem ;
-            padding: .5rem 1rem;
-            font-size: 1.2rem;
-        }
+.banner .option-1 {
+  text-align: center;
+}
+.banner .option-2 {
+  background-color: #1b263b;
+  padding: 0rem;
+}
+.banner h4 {
+  margin: 0;
+  padding: 0rem 1rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+  font-style: italic;
+}
+.banner h6 {
+  margin: 0rem;
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+}
 
 /* BUILDING PROCESS SECTION 2 */
 
 .section-2 {
-    display: flex;
-    background-image: url(../images/building-process/zip-system-bg.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100%;
-    background-blend-mode:darken;
-    background-color: #212529aa;
-    padding: .5rem 1rem;
+  display: flex;
+  background-image: url(../images/building-process/zip-system-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+  background-blend-mode: darken;
+  background-color: #212529aa;
+  padding: 1rem 1rem 0.5rem 1rem;
 }
 
-@media only screen and (max-width : 1000px) {
-    .section-2{
-        background-size: cover;
-    }
+@media only screen and (max-width: 1000px) {
+  .section-2 {
+    background-size: cover;
+  }
 }
-    .section-2 .option {
-        display: flex; 
-        flex-wrap: wrap;
-        padding: .25rem ;
-        margin: .75rem 0rem;
-        background-color: #1d2e434f;
-        justify-content: space-between ;
-        align-items: center;
-    }
-        .section-2 .option svg {
-            width: 7%;
-        }
-        .section-2 .option p {
-            width: 93%;
-            padding: .5rem;
-        }
-        @media only screen and (max-width : 575px) {
-    .section-2 .option svg {
-        width: 100%;
-            }
-    .section-2 .option p {
-        width: 100%;
-        padding: .5rem;
-    }
+.section-2 .option {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0.25rem;
+  margin: 0.75rem 0rem;
+  background-color: #1d2e434f;
+  justify-content: space-between;
+  align-items: center;
 }
-            .section-2 .option a:hover {
-                color:#e2e3e5;
-                background-color: #495057;
-                border: #f5f5f5 .05rem solid;
-                transition: .2s;
-            }
-            .section-2 .option a p {
-                width: 80%;
-                padding:0rem;
-            }
-            .section-2 .option .arrow {
-                    font-size: 2.1rem;
-                    margin:0;
-                    padding:0;
-                    width:20%;
-                }
-
+.section-2 .option svg {
+  width: 7%;
+}
+.section-2 .option p {
+  width: 93%;
+  padding: 0.5rem;
+}
+@media only screen and (max-width: 575px) {
+  .section-2 .option svg {
+    width: 100%;
+  }
+  .section-2 .option p {
+    width: 100%;
+    padding: 0.5rem;
+  }
+}
+.section-2 .option a:hover {
+  color: #e2e3e5;
+  background-color: #495057;
+  border: #f5f5f5 0.05rem solid;
+  transition: 0.2s;
+}
+.section-2 .option a p {
+  width: 80%;
+  padding: 0rem;
+}
+.section-2 .option .arrow {
+  font-size: 2.1rem;
+  margin: 0;
+  padding: 0;
+  width: 20%;
+}
 
 /* BUILDING PROCESS SECTION 3 */
 
 .section-3 {
-    padding: 0rem ;
-    background-color: #415A77;
-    font-size: 1.2rem;
-    border:.25rem solid #cbd2dc;
+  padding: 0rem;
+  background-color: #415a77;
+  font-size: 1.2rem;
+  border: 0.25rem solid #cbd2dc;
 }
 
-.section-3 .section-title{
-        border:.18rem solid #cbd2dc;
-    }
-    .section-3 .option-1 {
-        text-align: center;
-        display: flex;
-        flex-direction: column;
-    }
-    .section-3 .option-2 {
-        text-align: center;
-    }
-        .section-3 .option-2 p{
-            font-style: italic;
-            font-size: 1.6rem;
-        }
-        .section-3 h4{
-            margin: 0;
-            padding: .5rem;
-            font-size: 1.5rem;
-            font-weight: 400;
-            font-style: italic;
-        }
-        .section-3 h6{
-            margin: 0rem ;
-            padding: .5rem 1rem;
-            font-size: 1.2rem;
-        }
-
-        .section-3 h5{
-            margin: 0rem ;
-            padding: 1rem 1rem;
-            font-size: 1.4rem;
-        }
-            .section-3 a{
-                padding: 1rem 1rem;
-                color: #f5f5f5;
-                background-color: #212529;
-                border: #495057 .05rem solid;
-                font-size: 1.1rem;
-                border-radius: .3rem;
-                text-shadow: #212529 .05rem .05rem 0rem;
-            }
-                .section-3 a:hover{
-                    color:#e2e3e5;
-                    background-color: #495057;
-                    border: #f5f5f5 .05rem solid;
-                    transition: .3s;
-                }
-            .section-3 .text{
-                padding: .5rem 1rem 1.5rem 1rem;
-            }
-
-
-        .section-3 .blurb{
-            text-align: center;
-            background-color: #1b263b;
-            align-content: center;
-            font-size: 1.3rem;
-            padding: 2rem;
-            border:.18rem solid #cbd2dc;
-            border-bottom: none;
-            border-left: none;
-            font-style: italic;
-        }
-                
-@media only screen and (max-width : 768px) {
-    .section-3 .blurb{
-        border:.18rem solid #cbd2dc;
-        border-right: none;
-        border-left: none;
-    }
-    }
-
-.section-3 .option-3{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+.section-3 .section-title {
+  border: 0.18rem solid #cbd2dc;
+}
+.section-3 .option-1 {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.section-3 .option-2 {
+  text-align: center;
+}
+.section-3 .option-2 p {
+  font-style: italic;
+  font-size: 1.6rem;
+}
+.section-3 h4 {
+  margin: 0;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+  font-style: italic;
+}
+.section-3 h6 {
+  margin: 0rem;
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
 }
 
-    .section-3 .option-3 h5{
-        padding-right: 0;
-    }
+.section-3 h5 {
+  margin: 0rem;
+  padding: 1rem 1rem;
+  font-size: 1.4rem;
+}
+.section-3 a {
+  padding: 1rem 1rem;
+  color: #f5f5f5;
+  background-color: #212529;
+  border: #495057 0.05rem solid;
+  font-size: 1.1rem;
+  border-radius: 0.3rem;
+  text-shadow: #212529 0.05rem 0.05rem 0rem;
+}
+.section-3 a:hover {
+  color: #e2e3e5;
+  background-color: #495057;
+  border: #f5f5f5 0.05rem solid;
+  transition: 0.3s;
+}
+.section-3 .text {
+  padding: 0.5rem 1rem 1.5rem 1rem;
+}
 
+.section-3 .blurb {
+  text-align: center;
+  background-color: #1b263b;
+  align-content: center;
+  font-size: 1.3rem;
+  padding: 2rem;
+  border: 0.18rem solid #cbd2dc;
+  border-bottom: none;
+  border-left: none;
+  font-style: italic;
+}
 
+@media only screen and (max-width: 768px) {
+  .section-3 .blurb {
+    border: 0.18rem solid #cbd2dc;
+    border-right: none;
+    border-left: none;
+  }
+}
+
+.section-3 .option-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.section-3 .option-3 h5 {
+  padding-right: 0;
+}
 
 /* BUILDING PROCESS GALLERY */
 
-.js-gallery {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    color:#212529;
-    margin: 0rem 0rem 2rem 0rem;
-    padding: 0rem 1rem;
-}
-
-#gallery-card-template {
-
-}
-
 .gallery-card {
-    display: flex;
-    flex-direction: column;
-    width: 18.75rem;
-    height:23.5rem;
-    text-align: center;
-    background-color:#f5f5f5;
-    border-radius: .3rem;
-    margin: 1rem 0rem;
-    padding: .5rem;
+  width: 18.75rem;
+  height: 23.5rem;
 }
 
-.gallery-card:hover {
-
-}
-    .gallery-card img{
-        height: 70%;
-        object-fit: cover;
-        overflow: hidden;
-        
-    }
-
-.card-img-top img{
-object-position: center;
+.gallery-card img {
+  height: 70%;
+  object-fit: cover;
+  overflow: hidden;
 }
 
 .card-body {
-    height: 28%;
-    line-height: 1.2;
-    display: flex;
-    flex-direction: column;
-    padding: .5rem 0rem 0rem 0rem;
-    
+  height: 28%;
 }
-
-    .card-body p {
-        height: 100%;
-        margin: 0rem ;
-        padding: 0rem .2rem;
-        font-size: 1.1rem;
-        align-content: center;
-    }
-
-
-
-    
-
-    
-
-
