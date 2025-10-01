@@ -805,7 +805,9 @@ button#next2:disabled {
 #closeButton {
   height: 3.5rem;
   width: 3.5rem;
+  z-index: 200;
   color: #f5f5f5;
+  background-color: #21252992;
   align-self: center;
   border: solid 1px #f5f5f5;
   display: flex;
@@ -866,15 +868,18 @@ button#modalNext:disabled {
   button#modalPrev:disabled,
   button#modalNext:disabled {
     position: absolute;
+    height: 30%;
     background-color: #21252900;
     border: none;
-    width: 13vw;
+    width: 14vw;
   }
   .imgAndButtons button#modalPrev {
     left: 0rem;
+    z-index: 100;
   }
   .imgAndButtons button#modalNext {
     right: 0rem;
+    z-index: 100;
   }
 }
 

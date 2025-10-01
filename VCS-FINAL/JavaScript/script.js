@@ -890,28 +890,28 @@ function createProcessGallery() {
   let gallery_content = [
     {
       imgSrc: "images/building-process/gallery/2x4-framing.jpg",
-      desc: "2x4 wall framing",
+      desc: "Contractor grade framing lumber, no big box store sub-standard materials",
     },
     {
-      imgSrc: "images/building-process/gallery/30-year-shingle.jpg",
-      desc: "Minimum 30 year warranty shingles",
+      imgSrc: "images/building-process/gallery/overlapping.jpg",
+      desc: "Overlapping and locking double top plates offer superior strength and stability and prevents wall sagging",
     },
     {
       imgSrc: "images/building-process/gallery/4x4-runners.jpg",
-      desc: "Pressure treated 4x4 runners with pressure treated 2x6 floor joists",
+      desc: "4x4 pressure treated runners and floor joists. Don't settle for low quality 2x4 floor joists",
     },
 
     {
       imgSrc: "images/building-process/gallery/advan-tech-floor.jpg",
-      desc: "AdvanTech tongue and groove floor sheathing",
+      desc: "AdvanTech tongue and groove floor sheathing, superior to standard plywood",
     },
     {
       imgSrc: "images/building-process/gallery/conventional-framing.jpg",
-      desc: "Conventional framing. 2x8 Ridge board and 2x6 rafters",
+      desc: "Conventional framing with 2x8 Ridge board and 2x6 rafters. The strongest type of construction for handling snow loads",
     },
     {
       imgSrc: "images/building-process/gallery/fascia-softfit.jpg",
-      desc: "Fascia, soffit and corner trim returns",
+      desc: "Fascia soffit and overhands protect your shed from the weather",
     },
 
     {
@@ -920,7 +920,7 @@ function createProcessGallery() {
     },
     {
       imgSrc: "images/building-process/gallery/ladder-framing.jpg",
-      desc: "Conventional ladder framing and sub fascia",
+      desc: "Conventional ladder framing and sub fascia ensures structural integrity even under the heaviest snow",
     },
     {
       imgSrc: "images/building-process/gallery/metal-roof.jpg",
@@ -928,16 +928,16 @@ function createProcessGallery() {
     },
 
     {
-      imgSrc: "images/building-process/gallery/overlapping.jpg",
-      desc: "Overlapping and locking double top plates",
+      imgSrc: "images/building-process/gallery/zip-system.jpg",
+      desc: "Zip system sheathing is waterproof and far higher quality than standard plywood or regular osb",
+    },
+    {
+      imgSrc: "images/building-process/gallery/30-year-shingle.jpg",
+      desc: "Minimum 30 year warranty shingles",
     },
     {
       imgSrc: "images/building-process/gallery/t-11.jpg",
-      desc: "T1-11, texture 1-11 siding",
-    },
-    {
-      imgSrc: "images/building-process/gallery/zip-system.jpg",
-      desc: "zip system sheathing",
+      desc: "T1-11 siding",
     },
 
     {
