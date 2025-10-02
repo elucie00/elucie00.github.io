@@ -1,6 +1,18 @@
 body {
+  /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+  /* font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif; */
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
+a {
+  padding: 0rem;
+  margin: 0rem;
+  text-decoration: none;
+}
+.row > * {
+  padding: 0rem;
+}
 html {
   margin: 0rem;
 }
@@ -19,7 +31,7 @@ nav {
   border-bottom: #000000 solid 3px;
 }
 .nav-title {
-  width: 10%;
+  width: 12%;
   text-align: center;
   align-content: center;
   align-items: center;
@@ -40,14 +52,14 @@ nav {
   display: flex;
 }
 .nav-button {
-  width: 10%;
+  width: auto;
   text-align: center;
   align-content: center;
   align-items: center;
   color: #adb5bd;
   letter-spacing: 0.05rem;
   font-weight: 600;
-  padding: 0.4rem;
+  padding: 0.5rem 1.2rem;
 }
 
 a.nav-button {
