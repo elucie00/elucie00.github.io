@@ -3,6 +3,21 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding: 1rem;
+}
+
+.index-header h1 {
+  font-size: 3rem;
+}
+.index-header h2 {
+  font-size: 1.2rem;
+}
+.section-1 {
+  border-top: 2px #21252987 solid;
+}
+
+.section-1 h2 {
+  padding: 1rem;
 }
 
 .project {
@@ -12,13 +27,13 @@
 }
 
 .project .text {
-  color: #000000;
+  color: #212529;
   padding: 0.5rem 0rem;
 }
 
 .image-container {
   position: relative;
-  border: 1px #000000 solid;
+  border: 1px #212529cd solid;
   height: 18rem;
   overflow: hidden;
 }
@@ -38,19 +53,19 @@
   width: 0;
   height: 100%;
   transition: 0.75s ease;
-}
-.overlay.one {
-  background-image: url(../images/index/index-vcs-final.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
+.overlay.one {
+  background-image: url(../images/index/index-vcs-final.png);
+}
 
 .overlay.two {
-  background-image: url(../images/index);
+  background-image: url(../images/index/vcs-bootstrap-index.png);
 }
 
 .overlay.three {
-  background-image: url(../images/index);
+  background-image: url(../images/index/vcs-og-index.png);
 }
 
 .image-container:hover .overlay.one,
