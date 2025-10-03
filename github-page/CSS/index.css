@@ -1,16 +1,41 @@
+header {
+}
+
 .index-header {
-  height: 20rem;
+  overflow: hidden;
+}
+
+.index-header .text {
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding: 1rem;
 }
 
+.index-header .text .content {
+  border-right: 2px #21252987 solid;
+  padding: 1rem 0rem;
+}
+.index-header .image {
+  padding: 0.5rem;
+  object-fit: cover;
+}
+
+.index-header img {
+  overflow: hidden;
+  object-fit: cover;
+}
+
 .index-header h1 {
   font-size: 3rem;
+  padding: 1rem 0rem;
 }
 .index-header h2 {
   font-size: 1.2rem;
+  padding: 0.5rem 1rem;
+  display: inline;
+  width: auto;
+  background: #81b29a;
 }
 .section-1 {
   border-top: 2px #21252987 solid;
@@ -22,13 +47,21 @@
 
 .project {
   overflow: hidden;
-  background-color: #f5f5f5;
+  background-color: #c2c2e4;
   margin: 0.5rem 0rem;
+  transition: all 0.5s ease;
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  color: #000000;
+}
+
+.project:hover {
+  background-color: #3d405b;
+  color: #ffffff;
 }
 
 .project .text {
-  color: #212529;
-  padding: 0.5rem 0rem;
+  padding: 0.5rem;
 }
 
 .image-container {
@@ -38,7 +71,7 @@
   overflow: hidden;
 }
 
-.image {
+.image-container .image {
   display: block;
   width: 100%;
   object-fit: contain;

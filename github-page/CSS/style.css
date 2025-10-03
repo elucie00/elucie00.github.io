@@ -17,7 +17,13 @@ p {
 }
 .row > * {
   padding: 0rem;
+  margin: 0rem;
 }
+
+.row {
+  margin: 0rem;
+}
+
 html {
   margin: 0rem;
 }
@@ -52,8 +58,10 @@ nav {
 }
 
 .nav-title:hover {
-  color: #c7afa2;
-  background-color: #ffffffeb;
+  background-color: #e07b5fa1;
+  color: #000000;
+
+  text-underline-offset: 0.2rem;
 }
 .nav-group {
   width: auto;
@@ -83,13 +91,31 @@ a.nav-button {
 p.nav-button {
 }
 .nav-button:hover {
-  background-color: #c9ada79c;
+  background-color: #e07b5fa1;
+  color: #000000;
+
+  text-underline-offset: 0.2rem;
 }
 
 .nav-button.active {
   color: #000000;
-  text-decoration: underline;
+  background-color: #e07b5fdf;
+
   text-underline-offset: 0.2rem;
+}
+
+.nav-title.active {
+  color: #000000;
+  background-color: #e07b5fdf;
+
+  text-underline-offset: 0.2rem;
+}
+
+.title-large {
+  display: block;
+}
+.title-small {
+  display: none;
 }
 
 /* COLLAPSIBLE NAV BAR RESPONSIVE */
@@ -97,6 +123,12 @@ p.nav-button {
 @media only screen and (max-width: 1105px) {
   html {
     scroll-padding-top: 0px;
+  }
+  .title-large {
+    display: none;
+  }
+  .title-small {
+    display: block;
   }
   nav {
     flex-direction: column;
@@ -136,7 +168,7 @@ p.nav-button {
   }
   a.nav-button {
     width: 100%;
-
+    background-color: #ffffffce;
     display: flex;
     justify-content: center;
     border: 0.01rem #212529 solid;
@@ -147,7 +179,8 @@ p.nav-button {
   .nav-group {
     flex-direction: column;
     width: 100%;
-    border: 0.01rem #212529 solid;
+    border: none;
+    background-color: #f5f5f500;
   }
 
   .nav-title {
@@ -186,4 +219,44 @@ p.nav-button {
   #menuClose {
     display: none;
   }
+}
+
+footer {
+  background-color: #f4f1de;
+  display: flex;
+  padding: 1rem 0rem;
+}
+footer .links {
+  display: flex;
+  justify-content: space-evenly;
+}
+footer a {
+  color: #3d405b;
+  text-align: center;
+  transition: all 0.2s ease;
+}
+footer a:hover {
+  color: #f2cc8f;
+}
+footer .nav {
+  width: 25%;
+  justify-content: center;
+  border-radius: 1rem;
+  padding: 0.75rem 1rem;
+}
+
+footer .nav:hover {
+  background-color: #3d405b;
+  color: #f2cc8f;
+}
+footer .contact {
+  display: flex;
+}
+footer .contact-option {
+  width: 33%;
+  display: flex;
+  justify-content: center;
+}
+footer .contact-option a {
+  padding: 0.75rem;
 }
