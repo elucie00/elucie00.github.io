@@ -52,7 +52,7 @@ nav {
   margin: 0rem;
   color: #212529;
   border-radius: 1rem;
-  background-color: #ffffffce;
+  background-color: #fffffff6;
   border: #21252987 solid 2px;
   text-decoration: none;
 }
@@ -68,7 +68,7 @@ nav {
   display: flex;
   align-self: flex-end;
   border-radius: 1rem;
-  background-color: #ffffffce;
+  background-color: #fffffff6;
   border: #21252987 solid 2px;
 }
 .nav-button {
@@ -91,7 +91,7 @@ a.nav-button {
 p.nav-button {
 }
 .nav-button:hover {
-  background-color: #e07b5fa1;
+  background-color: #e07b5ff6;
   color: #000000;
 
   text-underline-offset: 0.2rem;
@@ -99,14 +99,14 @@ p.nav-button {
 
 .nav-button.active {
   color: #000000;
-  background-color: #e07b5fdf;
+  background-color: #e07b5ff6;
 
   text-underline-offset: 0.2rem;
 }
 
 .nav-title.active {
   color: #000000;
-  background-color: #e07b5fdf;
+  background-color: #e07b5ff6;
 
   text-underline-offset: 0.2rem;
 }

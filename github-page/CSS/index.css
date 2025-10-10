@@ -64,6 +64,10 @@ header {
   padding: 0.5rem;
 }
 
+.project img {
+  object-fit: cover;
+}
+
 .image-container {
   position: relative;
   border: 1px #212529cd solid;
