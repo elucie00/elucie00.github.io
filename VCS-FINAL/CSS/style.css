@@ -1,4 +1,7 @@
 /* WHOLE BODY CONSISTENT STYLES */
+/* TODO: Optionally split into multiple files since this is so large */
+/* TODO: Typically it is good practice to use consistent spacing.
+          Specifically, spacing before selectors*/
 
 .container-fluid {
   padding: 0;
@@ -53,6 +56,8 @@ h2 {
 
 /* NAVIGATION */
 
+/* TODO: The format for a lot of these nav items are practically identical so
+        I would assume this section can be simplified */
 nav {
   width: 100%;
   display: flex;
@@ -78,12 +83,18 @@ nav {
   width: 9.5%;
   padding: 0rem;
 }
+/* TODO: Usually you should use shared classes for duplicate behaviors */
 .nav-button-wide:hover {
   color: #c6c8c9;
 }
 .nav-button:hover {
   color: #c6c8c9;
 }
+/* TODO: Why is there a nav-button-wide-active and nav-button + active classes?
+    After using VsCode's find, it looks like these fields are not longer used.
+    Using consistent naming schemes tends to help with this but it is also important
+    to just do code clean-up to find unused or overly-complex code that can be remove
+    or changed with hindsight. */
 .nav-button-wide-active {
   width: 9.5%;
   text-align: center;

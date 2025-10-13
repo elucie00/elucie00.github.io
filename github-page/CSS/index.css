@@ -3,6 +3,7 @@ header {
 
 .index-header {
   overflow: hidden;
+  margin-top: -3rem;
 }
 
 .index-header .text {
@@ -17,7 +18,7 @@ header {
   padding: 1rem 0rem;
 }
 .index-header .image {
-  padding: 0.5rem;
+  padding: 0rem;
   object-fit: cover;
 }
 
@@ -70,7 +71,6 @@ header {
 
 .image-container {
   position: relative;
-  border: 1px #212529cd solid;
   height: 18rem;
   overflow: hidden;
 }
