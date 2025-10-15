@@ -5,9 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
     <link href="CSS/style.css", rel="stylesheet">
+    <link href="CSS/gallery+modal.css", rel="stylesheet">
     <link href="CSS/sugar-houses.css", rel="stylesheet">
     <link rel="icon" href="images/VCS-square-logo.ico">
     <title>Sugar Houses - Vermont Custom Sheds</title>
+    <script src="JavaScript/sugar-houses.js"></script>
     <script src="JavaScript/script.js"></script>
 </head>
 
@@ -17,7 +19,7 @@
 <nav id="navBar">
     <button id="menuClose">
         Menu
-            <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" class="bi bi-dash-circle-fill" viewBox="0 0 16 16"><path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M4.5 7.5a.5.5 0 0 0 0 1h7a.5.5 0 0 0 0-1z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" class="bi bi-dash-circle-fill" viewBox="0 0 16 16"><path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M4.5 7.5a.5.5 0 0 0 0 1h7a.5.5 0 0 0 0-1z"/></svg>
     </button>
     <a class="nav-button" href="index.html">Home</a>
     <a class="nav-button" href="utility-sheds.html">Utility Sheds</a>
@@ -60,11 +62,11 @@
 <!-- JUMP TO SECTION -->
 <div class="jump-to">
     <h6>Jump to Section</h6>
-        <div class="btn-group col-12 col-sm-10 col-md-8 col-lg-6 mx-auto mb-2" role="group">
-            <a href="#info" button type="button" class="btn btn-primary">Info</a>
-            <a href="#pricing" button type="button" class="btn btn-primary">Pricing</a>
-            <a href="#gallery" button type="button" class="btn btn-primary">Gallery</a>
-        </div>
+    <div class="btn-group col-12 col-sm-10 col-md-8 col-lg-6 mx-auto mb-2" role="group">
+        <a href="#info" button type="button" class="btn btn-primary">Info</a>
+        <a href="#pricing" button type="button" class="btn btn-primary">Pricing</a>
+        <a href="#gallery" button type="button" class="btn btn-primary">Gallery</a>
+    </div>
 </div>
 
 <main class="container-fluid">
@@ -72,23 +74,24 @@
     <!-- INFO SECTION 1 -->
     <div class="info-section-1 px-0 px-md-2 ps-lg-0">
         <div class="col-12 col-lg-6 text-center text-md-start px-2 px-md-3 mx-auto mx-lg-0">
-        <div class="section-title" id="info">Sugar House Info:</div></div>
-            <div class="content row">
-                <div class="image col-12 col-lg-6 p-lg-2 ps-lg-0 ">
+            <div class="section-title" id="info">Sugar House Info:</div>
+        </div>
+        <div class="content row">
+            <div class="image col-12 col-lg-6 p-lg-2 ps-lg-0 ">
                 <img src="images/sugar-houses/2-step-fascia.jpg" class="img-fluid mx-auto object-fit-cover">
                 <p class="py-2 py-lg-1">The picture above shows the two step fascia detail that can be done on a Custom Sugar House</p>
-                </div>
-                <div class="text col-12 col-lg-6">
-                    <div class="sub-heading col-11 col-lg-12 mx-auto mx-md-0 text-center text-md-start">Select vs Custom Sugar Houses</div>
-                    <p>Whether you're making syrup, or just like the style, it's hard to go wrong with a 
-                        classic New England Sugar House</p>
-                    <p>Your choice between Select or Custom Sugar Houses. A select Sugar House includes all 
-                        the structural components you need for an operational sugar house in the base price.
-                    Design your own by adding the options you want.</p>
-                    <p>Ready to take your sugaring set-up to the next level? Invest in a Custom Sugar House </p>
-                    <a href="upgrades.html" id="optionsupgradesbutton" class="col-10 col-md-7 col-lg-6 mt-3 mx-auto mx-md-3">Options & Upgrades &rarr;</a>
-                </div>
             </div>
+            <div class="text col-12 col-lg-6">
+                <div class="sub-heading col-11 col-lg-12 mx-auto mx-md-0 text-center text-md-start">Select vs Custom Sugar Houses</div>
+                <p>Whether you're making syrup, or just like the style, it's hard to go wrong with a 
+                    classic New England Sugar House</p>
+                <p>Your choice between Select or Custom Sugar Houses. A select Sugar House includes all 
+                    the structural components you need for an operational sugar house in the base price.
+                Design your own by adding the options you want.</p>
+                <p>Ready to take your sugaring set-up to the next level? Invest in a Custom Sugar House </p>
+                <a href="upgrades.html" id="optionsupgradesbutton" class="col-10 col-md-7 col-lg-6 mt-3 mx-auto mx-md-3">Options & Upgrades &rarr;</a>
+            </div>
+        </div>
     </div>
 
     <!-- BACK TO TOP -->
@@ -101,7 +104,8 @@
     <!-- FEATURES -->
     <div class="features">
         <div class="col-12 col-lg-6 text-center text-md-start mx-auto mx-lg-0">
-        <div class="section-title">Sugar House Included Features:</div></div>
+            <div class="section-title">Sugar House Included Features:</div>
+        </div>
         <!-- SELECT SUGAR HOUSE FEATURES -->
         <div class="respon-table secondary mb-4">
             <div class="heading row">
@@ -159,7 +163,6 @@
                 </div>
             </div>       
         </div>
-
     </div>
 
     <!-- INFO SECTION 2 -->
@@ -186,7 +189,8 @@
      <!-- PRICING -->
     <div class="pricing">
         <div class="col-12 col-lg-6 text-center text-md-start mx-auto mx-lg-0">
-        <div class="section-title" id="pricing">Sugar House Pricing:</div></div>
+            <div class="section-title" id="pricing">Sugar House Pricing:</div>
+        </div>
         <div class="row">
             <div class="double-table col-12 col-lg-6">
                 <div class="heading mx-auto">
@@ -204,63 +208,71 @@
                             <div class="cell">
                                 <svg class="me-3 currentColor" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-rulers" viewBox="0 0 16 16"><path d="M1 0a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h5v-1H2v-1h4v-1H4v-1h2v-1H2v-1h4V9H4V8h2V7H2V6h4V2h1v4h1V4h1v2h1V2h1v4h1V4h1v2h1V2h1v4h1V1a1 1 0 0 0-1-1z"/></svg>
                                 8' x 12'
-                                </div>
+                            </div>
                             <div class="cell">
                                 <svg class="me-2 currentColor" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-tag-fill" viewBox="0 0 16 16"><path d="M2 1a1 1 0 0 0-1 1v4.586a1 1 0 0 0 .293.707l7 7a1 1 0 0 0 1.414 0l4.586-4.586a1 1 0 0 0 0-1.414l-7-7A1 1 0 0 0 6.586 1zm4 3.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0"/></svg>
-                                $10,300</div>
+                                $10,300
+                            </div>
                         </div> 
                         <div class="respon-row">
                             <div class="cell">
                                 <svg class="me-3 currentColor" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-rulers" viewBox="0 0 16 16"><path d="M1 0a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h5v-1H2v-1h4v-1H4v-1h2v-1H2v-1h4V9H4V8h2V7H2V6h4V2h1v4h1V4h1v2h1V2h1v4h1V4h1v2h1V2h1v4h1V1a1 1 0 0 0-1-1z"/></svg>
                                 8' x 16'
-                                </div>
+                            </div>
                             <div class="cell">
                                 <svg class="me-2 currentColor" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-tag-fill" viewBox="0 0 16 16"><path d="M2 1a1 1 0 0 0-1 1v4.586a1 1 0 0 0 .293.707l7 7a1 1 0 0 0 1.414 0l4.586-4.586a1 1 0 0 0 0-1.414l-7-7A1 1 0 0 0 6.586 1zm4 3.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0"/></svg>
-                                $13,700</div>
+                                $13,700
+                            </div>
                         </div> 
                         <div class="respon-row">
                             <div class="cell">
                                 <svg class="me-3 currentColor" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-rulers" viewBox="0 0 16 16"><path d="M1 0a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h5v-1H2v-1h4v-1H4v-1h2v-1H2v-1h4V9H4V8h2V7H2V6h4V2h1v4h1V4h1v2h1V2h1v4h1V4h1v2h1V2h1v4h1V1a1 1 0 0 0-1-1z"/></svg>
                                 10' x 12'
-                                </div>
+                            </div>
                             <div class="cell">
                                 <svg class="me-2 currentColor" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-tag-fill" viewBox="0 0 16 16"><path d="M2 1a1 1 0 0 0-1 1v4.586a1 1 0 0 0 .293.707l7 7a1 1 0 0 0 1.414 0l4.586-4.586a1 1 0 0 0 0-1.414l-7-7A1 1 0 0 0 6.586 1zm4 3.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0"/></svg>
-                                $11,900</div>
+                                $11,900
+                            </div>
                         </div> 
                         <div class="respon-row">
                             <div class="cell">
                                 <svg class="me-3 currentColor" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-rulers" viewBox="0 0 16 16"><path d="M1 0a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h5v-1H2v-1h4v-1H4v-1h2v-1H2v-1h4V9H4V8h2V7H2V6h4V2h1v4h1V4h1v2h1V2h1v4h1V4h1v2h1V2h1v4h1V1a1 1 0 0 0-1-1z"/></svg>
                                 10' x 16'
-                                </div>
+                            </div>
                             <div class="cell">
                                 <svg class="me-2 currentColor" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-tag-fill" viewBox="0 0 16 16"><path d="M2 1a1 1 0 0 0-1 1v4.586a1 1 0 0 0 .293.707l7 7a1 1 0 0 0 1.414 0l4.586-4.586a1 1 0 0 0 0-1.414l-7-7A1 1 0 0 0 6.586 1zm4 3.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0"/></svg>
-                                $14,300</div>
+                                $14,300
+                            </div>
                         </div> 
                         <div class="respon-row">
                             <div class="cell">
                                 <svg class="me-3 currentColor" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-rulers" viewBox="0 0 16 16"><path d="M1 0a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h5v-1H2v-1h4v-1H4v-1h2v-1H2v-1h4V9H4V8h2V7H2V6h4V2h1v4h1V4h1v2h1V2h1v4h1V4h1v2h1V2h1v4h1V1a1 1 0 0 0-1-1z"/></svg>
                                 10' x 20'
-                                </div>
+                            </div>
                             <div class="cell">
                                 <svg class="me-2 currentColor" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-tag-fill" viewBox="0 0 16 16"><path d="M2 1a1 1 0 0 0-1 1v4.586a1 1 0 0 0 .293.707l7 7a1 1 0 0 0 1.414 0l4.586-4.586a1 1 0 0 0 0-1.414l-7-7A1 1 0 0 0 6.586 1zm4 3.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0"/></svg>
-                                $19,700</div>
+                                $19,700
+                            </div>
                         </div> 
                         <div class="respon-row">
                             <div class="cell">
                                 <svg class="me-3 currentColor" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-rulers" viewBox="0 0 16 16"><path d="M1 0a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h5v-1H2v-1h4v-1H4v-1h2v-1H2v-1h4V9H4V8h2V7H2V6h4V2h1v4h1V4h1v2h1V2h1v4h1V4h1v2h1V2h1v4h1V1a1 1 0 0 0-1-1z"/></svg>
                                 12' x 16'
-                                </div>
+                            </div>
                             <div class="cell">
                                 <svg class="me-2 currentColor" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-tag-fill" viewBox="0 0 16 16"><path d="M2 1a1 1 0 0 0-1 1v4.586a1 1 0 0 0 .293.707l7 7a1 1 0 0 0 1.414 0l4.586-4.586a1 1 0 0 0 0-1.414l-7-7A1 1 0 0 0 6.586 1zm4 3.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0"/></svg>
-                                $18,300</div>
+                                $18,300
+                            </div>
                         </div> 
                         <div class="respon-row">
                             <div class="cell">
                                 <svg class="me-3 currentColor" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-rulers" viewBox="0 0 16 16"><path d="M1 0a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h5v-1H2v-1h4v-1H4v-1h2v-1H2v-1h4V9H4V8h2V7H2V6h4V2h1v4h1V4h1v2h1V2h1v4h1V4h1v2h1V2h1v4h1V1a1 1 0 0 0-1-1z"/></svg>
-                                12' x 20'</div>
+                                12' x 20'
+                            </div>
                             <div class="cell">
                                 <svg class="me-2 currentColor" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-tag-fill" viewBox="0 0 16 16"><path d="M2 1a1 1 0 0 0-1 1v4.586a1 1 0 0 0 .293.707l7 7a1 1 0 0 0 1.414 0l4.586-4.586a1 1 0 0 0 0-1.414l-7-7A1 1 0 0 0 6.586 1zm4 3.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0"/></svg>
-                                $24,800</div>
+                                $24,800
+                            </div>
                         </div>     
                     </div>
                 </div>
@@ -281,58 +293,72 @@
                         <div class="respon-row">
                             <div class="cell">
                                 <svg class="me-3 currentColor" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-rulers" viewBox="0 0 16 16"><path d="M1 0a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h5v-1H2v-1h4v-1H4v-1h2v-1H2v-1h4V9H4V8h2V7H2V6h4V2h1v4h1V4h1v2h1V2h1v4h1V4h1v2h1V2h1v4h1V1a1 1 0 0 0-1-1z"/></svg>
-                                10' × 16'</div>
+                                10' × 16'
+                            </div>
                             <div class="cell">
                                 <svg class="me-2 currentColor" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-tag-fill" viewBox="0 0 16 16"><path d="M2 1a1 1 0 0 0-1 1v4.586a1 1 0 0 0 .293.707l7 7a1 1 0 0 0 1.414 0l4.586-4.586a1 1 0 0 0 0-1.414l-7-7A1 1 0 0 0 6.586 1zm4 3.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0"/></svg>
-                                $22,250</div>
+                                $22,250
+                            </div>
                         </div> 
                         <div class="respon-row">
                             <div class="cell">
                                 <svg class="me-3 currentColor" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-rulers" viewBox="0 0 16 16"><path d="M1 0a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h5v-1H2v-1h4v-1H4v-1h2v-1H2v-1h4V9H4V8h2V7H2V6h4V2h1v4h1V4h1v2h1V2h1v4h1V4h1v2h1V2h1v4h1V1a1 1 0 0 0-1-1z"/></svg>
-                                10' × 20'</div>
+                                10' × 20'
+                            </div>
                             <div class="cell">
                                 <svg class="me-2 currentColor" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-tag-fill" viewBox="0 0 16 16"><path d="M2 1a1 1 0 0 0-1 1v4.586a1 1 0 0 0 .293.707l7 7a1 1 0 0 0 1.414 0l4.586-4.586a1 1 0 0 0 0-1.414l-7-7A1 1 0 0 0 6.586 1zm4 3.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0"/></svg>
-                                $27,750</div>
+                                $27,750
+                            </div>
                         </div> 
                         <div class="respon-row">
                             <div class="cell">
                                 <svg class="me-3 currentColor" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-rulers" viewBox="0 0 16 16"><path d="M1 0a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h5v-1H2v-1h4v-1H4v-1h2v-1H2v-1h4V9H4V8h2V7H2V6h4V2h1v4h1V4h1v2h1V2h1v4h1V4h1v2h1V2h1v4h1V1a1 1 0 0 0-1-1z"/></svg>
-                                12' × 16'</div>
+                                12' × 16'
+                            </div>
                             <div class="cell">
                                 <svg class="me-2 currentColor" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-tag-fill" viewBox="0 0 16 16"><path d="M2 1a1 1 0 0 0-1 1v4.586a1 1 0 0 0 .293.707l7 7a1 1 0 0 0 1.414 0l4.586-4.586a1 1 0 0 0 0-1.414l-7-7A1 1 0 0 0 6.586 1zm4 3.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0"/></svg>
-                                $28,200</div>
+                                $28,200
+                            </div>
                         </div> 
                         <div class="respon-row">
                             <div class="cell">
                                 <svg class="me-3 currentColor" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-rulers" viewBox="0 0 16 16"><path d="M1 0a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h5v-1H2v-1h4v-1H4v-1h2v-1H2v-1h4V9H4V8h2V7H2V6h4V2h1v4h1V4h1v2h1V2h1v4h1V4h1v2h1V2h1v4h1V1a1 1 0 0 0-1-1z"/></svg>
-                                12' × 18'</div>
+                                12' × 18'
+                            </div>
                             <div class="cell">
                                 <svg class="me-2 currentColor" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-tag-fill" viewBox="0 0 16 16"><path d="M2 1a1 1 0 0 0-1 1v4.586a1 1 0 0 0 .293.707l7 7a1 1 0 0 0 1.414 0l4.586-4.586a1 1 0 0 0 0-1.414l-7-7A1 1 0 0 0 6.586 1zm4 3.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0"/></svg>
-                                $31,750</div>
+                                $31,750
+                            </div>
                         </div> 
                         <div class="respon-row">
                             <div class="cell">
                                 <svg class="me-3 currentColor" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-rulers" viewBox="0 0 16 16"><path d="M1 0a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h5v-1H2v-1h4v-1H4v-1h2v-1H2v-1h4V9H4V8h2V7H2V6h4V2h1v4h1V4h1v2h1V2h1v4h1V4h1v2h1V2h1v4h1V1a1 1 0 0 0-1-1z"/></svg>
-                                12' × 20'</div>
+                                12' × 20'
+                            </div>
                             <div class="cell">
                                 <svg class="me-2 currentColor" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-tag-fill" viewBox="0 0 16 16"><path d="M2 1a1 1 0 0 0-1 1v4.586a1 1 0 0 0 .293.707l7 7a1 1 0 0 0 1.414 0l4.586-4.586a1 1 0 0 0 0-1.414l-7-7A1 1 0 0 0 6.586 1zm4 3.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0"/></svg>
-                                $35,200</div>
+                                $35,200
+                            </div>
                         </div> 
                         <div class="respon-row">
                             <div class="cell">
                                 <svg class="me-3 currentColor" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-rulers" viewBox="0 0 16 16"><path d="M1 0a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h5v-1H2v-1h4v-1H4v-1h2v-1H2v-1h4V9H4V8h2V7H2V6h4V2h1v4h1V4h1v2h1V2h1v4h1V4h1v2h1V2h1v4h1V1a1 1 0 0 0-1-1z"/></svg>
-                                12' x 24'</div>
+                                12' x 24'
+                            </div>
                             <div class="cell">
                                 <svg class="me-2 currentColor" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-tag-fill" viewBox="0 0 16 16"><path d="M2 1a1 1 0 0 0-1 1v4.586a1 1 0 0 0 .293.707l7 7a1 1 0 0 0 1.414 0l4.586-4.586a1 1 0 0 0 0-1.414l-7-7A1 1 0 0 0 6.586 1zm4 3.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0"/></svg>
-                                $43,200</div>
+                                $43,200
+                            </div>
                         </div> 
                         <div class="respon-row">
                             <div class="cell">
                                 <svg class="me-3 currentColor" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-rulers" viewBox="0 0 16 16"><path d="M1 0a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h5v-1H2v-1h4v-1H4v-1h2v-1H2v-1h4V9H4V8h2V7H2V6h4V2h1v4h1V4h1v2h1V2h1v4h1V4h1v2h1V2h1v4h1V1a1 1 0 0 0-1-1z"/></svg>
-                                14' × 20'</div>
+                                14' × 20'
+                            </div>
                             <div class="cell">
                                 <svg class="me-2 currentColor" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-tag-fill" viewBox="0 0 16 16"><path d="M2 1a1 1 0 0 0-1 1v4.586a1 1 0 0 0 .293.707l7 7a1 1 0 0 0 1.414 0l4.586-4.586a1 1 0 0 0 0-1.414l-7-7A1 1 0 0 0 6.586 1zm4 3.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0"/></svg>
-                                $42,600</div>
+                                $42,600
+                            </div>
                         </div>     
                     </div>
                 </div>
@@ -343,11 +369,12 @@
      <!-- SUGAR HOUSE GALLERY -->
     <div class="gallery">
         <div class="col-12 col-lg-6 text-center text-md-start px-2 px-md-3 mx-auto mx-lg-0 pt-4">
-        <div class="section-title" id="gallery">Sugar House Gallery:</div></div>
+            <div class="section-title" id="gallery">Sugar House Gallery:</div>
+        </div>
 
         <div class="page-select">
             <button type="button" disabled id="prev" class="col-2 col-sm-1 col-md-2 col-lg-1" onclick="replaceShedGallery(-1)"><span class="arrow">&larr;</span><span class="d-none d-md-inline px-1"> Previous</span></button>
-            <div id="page" class="col-4 col-sm-3 col-lg-2"><p>Page #/#</p></div>
+                <div id="page" class="col-4 col-sm-3 col-lg-2"><p>Page #/#</p></div>
             <button  type="button" disabled id="next" class="col-2 col-sm-1 col-md-2 col-lg-1" onclick="replaceShedGallery(1)"><span class="d-none d-md-inline px-1">Next </span><span class="arrow">&rarr;</span></button>
         </div>
         <div class="js-gallery" id="galleryContainer">
@@ -361,7 +388,7 @@
         </div>
         <div class="page-select pb-3">
             <button type="button" disabled id="prev2" class="col-2 col-sm-1 col-md-2 col-lg-1" onclick="replaceShedGallery(-1)"><span class="arrow">&larr;</span><span class="d-none d-md-inline px-1"> Previous</span></button>
-            <div id="page2" class="col-4 col-sm-3 col-lg-2"><p>Page #/#</p></div>
+                <div id="page2" class="col-4 col-sm-3 col-lg-2"><p>Page #/#</p></div>
             <button  type="button" disabled id="next2" class="col-2 col-sm-1 col-md-2 col-lg-1" onclick="replaceShedGallery(1)"><span class="d-none d-md-inline px-1">Next </span><span class="arrow">&rarr;</span></button>
         </div>
     </div>
@@ -370,7 +397,6 @@
     <div id="modalGalleryContainer" class="container-fluid"  onclick="this.style='display: none'" style="display: none">
         
         <div class="modal-content col-11 mx-auto" id="modalContent">   
-            
             <div id="modalBody" class="modal-body col-12">
                 <p class="modal-text col-10 col-sm-10"></p>
                 <div id="closeButton" class="col-2 col-sm-1" onclick="this.parentNode.parentNode.parentNode.style='display: none'">
@@ -385,7 +411,7 @@
 
                 <input type="checkbox" id="zoomCheck" onclick="event.stopPropagation();">
                     <label for="zoomCheck" class="col-12 col-sm-10 col-lg-8 mx-0" onclick="event.stopPropagation();">
-                    <img src="" class="modal-img" id="modalImage" onclick="event.stopPropagation();">
+                        <img src="" class="modal-img" id="modalImage" onclick="event.stopPropagation();">
                     </label>
 
                 <button type="button" id="modalNext" class="d-sm-block col-sm-1 mx-1 me-lg-2" onclick="event.stopPropagation(); switchCard(true)">
