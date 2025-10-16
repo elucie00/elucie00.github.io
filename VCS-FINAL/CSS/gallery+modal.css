@@ -62,9 +62,6 @@ button#next2:disabled {
   font-size: 1.5rem;
 }
 
-.gallery {
-}
-
 /* GALLERY CARDS */
 
 .gallery .js-gallery {
@@ -94,10 +91,12 @@ button#next2:disabled {
   height: 66%;
   object-fit: cover;
   overflow: hidden;
+    cursor:zoom-in;
 }
 
 .card-img-top img {
   object-position: center;
+
 }
 
 .card-body {
@@ -106,6 +105,7 @@ button#next2:disabled {
   display: flex;
   flex-direction: column;
   padding: 0.5rem 0rem 0rem 0rem;
+  cursor: pointer ;
 }
 
 .card-body p {
