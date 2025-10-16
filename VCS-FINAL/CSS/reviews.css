@@ -110,8 +110,6 @@ svg.close-quote {
 .review-container {
   padding: 1.5rem 0rem;
 }
-.review-container.left {
-}
 .review-container img {
   object-fit: contain;
   overflow: hidden;
