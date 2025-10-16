@@ -200,7 +200,7 @@
   align-self: center;
 }
 .carousel.slide .carousel-item img {
-  object-fit: cover;
+  object-fit: contain;
   overflow: hidden;
   /* width: 100%; */
   height: 25rem;
