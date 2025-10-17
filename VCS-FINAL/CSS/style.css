@@ -1,7 +1,4 @@
 /* WHOLE BODY CONSISTENT STYLES */
-/* TODO: Optionally split into multiple files since this is so large */
-/* TODO: Typically it is good practice to use consistent spacing.
-          Specifically, spacing before selectors*/
 
 .container-fluid {
   padding: 0;
@@ -33,11 +30,9 @@ body {
 main {
   margin: 0rem 0rem;
 }
-
 a {
   text-decoration: none;
 }
-
 p {
   font-size: 1.2rem;
   margin: 0rem;
@@ -54,7 +49,6 @@ h2 {
   font-weight: 700;
 }
 
-
 /* PAGE HEADERS */
 
 .large-header {
@@ -68,13 +62,11 @@ h2 {
   background-size: cover;
   background-repeat: no-repeat;
 }
-
 .large-header .gradient {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-
 .large-header h1 {
   padding: 4% 0.5rem;
   margin: 0rem;
@@ -82,7 +74,6 @@ h2 {
   text-shadow: 0.15rem 0.15rem 0rem #15253f;
   color: #f5f5f5;
 }
-
 .shed-header {
   height: 34vh;
   overflow: hidden;
@@ -91,7 +82,6 @@ h2 {
   background-size: cover;
   background-repeat: no-repeat;
 }
-
 .shed-header .gradient {
   display: flex;
   flex-direction: column;
@@ -127,19 +117,16 @@ h2 {
   border: 0.18rem solid #415a77;
   text-align: center;
 }
-
 .sub-heading {
   margin: 0 0 1rem 0;
   color: #f5f5f5;
   background-color: #415a77;
   border-radius: 0.75rem;
   border: 0.18rem solid #cbd2dc;
-  /* width: 100%; */
   font-size: 2rem;
   padding: 0.5rem 1rem;
   text-shadow: #212529 0.08rem 0.08rem 0.05rem;
 }
-
 /* SECTIONS! */
 
 a#optionsupgrades {
@@ -149,7 +136,6 @@ a#optionsupgrades {
 a#optionsupgrades:hover {
   text-decoration: underline;
 }
-
 a#optionsupgradesbutton {
   font-size: 1.2rem;
   display: block;
@@ -167,12 +153,6 @@ a#optionsupgradesbutton:hover {
   border: #f5f5f5 0.05rem solid;
   transition: 0.2s;
 }
-
-.card-row {
-  display: flex;
-  flex-direction: row;
-}
-
 .jump-to {
   text-align: center;
   padding: 0.5rem;
@@ -185,9 +165,6 @@ a#optionsupgradesbutton:hover {
 .jump-to a:hover {
   background-color: #495057;
   border: #f5f5f5 0.05rem solid;
-}
-
-.jump-to .btn {
 }
 
 /* INFO SECTION 1 UTILITY/SELECT/CUSTOM SHEDS */
@@ -203,7 +180,6 @@ a#optionsupgradesbutton:hover {
   text-shadow: #212529 0.08rem 0.08rem 0rem;
 }
 .info-section-1 .section-title {
-  /* margin: .5rem 0 .5rem 1rem; */
   border: 0.18rem solid #cbd2dc;
 }
 .info-section-1 .content {
@@ -212,14 +188,12 @@ a#optionsupgradesbutton:hover {
   width: 100%;
 }
 .info-section-1 img {
-  /* width:50%; */
   padding: 0.3rem;
   padding-left: 0rem;
   object-fit: cover;
   overflow: hidden;
 }
 .info-section-1 .text {
-  /* width:50%; */
   padding: 0.5rem;
 }
 .info-section-1 p {
@@ -240,173 +214,19 @@ a#optionsupgradesbutton:hover {
   color: #f5f5f5;
   text-shadow: #212529 0.08rem 0.08rem 0.05rem;
 }
-.info-section-2 .sub-heading {
-}
-
 .info-section-2 .text {
-  /* width:50%; */
   padding: 0.5rem;
 }
 .info-section-2 p {
   margin: 0rem;
   padding: 0.5rem 1rem;
 }
-
 .info-section-2 img {
-  /* width:50%; */
   padding: 0rem;
   padding-right: 0rem;
   object-fit: cover;
   overflow: hidden;
 }
-
-/* SHED FEATURES TABLE/SECTION */
-
-.features {
-  margin: 0rem;
-  padding: 1.5rem 1rem;
-  background-image: url(../images/background-images/wood-background.jpg);
-  background-size: 100%;
-  background-blend-mode: darken;
-  background-color: #2125299c;
-}
-.features .section-title {
-  margin: 0 0 1.5rem 0rem;
-  /* width: 50%; */
-}
-.features .respon-table {
-  width: 95%;
-  background-color: #cbd2dc;
-  text-align: center;
-  margin: 0rem auto;
-  color: #212529;
-  font-size: 1.2rem;
-  border-radius: 1rem;
-  text-shadow: #f5f5f5 0.05rem 0.05rem 0rem;
-}
-.features .respon-row {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  border: none;
-}
-.features .cell {
-  border: #212529 0.01rem solid;
-  text-align: left;
-  padding: 1rem 1rem;
-  width: 50%;
-}
-.features ul {
-  margin: 0rem 0rem 0 1.2rem;
-  padding: 0rem;
-  height: 100%;
-}
-.features li {
-  padding-left: 0.5rem;
-  align-content: center;
-  height: 90%;
-}
-
-/* FEATURES TABLE RESPONSIVE! */
-@media only screen and (max-width: 768px) {
-  .features {
-    padding: 1.5rem 0.5rem;
-  }
-  .features .respon-table {
-    width: 100%;
-    background-color: #cbd2dc;
-    text-align: center;
-    margin: 0rem;
-    color: #212529;
-    border-radius: 1rem;
-    text-shadow: #f5f5f5 0.05rem 0.05rem 0rem;
-  }
-  .features .respon-row {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    border: none;
-  }
-  .features .cell {
-    padding: 1rem 1.5rem;
-    width: 100%;
-  }
-
-  .features ul {
-    margin: 0rem 0rem 0 1.2rem;
-    padding: 0rem;
-  }
-  .features li {
-    padding-left: 0.5rem;
-  }
-}
-
-/* SHED PRICING TABLE/SECTION */
-
-.pricing {
-  margin: 0rem;
-  padding: 1.5rem 1rem;
-  background-image: url(../images/background-images/wood-2-background.jpg);
-  background-size: 100%;
-  background-blend-mode: darken;
-  background-color: #2125297e;
-}
-.pricing .respon-table {
-  width: 95%;
-  color: #212529;
-  background-color: #dee2e6;
-  margin: 0rem auto;
-  text-align: center;
-  font-size: 1.2rem;
-  letter-spacing: 0.05rem;
-  border-radius: 0.5rem;
-  display: flex;
-  flex-direction: column;
-}
-
-.pricing .thead {
-  background-color: #f5f5f5;
-}
-.pricing .t-heading {
-  font-size: 1.8rem;
-  font-weight: 400;
-  background-color: #f5f5f5;
-  padding: 1rem 0.5rem;
-  width: 50%;
-}
-
-.pricing .respon-row {
-  display: flex;
-  flex-direction: row;
-}
-.pricing .cell {
-  padding: 1rem;
-  width: 50%;
-  align-content: center;
-}
-.pricing .tbody .respon-row:nth-child(2n) {
-  background-color: #f5f5f5;
-}
-.pricing .tbody .respon-row:hover {
-  background-color: #415a77;
-  color: #f5f5f5;
-}
-
-/* MEDIA CHANGE SCREEN SIZE RESPONSIVE */
-@media only screen and (max-width: 768px) {
-  .pricing {
-    padding: 1.5rem 0.5rem;
-  }
-
-  .pricing .respon-table {
-    width: 100%;
-    font-size: 1.5rem;
-  }
-  .pricing .cell svg {
-    display: none;
-  }
-}
-
 
 /* SKIP TOP JUMP BACK TO TOP */
 
@@ -425,7 +245,6 @@ a#optionsupgradesbutton:hover {
   float: right;
   z-index: 99;
 }
-
 .skip-top a {
   color: #f5f5f5;
   padding: 0rem;
@@ -437,7 +256,6 @@ a#optionsupgradesbutton:hover {
   text-decoration: underline 0.05rem #f5f5f5;
   text-decoration: none;
 }
-
 .skip-top svg {
   display: block;
   justify-content: center;

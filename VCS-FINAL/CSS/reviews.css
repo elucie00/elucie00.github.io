@@ -6,15 +6,8 @@
   height: 90vh;
   margin-bottom: 0rem;
 }
-
 .gradient {
-  background-image: linear-gradient(
-    to right,
-    #212529ab,
-    #21252958,
-    #21252900,
-    #21252900
-  );
+  background-image: linear-gradient(to right, #212529ab, #21252958, #21252900, #21252900);
   height: 100%;
   width: 100%;
 }
@@ -94,7 +87,6 @@ svg.close-quote {
   flex-direction: column;
   padding: 1rem 0rem;
 }
-
 @media only screen and (max-width: 992px) {
   .review-container.right {
     flex-direction: column-reverse;
@@ -106,7 +98,6 @@ svg.close-quote {
     justify-content: flex-end;
   }
 }
-
 .review-container {
   padding: 1.5rem 0rem;
 }
@@ -120,7 +111,6 @@ svg.close-quote {
 .review-container .double-image {
   align-self: center;
 }
-
 .review-container.review {
   align-self: center;
 }
@@ -130,7 +120,6 @@ svg.close-quote {
 .review-container.right img {
   margin-right: -0.12rem;
 }
-
 .review {
   position: relative;
   display: flex;
@@ -141,7 +130,6 @@ svg.close-quote {
   border: #f5f5f5 0.2rem solid;
   border-radius: 1rem;
 }
-
 .review .text {
   height: 93%;
 }
@@ -154,7 +142,6 @@ svg.close-quote {
   padding: 0.7rem;
   margin: 0;
 }
-
 .review h5 .loc {
   padding: 0.5rem;
   font-size: 1.1rem;

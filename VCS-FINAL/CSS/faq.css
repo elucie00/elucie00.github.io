@@ -6,15 +6,8 @@
   height: 90vh;
   margin-bottom: 0rem;
 }
-
 .gradient {
-  background-image: linear-gradient(
-    to right,
-    #212529ab,
-    #21252978,
-    #21252900,
-    #21252900
-  );
+  background-image: linear-gradient(to right, #212529ab, #21252978, #21252900, #21252900);
   height: 100%;
   width: 100%;
 }
@@ -27,7 +20,6 @@
   border-radius: 0.5rem;
   text-align: left;
 }
-
 .section-1 {
   padding: 0.5rem;
 }
@@ -38,10 +30,7 @@
   background-color: #f5f5f500;
   border: none;
 }
-
 .accordion-header button {
-  /* width: 85%;
-    height: 15%; */
   margin: 0.5rem 0rem 0rem 0rem;
   padding: 1.5rem;
   background-color: #415a77;
@@ -51,14 +40,11 @@
   font-size: 1.2rem;
   font-weight: 500;
 }
-
 .accordion-header button.accordion-button.collapsed::after {
   filter: brightness(200);
 }
-
 .accordion-body {
   overflow: hidden;
-  /* width: 85%; */
   align-content: center;
   background-color: #f5f5f5;
   transition: height 1s;

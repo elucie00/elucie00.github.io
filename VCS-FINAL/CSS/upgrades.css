@@ -6,15 +6,8 @@
   height: 90vh;
   margin-bottom: 0rem;
 }
-
 .gradient {
-  background-image: linear-gradient(
-    to right,
-    #212529ab,
-    #21252958,
-    #21252900,
-    #21252900
-  );
+  background-image: linear-gradient(to right, #212529ab, #21252958, #21252900, #21252900);
   height: 100%;
   width: 100%;
 }
@@ -24,7 +17,6 @@
 .jump-to {
   padding: 0.5rem 0rem;
 }
-
 .btn-group {
   flex-wrap: wrap;
 }
@@ -38,7 +30,6 @@
   color: #f5f5f5;
   text-shadow: #212529 0.08rem 0.08rem 0.05rem;
 }
-
 .section-1 .section-title {
   margin: 0 0 0.5rem 0rem;
   border: 0.18rem solid #cbd2dc;
@@ -48,13 +39,11 @@
   object-fit: contain;
   overflow: hidden;
 }
-
 .section-1 .caption p {
   font-size: 1rem;
   text-align: center;
   line-height: 1.8;
 }
-
 .section-1 .text {
   padding: 0rem;
 }
@@ -62,7 +51,6 @@
   margin: 0rem;
   padding: 0.5rem 1.5rem;
 }
-
 .section-1 .text-1 p a {
   color: #f5f5f5;
   text-decoration: underline;
@@ -70,18 +58,15 @@
 .section-1 .text-1 p a:hover {
   color: #ffffff;
 }
-
 .section-1 .text-2 {
   background-color: #1b263b;
   border: 0.18rem solid #f5f5f5;
   border-bottom: none;
   padding: 0.5rem;
 }
-
 .section-1 .text-2 .section {
   padding: 0rem 0.5rem;
 }
-
 .section-1 .text-2 .section p {
   padding: 0.5rem;
 }
@@ -91,7 +76,6 @@
   flex-direction: column;
   justify-content: space-evenly;
 }
-
 .section-1 .text-2 .contact h6 {
   padding-top: 0.5rem;
 }
@@ -116,7 +100,6 @@
 /* ALL UPGRADES SECTIONS */
 
 .upgrade-section {
-  /* width: 100%; */
   margin: 0rem;
   padding: 1rem 0rem 0rem 0rem;
   border-top: 0.18rem solid #cbd2dc;
@@ -130,38 +113,28 @@
   background-attachment: fixed;
   background-size: 100%;
 }
-
-#window.upgrade-section,
-#siding.upgrade-section,
-#misc.upgrade-section {
+#window.upgrade-section,#siding.upgrade-section,#misc.upgrade-section {
   background-image: url(../images/background-images/wood-2-background.jpg);
 }
-
-#door.upgrade-section,
-#roof.upgrade-section {
+#door.upgrade-section,#roof.upgrade-section {
   background-image: url(../images/background-images/wood-background.jpg);
 }
-
 @media only screen and (max-width: 1221px) {
   .upgrade-section {
     background-size: cover;
   }
 }
-
 .upgrade-section .section-title {
   margin: 0 0 1rem 0rem;
 }
-
 .upgrade-section .sub-heading {
   margin: 0rem;
 }
-
 .upgrade-section .content {
   padding: 0rem;
   display: flex;
   flex-direction: column;
 }
-
 .upgrade-section .content p.intro {
   padding: 1rem 1rem 0rem 1rem;
   font-style: italic;
@@ -202,7 +175,6 @@
 .carousel.slide .carousel-item img {
   object-fit: contain;
   overflow: hidden;
-  /* width: 100%; */
   height: 25rem;
   margin: 0rem auto;
   object-position: center;

@@ -12,7 +12,6 @@
   color: #f5f5f5;
   margin: 0rem 0rem 2rem 0rem;
 }
-
 @media only screen and (max-width: 950px) {
   .index-header {
     background-attachment: scroll;
@@ -20,22 +19,14 @@
     object-position: left;
   }
 }
-
 .gradient {
-  background-image: linear-gradient(
-    to right,
-    #212529cb,
-    #21252996,
-    #21252900,
-    #21252900
-  );
+  background-image: linear-gradient(to right, #212529cb, #21252996, #21252900, #21252900);
   width: 100%;
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-
 .index-header h1 {
   margin: 0.4rem 0 0.8rem 1rem;
   text-shadow: 0.1rem 0.1rem 0rem #15253f;
@@ -57,12 +48,10 @@
   margin: 0rem;
   padding: 0rem 1rem;
 }
-
 .index-section-1 .section-title {
   width: 100%;
   margin: 0 0 1.5rem 0rem;
 }
-
 .index-section-1 .card-row {
   justify-content: space-evenly;
   flex-wrap: wrap;
@@ -72,13 +61,11 @@
 .index-section-1 {
   margin: 0rem 0rem 1rem 0rem;
 }
-
 .index-section-1 .card {
   padding: 0.3rem;
   height: 100%;
   margin: 0rem 1rem;
 }
-
 .index-section-1 .card-body {
   padding: 0.5rem;
   text-align: center;
@@ -152,8 +139,6 @@
   flex-wrap: wrap;
   padding: 0rem 0.5rem 0rem 0rem;
 }
-.index-section-2 .option p {
-}
 .index-section-2 .option a {
   padding: 0.3rem 0rem;
   background-color: #212529;
@@ -196,7 +181,6 @@
   margin: 0rem 0rem 1rem 0rem;
   padding: 0.5rem 1rem;
 }
-
 @media only screen and (max-width: 768px) {
   .index-section-3 {
     background-size: cover;
@@ -206,13 +190,11 @@
   margin: 1rem 0 1.5rem 0rem;
   width: 100%;
 }
-
 .index-section-3 .reviews {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
-
 .index-section-3 .review {
   position: relative;
   display: flex;
@@ -224,7 +206,6 @@
   border: #f5f5f5 0.2rem solid;
   border-radius: 1rem;
 }
-
 .index-section-3 .review .text {
   height: 93%;
   padding: 0rem;
@@ -242,7 +223,6 @@
   display: inline;
   font-size: 1rem;
 }
-
 .index-section-3 a {
   width: 100%;
   padding: 0.6rem 1rem;
@@ -271,20 +251,17 @@
   border-radius: 50%;
   padding: 0.5rem;
   border: #f5f5f5 0.15rem solid;
-
 }
 svg.open-quote {
   position: absolute;
   top: -2rem;
   left: -2rem;
-
 }
 svg.close-quote {
   transform: scaleX(-1);
   position: absolute;
   top: 92%;
   right: -2rem;
-
 }
 
 /* INDEX SECTION 4 */
@@ -294,14 +271,11 @@ svg.close-quote {
   margin: 0rem 0rem 1rem 0rem;
   padding: 0rem 1rem;
 }
-
 .index-section-4 .section-title {
   margin: 1rem 0rem 1rem 0rem;
   width: 100%;
 }
-
 .index-section-4 .slide-1 {
-  /* width: 33%; */
   display: block;
   background-color: #e2e3e5;
   color: #212529;
@@ -309,15 +283,12 @@ svg.close-quote {
   height: 100%;
   margin: 0 0.75rem;
 }
-
 .index-section-4 a {
   color: #212529;
   height: 100%;
   display: block;
 }
-
 .index-section-4 .slide-2 {
-  /* width: 33%; */
   background-color: #e2e3e5;
   color: #212529;
   padding: 0.5rem 1rem;
@@ -325,9 +296,7 @@ svg.close-quote {
   margin: 0 0.75rem;
   display: block;
 }
-
 .index-section-4 .slide-3 {
-  /* width:30%; */
   display: flex;
   flex-direction: column;
   padding: 0.5rem;
@@ -338,7 +307,6 @@ svg.close-quote {
   height: 100%;
   margin: 0 0.75rem;
 }
-
 .index-section-4 .text {
   display: flex;
   height: 35%;
@@ -346,7 +314,6 @@ svg.close-quote {
   justify-content: center;
   background-color: #f5f5f5;
 }
-
 .index-section-4 .slide-1 h4,
 .slide-2 h4 {
   margin: 0rem;
@@ -359,18 +326,14 @@ svg.close-quote {
   padding: 0rem 0.5rem;
   align-content: flex-end;
 }
-
 @media only screen and (max-width: 768px) {
-  .index-section-4 .slide-1 h4,
-  .slide-2 h4 {
+  .index-section-4 .slide-1 h4,.slide-2 h4 {
     font-size: 2rem;
   }
-  .index-section-4 .slide-1 p,
-  .slide-2 p {
+  .index-section-4 .slide-1 p,.slide-2 p {
     font-size: 1.5rem;
   }
 }
-
 @media only screen and (max-width: 494px) {
   .index-section-4 .slide-1 h4,
   .slide-2 h4 {
@@ -381,7 +344,6 @@ svg.close-quote {
     font-size: 1.2rem;
   }
 }
-
 .index-section-4 .slide-1 img,
 .slide-2 img {
   height: 65%;
@@ -392,7 +354,6 @@ svg.close-quote {
   object-position: center;
   justify-content: flex-end;
 }
-
 .index-section-4 .slide-3 img {
   width: 95%;
   padding: 0.1rem;

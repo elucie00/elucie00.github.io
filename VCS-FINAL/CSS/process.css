@@ -6,13 +6,7 @@
 }
 
 .gradient {
-  background-image: linear-gradient(
-    to right,
-    #212529ab,
-    #2125295f,
-    #21252900,
-    #21252900
-  );
+  background-image: linear-gradient(to right, #212529ab, #2125295f, #21252900, #21252900);
   height: 100%;
   width: 100%;
 }
@@ -26,13 +20,7 @@
 .section-1 {
   display: flex;
   flex-direction: row;
-  background-image: linear-gradient(
-    to bottom,
-    #343a40,
-    #343a40,
-    #1b263b5d,
-    #1b263b
-  );
+  background-image: linear-gradient(to bottom, #343a40, #343a40, #1b263b5d, #1b263b);
   background-color: #233047;
   color: #f5f5f5;
   text-shadow: #212529 0.08rem 0.08rem 0.05rem;
@@ -91,7 +79,6 @@
   background-color: #212529aa;
   padding: 1rem 1rem 0.5rem 1rem;
 }
-
 @media only screen and (max-width: 1000px) {
   .section-2 {
     background-size: cover;
@@ -147,7 +134,6 @@
   font-size: 1.2rem;
   border: 0.25rem solid #cbd2dc;
 }
-
 .section-3 .section-title {
   border: 0.18rem solid #cbd2dc;
 }
@@ -175,7 +161,6 @@
   padding: 0.5rem 1rem;
   font-size: 1.2rem;
 }
-
 .section-3 h5 {
   margin: 0rem;
   padding: 1rem 1rem;
@@ -199,7 +184,6 @@
 .section-3 .text {
   padding: 0.5rem 1rem 1.5rem 1rem;
 }
-
 .section-3 .blurb {
   text-align: center;
   background-color: #1b263b;
@@ -211,7 +195,6 @@
   border-left: none;
   font-style: italic;
 }
-
 @media only screen and (max-width: 768px) {
   .section-3 .blurb {
     border: 0.18rem solid #cbd2dc;
@@ -219,13 +202,11 @@
     border-left: none;
   }
 }
-
 .section-3 .option-3 {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
 }
-
 .section-3 .option-3 h5 {
   padding-right: 0;
 }
@@ -236,13 +217,11 @@
   width: 18.75rem;
   height: 23.5rem;
 }
-
 .gallery-card img {
   height: 70%;
   object-fit: cover;
   overflow: hidden;
 }
-
 .card-body {
   height: 28%;
 }

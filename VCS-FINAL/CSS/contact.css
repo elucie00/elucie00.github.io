@@ -6,15 +6,8 @@
   height: 90vh;
   margin-bottom: 0rem;
 }
-
 .gradient {
-  background-image: linear-gradient(
-    to right,
-    #212529ab,
-    #21252958,
-    #21252900,
-    #21252900
-  );
+  background-image: linear-gradient(to right, #212529ab, #21252958, #21252900, #21252900);
   height: 100%;
   width: 100%;
 }
@@ -27,41 +20,41 @@
   border-top: 0.18rem solid #cbd2dc;
   border-bottom: 0.18rem solid #cbd2dc;
 }
-  .section-1 .section-title {
-    border: 0.18rem solid #cbd2dc;
-  }
-  .section-1 .contact {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    padding: 0rem 0rem 1rem 0rem;
-  }
-  .section-1 h6 {
-    margin: 0rem;
-    padding: 1rem 1rem;
-    font-size: 1.5rem;
-  }
-  .section-1 .contact a {
-    margin: 0rem;
-    padding: 0.5rem 0.5rem;
-    color: #f5f5f5;
-    background-color: #212529;
-    border: #f5f5f5 0.05rem solid;
-    font-size: 1.1rem;
-    border-radius: 0.3rem;
-    text-shadow: #212529 0.05rem 0.05rem 0rem;
-  }
-    .section-1 .contact a:hover {
-      color: #f5f5f5;
-      background-color: #495057;
-      border: #f5f5f5 0.05rem solid;
-      transition: 0.3s;
-    }
-  .section-1 .contact p {
-    padding: 0.2rem 0rem;
-    font-size: 1.5rem;
-    font-style: italic;
-  }
+.section-1 .section-title {
+  border: 0.18rem solid #cbd2dc;
+}
+.section-1 .contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 0rem 0rem 1rem 0rem;
+}
+.section-1 h6 {
+  margin: 0rem;
+  padding: 1rem 1rem;
+  font-size: 1.5rem;
+}
+.section-1 .contact a {
+  margin: 0rem;
+  padding: 0.5rem 0.5rem;
+  color: #f5f5f5;
+  background-color: #212529;
+  border: #f5f5f5 0.05rem solid;
+  font-size: 1.1rem;
+  border-radius: 0.3rem;
+  text-shadow: #212529 0.05rem 0.05rem 0rem;
+}
+.section-1 .contact a:hover {
+  color: #f5f5f5;
+  background-color: #495057;
+  border: #f5f5f5 0.05rem solid;
+  transition: 0.3s;
+}
+.section-1 .contact p {
+  padding: 0.2rem 0rem;
+  font-size: 1.5rem;
+  font-style: italic;
+}
 .section-1 .text {
   padding: 1.5rem 1rem;
 }
@@ -85,7 +78,6 @@
   text-shadow: #212529 0.08rem 0.08rem 0.05rem;
 }
 .section-2 .text {
-  /* width:50%; */
   padding: 0.5rem;
 }
 .section-2 p {
@@ -94,7 +86,6 @@
   line-height: 1.5;
 }
 .section-2 img {
-  /* width:50%; */
   padding: 0rem;
   padding-right: 0rem;
   object-fit: cover;
