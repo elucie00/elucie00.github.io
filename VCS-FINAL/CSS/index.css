@@ -314,14 +314,12 @@ svg.close-quote {
   justify-content: center;
   background-color: #f5f5f5;
 }
-.index-section-4 .slide-1 h4,
-.slide-2 h4 {
+.index-section-4 .slide-1 h4,.slide-2 h4 {
   margin: 0rem;
   padding: 0rem 0.5rem;
   align-content: center;
 }
-.index-section-4 .slide-1 p,
-.slide-2 p {
+.index-section-4 .slide-1 p,.slide-2 p {
   margin: 0rem;
   padding: 0rem 0.5rem;
   align-content: flex-end;
@@ -335,17 +333,14 @@ svg.close-quote {
   }
 }
 @media only screen and (max-width: 494px) {
-  .index-section-4 .slide-1 h4,
-  .slide-2 h4 {
+  .index-section-4 .slide-1 h4,.slide-2 h4 {
     font-size: 1.5rem;
   }
-  .index-section-4 .slide-1 p,
-  .slide-2 p {
+  .index-section-4 .slide-1 p,.slide-2 p {
     font-size: 1.2rem;
   }
 }
-.index-section-4 .slide-1 img,
-.slide-2 img {
+.index-section-4 .slide-1 img,.slide-2 img {
   height: 65%;
   width: 100%;
   padding: 0rem;
