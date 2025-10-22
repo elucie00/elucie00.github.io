@@ -6,6 +6,7 @@
   height: 90vh;
   margin-bottom: 0rem;
 }
+
 .gradient {
   background-image: linear-gradient(to right, #212529ab, #21252958, #21252900, #21252900);
   height: 100%;
@@ -17,9 +18,11 @@
 .banner {
   background-color: #1b263b;
 }
+
 .banner .section {
   text-align: center;
 }
+
 .banner .contact {
   background-color: #3066be;
   display: flex;
@@ -27,6 +30,7 @@
   justify-content: space-evenly;
   padding: 0rem 0rem 1rem 0rem;
 }
+
 .banner h4 {
   margin: 0;
   padding: 0rem 1rem;
@@ -35,17 +39,20 @@
   font-style: italic;
   line-height: 1.5;
 }
+
 .banner h5 {
   background-color: #1b263b;
   border: 0.15rem solid #cbd2dc;
   padding: 0.5rem;
   text-align: center;
 }
+
 .banner h6 {
   margin: 0rem;
   padding: 1rem 1rem;
   font-size: 1.2rem;
 }
+
 .banner .contact a {
   margin: 0rem;
   padding: 0.5rem 0.5rem;
@@ -55,12 +62,14 @@
   border-radius: 0.3rem;
   text-shadow: #212529 0.05rem 0.05rem 0rem;
 }
+
 .banner .contact a:hover {
   background-color: #ffce1d;
   transition: 0.3s;
 }
 
 /* QUOTATION MARKS SVG */
+
 .review svg {
   background-color: #1b263b;
   margin: 0.5rem;
@@ -68,11 +77,13 @@
   padding: 0.5rem;
   border: #f5f5f5 0.15rem solid;
 }
+
 svg.open-quote {
   position: absolute;
   top: -2rem;
   left: -2rem;
 }
+
 svg.close-quote {
   transform: scaleX(-1);
   position: absolute;
@@ -87,20 +98,25 @@ svg.close-quote {
   flex-direction: column;
   padding: 1rem 0rem;
 }
+
 @media only screen and (max-width: 992px) {
   .review-container.right {
     flex-direction: column-reverse;
   }
+
   .review-container.right img {
     align-self: flex-start;
   }
+
   .review-container.left {
     justify-content: flex-end;
   }
 }
+
 .review-container {
   padding: 1.5rem 0rem;
 }
+
 .review-container img {
   object-fit: contain;
   overflow: hidden;
@@ -108,18 +124,23 @@ svg.close-quote {
   border-radius: 1rem;
   align-self: center;
 }
+
 .review-container .double-image {
   align-self: center;
 }
+
 .review-container.review {
   align-self: center;
 }
+
 .review-container.left img {
   margin-left: -0.12rem;
 }
+
 .review-container.right img {
   margin-right: -0.12rem;
 }
+
 .review {
   position: relative;
   display: flex;
@@ -130,18 +151,22 @@ svg.close-quote {
   border: #f5f5f5 0.2rem solid;
   border-radius: 1rem;
 }
+
 .review .text {
   height: 93%;
 }
+
 .review p {
   padding: 0.15rem 1rem;
   margin: 0;
 }
+
 .review h5 {
   height: 7%;
   padding: 0.7rem;
   margin: 0;
 }
+
 .review h5 .loc {
   padding: 0.5rem;
   font-size: 1.1rem;

@@ -3,6 +3,7 @@
 .shed-header {
   background-image: url(../images/headers/select-sheds-banner.PNG);
 }
+
 .gradient {
   background-image: linear-gradient(to right, #21252974, #21252943, #21252900, #21252900, #21252900);
   height: 100%;
@@ -11,6 +12,7 @@
   flex-direction: column;
   justify-content: center;
 }
+
 @media only screen and (max-width: 590px) {
   .shed-header {
     background-image: url(../images/headers/select-shed-header-small.jpg);
@@ -30,17 +32,20 @@
 }
 
 /*INFO SECTION 3 */
+
 @media only screen and (min-width: 992px) {
   .info-section-3 {
     margin: 0rem 0rem 1.5rem 0rem;
   }
 }
+
 .info-section-3 #carousel {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   padding: 0.5rem;
 }
+
 .info-section-3 .carousel-item img {
   object-fit: cover;
   overflow: hidden;
@@ -49,38 +54,46 @@
   margin: 0rem auto;
   object-position: center;
 }
+
 .info-section-3 .carousel-inner {
   width: 90%;
 }
+
 .info-section-3 .carousel-control-prev {
   width: 5%;
 }
+
 .info-section-3 .carousel-control-next {
   width: 5%;
 }
+
 .info-section-3 .text {
   background-color: #f5f5f5;
   align-self: center;
   padding: 0.5rem;
   border-radius: 0.3rem;
 }
+
 .info-section-3 .text .sub-heading {
   margin: 0rem 0rem 0.5rem 0rem;
   font-size: 1.5rem;
   padding: 0.5rem;
   text-align: center;
 }
+
 .info-section-3 .text p {
   text-align: center;
   padding: 0.3rem 1rem;
   color: #212529;
   line-height: 1.5;
 }
+
 @media only screen and (max-width: 992px) {
   .info-section-3 {
     flex-direction: column-reverse;
     justify-content: space-evenly;
   }
+  
   .info-section-3 .carousel-item img {
     height: auto;
   }

@@ -3,11 +3,13 @@
 .shed-header {
   background-image: url(../images/headers/custom-sheds-banner.PNG);
 }
+
 @media only screen and (max-width: 590px) {
   .shed-header {
     background-image: url(../images/headers/custom-shed-header-small.jpg);
   }
 }
+
 .gradient {
   background-image: linear-gradient(to right, #21252974, #21252943, #21252900, #21252900, #21252900);
   height: 100%;
@@ -28,6 +30,7 @@
 .features .secondary .cell {
   width: 33.33%;
 }
+
   .features .heading {
     display: flex;
     color: #f5f5f5;
@@ -36,12 +39,14 @@
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
   }
+
     .features .heading .text {
       font-size: 1.2rem;
       font-weight: 400;
       font-style: italic;
       text-align: left;
     }
+
       .features .title {
         font-size: 2rem;
         font-weight: 500;
@@ -49,6 +54,7 @@
         padding: 1rem 1rem 1rem 1.5rem;
         align-self: center;
       }
+
 @media only screen and (max-width: 768px) {
   .features .secondary .cell {
     width: 100%;
@@ -56,6 +62,7 @@
 }
 
 /* PRICING */
+
 .pricing {
   margin: 0rem;
 }
@@ -70,16 +77,20 @@
   color: #f5f5f5;
   text-shadow: #212529 0.08rem 0.08rem 0.05rem;
 }
+
   .info-section-3 p {
     margin: 0rem;
   }
+
   .info-section-3 .text.one {
     padding: 0.5rem;
     font-size: 1.2rem;
   }
+
     .info-section-3 .text.one p {
       padding: 0.5rem 1rem;
     }
+
   .info-section-3 .text.two {
     padding: 0.5rem;
     padding-right: 1rem;
@@ -88,22 +99,26 @@
     display: flex;
     flex-direction: column;
   }
+
     .info-section-3 .text.two p {
       text-align: center;
       font-size: 1.05rem;
       padding: 0.5rem 0rem;
       line-height: 1.45;
     }
+
 @media only screen and (max-width: 992px) and (min-width: 576px) {
   .info-section-3 .text.two {
     flex-direction: row-reverse;
     justify-content: space-evenly;
     background-image: linear-gradient(to bottom, #415a77, #415a77, #343a4060, #343a40);
   }
+
     .info-section-3 .text.two p {
       font-size: 2rem;
     }
 }
+
 @media only screen and (max-width: 576px) {
   .info-section-3 .text.two p {
     font-size: 1.5rem;

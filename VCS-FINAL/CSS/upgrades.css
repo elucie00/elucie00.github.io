@@ -6,6 +6,7 @@
   height: 90vh;
   margin-bottom: 0rem;
 }
+
 .gradient {
   background-image: linear-gradient(to right, #212529ab, #21252958, #21252900, #21252900);
   height: 100%;
@@ -21,7 +22,7 @@
   flex-wrap: wrap;
 }
 
-/* SECTION 1 */
+/* SECTION 1 Intro*/
 
 .section-1 {
   margin: 0rem;
@@ -30,55 +31,68 @@
   color: #f5f5f5;
   text-shadow: #212529 0.08rem 0.08rem 0.05rem;
 }
+
 .section-1 .section-title {
   margin: 0 0 0.5rem 0rem;
   border: 0.18rem solid #cbd2dc;
 }
+
 .section-1 img {
   padding: 0.3rem 0rem 0rem 0rem;
   object-fit: contain;
   overflow: hidden;
 }
+
 .section-1 .caption p {
   font-size: 1rem;
   text-align: center;
   line-height: 1.8;
 }
+
 .section-1 .text {
   padding: 0rem;
 }
+
 .section-1 .text-1 p {
   margin: 0rem;
   padding: 0.5rem 1.5rem;
 }
+
 .section-1 .text-1 p a {
   color: #f5f5f5;
   text-decoration: underline;
 }
+
 .section-1 .text-1 p a:hover {
   color: #ffffff;
 }
+
 .section-1 .text-2 {
   background-color: #1b263b;
   border: 0.18rem solid #f5f5f5;
   border-bottom: none;
   padding: 0.5rem;
 }
+
 .section-1 .text-2 .section {
   padding: 0rem 0.5rem;
 }
+
 .section-1 .text-2 .section p {
   padding: 0.5rem;
 }
+
 .section-1 .text-2 .contact {
   padding: 0rem;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
 }
+
 .section-1 .text-2 .contact h6 {
   padding-top: 0.5rem;
 }
+
 .section-1 .text-2 .contact a {
   display: block;
   padding: 1rem 0.5rem;
@@ -90,6 +104,7 @@
   text-shadow: #212529 0.05rem 0.05rem 0rem;
   overflow-wrap: break-word;
 }
+
 .section-1 .text-2 .contact a:hover {
   color: #e2e3e5;
   background-color: #495057;
@@ -113,41 +128,51 @@
   background-attachment: fixed;
   background-size: 100%;
 }
+
 #window.upgrade-section,#siding.upgrade-section,#misc.upgrade-section {
   background-image: url(../images/background-images/wood-2-background.jpg);
 }
+
 #door.upgrade-section,#roof.upgrade-section {
   background-image: url(../images/background-images/wood-background.jpg);
 }
+
 @media only screen and (max-width: 1221px) {
   .upgrade-section {
     background-size: cover;
   }
 }
+
 .upgrade-section .section-title {
   margin: 0 0 1rem 0rem;
 }
+
 .upgrade-section .sub-heading {
   margin: 0rem;
 }
+
 .upgrade-section .content {
   padding: 0rem;
   display: flex;
   flex-direction: column;
 }
+
 .upgrade-section .content p.intro {
   padding: 1rem 1rem 0rem 1rem;
   font-style: italic;
 }
+
 .upgrade-section .content .sub-section {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-self: flex-start;
 }
+
 .upgrade-section .content .text {
   display: flex;
 }
+
 .upgrade-section .text .option {
   display: flex;
   flex-direction: row;
@@ -155,15 +180,18 @@
   margin: 1rem 0rem;
   background-color: #2125297b;
 }
+
 .upgrade-section .content .option p {
   padding: 0rem;
 }
+
 .upgrade-section .content .option .price {
   text-align: center;
   align-self: center;
 }
 
 /* UPGRADES CAROUSEL */
+
 .upgrade-section .content .carousel.slide {
   height: 25rem;
   padding: 0rem;
@@ -172,6 +200,7 @@
   justify-content: space-evenly;
   align-self: center;
 }
+
 .carousel.slide .carousel-item img {
   object-fit: contain;
   overflow: hidden;
@@ -179,30 +208,35 @@
   margin: 0rem auto;
   object-position: center;
 }
+
 .carousel.slide .carousel-item .carousel-caption {
   padding: 0rem;
 }
+
 .carousel.slide .carousel-inner {
   width: 88%;
 }
-.carousel.slide .carousel-control-prev,
-.carousel-control-next {
+
+.carousel.slide .carousel-control-prev,.carousel-control-next {
   width: 6%;
 }
 
 /* BOTTOM SUB CONTENT      */
+
 .upgrade-section .sub-content {
   padding: 1rem 1.5rem;
   background-color: #1b263b;
   border: 0.18rem solid #cbd2dc;
   border-bottom: none;
 }
+
 .upgrade-section .sub-content p {
   padding: 0.25rem 0rem;
   font-size: 1rem;
 }
 
 /* DOOR UPGRADE INTRO TEXT */
+
 .upgrade-section#door .content p.intro {
   padding: 1rem 0rem 0rem 1rem;
 }
@@ -212,21 +246,25 @@
 #siding.upgrade-section .content {
   padding: 0rem 1rem 2rem 2rem;
 }
+
 #siding.upgrade-section .content .text {
   flex-direction: column;
   justify-content: center;
 }
+
 #siding.upgrade-section .content .text p {
   display: flex;
   flex-direction: column;
   justify-content: center;
   font-size: 1.5rem;
 }
+
 #siding.upgrade-section .content .text ul {
   padding: 0rem;
   margin: 0rem;
   list-style-position: inside;
 }
+
 #siding.upgrade-section .content .text li {
   background-color: #2125297b;
   padding: 1rem;

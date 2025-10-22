@@ -12,6 +12,7 @@
   color: #f5f5f5;
   margin: 0rem 0rem 2rem 0rem;
 }
+
 @media only screen and (max-width: 950px) {
   .index-header {
     background-attachment: scroll;
@@ -19,6 +20,7 @@
     object-position: left;
   }
 }
+
 .gradient {
   background-image: linear-gradient(to right, #212529cb, #21252996, #21252900, #21252900);
   width: 100%;
@@ -27,14 +29,17 @@
   flex-direction: column;
   justify-content: center;
 }
+
 .index-header h1 {
   margin: 0.4rem 0 0.8rem 1rem;
   text-shadow: 0.1rem 0.1rem 0rem #15253f;
 }
+
 .index-header h2 {
   margin: 0.8rem 0 0.4rem 1rem;
   text-shadow: 0.1rem 0.1rem 0rem #15253f;
 }
+
 .index-header h3 {
   margin: 1rem 0 1.6rem 1rem;
   font-size: 2rem;
@@ -48,24 +53,29 @@
   margin: 0rem;
   padding: 0rem 1rem;
 }
+
 .index-section-1 .section-title {
   width: 100%;
   margin: 0 0 1.5rem 0rem;
 }
+
 .index-section-1 .card-row {
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
 
 /* SECTION 1 CARD ROW */
+
 .index-section-1 {
   margin: 0rem 0rem 1rem 0rem;
 }
+
 .index-section-1 .card {
   padding: 0.3rem;
   height: 100%;
   margin: 0rem 1rem;
 }
+
 .index-section-1 .card-body {
   padding: 0.5rem;
   text-align: center;
@@ -76,9 +86,11 @@
 .banner {
   background-color: #3066be;
 }
+
 .banner .section {
   text-align: center;
 }
+
 .banner .contact {
   background-color: #1b263b;
   display: flex;
@@ -86,6 +98,7 @@
   justify-content: space-evenly;
   padding: 0rem 0rem 1rem 0rem;
 }
+
 .banner h4 {
   margin: 0;
   padding: 0rem 2rem;
@@ -93,11 +106,13 @@
   font-weight: 400;
   font-style: italic;
 }
+
 .banner h6 {
   margin: 0rem;
   padding: 1rem 1rem;
   font-size: 1.2rem;
 }
+
 .banner .contact a {
   margin: 0rem;
   padding: 0.5rem 0.5rem;
@@ -107,6 +122,7 @@
   border-radius: 0.3rem;
   text-shadow: #212529 0.05rem 0.05rem 0rem;
 }
+
 .banner .contact a:hover {
   background-color: #ffce1d;
   transition: 0.3s;
@@ -118,15 +134,18 @@
   display: flex;
   background-color: #f5f5f5a9;
 }
+
 .index-section-2 img {
   width: 100%;
   object-fit: cover;
   overflow: hidden;
 }
+
 .index-section-2 .text {
   padding: 0.5rem;
   color: #212529;
 }
+
 .index-section-2 h5 {
   padding: 0.2rem 0rem;
   margin: 0rem;
@@ -134,11 +153,13 @@
   font-size: 1.3rem;
   align-content: center;
 }
+
 .index-section-2 .option {
   display: flex;
   flex-wrap: wrap;
   padding: 0rem 0.5rem 0rem 0rem;
 }
+
 .index-section-2 .option a {
   padding: 0.3rem 0rem;
   background-color: #212529;
@@ -151,15 +172,18 @@
   font-size: 1.1rem;
   border-radius: 0.7rem;
 }
+
 .index-section-2 .option a:hover {
   color: #e2e3e5;
   background-color: #495057;
   border: #f5f5f5 0.05rem solid;
   transition: 0.2s;
 }
+
 .index-section-2 .option a p {
   width: 80%;
 }
+
 .index-section-2 .option .arrow {
   font-size: 2.1rem;
   margin: 0;
@@ -181,20 +205,24 @@
   margin: 0rem 0rem 1rem 0rem;
   padding: 0.5rem 1rem;
 }
+
 @media only screen and (max-width: 768px) {
   .index-section-3 {
     background-size: cover;
   }
 }
+
 .index-section-3 .section-title {
   margin: 1rem 0 1.5rem 0rem;
   width: 100%;
 }
+
 .index-section-3 .reviews {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
+
 .index-section-3 .review {
   position: relative;
   display: flex;
@@ -206,23 +234,28 @@
   border: #f5f5f5 0.2rem solid;
   border-radius: 1rem;
 }
+
 .index-section-3 .review .text {
   height: 93%;
   padding: 0rem;
 }
+
 .index-section-3 .review p {
   padding: 0.15rem 1rem;
   margin: 0;
 }
+
 .index-section-3 .review h5 {
   height: 7%;
   padding: 0.7rem 0.7rem 0.5rem 0.7rem;
   margin: 0;
 }
+
 .index-section-3 .review h5 span {
   display: inline;
   font-size: 1rem;
 }
+
 .index-section-3 a {
   width: 100%;
   padding: 0.6rem 1rem;
@@ -237,6 +270,7 @@
   align-items: center;
   display: block;
 }
+
 .index-section-3 a:hover {
   color: #e2e3e5;
   background-color: #495057;
@@ -245,6 +279,7 @@
 }
 
 /* QUOTATION MARKS SVG */
+
 .review svg {
   background-color: #1b263b;
   margin: 0.5rem;
@@ -252,11 +287,13 @@
   padding: 0.5rem;
   border: #f5f5f5 0.15rem solid;
 }
+
 svg.open-quote {
   position: absolute;
   top: -2rem;
   left: -2rem;
 }
+
 svg.close-quote {
   transform: scaleX(-1);
   position: absolute;
@@ -271,10 +308,12 @@ svg.close-quote {
   margin: 0rem 0rem 1rem 0rem;
   padding: 0rem 1rem;
 }
+
 .index-section-4 .section-title {
   margin: 1rem 0rem 1rem 0rem;
   width: 100%;
 }
+
 .index-section-4 .slide-1 {
   display: block;
   background-color: #e2e3e5;
@@ -283,11 +322,13 @@ svg.close-quote {
   height: 100%;
   margin: 0 0.75rem;
 }
+
 .index-section-4 a {
   color: #212529;
   height: 100%;
   display: block;
 }
+
 .index-section-4 .slide-2 {
   background-color: #e2e3e5;
   color: #212529;
@@ -296,6 +337,7 @@ svg.close-quote {
   margin: 0 0.75rem;
   display: block;
 }
+
 .index-section-4 .slide-3 {
   display: flex;
   flex-direction: column;
@@ -307,6 +349,7 @@ svg.close-quote {
   height: 100%;
   margin: 0 0.75rem;
 }
+
 .index-section-4 .text {
   display: flex;
   height: 35%;
@@ -314,32 +357,39 @@ svg.close-quote {
   justify-content: center;
   background-color: #f5f5f5;
 }
+
 .index-section-4 .slide-1 h4,.slide-2 h4 {
   margin: 0rem;
   padding: 0rem 0.5rem;
   align-content: center;
 }
+
 .index-section-4 .slide-1 p,.slide-2 p {
   margin: 0rem;
   padding: 0rem 0.5rem;
   align-content: flex-end;
 }
+
 @media only screen and (max-width: 768px) {
   .index-section-4 .slide-1 h4,.slide-2 h4 {
     font-size: 2rem;
   }
+
   .index-section-4 .slide-1 p,.slide-2 p {
     font-size: 1.5rem;
   }
 }
+
 @media only screen and (max-width: 494px) {
   .index-section-4 .slide-1 h4,.slide-2 h4 {
     font-size: 1.5rem;
   }
+
   .index-section-4 .slide-1 p,.slide-2 p {
     font-size: 1.2rem;
   }
 }
+
 .index-section-4 .slide-1 img,.slide-2 img {
   height: 65%;
   width: 100%;
@@ -349,12 +399,14 @@ svg.close-quote {
   object-position: center;
   justify-content: flex-end;
 }
+
 .index-section-4 .slide-3 img {
   width: 95%;
   padding: 0.1rem;
   object-fit: cover;
   overflow: hidden;
 }
+
 .index-section-4 .slide-3 p {
   width: 95%;
   padding: 0.1rem;

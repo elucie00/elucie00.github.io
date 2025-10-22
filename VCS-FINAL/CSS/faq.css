@@ -6,6 +6,7 @@
   height: 90vh;
   margin-bottom: 0rem;
 }
+
 .gradient {
   background-image: linear-gradient(to right, #212529ab, #21252978, #21252900, #21252900);
   height: 100%;
@@ -13,9 +14,11 @@
 }
 
 /* SECTION 1 */
+
 .section-1 {
   padding: 0.5rem;
 }
+
   .section-title {
     font-size: 1.5rem;
     padding: 1.5rem;
@@ -24,12 +27,13 @@
     text-align: left;
   }
 
-/* BOOTSTRAP ACCORDIAN */
+/* BOOTSTRAP ACCORDIAN faq's*/
 
 .accordion-item {
   background-color: #f5f5f500;
   border: none;
 }
+
   .accordion-header button {
     margin: 0.5rem 0rem 0rem 0rem;
     padding: 1.5rem;
@@ -40,9 +44,11 @@
     font-size: 1.2rem;
     font-weight: 500;
   }
+
     .accordion-header button.accordion-button.collapsed::after {
       filter: brightness(200);
     }
+
   .accordion-body {
     overflow: hidden;
     align-content: center;
@@ -53,13 +59,16 @@
     color: #212529;
   }
 
-/* SECTION 2 */
+/* SECTION 2 contact us banner*/
+
 .banner {
   background-color: #3066be;
 }
+
   .banner .section {
     text-align: center;
   }
+
     .banner h4 {
       margin: 0;
       padding: 0rem 2rem;
@@ -68,6 +77,7 @@
       font-style: italic;
       line-height: 1.5;
     }
+
   .banner .contact {
     background-color: #1b263b;
     display: flex;
@@ -75,11 +85,13 @@
     justify-content: space-evenly;
     padding: 0rem 0rem 1rem 0rem;
   }
+
     .banner h6 {
       margin: 0rem;
       padding: 1rem 1rem;
       font-size: 1.2rem;
     }
+
     .banner .contact a {
       margin: 0rem;
       padding: 0.5rem 0.5rem;
@@ -89,6 +101,7 @@
       border-radius: 0.3rem;
       text-shadow: #212529 0.05rem 0.05rem 0rem;
     }
+
       .banner .contact a:hover {
         background-color: #ffce1d;
         transition: 0.3s;

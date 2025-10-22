@@ -4,13 +4,16 @@ footer.row {
   background-color: #212529;
   padding-top: 1rem;
 }
+
     .card-row {
         display: flex;
         flex-direction: row;
     }
+
     footer .card-row {
         flex-wrap: wrap;
     }
+
     footer .card-row .card {
         text-align: center;
         color: #f5f5f5;
@@ -19,16 +22,23 @@ footer.row {
         z-index: 1;
         padding: 0rem 1rem;
     }
+
     footer h2 {
         margin: 0.7rem 0rem;
         font-size: 1.8rem;
     }
+
+/* About us section */
+
 footer .about-us {
   font-size: 1.2rem;
   text-align: center;
   padding: 0rem 0rem 0.5rem 0rem;
   line-height: 1.5;
 }
+
+/* Quick Links Section */
+
 a.quick-link {
   width: 100%;
   display: block;
@@ -40,9 +50,11 @@ a.quick-link {
   padding: 1rem;
   transition: color 0.2s;
 }
+
     a.quick-link:hover {
         color: #d0d5de;
     }
+
     a.quick-link-active {
         display: block;
         text-decoration: none;
@@ -53,27 +65,35 @@ a.quick-link {
         font-size: 1.5rem;
         padding: 1rem;
     }
+
+/* Info/contact us */
+
 footer .card-row .card.info {
   display: flex;
   flex-direction: column;
 }
-    @media only screen and (min-width: 1012px) {
+
+@media only screen and (min-width: 1012px) {
     footer .card-row .card.info .body {
         padding-left: 1rem;
     }
-    }
+}
+
     .contact-info {
         overflow: hidden;
         padding-bottom: 1.5rem;
     }
+
     .contact-info h6 {
         margin: 0rem;
     }
+
     .contact-info a {
         text-decoration: none;
         font-size: 1rem;
         display: block;
     }
+
     .contact-info p {
         font-size: 1rem;
     }

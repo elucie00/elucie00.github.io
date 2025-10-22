@@ -8,6 +8,7 @@
   background-blend-mode: darken;
   background-color: #2125297e;
 }
+
 .pricing .respon-table {
   width: 95%;
   color: #212529;
@@ -20,9 +21,11 @@
   display: flex;
   flex-direction: column;
 }
+
 .pricing .thead {
   background-color: #f5f5f5;
 }
+
 .pricing .t-heading {
   font-size: 1.8rem;
   font-weight: 400;
@@ -30,31 +33,38 @@
   padding: 1rem 0.5rem;
   width: 50%;
 }
+
 .pricing .respon-row {
   display: flex;
   flex-direction: row;
 }
+
 .pricing .cell {
   padding: 1rem;
   width: 50%;
   align-content: center;
 }
+
 .pricing .tbody .respon-row:nth-child(2n) {
   background-color: #f5f5f5;
 }
+
 .pricing .tbody .respon-row:hover {
   background-color: #415a77;
   color: #f5f5f5;
 }
+
 /* MEDIA CHANGE SCREEN SIZE RESPONSIVE */
 @media only screen and (max-width: 768px) {
   .pricing {
     padding: 1.5rem 0.5rem;
   }
+
   .pricing .respon-table {
     width: 100%;
     font-size: 1.5rem;
   }
+
   .pricing .cell svg {
     display: none;
   }
@@ -70,9 +80,11 @@
   background-blend-mode: darken;
   background-color: #2125299c;
 }
+
 .features .section-title {
   margin: 0 0 1.5rem 0rem;
 }
+
 .features .respon-table {
   width: 95%;
   background-color: #cbd2dc;
@@ -83,23 +95,27 @@
   border-radius: 1rem;
   text-shadow: #f5f5f5 0.05rem 0.05rem 0rem;
 }
+
 .features .respon-row {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   border: none;
 }
+
 .features .cell {
   border: #212529 0.01rem solid;
   text-align: left;
   padding: 1rem 1rem;
   width: 50%;
 }
+
 .features ul {
   margin: 0rem 0rem 0 1.2rem;
   padding: 0rem;
   height: 100%;
 }
+
 .features li {
   padding-left: 0.5rem;
   align-content: center;
@@ -107,10 +123,12 @@
 }
 
 /* FEATURES TABLE RESPONSIVE! */
+
 @media only screen and (max-width: 768px) {
   .features {
     padding: 1.5rem 0.5rem;
   }
+
   .features .respon-table {
     width: 100%;
     background-color: #cbd2dc;
@@ -120,20 +138,24 @@
     border-radius: 1rem;
     text-shadow: #f5f5f5 0.05rem 0.05rem 0rem;
   }
+
   .features .respon-row {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     border: none;
   }
+
   .features .cell {
     padding: 1rem 1.5rem;
     width: 100%;
   }
+
   .features ul {
     margin: 0rem 0rem 0 1.2rem;
     padding: 0rem;
   }
+  
   .features li {
     padding-left: 0.5rem;
   }
