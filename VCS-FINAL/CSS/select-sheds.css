@@ -1,3 +1,8 @@
+:root {
+  --bg-dark: #212529;
+  --bg-light: #f5f5f5;
+}
+
 /* HEADER */
 
 .shed-header {
@@ -31,7 +36,7 @@
   color: #e90202;
 }
 
-/*INFO SECTION 3 */
+/* INFO SECTION 3 */
 
 @media only screen and (min-width: 992px) {
   .info-section-3 {
@@ -68,7 +73,7 @@
 }
 
 .info-section-3 .text {
-  background-color: #f5f5f5;
+  background-color: var(--bg-light);
   align-self: center;
   padding: 0.5rem;
   border-radius: 0.3rem;
@@ -84,7 +89,7 @@
 .info-section-3 .text p {
   text-align: center;
   padding: 0.3rem 1rem;
-  color: #212529;
+  color: var(--bg-dark);
   line-height: 1.5;
 }
 
@@ -93,7 +98,7 @@
     flex-direction: column-reverse;
     justify-content: space-evenly;
   }
-  
+
   .info-section-3 .carousel-item img {
     height: auto;
   }

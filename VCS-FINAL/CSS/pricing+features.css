@@ -1,3 +1,10 @@
+:root {
+  --bg-dark: #212529;
+  --bg-light: #f5f5f5;
+  --bg-grey: #cbd2dc;
+  --dusty-blue: #415a77;
+}
+
 /* SHED PRICING TABLE/SECTION */
 
 .pricing {
@@ -11,7 +18,7 @@
 
 .pricing .respon-table {
   width: 95%;
-  color: #212529;
+  color: var(--bg-dark);
   background-color: #dee2e6;
   margin: 0rem auto;
   text-align: center;
@@ -23,13 +30,13 @@
 }
 
 .pricing .thead {
-  background-color: #f5f5f5;
+  background-color: var(--bg-light);
 }
 
 .pricing .t-heading {
   font-size: 1.8rem;
   font-weight: 400;
-  background-color: #f5f5f5;
+  background-color: var(--bg-light);
   padding: 1rem 0.5rem;
   width: 50%;
 }
@@ -46,15 +53,16 @@
 }
 
 .pricing .tbody .respon-row:nth-child(2n) {
-  background-color: #f5f5f5;
+  background-color: var(--bg-light);
 }
 
 .pricing .tbody .respon-row:hover {
-  background-color: #415a77;
-  color: #f5f5f5;
+  background-color: var(--dusty-blue);
+  color: var(--bg-light);
 }
 
 /* MEDIA CHANGE SCREEN SIZE RESPONSIVE */
+
 @media only screen and (max-width: 768px) {
   .pricing {
     padding: 1.5rem 0.5rem;
@@ -87,13 +95,13 @@
 
 .features .respon-table {
   width: 95%;
-  background-color: #cbd2dc;
+  background-color: var(--bg-grey);
   text-align: center;
   margin: 0rem auto;
-  color: #212529;
+  color: var(--bg-dark);
   font-size: 1.2rem;
   border-radius: 1rem;
-  text-shadow: #f5f5f5 0.05rem 0.05rem 0rem;
+  text-shadow: var(--bg-light) 0.05rem 0.05rem 0rem;
 }
 
 .features .respon-row {
@@ -104,7 +112,7 @@
 }
 
 .features .cell {
-  border: #212529 0.01rem solid;
+  border: var(--bg-dark) 0.01rem solid;
   text-align: left;
   padding: 1rem 1rem;
   width: 50%;
@@ -131,12 +139,12 @@
 
   .features .respon-table {
     width: 100%;
-    background-color: #cbd2dc;
+    background-color: var(--bg-grey);
     text-align: center;
     margin: 0rem;
-    color: #212529;
+    color: var(--bg-dark);
     border-radius: 1rem;
-    text-shadow: #f5f5f5 0.05rem 0.05rem 0rem;
+    text-shadow: var(--bg-light) 0.05rem 0.05rem 0rem;
   }
 
   .features .respon-row {
@@ -155,7 +163,7 @@
     margin: 0rem 0rem 0 1.2rem;
     padding: 0rem;
   }
-  
+
   .features li {
     padding-left: 0.5rem;
   }

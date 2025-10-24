@@ -1,3 +1,10 @@
+:root {
+  --bg-dark: #212529;
+  --bg-light: #f5f5f5;
+  --dusty-blue: #415a77;
+  --shadow-navy: #15253f;
+}
+
 /* HEADER */
 
 .index-header {
@@ -9,7 +16,7 @@
   background-size: 100%;
   overflow: hidden;
   object-fit: cover;
-  color: #f5f5f5;
+  color: var(--bg-light);
   margin: 0rem 0rem 2rem 0rem;
 }
 
@@ -32,18 +39,18 @@
 
 .index-header h1 {
   margin: 0.4rem 0 0.8rem 1rem;
-  text-shadow: 0.1rem 0.1rem 0rem #15253f;
+  text-shadow: 0.1rem 0.1rem 0rem var(--shadow-navy);
 }
 
 .index-header h2 {
   margin: 0.8rem 0 0.4rem 1rem;
-  text-shadow: 0.1rem 0.1rem 0rem #15253f;
+  text-shadow: 0.1rem 0.1rem 0rem var(--shadow-navy);
 }
 
 .index-header h3 {
   margin: 1rem 0 1.6rem 1rem;
   font-size: 2rem;
-  text-shadow: 0.1rem 0.1rem 0rem #15253f;
+  text-shadow: 0.1rem 0.1rem 0rem var(--shadow-navy);
 }
 
 /* INDEX SECTION 1 */
@@ -57,11 +64,6 @@
 .index-section-1 .section-title {
   width: 100%;
   margin: 0 0 1.5rem 0rem;
-}
-
-.index-section-1 .card-row {
-  justify-content: space-evenly;
-  flex-wrap: wrap;
 }
 
 /* SECTION 1 CARD ROW */
@@ -116,11 +118,11 @@
 .banner .contact a {
   margin: 0rem;
   padding: 0.5rem 0.5rem;
-  color: #f5f5f5;
+  color: var(--bg-light);
   background-color: #fdc500;
   font-size: 1.1rem;
   border-radius: 0.3rem;
-  text-shadow: #212529 0.05rem 0.05rem 0rem;
+  text-shadow: var(--bg-dark) 0.05rem 0.05rem 0rem;
 }
 
 .banner .contact a:hover {
@@ -143,7 +145,7 @@
 
 .index-section-2 .text {
   padding: 0.5rem;
-  color: #212529;
+  color: var(--bg-dark);
 }
 
 .index-section-2 h5 {
@@ -162,11 +164,11 @@
 
 .index-section-2 .option a {
   padding: 0.3rem 0rem;
-  background-color: #212529;
+  background-color: var(--bg-dark);
   text-align: center;
   border: #495057 0.05rem solid;
   align-self: center;
-  color: #f5f5f5;
+  color: var(--bg-light);
   display: flex;
   align-items: center;
   font-size: 1.1rem;
@@ -176,7 +178,7 @@
 .index-section-2 .option a:hover {
   color: #e2e3e5;
   background-color: #495057;
-  border: #f5f5f5 0.05rem solid;
+  border: var(--bg-light) 0.05rem solid;
   transition: 0.2s;
 }
 
@@ -230,8 +232,8 @@
   flex-direction: column;
   padding: 1rem;
   margin: 1rem 0rem;
-  background-color: #415a77;
-  border: #f5f5f5 0.2rem solid;
+  background-color: var(--dusty-blue);
+  border: var(--bg-light) 0.2rem solid;
   border-radius: 1rem;
 }
 
@@ -259,14 +261,14 @@
 .index-section-3 a {
   width: 100%;
   padding: 0.6rem 1rem;
-  color: #f5f5f5;
+  color: var(--bg-light);
   margin: 1rem auto;
-  background-color: #212529;
+  background-color: var(--bg-dark);
   border: #495057 0.05rem solid;
   font-size: 1.5rem;
   text-align: center;
   border-radius: 0.3rem;
-  text-shadow: #212529 0.05rem 0.05rem 0rem;
+  text-shadow: var(--bg-dark) 0.05rem 0.05rem 0rem;
   align-items: center;
   display: block;
 }
@@ -274,7 +276,7 @@
 .index-section-3 a:hover {
   color: #e2e3e5;
   background-color: #495057;
-  border: #f5f5f5 0.05rem solid;
+  border: var(--bg-light) 0.05rem solid;
   transition: 0.2s;
 }
 
@@ -285,7 +287,7 @@
   margin: 0.5rem;
   border-radius: 50%;
   padding: 0.5rem;
-  border: #f5f5f5 0.15rem solid;
+  border: var(--bg-light) 0.15rem solid;
 }
 
 svg.open-quote {
@@ -317,21 +319,21 @@ svg.close-quote {
 .index-section-4 .slide-1 {
   display: block;
   background-color: #e2e3e5;
-  color: #212529;
+  color: var(--bg-dark);
   padding: 0.5rem 1rem;
   height: 100%;
   margin: 0 0.75rem;
 }
 
 .index-section-4 a {
-  color: #212529;
+  color: var(--bg-dark);
   height: 100%;
   display: block;
 }
 
 .index-section-4 .slide-2 {
   background-color: #e2e3e5;
-  color: #212529;
+  color: var(--bg-dark);
   padding: 0.5rem 1rem;
   height: 100%;
   margin: 0 0.75rem;
@@ -345,7 +347,7 @@ svg.close-quote {
   text-align: center;
   align-items: center;
   background-color: #e2e3e5;
-  color: #212529;
+  color: var(--bg-dark);
   height: 100%;
   margin: 0 0.75rem;
 }
@@ -355,7 +357,7 @@ svg.close-quote {
   height: 35%;
   flex-direction: column;
   justify-content: center;
-  background-color: #f5f5f5;
+  background-color: var(--bg-light);
 }
 
 .index-section-4 .slide-1 h4,.slide-2 h4 {

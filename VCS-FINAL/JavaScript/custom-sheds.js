@@ -1,4 +1,6 @@
+
 // CUSTOM SHED GALLERY
+
 function createCustomGallery() {
   const template = document.getElementById("customGalleryCardTemplate");
   const gallery = template.parentNode;
@@ -271,7 +273,7 @@ function createCustomGallery() {
     },
     {
       imgSrc: "images/custom-sheds/gallery/windsor-vt.jpg",
-      desc: "12' x 16' Custom Shed with novelty siding, oversized transom window and 8’ wide double doors",
+      desc: "12' x 16' Custom Shed with novelty siding, oversized transom window and 8' wide double doors",
       loc: "Windsor, Vermont",
     },
 

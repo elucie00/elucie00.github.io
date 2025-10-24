@@ -1,3 +1,10 @@
+:root {
+  --bg-dark: #212529;
+  --bg-light: #f5f5f5;
+  --bg-grey: #cbd2dc;
+  --dusty-blue: #415a77;
+}
+
 /* HEADER */
 
 .large-header {
@@ -27,14 +34,14 @@
 .section-1 {
   margin: 0rem;
   padding: 1rem 0rem 0rem 0rem;
-  background-color: #415a77;
-  color: #f5f5f5;
-  text-shadow: #212529 0.08rem 0.08rem 0.05rem;
+  background-color: var(--dusty-blue);
+  color: var(--bg-light);
+  text-shadow: var(--bg-dark) 0.08rem 0.08rem 0.05rem;
 }
 
 .section-1 .section-title {
   margin: 0 0 0.5rem 0rem;
-  border: 0.18rem solid #cbd2dc;
+  border: 0.18rem solid var(--bg-grey);
 }
 
 .section-1 img {
@@ -59,7 +66,7 @@
 }
 
 .section-1 .text-1 p a {
-  color: #f5f5f5;
+  color: var(--bg-light);
   text-decoration: underline;
 }
 
@@ -69,7 +76,7 @@
 
 .section-1 .text-2 {
   background-color: #1b263b;
-  border: 0.18rem solid #f5f5f5;
+  border: 0.18rem solid var(--bg-light);
   border-bottom: none;
   padding: 0.5rem;
 }
@@ -96,19 +103,19 @@
 .section-1 .text-2 .contact a {
   display: block;
   padding: 1rem 0.5rem;
-  color: #f5f5f5;
-  background-color: #212529;
+  color: var(--bg-light);
+  background-color: var(--bg-dark);
   border: #495057 0.05rem solid;
   font-size: 1.1rem;
   border-radius: 0.3rem;
-  text-shadow: #212529 0.05rem 0.05rem 0rem;
+  text-shadow: var(--bg-dark) 0.05rem 0.05rem 0rem;
   overflow-wrap: break-word;
 }
 
 .section-1 .text-2 .contact a:hover {
   color: #e2e3e5;
   background-color: #495057;
-  border: #f5f5f5 0.05rem solid;
+  border: var(--bg-light) 0.05rem solid;
   transition: 0.2s;
 }
 
@@ -117,10 +124,10 @@
 .upgrade-section {
   margin: 0rem;
   padding: 1rem 0rem 0rem 0rem;
-  border-top: 0.18rem solid #cbd2dc;
+  border-top: 0.18rem solid var(--bg-grey);
   border-bottom: none;
-  color: #f5f5f5;
-  text-shadow: #212529 0.08rem 0.08rem 0rem;
+  color: var(--bg-light);
+  text-shadow: var(--bg-dark) 0.08rem 0.08rem 0rem;
   background-blend-mode: darken;
   background-color: #212529b6;
   background-position: center;
@@ -226,7 +233,7 @@
 .upgrade-section .sub-content {
   padding: 1rem 1.5rem;
   background-color: #1b263b;
-  border: 0.18rem solid #cbd2dc;
+  border: 0.18rem solid var(--bg-grey);
   border-bottom: none;
 }
 

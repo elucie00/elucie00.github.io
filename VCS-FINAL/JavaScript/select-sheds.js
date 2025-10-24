@@ -1,3 +1,4 @@
+
 // SELECT SHED GALLERY
 
 function createSelectGallery() {
@@ -132,7 +133,7 @@ function createSelectGallery() {
     },
     {
       imgSrc: "images/select-sheds/gallery/windham-nh.jpg",
-      desc: "12' x 16' Select Shed with barn sash windows and flower boxes. 8’ wide double doors",
+      desc: "12' x 16' Select Shed with barn sash windows and flower boxes. 8' wide double doors",
       loc: "Windham, New Hampshire",
     },
   ];

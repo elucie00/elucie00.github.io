@@ -1,6 +1,4 @@
 
-
-
 // UTILITY SHED GALLERY
 
 function createUtilityGallery() {

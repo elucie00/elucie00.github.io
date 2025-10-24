@@ -1,4 +1,6 @@
+
 // BUILDING PROCESS GALLERY
+
 function createProcessGallery() {
   const template = document.getElementById("processGalleryCardTemplate");
   const gallery = template.parentNode;

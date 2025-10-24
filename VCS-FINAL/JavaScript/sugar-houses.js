@@ -1,4 +1,6 @@
+
 // SUGAR HOUSE GALLERY
+
 function createSugarGallery() {
   const template = document.getElementById("sugarGalleryCardTemplate");
   const gallery = template.parentNode;
@@ -75,7 +77,7 @@ function createSugarGallery() {
     },
     {
       imgSrc: "images/sugar-houses/gallery/stowe-vt.jpg",
-      desc: "Beautiful 12' x 24' Custom Sugarhouse with huge 8’ wide cupola",
+      desc: "Beautiful 12' x 24' Custom Sugarhouse with huge 8' wide cupola",
       loc: "Stowe, Vermont",
     },
     {
@@ -96,7 +98,7 @@ function createSugarGallery() {
     },
     {
       imgSrc: "images/sugar-houses/gallery/whiting-vt.jpg",
-      desc: "12' x 20' Custom Sugarhouse with sliding doors, metal roof, 8’ wide cupola, board and batten siding and heavy duty ramp.",
+      desc: "12' x 20' Custom Sugarhouse with sliding doors, metal roof, 8' wide cupola, board and batten siding and heavy duty ramp.",
       loc: "Whiting, Vermont",
     },
   ];
