@@ -3,6 +3,7 @@
   --bg-light: #f5f5f5;
   --bg-grey: #cbd2dc;
   --dusty-blue: #415a77;
+  --blue-grey: #495057;
 }
 
 /* HEADER */
@@ -59,7 +60,7 @@
 
       .section-1 .contact a:hover {
         color: var(--bg-light);
-        background-color: #495057;
+        background-color: var(--blue-grey);
         border: var(--bg-light) 0.05rem solid;
         transition: 0.3s;
       }

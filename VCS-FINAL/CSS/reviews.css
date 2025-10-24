@@ -2,7 +2,9 @@
   --bg-dark: #212529;
   --bg-light: #f5f5f5;
   --bg-grey: #cbd2dc;
+  --bg-dark-blue: #1b263b;
   --dusty-blue: #415a77;
+  --btn-yellow: #fdc500;
 }
 
 /* HEADER */
@@ -23,7 +25,7 @@
 /* SECTION 1 BANNER */
 
 .banner {
-  background-color: #1b263b;
+  background-color: var(--bg-dark-blue);
 }
 
 .banner .section {
@@ -48,7 +50,7 @@
 }
 
 .banner h5 {
-  background-color: #1b263b;
+  background-color: var(--bg-dark-blue);
   border: 0.15rem solid var(--bg-grey);
   padding: 0.5rem;
   text-align: center;
@@ -64,7 +66,7 @@
   margin: 0rem;
   padding: 0.5rem 0.5rem;
   color: var(--bg-light);
-  background-color: #fdc500;
+  background-color: var(--btn-yellow);
   font-size: 1.1rem;
   border-radius: 0.3rem;
   text-shadow: var(--bg-dark) 0.05rem 0.05rem 0rem;
@@ -78,7 +80,7 @@
 /* QUOTATION MARKS SVG */
 
 .review svg {
-  background-color: #1b263b;
+  background-color: var(--bg-dark-blue);
   margin: 0.5rem;
   border-radius: 50%;
   padding: 0.5rem;

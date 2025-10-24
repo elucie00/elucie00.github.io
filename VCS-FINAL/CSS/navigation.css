@@ -1,6 +1,7 @@
 :root {
   --bg-dark: #212529;
   --bg-light: #f5f5f5;
+  --blue-grey: #495057;
 }
 
 /* NAVIGATION */
@@ -79,7 +80,7 @@ nav {
 .dropdown-content a:hover {
   color: #e2e3e5;
   font-size: 1rem;
-  background-color: #495057;
+  background-color: var(--blue-grey);
   border: var(--bg-light) 0.05rem solid;
   transition: 0.3s;
 }
@@ -88,7 +89,7 @@ nav {
   padding: 0.75rem 1rem;
   text-decoration: none;
   display: block;
-  border: #495057 0.05rem solid;
+  border: var(--blue-grey) 0.05rem solid;
 }
 
 .show {
@@ -208,7 +209,7 @@ nav {
 
   .dropdown-content a {
     color: var(--bg-light);
-    background-color: #495057;
+    background-color: var(--blue-grey);
     border: var(--bg-light) 0.05rem solid;
   }
 
