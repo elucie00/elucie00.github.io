@@ -2,6 +2,7 @@
   --bg-dark: #212529;
   --bg-light: #f5f5f5;
   --bg-grey: #cbd2dc;
+  --bg-grey-blue: #233047;
   --bg-dark-blue: #1b263b;
   --dusty-blue: #415a77;
   --blue-grey: #495057;
@@ -32,7 +33,7 @@
   display: flex;
   flex-direction: row;
   background-image: linear-gradient(to bottom, #343a40, #343a40, #1b263b5d, var(--bg-dark-blue));
-  background-color: #233047;
+  background-color: var(--bg-grey-blue);
   color: var(--bg-light);
   text-shadow: var(--bg-dark) 0.08rem 0.08rem 0.05rem;
 }

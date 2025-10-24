@@ -4,7 +4,6 @@
   --bg-grey: #cbd2dc;
   --bg-dark-blue: #1b263b;
   --dusty-blue: #415a77;
-  --btn-yellow: #fdc500;
 }
 
 /* HEADER */
@@ -65,16 +64,8 @@
 .banner .contact a {
   margin: 0rem;
   padding: 0.5rem 0.5rem;
-  color: var(--bg-light);
-  background-color: var(--btn-yellow);
   font-size: 1.1rem;
   border-radius: 0.3rem;
-  text-shadow: var(--bg-dark) 0.05rem 0.05rem 0rem;
-}
-
-.banner .contact a:hover {
-  background-color: #ffce1d;
-  transition: 0.3s;
 }
 
 /* QUOTATION MARKS SVG */

@@ -5,7 +5,6 @@
   --dusty-blue: #415a77;
   --blue-grey: #495057;
   --shadow-navy: #15253f;
-  --btn-yellow: #fdc500;
 }
 
 /* HEADER */
@@ -77,7 +76,7 @@
 
 .index-section-1 .card {
   padding: 0.3rem;
-  height: 35rem;
+  height: auto;
   margin: 0rem 1rem;
 }
 
@@ -86,12 +85,12 @@
 }
 
 .index-section-1 .card-img-top {
-  height: 20rem;
+  height: auto;
   object-fit: cover;
 }
 
 .index-section-1 .card-body {
-  height: 40%;
+  height: 12rem;
   padding: 0.5rem;
   text-align: center;
   display: flex;
@@ -101,16 +100,17 @@
 }
 
   .index-section-1 .card-body .card-title {
-    height: 15%;
+    height: 3rem;
   }
 
   .index-section-1 .card-body .card-text {
-    height: 55%;
+    height: 8rem;
   }
 
   .index-section-1 .card-body .btn-yellow {
-    height: 20%;
+    height: 3rem;
     align-content: center;
+    border-radius: .4rem;
   }
 
 /* SCHEDULE NOW BANNER */
@@ -146,18 +146,9 @@
 }
 
 .banner .contact a {
-  margin: 0rem;
   padding: 0.5rem 0.5rem;
-  color: var(--bg-light);
-  background-color: var(--btn-yellow);
   font-size: 1.1rem;
   border-radius: 0.3rem;
-  text-shadow: var(--bg-dark) 0.05rem 0.05rem 0rem;
-}
-
-.banner .contact a:hover {
-  background-color: #ffce1d;
-  transition: 0.3s;
 }
 
 /* INDEX SECTION 2 */

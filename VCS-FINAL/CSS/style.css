@@ -4,23 +4,13 @@
   --bg-dark: #212529;
   --bg-light: #f5f5f5;
   --bg-grey: #cbd2dc;
+  --bg-grey-blue: #233047;
   --bg-dark-blue: #1b263b;
   --dusty-blue: #415a77;
   --shadow-navy: #15253f;
   --blue-grey: #495057;
   --btn-yellow: #fdc500;
 
-}
-
-.btn-yellow{
-  background-color: var(--btn-yellow);
-  color: var(--bg-light);
-  text-shadow: var(--bg-dark) 0.05rem 0.05rem 0rem;
-}
-
-.btn-yellow:hover{
-  background-color: #ffce1d;
-  transition: 0.3s;
 }
 
 .container-fluid {
@@ -191,12 +181,23 @@ a#optionsupgradesbutton:hover {
   transition: 0.2s;
 }
 
+.btn-yellow{
+  background-color: var(--btn-yellow);
+  color: var(--bg-light);
+  text-shadow: var(--bg-dark) 0.05rem 0.05rem 0rem;
+}
+
+.btn-yellow:hover{
+  background-color: #ffce1d;
+  transition: 0.3s;
+}
+
 /* Jump To page section buttons */
 
 .jump-to {
   text-align: center;
   padding: 0.5rem;
-  background-image: linear-gradient(to top, #343a40, #233047, #233047);
+  background-image: linear-gradient(to top, #343a40, var(--bg-grey-blue), var(--bg-grey-blue));
 }
 
 .jump-to a {
@@ -256,8 +257,8 @@ a#optionsupgradesbutton:hover {
   width: 100%;
   margin: 0rem;
   padding: 1rem 0rem 0rem 0rem;
-  background-color: #233047;
-  background-image: linear-gradient(to top, #343a40, #233047, #233047, #233047);
+  background-color: var(--bg-grey-blue);
+  background-image: linear-gradient(to top, #343a40, var(--bg-grey-blue), var(--bg-grey-blue), var(--bg-grey-blue));
   color: var(--bg-light);
   text-shadow: var(--bg-dark) 0.08rem 0.08rem 0.05rem;
 }
