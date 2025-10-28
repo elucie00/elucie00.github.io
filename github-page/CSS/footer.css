@@ -1,0 +1,55 @@
+:root {
+  --sage: #81b29a;
+  --coral: #e07b5ff6;
+  --navy: #3d405b;
+  --light-blue: #c2c2e4;
+  --sand: #f4f1de;
+  --grey: #21252987;
+}
+
+
+footer {
+  background-color: #f4f1de;
+  display: flex;
+  padding: 1rem 0rem;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+footer .links {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+footer a {
+  color: #3d405b;
+  text-align: center;
+  transition: all 0.2s ease;
+}
+footer a:hover {
+  color: #f2cc8f;
+}
+footer .nav {
+  justify-content: center;
+  padding: 0.75rem 1rem;
+}
+
+footer a.nav{
+    align-self: center;
+}
+footer .nav:hover {
+  background-color: #3d405b;
+  color: #f2cc8f;
+}
+footer .contact {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+footer .contact-option {
+  display: flex;
+  justify-content: center;
+  padding: 0rem .5rem;
+}
+footer .contact-option a {
+  padding: 0.75rem;
+}
