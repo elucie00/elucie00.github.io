@@ -22,7 +22,7 @@
   background-color: #dee2e6;
   margin: 0rem auto;
   text-align: center;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   letter-spacing: 0.05rem;
   border-radius: 0.5rem;
   display: flex;
@@ -34,7 +34,7 @@
 }
 
 .pricing .t-heading {
-  font-size: 1.8rem;
+  font-size: 2rem;
   font-weight: 400;
   background-color: var(--bg-light);
   padding: 1rem 0.5rem;
