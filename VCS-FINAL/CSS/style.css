@@ -242,6 +242,7 @@ a#optionsupgradesbutton:hover {
 
 .info-section-1 .text {
   padding: 0.5rem;
+
 }
 
 .info-section-1 p {
@@ -252,11 +253,8 @@ a#optionsupgradesbutton:hover {
 
 
 
-@media only screen and (min-width: 1200px) {
-  .info-section-1 p {
-    font-size: 1.5rem;
-  }
-  .info-section-2 p {
+@media only screen and (min-width: 1400px) {
+  .info-section-1 p,.info-section-2 p,.info-section-3 p {
     font-size: 1.5rem;
   }
 }

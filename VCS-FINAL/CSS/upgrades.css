@@ -48,7 +48,7 @@
 
 .section-1 img {
   padding: 0.3rem 0rem 0rem 0rem;
-  object-fit: contain;
+  object-fit: cover;
   overflow: hidden;
 }
 
@@ -60,6 +60,8 @@
 
 .section-1 .text {
   padding: 0rem;
+  display: flex;
+  flex-direction: column;
 }
 
 .section-1 .text-1 p {
@@ -119,6 +121,12 @@
   background-color: var(--blue-grey);
   border: var(--bg-light) 0.05rem solid;
   transition: 0.2s;
+}
+
+@media only screen and (min-width: 1400px) {
+  .section-1 p {
+    font-size: 1.5rem;
+  }
 }
 
 /* ALL UPGRADES SECTIONS */
@@ -286,3 +294,4 @@
 .upgrade-section #pitch-overhang.content .text {
   flex-direction: column;
 }
+

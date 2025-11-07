@@ -64,7 +64,7 @@ button#prev:disabled,button#next:disabled,button#prev2:disabled,button#next2:dis
   display: flex;
   flex-direction: row;
   width: 100%;
-  justify-content: space-evenly;
+  justify-content: center;
   flex-wrap: wrap;
   color: var(--bg-dark);
   margin: 0rem 0rem 2rem 0rem;
@@ -79,7 +79,7 @@ button#prev:disabled,button#next:disabled,button#prev2:disabled,button#next2:dis
     text-align: center;
     background-color: var(--bg-light);
     border-radius: 0.3rem;
-    margin: 1rem 0.5rem;
+    margin: 1rem 1rem;
     padding: 0.5rem;
   }
 
@@ -256,5 +256,24 @@ button#modalPrev:disabled,button#modalNext:disabled {
 @media only screen and (min-width: 1200px) {
   .imgAndButtons button {
     height: 50vh;
+  }
+}
+
+@media only screen and (min-width: 1566px) {
+  .gallery-card {
+    width: 30rem;
+    height: 30rem;
+  }
+  .card-body p {
+    font-size: 1.3rem;
+  }
+  .card-body h5 {
+      font-size: 1.2rem;
+  }
+}
+
+@media only screen and (min-width: 1616px) {
+  .gallery-card {
+    margin: 1rem 1.5rem;
   }
 }

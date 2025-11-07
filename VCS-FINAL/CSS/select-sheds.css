@@ -30,10 +30,16 @@
   padding: 0.5rem 0.75rem;
 }
 
+.info-section-1 img{
+}
 /* INFO SECTION 2 */
 
 .info-section-2 p.red {
   color: #e90202;
+}
+
+.info-section-2 img{
+  object-position: left;
 }
 
 /* INFO SECTION 3 */
@@ -52,10 +58,10 @@
 }
 
 .info-section-3 .carousel-item img {
-  object-fit: cover;
+  object-fit: contain;
   overflow: hidden;
   width: 31.25rem;
-  height: 21.8rem;
+  height: 28rem;
   margin: 0rem auto;
   object-position: center;
 }
