@@ -10,8 +10,8 @@
 
 .large-header {
   background-image: url(../images/headers/faq-header.jpg);
-  background-position: center;
-  height: 90vh;
+  background-position: 50% 40%;
+  height: 65vh;
   margin-bottom: 0rem;
 }
 
@@ -67,7 +67,7 @@
     color: var(--bg-dark);
   }
 
-  @media only screen and (min-width: 1400px) {
+@media only screen and (min-width: 1400px) {
   .accordion-header button {
     font-size: 1.5rem;
   }
@@ -75,6 +75,7 @@
     font-size: 1.3rem;
   }
 }
+
 /* SECTION 2 contact us banner*/
 
 .banner {
@@ -115,7 +116,6 @@
       background-color: #fdc500;
       font-size: 1.1rem;
       border-radius: 0.3rem;
-      text-shadow: var(--bg-dark) 0.05rem 0.05rem 0rem;
     }
 
       .banner .contact a:hover {

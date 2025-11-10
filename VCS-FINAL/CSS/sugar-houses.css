@@ -53,7 +53,6 @@
 .features .heading {
   display: flex;
   color: var(--bg-light);
-  text-shadow: var(--bg-dark) 0.08rem 0.08rem 0rem;
   background-color: var(--dusty-blue);
   border-top-left-radius: 1rem;
   border-top-right-radius: 1rem;
@@ -85,7 +84,6 @@
 .pricing .heading {
   width: 98%;
   color: var(--bg-light);
-  text-shadow: var(--bg-dark) 0.08rem 0.08rem 0rem;
   background-color: var(--dusty-blue);
   border-top-left-radius: 1rem;
   border-top-right-radius: 1rem;

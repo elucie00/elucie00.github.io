@@ -12,7 +12,7 @@
 .large-header {
   background-image: url(../images/headers/upgrades.jpg);
   background-position: center;
-  height: 90vh;
+  height: 60vh;
   margin-bottom: 0rem;
 }
 
@@ -24,9 +24,6 @@
 
 /* JUMP TO SECTION */
 
-.jump-to {
-  padding: 0.5rem 0rem;
-}
 .btn-group {
   flex-wrap: wrap;
 }
@@ -38,7 +35,6 @@
   padding: 1rem 0rem 0rem 0rem;
   background-color: var(--dusty-blue);
   color: var(--bg-light);
-  text-shadow: var(--bg-dark) 0.08rem 0.08rem 0.05rem;
 }
 
 .section-1 .section-title {
@@ -112,7 +108,6 @@
   border: var(--blue-grey) 0.05rem solid;
   font-size: 1.1rem;
   border-radius: 0.3rem;
-  text-shadow: var(--bg-dark) 0.05rem 0.05rem 0rem;
   overflow-wrap: break-word;
 }
 
@@ -133,17 +128,16 @@
 
 .upgrade-section {
   margin: 0rem;
-  padding: 1rem 0rem 0rem 0rem;
+  padding: 2rem 1rem 0rem 1rem;
   border-top: 0.18rem solid var(--bg-grey);
   border-bottom: none;
   color: var(--bg-light);
-  text-shadow: var(--bg-dark) 0.08rem 0.08rem 0rem;
   background-blend-mode: darken;
   background-color: #212529b6;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: 100%;
+  background-size: cover;
 }
 
 #window.upgrade-section,#siding.upgrade-section,#misc.upgrade-section {
@@ -154,14 +148,8 @@
   background-image: url(../images/background-images/wood-background.jpg);
 }
 
-@media only screen and (max-width: 1221px) {
-  .upgrade-section {
-    background-size: cover;
-  }
-}
-
 .upgrade-section .section-title {
-  margin: 0 0 1rem 0rem;
+  margin: 0 0 2rem 0rem;
 }
 
 .upgrade-section .sub-heading {
@@ -242,6 +230,7 @@
 
 .upgrade-section .sub-content {
   padding: 1rem 1.5rem;
+  margin: 0rem 0rem 0rem -1rem;
   background-color: var(--bg-dark-blue);
   border: 0.18rem solid var(--bg-grey);
   border-bottom: none;

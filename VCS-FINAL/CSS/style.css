@@ -9,7 +9,7 @@
   --dusty-blue: #415a77;
   --shadow-navy: #15253f;
   --blue-grey: #495057;
-  --btn-yellow: #fdc500;
+  --btn-grey: #d0b882;
 
 }
 
@@ -55,10 +55,6 @@ p {
 
 }
 
-h1,h2 {
-  text-shadow: 0.1rem 0.1rem 0rem var(--shadow-navy);
-}
-
 .italic {
   font-style: italic;
 }
@@ -70,12 +66,10 @@ h1,h2 {
 /* PAGE HEADERS */
 
 .large-header {
-  height: 80vh;
   margin: 0rem;
   background-attachment: fixed;
   overflow: hidden;
   object-fit: cover;
-  background-size: 100%;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -90,7 +84,6 @@ h1,h2 {
   padding: 4% 0.5rem;
   margin: 0rem;
   font-size: 3rem;
-  text-shadow: 0.15rem 0.15rem 0rem var(--shadow-navy);
   color: var(--bg-light);
 }
 
@@ -112,7 +105,6 @@ h1,h2 {
 .shed-header h1 {
   padding: 4% 0.5rem;
   margin: 0rem;
-  text-shadow: 0.1rem 0.1rem 0rem var(--shadow-navy);
   font-size: 3.5rem;
 }
 
@@ -127,28 +119,28 @@ h1,h2 {
 /* TEMPLATES/HEADINGS! */
 
 .section-title {
+  width: max-content;
+  max-width: 100%;
   font-size: 2.3rem;
-  padding: 0.15rem;
+  padding: 0.5rem 5rem;
   margin: 0 0 1.5rem 0rem;
-  width: 100%;
   color: var(--bg-light);
-  text-decoration: none;
-  text-shadow: var(--bg-dark) 0.08rem 0.08rem 0.05rem;
   background-color: var(--bg-dark-blue);
   border-radius: 0.75rem;
   border: 0.18rem solid var(--dusty-blue);
-  text-align: center;
 }
 
 .sub-heading {
+  width: max-content;
+  max-width: 100%;
+  min-width: 20%;
   margin: 0 0 1rem 0;
   color: var(--bg-light);
   background-color: var(--dusty-blue);
   border-radius: 0.75rem;
   border: 0.18rem solid var(--bg-grey);
   font-size: 2rem;
-  padding: 0.5rem 1rem;
-  text-shadow: var(--bg-dark) 0.08rem 0.08rem 0.05rem;
+  padding: 0.5rem 1.5rem;
 }
 
 /* SECTIONS! */
@@ -170,7 +162,6 @@ a#optionsupgradesbutton {
   border: var(--blue-grey) 0.05rem solid;
   text-align: center;
   border-radius: 0.3rem;
-  text-shadow: var(--bg-dark) 0.04rem 0.04rem 0.05rem;
   padding: 0.7rem;
 }
 
@@ -181,23 +172,32 @@ a#optionsupgradesbutton:hover {
   transition: 0.2s;
 }
 
-.btn-yellow{
-  background-color: var(--btn-yellow);
+.btn-grey{
+  background-color: var(--bg-dark);
   color: var(--bg-light);
-  text-shadow: var(--bg-dark) 0.05rem 0.05rem 0rem;
 }
 
-.btn-yellow:hover{
-  background-color: #ffce1d;
+.btn-grey:hover{
+  background-color: #34485f;
   transition: 0.3s;
+}
+
+.btn-blue{
+  background-color: #34485f;
+  color:var(--bg-light);
+}
+
+.btn-blue:hover{
+  background-color: #415a77c8;
+  transition: 0.2s;
 }
 
 /* Jump To page section buttons */
 
 .jump-to {
   text-align: center;
-  padding: 0.5rem;
-  background-image: linear-gradient(to top, #343a40, var(--bg-grey-blue), var(--bg-grey-blue));
+  padding: 0.75rem 0rem;
+  background-image: linear-gradient(to bottom, #343a40, var(--bg-grey-blue), var(--bg-grey-blue));
 }
 
 .jump-to a {
@@ -220,7 +220,6 @@ a#optionsupgradesbutton:hover {
   border-top: 0.18rem solid var(--bg-grey);
   border-bottom: 0.18rem solid var(--bg-grey);
   color: var(--bg-light);
-  text-shadow: var(--bg-dark) 0.08rem 0.08rem 0rem;
 }
 
 .info-section-1 .section-title {
@@ -234,15 +233,13 @@ a#optionsupgradesbutton:hover {
 }
 
 .info-section-1 img {
-  padding: 0.3rem;
-  padding-left: 0rem;
+  padding: 0rem;
   object-fit: cover;
   overflow: hidden;
 }
 
 .info-section-1 .text {
-  padding: 0.5rem;
-
+  padding: 2.5rem 1rem;
 }
 
 .info-section-1 p {
@@ -266,15 +263,15 @@ a#optionsupgradesbutton:hover {
   flex-direction: row;
   width: 100%;
   margin: 0rem;
-  padding: 1rem 0rem 0rem 0rem;
+  padding: 0rem;
   background-color: var(--bg-grey-blue);
   background-image: linear-gradient(to top, #343a40, var(--bg-grey-blue), var(--bg-grey-blue), var(--bg-grey-blue));
   color: var(--bg-light);
-  text-shadow: var(--bg-dark) 0.08rem 0.08rem 0.05rem;
 }
 
 .info-section-2 .text {
-  padding: 0.5rem;
+  padding: 2rem 1rem;
+  align-content: center;
 }
 
 .info-section-2 p {
@@ -287,6 +284,7 @@ a#optionsupgradesbutton:hover {
   padding-right: 0rem;
   object-fit: cover;
   overflow: hidden;
+  object-position: left;
 }
 
 /* SKIP TOP JUMP BACK TO TOP */

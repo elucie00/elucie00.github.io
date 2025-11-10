@@ -11,7 +11,7 @@
 .large-header {
   background-image: url(../images/headers/contact-us.jpg);
   background-position: top;
-  height: 90vh;
+  height: 60vh;
   margin-bottom: 0rem;
 }
 
@@ -24,7 +24,7 @@
 /* SECTION 1 */
 
 .section-1 {
-  padding: 1rem 0rem 0rem 0rem;
+  padding: 1.5rem 1rem;
   background-color: var(--dusty-blue);
   border-top: 0.18rem solid var(--bg-grey);
   border-bottom: 0.18rem solid var(--bg-grey);
@@ -55,7 +55,6 @@
       border: var(--bg-light) 0.05rem solid;
       font-size: 1.1rem;
       border-radius: 0.3rem;
-      text-shadow: var(--bg-dark) 0.05rem 0.05rem 0rem;
     }
 
       .section-1 .contact a:hover {
@@ -81,7 +80,7 @@
   display: flex;
   flex-direction: row;
   margin: 0rem;
-  padding: 0rem;
+  padding: 1.5rem 1rem;
   background-image: url(../images/background-images/wood-background.jpg);
   background-blend-mode: darken;
   background-color: #212529b6;
@@ -89,9 +88,8 @@
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: 100%;
+  background-size: cover;
   color: var(--bg-light);
-  text-shadow: var(--bg-dark) 0.08rem 0.08rem 0.05rem;
 }
 
   .section-2 .text {
@@ -107,9 +105,4 @@
     .section-2 .fb iframe {
       float: right;
     }
-    
-@media only screen and (max-width: 992px) {
-  .section-2 {
-    background-size: cover;
-  }
-}
+

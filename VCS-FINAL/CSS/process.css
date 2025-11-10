@@ -13,6 +13,7 @@
 .large-header {
   background-image: url(../images/headers/building-process-header.jpg);
   background-position: top;
+  height: 60vh;
 }
 
 .gradient {
@@ -35,7 +36,6 @@
   background-image: linear-gradient(to bottom, #343a40, #343a40, #1b263b5d, var(--bg-dark-blue));
   background-color: var(--bg-grey-blue);
   color: var(--bg-light);
-  text-shadow: var(--bg-dark) 0.08rem 0.08rem 0.05rem;
 }
 
 .section-1 img {
@@ -53,7 +53,6 @@
 .section-1 p {
   padding: 0rem 1rem 0.7rem 1rem;
   margin: 0rem;
-  text-shadow: var(--bg-dark) 0.08rem 0.08rem 0rem;
 }
 
 /* BUILDING PROCESS BANNER */
@@ -93,16 +92,10 @@
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: 100%;
+  background-size: cover;
   background-blend-mode: darken;
   background-color: #212529aa;
   padding: 1rem 1rem 0.5rem 1rem;
-}
-
-@media only screen and (max-width: 1000px) {
-  .section-2 {
-    background-size: cover;
-  }
 }
 
 .section-2 .option {
@@ -203,7 +196,6 @@
   border: var(--blue-grey) 0.05rem solid;
   font-size: 1.1rem;
   border-radius: 0.3rem;
-  text-shadow: var(--bg-dark) 0.05rem 0.05rem 0rem;
 }
 
 .section-3 a:hover {

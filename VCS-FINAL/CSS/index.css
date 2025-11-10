@@ -12,22 +12,14 @@
 .index-header {
   background-image: url(../images/headers/home-page.jpg);
   width: 100%;
-  height: 80vh;
+  height: 65vh;
   background-attachment: fixed;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
   overflow: hidden;
   object-fit: cover;
   color: var(--bg-light);
   margin: 0rem 0rem 2rem 0rem;
-}
-
-@media only screen and (max-width: 950px) {
-  .index-header {
-    background-attachment: scroll;
-    background-size: cover;
-    object-position: left;
-  }
 }
 
 .gradient {
@@ -41,18 +33,17 @@
 
 .index-header h1 {
   margin: 0.4rem 0 0.8rem 1rem;
-  text-shadow: 0.1rem 0.1rem 0rem var(--shadow-navy);
+  font-size: 4rem;
 }
 
 .index-header h2 {
   margin: 0.8rem 0 0.4rem 1rem;
-  text-shadow: 0.1rem 0.1rem 0rem var(--shadow-navy);
+  font-size: 2.3rem;
 }
 
 .index-header h3 {
   margin: 1rem 0 1.6rem 1rem;
-  font-size: 2rem;
-  text-shadow: 0.1rem 0.1rem 0rem var(--shadow-navy);
+  font-size: 2.3rem;
 }
 
 /* INDEX SECTION 1 */
@@ -63,11 +54,6 @@
   padding: 0rem 1rem;
 }
 
-.index-section-1 .section-title {
-  width: 100%;
-  margin: 0 0 1.5rem 0rem;
-}
-
 /* SECTION 1 CARD ROW */
 
 .index-section-1 {
@@ -75,7 +61,8 @@
 }
 
 .index-section-1 .card {
-  padding: 0.3rem;
+  padding: 0rem;
+  border: none;
   height: auto;
   margin: 0rem 1rem;
 }
@@ -107,7 +94,7 @@
     height: 8rem;
   }
 
-  .index-section-1 .card-body .btn-yellow {
+  .index-section-1 .card-body .btn-grey {
     height: 3rem;
     align-content: center;
     border-radius: .4rem;
@@ -165,7 +152,7 @@
 }
 
 .index-section-2 .text {
-  padding: 0.5rem;
+  padding: 2rem 1rem;
   color: var(--bg-dark);
 }
 
@@ -222,22 +209,10 @@
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: 100%;
+  background-size: cover;
   background-blend-mode: darken;
   background-color: #2125299f;
-  margin: 0rem 0rem 1rem 0rem;
-  padding: 0.5rem 1rem;
-}
-
-@media only screen and (max-width: 768px) {
-  .index-section-3 {
-    background-size: cover;
-  }
-}
-
-.index-section-3 .section-title {
-  margin: 1rem 0 1.5rem 0rem;
-  width: 100%;
+  padding: 2rem 1rem;
 }
 
 .index-section-3 .reviews {
@@ -268,6 +243,10 @@
   margin: 0;
 }
 
+.index-section-3 .review p .bold {
+  font-style: italic;
+}
+
 .index-section-3 .review h5 {
   height: 7%;
   padding: 0.7rem 0.7rem 0.5rem 0.7rem;
@@ -289,7 +268,6 @@
   font-size: 1.5rem;
   text-align: center;
   border-radius: 0.3rem;
-  text-shadow: var(--bg-dark) 0.05rem 0.05rem 0rem;
   align-items: center;
   display: block;
 }
@@ -329,12 +307,7 @@ svg.close-quote {
 .index-section-4 {
   flex-wrap: wrap;
   margin: 0rem 0rem 1rem 0rem;
-  padding: 0rem 1rem;
-}
-
-.index-section-4 .section-title {
-  margin: 1rem 0rem 1rem 0rem;
-  width: 100%;
+  padding: 2rem 1rem;
 }
 
 .index-section-4 .slide-1 {
