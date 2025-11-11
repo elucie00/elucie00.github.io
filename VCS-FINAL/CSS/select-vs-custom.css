@@ -1,11 +1,3 @@
-:root {
-  --bg-dark: #212529;
-  --bg-light: #f5f5f5;
-  --bg-grey: #cbd2dc;
-  --dusty-blue: #415a77;
-  --blue-grey: #495057;
-}
-
 /* HEADER */
 
 .large-header {
@@ -27,7 +19,8 @@
   margin: 0rem;
   padding: 2rem 1rem;
   background-color: var(--bg-grey-blue);
-  background-image: linear-gradient(to top, #343a40, #343a40, var(--bg-grey-blue), var(--bg-grey-blue));
+  /* background-image: linear-gradient(to top, #343a40, #343a40, var(--bg-grey-blue), var(--bg-grey-blue)); */
+  background-image: linear-gradient(to top, #343a40, #343a409b, #2330479b, #233047), url(../images/background-images/wood-2-background.jpg);
 }
 
 .section-1 .options{
@@ -74,26 +67,12 @@
     padding: .5rem;
   }
 
-  .section-1 .card-body .btn-card {
+  .section-1 .card-body .btn-grey {
     height: 3.5rem;
     align-content: center;
-    padding: 0.5rem;
-    color: var(--bg-light);
-    background-color: var(--bg-dark);
-    border: var(--blue-grey) 0.05rem solid;
     font-size: 1.5rem;
-    text-align: center;
-    border-radius: 0.3rem;
     display: inline;
   }
-
-  .section-1 .card-body .btn-card:hover{
-    color: #e2e3e5;
-    background-color: var(--blue-grey);
-    border: var(--bg-light) 0.05rem solid;
-    transition: 0.2s;
-  }
-
 
 @media only screen and (min-width: 1187px) {
   .section-1 .card-body .card-text{
@@ -347,24 +326,11 @@
 }
 
 .section-3 .option a {
-  padding: 0.3rem 0rem;
-  background-color: var(--bg-dark);
-  text-align: center;
-  border: var(--blue-grey) 0.05rem solid;
-  align-self: center;
-  color: var(--bg-light);
+  
   display: flex;
   align-items: center;
   font-size: 1.1rem;
-  border-radius: 0.7rem;
   overflow-wrap: break-word;
-}
-
-.section-3 .option a:hover {
-  color: #e2e3e5;
-  background-color: var(--blue-grey);
-  border: var(--bg-light) 0.05rem solid;
-  transition: 0.2s;
 }
 
 .section-3 .option a p {

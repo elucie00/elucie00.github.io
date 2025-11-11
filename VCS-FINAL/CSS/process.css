@@ -1,13 +1,3 @@
-:root {
-  --bg-dark: #212529;
-  --bg-light: #f5f5f5;
-  --bg-grey: #cbd2dc;
-  --bg-grey-blue: #233047;
-  --bg-dark-blue: #1b263b;
-  --dusty-blue: #415a77;
-  --blue-grey: #495057;
-}
-
 /* HEADER */
 
 .large-header {
@@ -39,15 +29,13 @@
 }
 
 .section-1 img {
-  padding: 0.5rem;
-  padding-right: 0rem;
   object-fit: cover;
   overflow: hidden;
   object-position: left;
 }
 
 .section-1 .text {
-  padding: 0.5rem 0.5rem 0.5rem 1rem;
+  padding: 2rem 1rem;
 }
 
 .section-1 p {
@@ -63,11 +51,12 @@
 
 .banner .option-1 {
   text-align: center;
+  padding: 0rem 1rem;
 }
 
 .banner .option-2 {
   background-color: var(--bg-dark-blue);
-  padding: 0rem;
+  padding: 2.5rem 1rem;
 }
 
 .banner h4 {
@@ -95,7 +84,7 @@
   background-size: cover;
   background-blend-mode: darken;
   background-color: #212529aa;
-  padding: 1rem 1rem 0.5rem 1rem;
+  padding: 2rem 1rem;
 }
 
 .section-2 .option {
@@ -166,6 +155,14 @@
   flex-direction: column;
 }
 
+.section-3 h4 {
+  margin: 0;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+  font-style: italic;
+}
+
 .section-3 .option-2 {
   text-align: center;
 }
@@ -175,35 +172,19 @@
   font-size: 1.6rem;
 }
 
-.section-3 h4 {
-  margin: 0;
-  padding: 0.5rem;
-  font-size: 1.5rem;
-  font-weight: 400;
-  font-style: italic;
+.section-3 .option-3 .btn-grey {
+  padding: 0.75rem 1rem;
+  font-size: 1.1rem;
+  border-radius: 0.3rem;
+  text-align: left;
 }
 
-.section-3 h5 {
+.section-3 .option-3 h5 {
   margin: 0rem;
   padding: 1rem 1rem;
   font-size: 1.4rem;
 }
 
-.section-3 a {
-  padding: 1rem 1rem;
-  color: var(--bg-light);
-  background-color: var(--bg-dark);
-  border: var(--blue-grey) 0.05rem solid;
-  font-size: 1.1rem;
-  border-radius: 0.3rem;
-}
-
-.section-3 a:hover {
-  color: #e2e3e5;
-  background-color: var(--blue-grey);
-  border: var(--bg-light) 0.05rem solid;
-  transition: 0.3s;
-}
 
 .section-3 .text {
   padding: 0.5rem 1rem 1.5rem 1rem;
