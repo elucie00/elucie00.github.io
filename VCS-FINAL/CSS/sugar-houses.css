@@ -1,5 +1,5 @@
 .shed-header {
-  background-image: url(../images/headers/sugarhouse-banner.PNG);
+  background-image: url(../images/headers/webP/sugarhouse-banner.webp);
 }
 
 .gradient {
@@ -13,7 +13,7 @@
 
 @media only screen and (max-width: 650px) {
   .shed-header {
-    background-image: url(../images/headers/sugarhouse-header-small.jpg);
+    background-image: url(../images/headers/webP/sugarhouse-header-small.webp);
   }
 }
 

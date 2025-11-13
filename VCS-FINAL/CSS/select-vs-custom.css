@@ -1,7 +1,7 @@
 /* HEADER */
 
 .large-header {
-  background-image: url(../images/headers/select-vs-custom.jpg);
+  background-image: url(../images/headers/webP/select-vs-custom.webp);
   background-position: 50% 0%;
   height: 60vh;
   margin-bottom: 0rem;
@@ -20,7 +20,7 @@
   padding: 2rem 1rem;
   background-color: var(--bg-grey-blue);
   /* background-image: linear-gradient(to top, #343a40, #343a40, var(--bg-grey-blue), var(--bg-grey-blue)); */
-  background-image: linear-gradient(to top, #343a40, #343a409b, #2330479b, #233047), url(../images/background-images/wood-2-background.jpg);
+  background-image: linear-gradient(to top, #343a40, #343a409b, #2330479b, #233047), url(../images/background-images/webp/wood-2-background.webp);
 }
 
 .section-1 .options{
@@ -302,7 +302,7 @@
 
 .section-3 {
   display: flex;
-  background-image: url(../images/select-vs-custom/bg-intro.jpg);
+  background-image: url(../images/select-vs-custom/webp/bg-intro.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;

@@ -1,7 +1,7 @@
 /* HEADER */
 
 .large-header {
-  background-image: url(../images/headers/upgrades.jpg);
+  background-image: url(../images/headers/webP/upgrades.webp);
   background-position: center;
   height: 60vh;
   margin-bottom: 0rem;
@@ -109,11 +109,11 @@
 }
 
 #window.upgrade-section,#siding.upgrade-section,#misc.upgrade-section {
-  background-image: url(../images/background-images/wood-2-background.jpg);
+  background-image: url(../images/background-images/webp/wood-2-background.webp);
 }
 
 #door.upgrade-section,#roof.upgrade-section {
-  background-image: url(../images/background-images/wood-background.jpg);
+  background-image: url(../images/background-images/webp/wood-background.webp);
 }
 
 .upgrade-section .section-title {

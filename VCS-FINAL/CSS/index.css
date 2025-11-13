@@ -1,7 +1,7 @@
 /* HEADER */
 
 .index-header {
-  background-image: url(../images/headers/home-page.jpg);
+  background-image: url(../images/headers/webP/home-page.webp);
   width: 100%;
   height: 65vh;
   background-attachment: fixed;
@@ -197,7 +197,7 @@
 
 .index-section-3 {
   width: 100%;
-  background-image: url(../images/index/barnard-vt-bg.jpg);
+  background-image: url(../images/index/webp/barnard-vt-bg.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;

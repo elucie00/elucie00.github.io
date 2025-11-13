@@ -1,7 +1,7 @@
 /* HEADER */
 
 .large-header {
-  background-image: url(../images/headers/contact-us.jpg);
+  background-image: url(../images/headers/webP/contact-us.webp);
   background-position: top;
   height: 60vh;
   margin-bottom: 0rem;
@@ -64,7 +64,7 @@
   flex-direction: row;
   margin: 0rem;
   padding: 1.5rem 1rem;
-  background-image: url(../images/background-images/wood-background.jpg);
+  background-image: url(../images/background-images/webp/wood-background.webp);
   background-blend-mode: darken;
   background-color: #212529b6;
   border-bottom: 0.18rem solid var(--bg-grey);

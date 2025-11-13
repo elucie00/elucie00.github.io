@@ -1,12 +1,12 @@
 /* HEADER */
 
 .shed-header {
-  background-image: url(../images/headers/utility-sheds-banner.PNG);
+  background-image: url(../images/headers/webP/utility-sheds-banner.webp);
 }
 
 @media only screen and (max-width: 590px) {
   .shed-header {
-    background-image: url(../images/headers/utility-shed-header-small.jpg);
+    background-image: url(../images/headers/webP/utility-shed-header-small.webp);
   }
 }
 

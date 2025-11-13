@@ -6,67 +6,67 @@ function createProcessGallery() {
   const gallery = template.parentNode;
   let gallery_content = [
     {
-      imgSrc: "images/building-process/gallery/2x4-framing.jpg",
+      imgSrc: "images/building-process/gallery/webp/2x4-framing.webp",
       desc: "Contractor grade framing lumber, no big box store sub-standard materials",
     },
     {
-      imgSrc: "images/building-process/gallery/overlapping.jpg",
+      imgSrc: "images/building-process/gallery/webp/overlapping.webp",
       desc: "Overlapping and locking double top plates offer superior strength and stability and prevents wall sagging",
     },
     {
-      imgSrc: "images/building-process/gallery/4x4-runners.jpg",
+      imgSrc: "images/building-process/gallery/webp/4x4-runners.webp",
       desc: "4x4 pressure treated runners and floor joists. Don't settle for low quality 2x4 floor joists",
     },
 
     {
-      imgSrc: "images/building-process/gallery/advan-tech-floor.jpg",
+      imgSrc: "images/building-process/gallery/webp/advan-tech-floor.webp",
       desc: "AdvanTech tongue and groove floor sheathing, superior to standard plywood",
     },
     {
-      imgSrc: "images/building-process/gallery/conventional-framing.jpg",
+      imgSrc: "images/building-process/gallery/webp/conventional-framing.webp",
       desc: "Conventional framing with 2x8 Ridge board and 2x6 rafters. The strongest type of construction for handling snow loads",
     },
     {
-      imgSrc: "images/building-process/gallery/fascia-softfit.jpg",
+      imgSrc: "images/building-process/gallery/webp/fascia-softfit.webp",
       desc: "Fascia soffit and overhands protect your shed from the weather",
     },
 
     {
-      imgSrc: "images/building-process/gallery/heavyduty-door.jpg",
+      imgSrc: "images/building-process/gallery/webp/heavyduty-door.webp",
       desc: "Heavy duty door construction on all sheds",
     },
     {
-      imgSrc: "images/building-process/gallery/ladder-framing.jpg",
+      imgSrc: "images/building-process/gallery/webp/ladder-framing.webp",
       desc: "Conventional ladder framing and sub fascia ensures structural integrity even under the heaviest snow",
     },
     {
-      imgSrc: "images/building-process/gallery/metal-roof.jpg",
+      imgSrc: "images/building-process/gallery/webp/metal-roof.webp",
       desc: "Metal roofs are installed over zip system sheathing. No purlins. That means no condensation in your shed",
     },
 
     {
-      imgSrc: "images/building-process/gallery/zip-system.jpg",
+      imgSrc: "images/building-process/gallery/webp/zip-system.webp",
       desc: "Zip system sheathing is waterproof and far higher quality than standard plywood or regular osb",
     },
     {
-      imgSrc: "images/building-process/gallery/30-year-shingle.jpg",
+      imgSrc: "images/building-process/gallery/webp/30-year-shingle.webp",
       desc: "Minimum 30 year warranty shingles",
     },
     {
-      imgSrc: "images/building-process/gallery/t-11.jpg",
+      imgSrc: "images/building-process/gallery/webp/t-11.webp",
       desc: "T1-11 siding",
     },
 
     {
-      imgSrc: "images/building-process/gallery/boardbatten-siding.jpg",
+      imgSrc: "images/building-process/gallery/webp/boardbatten-siding.webp",
       desc: "Board and batten siding",
     },
     {
-      imgSrc: "images/building-process/gallery/novelty-siding.jpg",
+      imgSrc: "images/building-process/gallery/webp/novelty-siding.webp",
       desc: "Novelty siding",
     },
     {
-      imgSrc: "images/building-process/gallery/shiplap-siding.jpg",
+      imgSrc: "images/building-process/gallery/webp/shiplap-siding.webp",
       desc: "Shiplap siding",
     },
   ];
