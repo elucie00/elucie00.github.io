@@ -18,40 +18,56 @@
     <script src="JavaScript/script.js"></script>
 </head>
 
-<body id="process-html">
+<body id="processHtml">
 
 <!-- NAVIGATION -->
 <nav id="navBar">
     <button id="menuClose">
         Menu
-            <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" class="bi bi-dash-circle-fill" viewBox="0 0 16 16"><path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M4.5 7.5a.5.5 0 0 0 0 1h7a.5.5 0 0 0 0-1z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" class="bi bi-dash-circle-fill" viewBox="0 0 16 16"><path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M4.5 7.5a.5.5 0 0 0 0 1h7a.5.5 0 0 0 0-1z"/></svg>
     </button>
+    <!-- Home -->
     <a class="nav-button" href="index.html">Home</a>
-    <a class="nav-button" href="utility-sheds.html">Utility Sheds</a>
-    <a class="nav-button" href="select-sheds.html">Select Sheds</a>
-    <a class="nav-button" href="custom-sheds.html">Custom Sheds</a>
-    <a class="nav-button" href="sugar-houses.html">Sugar Houses</a>
-    <a class="nav-button" href="upgrades.html">Options & Upgrades</a>
-    <a class="nav-button wide" href="select-vs-custom.html">Select vs Custom Shed</a>
-    <div class="dropdown">
-        <div onclick="dropdownNav()" class="dropbtn">Gallery</div>
-        <div id="galleryDropdown" class="dropdown-content">
-            <a href="utility-sheds.html#gallery">Utility Sheds</a>
-            <a href="select-sheds.html#gallery">Select Sheds</a>
-            <a href="custom-sheds.html#gallery">Custom Sheds</a>
-            <a href="sugar-houses.html#gallery">Sugar Houses</a>
+    <!-- Shop Sheds -->
+    <div class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseShop" aria-expanded="false" aria-controls="collapseShop">
+        Shop Sheds
+    </div>
+        <div class="collapse" id="collapseShop">
+            <div class="card card-body">
+                <a href="utility-sheds.html">Utility Sheds</a>
+                <a href="select-sheds.html">Select Sheds</a>
+                <a href="custom-sheds.html">Custom Sheds</a>
+                <a href="sugar-houses.html">Sugar Houses</a>
+                <a href="upgrades.html">Options & Upgrades</a>
+                <a href="select-vs-custom.html">Select vs Custom Shed</a>
+            </div>
         </div>
-    </div> 
+    <!-- Building Process -->
     <a class="nav-button active" href="process.html">Building Process</a>
-    <a class="nav-button" href="reviews.html">Reviews & Testimonials</a>
+    <!-- Gallery -->
+    <div class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseGallery" aria-expanded="false" aria-controls="collapseGallery">
+        Gallery
+    </div>
+        <div class="collapse" id="collapseGallery">
+            <div class="card card-body">
+                <a href="utility-sheds.html#gallery">Utility Shed Gallery</a>
+                <a href="select-sheds.html#gallery">Select Shed Gallery</a>
+                <a href="custom-sheds.html#gallery">Custom Shed Gallery</a>
+                <a href="sugar-houses.html#gallery">Sugar House Gallery</a>
+            </div>
+        </div>
+    <!-- Reviews & Testimonials -->
+    <a class="nav-button" href="reviews.html">Testimonials</a>
+    <!-- FAQ's -->
     <a class="nav-button" href="faq.html">FAQ's</a>
+    <!-- Contact -->
     <a class="nav-button" href="contact.html">Contact Us</a>
 </nav>
 <!-- COLLAPSIBLE NAV BAR -->
 <button id="navBackdrop">
     <button id="menuOpen">
         <p>Menu
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/></svg>
+        <svg width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/></svg>
         </p>
     </button>
 </button>
@@ -95,7 +111,7 @@
 
     <!-- BACK TO TOP -->
     <div class="skip-top">
-        <a href="#process-html">
+        <a href="#processHtml">
             <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-chevron-compact-up mx-auto" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M7.776 5.553a.5.5 0 0 1 .448 0l6 3a.5.5 0 1 1-.448.894L8 6.56 2.224 9.447a.5.5 0 1 1-.448-.894z"/></svg>
         </a>
     </div>
@@ -180,10 +196,10 @@
             <div class="option-2 col-12 col-md-1 py-4 pt-md-5">
                 <p>Or</p>
             </div>
-            <div class="option-3 col-12 col-md-5 ps-0 ps-sm-5 ps-md-0 ps-lg-4 ps-xl-5">
+            <div class="option-3 col-12 col-md-5 ps-0 ps-sm-4 ps-md-0 ps-lg-4 ps-xl-5">
                 <h5 class="col-10 text-start text-md-center text-lg-start">Call or e-mail Mike Lucie at:</h5>
-                    <a class="btn-grey col-11 col-sm-8 col-md-12 col-lg-10 col-xl-9 col-xxl-8 mx-auto ms-sm-2 mx-md-0 align-self-start justify-content-start" href="tel:8023490684">802-349-0684&#8594;</a>
-                    <a class="btn-grey col-11 col-sm-8 col-md-12 col-lg-10 col-xl-9 col-xxl-8 mx-auto my-4 ms-sm-2 mx-md-0 align-self-start justify-content-start" href="mailto:vermontcustomsheds@gmail.com" target="_blank">vermontcustomsheds<wbr>@gmail.com&#8594;</a>
+                    <a class="btn-grey col-11 col-sm-8 col-md-12 col-lg-11 col-xl-10 col-xxl-8 mx-auto ms-sm-2 mx-md-0 align-self-start justify-content-start" href="tel:8023490684">802-349-0684&#8594;</a>
+                    <a class="btn-grey col-11 col-sm-8 col-md-12 col-lg-11 col-xl-10 col-xxl-8 mx-auto my-4 ms-sm-2 mx-md-0 align-self-start justify-content-start" href="mailto:vermontcustomsheds@gmail.com" target="_blank">vermontcustomsheds<wbr>@gmail.com&#8594;</a>
             </div>
         </div>
     </div>
@@ -234,7 +250,7 @@
                         <img src="" alt="building process gallery image" class="modal-img" id="modalImage" onclick="event.stopPropagation();">
                     </label>
 
-                <button type="button" id="modalNext" class="d-sm-block col-sm-1 mx-1 me-lg-2" onclick="event.stopPropagation(); switchCard(true)">
+                <button type="button" id="modalNext" class="d-sm-block col-sm-1 mx-1 ms-lg-2" onclick="event.stopPropagation(); switchCard(true)">
                     <svg xmlns="http://www.w3.org/2000/svg" width="80%" height="auto" fill="currentColor" class="bi bi-chevron-compact-right" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M6.776 1.553a.5.5 0 0 1 .671.223l3 6a.5.5 0 0 1 0 .448l-3 6a.5.5 0 1 1-.894-.448L9.44 8 6.553 2.224a.5.5 0 0 1 .223-.671"/></svg>
                 </button>
             </div>

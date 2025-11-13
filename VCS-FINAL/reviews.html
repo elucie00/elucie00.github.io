@@ -16,40 +16,56 @@
     <script src="JavaScript/script.js"></script>
 </head>
 
-<body id="reviews-html">
+<body id="reviewsHtml">
 
 <!-- NAVIGATION -->
 <nav id="navBar">
     <button id="menuClose">
         Menu
-            <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" class="bi bi-dash-circle-fill" viewBox="0 0 16 16"><path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M4.5 7.5a.5.5 0 0 0 0 1h7a.5.5 0 0 0 0-1z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" class="bi bi-dash-circle-fill" viewBox="0 0 16 16"><path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M4.5 7.5a.5.5 0 0 0 0 1h7a.5.5 0 0 0 0-1z"/></svg>
     </button>
+    <!-- Home -->
     <a class="nav-button" href="index.html">Home</a>
-    <a class="nav-button" href="utility-sheds.html">Utility Sheds</a>
-    <a class="nav-button" href="select-sheds.html">Select Sheds</a>
-    <a class="nav-button" href="custom-sheds.html">Custom Sheds</a>
-    <a class="nav-button" href="sugar-houses.html">Sugar Houses</a>
-    <a class="nav-button" href="upgrades.html">Options & Upgrades</a>
-    <a class="nav-button wide" href="select-vs-custom.html">Select vs Custom Shed</a>
-    <div class="dropdown">
-        <div onclick="dropdownNav()" class="dropbtn">Gallery</div>
-        <div id="galleryDropdown" class="dropdown-content">
-            <a href="utility-sheds.html#gallery">Utility Sheds</a>
-            <a href="select-sheds.html#gallery">Select Sheds</a>
-            <a href="custom-sheds.html#gallery">Custom Sheds</a>
-            <a href="sugar-houses.html#gallery">Sugar Houses</a>
+    <!-- Shop Sheds -->
+    <div class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseShop" aria-expanded="false" aria-controls="collapseShop">
+        Shop Sheds
+    </div>
+        <div class="collapse" id="collapseShop">
+            <div class="card card-body">
+                <a href="utility-sheds.html">Utility Sheds</a>
+                <a href="select-sheds.html">Select Sheds</a>
+                <a href="custom-sheds.html">Custom Sheds</a>
+                <a href="sugar-houses.html">Sugar Houses</a>
+                <a href="upgrades.html">Options & Upgrades</a>
+                <a href="select-vs-custom.html">Select vs Custom Shed</a>
+            </div>
         </div>
-    </div> 
+    <!-- Building Process -->
     <a class="nav-button" href="process.html">Building Process</a>
-    <a class="nav-button active" href="reviews.html">Reviews & Testimonials</a>
+    <!-- Gallery -->
+    <div class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseGallery" aria-expanded="false" aria-controls="collapseGallery">
+        Gallery
+    </div>
+        <div class="collapse" id="collapseGallery">
+            <div class="card card-body">
+                <a href="utility-sheds.html#gallery">Utility Shed Gallery</a>
+                <a href="select-sheds.html#gallery">Select Shed Gallery</a>
+                <a href="custom-sheds.html#gallery">Custom Shed Gallery</a>
+                <a href="sugar-houses.html#gallery">Sugar House Gallery</a>
+            </div>
+        </div>
+    <!-- Reviews & Testimonials -->
+    <a class="nav-button active" href="reviews.html">Testimonials</a>
+    <!-- FAQ's -->
     <a class="nav-button" href="faq.html">FAQ's</a>
+    <!-- Contact -->
     <a class="nav-button" href="contact.html">Contact Us</a>
 </nav>
 <!-- COLLAPSIBLE NAV BAR -->
 <button id="navBackdrop">
     <button id="menuOpen">
         <p>Menu
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/></svg>
+        <svg width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/></svg>
         </p>
     </button>
 </button>
@@ -65,12 +81,12 @@
      
     <!-- SECTION 1 BANNER intro-->
     <div class="banner row">
-        <div class="section col-12 col-lg-7 align-content-center">
+        <div class="section col-12 col-lg-6 col-xxl-7 align-content-center">
             <h4 class="py-4 py-lg-0">I take pride in building the best structure possible. Read below what 
                 some of my satisfied customers have to say about their Vermont Custom Sheds projects!</h4>
         </div>
 
-        <div class="contact col-12 col-lg-5">
+        <div class="contact col-12 col-lg-6 col-xxl-5">
             <h5>Questions or comments?</h5>
             <h6>
                 <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16"> <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.6 17.6 0 0 0 4.168 6.608 17.6 17.6 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.68.68 0 0 0-.58-.122l-2.19.547a1.75 1.75 0 0 1-1.657-.459L5.482 8.062a1.75 1.75 0 0 1-.46-1.657l.548-2.19a.68.68 0 0 0-.122-.58zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/></svg>
@@ -87,7 +103,7 @@
 
     <!-- BACK TO TOP -->
     <div class="skip-top">
-        <a href="#reviews-html">
+        <a href="#reviewsHtml">
             <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-chevron-compact-up mx-auto" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M7.776 5.553a.5.5 0 0 1 .448 0l6 3a.5.5 0 1 1-.448.894L8 6.56 2.224 9.447a.5.5 0 1 1-.448-.894z"/></svg>
         </a>
     </div>

@@ -222,10 +222,10 @@
 
 /* BUILDING PROCESS GALLERY */
 
-.gallery-card {
+/* .gallery-card {
   width: 18.75rem;
   height: 23.5rem;
-}
+} */
 
 .gallery-card img {
   height: 70%;
@@ -235,4 +235,12 @@
 
 .card-body {
   height: 28%;
+}
+
+.card-body p{
+  height: 90%;
+}
+
+.card-body .card-location{
+  height:0;
 }

@@ -16,7 +16,7 @@
     <script src="JavaScript/script.js"></script>
 </head>
 
-<body id="index-html">
+<body id="indexHtml">
 
 <!-- NAVIGATION -->
 <nav id="navBar">
@@ -24,32 +24,48 @@
         Menu
         <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" class="bi bi-dash-circle-fill" viewBox="0 0 16 16"><path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M4.5 7.5a.5.5 0 0 0 0 1h7a.5.5 0 0 0 0-1z"/></svg>
     </button>
+    <!-- Home -->
     <a class="nav-button active" href="index.html">Home</a>
-    <a class="nav-button" href="utility-sheds.html">Utility Sheds</a>
-    <a class="nav-button" href="select-sheds.html">Select Sheds</a>
-    <a class="nav-button" href="custom-sheds.html">Custom Sheds</a>
-    <a class="nav-button" href="sugar-houses.html">Sugar Houses</a>
-    <a class="nav-button" href="upgrades.html">Options & Upgrades</a>
-    <a class="nav-button wide" href="select-vs-custom.html">Select vs Custom Shed</a>
-    <div class="nav-button dropdown">
-        <div onclick="dropdownNav()" class="dropbtn">Gallery</div>
-        <div id="galleryDropdown" class="dropdown-content">
-            <a href="utility-sheds.html#gallery">Utility Sheds</a>
-            <a href="select-sheds.html#gallery">Select Sheds</a>
-            <a href="custom-sheds.html#gallery">Custom Sheds</a>
-            <a href="sugar-houses.html#gallery">Sugar Houses</a>
-        </div>
+    <!-- Shop Sheds -->
+    <div class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseShop" aria-expanded="false" aria-controls="collapseShop">
+        Shop Sheds
     </div>
+        <div class="collapse" id="collapseShop">
+            <div class="card card-body">
+                <a href="utility-sheds.html">Utility Sheds</a>
+                <a href="select-sheds.html">Select Sheds</a>
+                <a href="custom-sheds.html">Custom Sheds</a>
+                <a href="sugar-houses.html">Sugar Houses</a>
+                <a href="upgrades.html">Options & Upgrades</a>
+                <a href="select-vs-custom.html">Select vs Custom Shed</a>
+            </div>
+        </div>
+    <!-- Building Process -->
     <a class="nav-button" href="process.html">Building Process</a>
-    <a class="nav-button" href="reviews.html">Reviews & Testimonials</a>
+    <!-- Gallery -->
+    <div class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseGallery" aria-expanded="false" aria-controls="collapseGallery">
+        Gallery
+    </div>
+        <div class="collapse" id="collapseGallery">
+            <div class="card card-body">
+                <a href="utility-sheds.html#gallery">Utility Shed Gallery</a>
+                <a href="select-sheds.html#gallery">Select Shed Gallery</a>
+                <a href="custom-sheds.html#gallery">Custom Shed Gallery</a>
+                <a href="sugar-houses.html#gallery">Sugar House Gallery</a>
+            </div>
+        </div>
+    <!-- Reviews & Testimonials -->
+    <a class="nav-button" href="reviews.html">Testimonials</a>
+    <!-- FAQ's -->
     <a class="nav-button" href="faq.html">FAQ's</a>
+    <!-- Contact -->
     <a class="nav-button" href="contact.html">Contact Us</a>
 </nav>
 <!-- COLLAPSIBLE NAV BAR -->
 <button id="navBackdrop">
     <button id="menuOpen">
         <p>Menu
-            <svg width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/></svg>
+        <svg width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/></svg>
         </p>
     </button>
 </button>
@@ -107,7 +123,7 @@
 
     <!-- BACK TO TOP -->
     <div class="skip-top">
-        <a href="#index-html">
+        <a href="#indexHtml">
             <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-chevron-compact-up mx-auto" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M7.776 5.553a.5.5 0 0 1 .448 0l6 3a.5.5 0 1 1-.448.894L8 6.56 2.224 9.447a.5.5 0 1 1-.448-.894z"/></svg>
         </a>
     </div>
@@ -147,8 +163,8 @@
                     <div class="option">
                         <p class="col-12 col-lg-8 px-3 pe-lg-2 pb-3 pb-lg-0">My reviews speak for themselves, I build your shed and I'll make sure you're happy with it.
                             I take pride in building the best structures possible</p>
-                        <a href="reviews.html" class="btn-grey col-6 col-md-5 col-lg-4 col-xxl-3 mx-auto">
-                            <p>Testimonials</p>
+                        <a href="reviews.html" class="btn-grey col-7 col-md-4 col-lg-4 col-xxl-3 mx-auto">
+                            <p>Reviews</p>
                             <div class="arrow">&rarr;</div>
                         </a>
                     </div>
@@ -162,7 +178,7 @@
                     <div class="option">
                         <p class="col-12 col-lg-8 px-3 pe-lg-2 pb-3 pb-lg-0">With such a wide variety of options, styles, and upgrades to choose from,
                         we can help plan a shed for every budget</p>
-                        <a href="upgrades.html" class="btn-grey col-6 col-md-5 col-lg-4 col-xxl-3 mx-auto">
+                        <a href="upgrades.html" class="btn-grey col-7 col-md-4 col-lg-4 col-xxl-3 mx-auto">
                             <p>Options & Upgrades</p>
                             <div class="arrow">&rarr;</div>
                         </a>
@@ -176,7 +192,7 @@
                     </h5>
                     <div class="option">
                         <p class="col-12 col-lg-8 px-3 pe-lg-2 pb-3 pb-lg-0">We use the same materials that are used in home construction, nothing less</p>
-                        <a href="process.html" class="btn-grey col-6 col-md-5 col-lg-4 col-xxl-3 mx-auto">
+                        <a href="process.html" class="btn-grey col-7 col-md-4 col-lg-4 col-xxl-3 mx-auto">
                             <p class="px-lg-2">Building Process</p>
                             <div class="arrow">&rarr;</div>
                         </a>
@@ -191,7 +207,7 @@
                     <div class="option">
                         <p class="col-12 col-lg-8 px-3 pe-lg-2 pb-3 pb-lg-0">I'm a carpenter with more than twenty five years of construction experience.
                         My goal each and every time I start a new project is to make it perfect</p>
-                        <a href="faq.html" class="btn-grey col-6 col-md-5 col-lg-4 col-xxl-3 mx-auto">
+                        <a href="faq.html" class="btn-grey col-7 col-md-4 col-lg-4 col-xxl-3 mx-auto">
                             <p>FAQ's</p>
                             <div class="arrow">&rarr;</div>
                         </a>
@@ -207,7 +223,7 @@
         <div class="row">
             <div class="reviews mb-3">
             
-                <div class="col-12 col-md-10 col-lg-5 mb-3 mb-lg-0">
+                <div class="col-11 col-md-10 col-lg-5 mb-3 mb-lg-0">
                     <div class="review">
                         <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="open-quote bi bi-quote" viewBox="0 0 16 16"><path d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388q0-.527.062-1.054.093-.558.31-.992t.559-.683q.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 9 7.558V11a1 1 0 0 0 1 1zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612q0-.527.062-1.054.094-.558.31-.992.217-.434.559-.683.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 3 7.558V11a1 1 0 0 0 1 1z"/></svg>
                         <div class="text">
@@ -226,7 +242,7 @@
                     </div>
                 </div>
 
-                <div class="col-12 col-md-10 col-lg-5">
+                <div class="col-11 col-md-10 col-lg-5">
                     <div class="review">
                         <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="open-quote bi bi-quote" viewBox="0 0 16 16"><path d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388q0-.527.062-1.054.093-.558.31-.992t.559-.683q.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 9 7.558V11a1 1 0 0 0 1 1zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612q0-.527.062-1.054.094-.558.31-.992.217-.434.559-.683.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 3 7.558V11a1 1 0 0 0 1 1z"/></svg>
                         <div class="text">

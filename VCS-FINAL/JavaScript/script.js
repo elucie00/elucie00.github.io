@@ -1,6 +1,25 @@
 // NAVIGATION GALLERY DROPDOWN BUTTON
-function dropdownNav() {
+function dropdownGallery() {
   document.getElementById("galleryDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function (event) {
+  if (!event.target.matches(".dropbtn")) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains("show")) {
+        openDropdown.classList.remove("show");
+      }
+    }
+  }
+};
+
+// NAVIGATION SHOP SHEDS DROPDOWN BUTTON
+function dropdownShop() {
+  document.getElementById("shopDropdown").classList.toggle("show");
 }
 
 // Close the dropdown if the user clicks outside of it
@@ -30,6 +49,7 @@ document.addEventListener("DOMContentLoaded", function () {
       navBar.style.display = "flex";
       navBackdrop.style.display = "block";
       menuOpen.style.display = "none";
+      document.body.style.overflow = "hidden";
     });
   }
   if (menuClose && navBar) {
@@ -37,6 +57,8 @@ document.addEventListener("DOMContentLoaded", function () {
       navBar.style.display = "none";
       menuOpen.style.display = "inline";
       navBackdrop.style.display = "none";
+      document.body.style.overflow = "scroll";
+      button.navBackdrop.style.display = "none";
     });
   }
   if (navBackdrop && navBar) {
@@ -44,9 +66,15 @@ document.addEventListener("DOMContentLoaded", function () {
       navBar.style.display = "none";
       menuOpen.style.display = "inline";
       navBackdrop.style.display = "none";
+      document.body.style.overflow = "scroll";
     });
   }
+  if (menuOpen && navBar){
+    document.body.style.overflow = "scroll";
+  }
+
 });
+
 
 
 // GENERATE GALLERY MODALS

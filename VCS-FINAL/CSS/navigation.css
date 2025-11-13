@@ -1,4 +1,77 @@
+.collapse.show, .collapse, .collapsing{
+  position: fixed;
+  top:58px;
+  background-color: var(--bg-dark);
+}
+
+nav .btn {
+  width: 14%;
+  text-align: center;
+  align-content: center;
+  align-items: center;
+  letter-spacing: 0.05rem;
+  font-weight: 500;
+  padding: .5rem 0.4rem;
+  z-index: 100;
+  border:none;
+  color: var(--btn-text);
+  font-size: 1.1rem;
+  background-color: var(--bg-dark);
+}
+
+nav .btn:hover{
+  color: #c6c8c9;
+  background-color: var(--btn-hover);
+  transition: background-color .2s;
+}
+
+nav .btn.active{
+  color: #f8f9fa;
+  background-color: var(--bg-dark);
+}
+
+#collapseShop, #collapseGallery{
+  width:14%;
+}
+
+nav .card.card-body{
+  background-color: var(--bg-dark);
+  padding: 0;
+}
+
+#collapseShop a, #collapseGallery a{
+  padding: 0.75rem .5rem;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  border: var(--blue-grey) 0.05rem solid;
+  color: #c6c8c9;
+}
+
+#collapseShop a:hover, #collapseGallery a:hover{
+  color: #e2e3e5;
+  background-color: var(--btn-hover);
+  border: var(--blue-grey) 0.05rem solid;
+  transition: 0.2s;
+}
+
+#collapseShop a.active, #collapseGallery a.active{
+  color: #f8f9fa;
+}
+
+#collapseShop.collapse.show, #collapseShop.collapsing{
+  left:14.3%;
+}
+
+#collapseGallery.collapse.show, #collapseGallery.collapsing{
+  left:42.7%;
+}
+
 /* NAVIGATION */
+
+#navBackdrop{
+  display: none;
+}
 
 .nav-button,.dropbtn,.dropdown,.dropdown-content a{
   color: var(--btn-text);
@@ -13,105 +86,104 @@ nav {
   position: sticky;
   top: 0;
   z-index: 100;
+  font-size: 1.1rem;
 }
 
 .nav-button {
-  width: 8.2%;
+  width: 14.3%;
   text-align: center;
   align-content: center;
   align-items: center;
   letter-spacing: 0.05rem;
-  font-weight: 600;
-  padding: 0.4rem;
+  font-weight: 500;
+  padding: .7rem 0.4rem;
+  z-index: 100;
 }
 
-.nav-button.wide {
-  width: 9.5%;
-  padding: 0rem;
-}
 
 .nav-button:hover {
   color: #c6c8c9;
+  background-color: var(--btn-hover);
+  transition: all .2s;
 }
 
 .nav-button.active {
   color: #f8f9fa;
 }
 
-/* Dropdown Button */
+@media only screen and (min-width: 1105px) and (max-width: 1486px) {
+  #collapseShop{
+    width:19%;
+  }
 
-.dropbtn {
-  cursor: pointer;
-  padding: 0.4rem;
-  width: 100%;
-  height: 100%;
-  align-content: center;
+  #collapseGallery{
+    width:18%;
+  }
 }
 
-.dropbtn:hover,.dropbtn:focus {
-  color: #c6c8c9;
+@media only screen and (max-width: 1225px) {
+  #collapseShop.collapse.show, #collapseShop.collapsing, #collapseGallery.collapse.show, #collapseGallery.collapsing{
+    top:74px;
+  }
 }
 
-.nav-button .dropdown {
-  position: relative;
-  display: inline-block;
-  width: 8.2%;
-  text-align: center;
-  align-content: center;
-  letter-spacing: 0.05rem;
-  font-weight: 600;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: var(--bg-dark);
-  min-width: 10rem;
-  letter-spacing: 0.05rem;
-  color: #c6c8c9;
-}
-
-.dropdown-content a:hover {
-  color: #e2e3e5;
-  font-size: 1rem;
-  background-color: var(--blue-grey);
-  border: var(--bg-light) 0.05rem solid;
-  transition: 0.3s;
-}
-
-.dropdown-content a {
-  padding: 0.75rem 1rem;
-  text-decoration: none;
-  display: block;
-  border: var(--blue-grey) 0.05rem solid;
-}
-
-.show {
-  display: block;
+@media only screen and (min-width: 1226px) {
+    #collapseShop.collapse.show, #collapseShop.collapsing, #collapseGallery.collapse.show, #collapseGallery.collapsing{
+    top:48px;
+  }
 }
 
 /* COLLAPSIBLE NAV BAR RESPONSIVE */
 
+/* Mobile navigation backdrop and open/close buttons */
+
+@media only screen and (min-width: 1105px) and (max-width: 10000px) {
+  #navBackdrop {
+    display: none;
+    padding:0rem;
+    margin:0rem;
+  }
+
+  #menuOpen {
+    display: none;
+  }
+
+  #menuClose {
+    display: none;
+  }
+
+ button#navBackdrop{
+  display: none;
+ }
+}
+
 @media only screen and (max-width: 1105px) {
   html {
-    scroll-padding-top: 0px;
+
   }
 
   button#menuClose,a.nav-button,.dropdown,.dropdown-content a{
-    border: 0.01rem #adb5bd solid;
+    border: 0.01rem var(--blue-grey) solid;
+  }
+
+  #navBar{
+    background-color: #21252900;
+    height:100%;
+    overflow: scroll;
+    width: auto;
   }
 
   nav {
-    flex-direction: column;
-    width: auto;
-    height: 95vh;
     display: none;
-    justify-content: center;
     position: fixed;
     top: 0;
+    flex-direction: column;
+    width:68%;
+    height: 100%;
+    overflow: auto;
   }
 
-  #navBackdrop {
+  #navBackdrop{
     height: 100%;
     width: 100%;
     display: none;
@@ -119,7 +191,39 @@ nav {
     position: fixed;
     top: 0rem;
     z-index: 99;
+    border: none;
+    padding-block: 0;
+    padding-inline: 0;
   }
+
+nav .btn {
+  width: 100%;
+  font-size: 1.3rem;
+  background-color: var(--bg-dark);
+  padding: 1.5rem 2rem;
+}
+
+.collapse.show, .collapse, .collapsing{
+  position: relative;
+  left: 0;
+}
+
+#collapseShop.collapse.show, #collapseShop.collapsing, #collapseGallery.collapse.show, #collapseGallery.collapsing{
+  left:0;
+  top: 0;
+  background-color: var(--bg-dark);
+}
+
+#collapseShop a, #collapseGallery a{
+  background-color: var(--btn-hover);
+  color: #e2e3e5;
+  font-size: 1.2rem;
+  font-style: italic;
+}
+
+#collapseShop, #collapseGallery{
+  width:100%;
+}
 
   button#menuClose {
     width: 100%;
@@ -132,14 +236,15 @@ nav {
     align-items: center;
     letter-spacing: 0.05rem;
     font-weight: 600;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
 
   button#menuOpen {
     width: auto;
     position: fixed;
-    top: 0rem;
-    margin: 0.25rem;
+    top: 0.5rem;
+    left: .25rem;
+    margin: 0rem;
     padding: 0.5rem 1rem;
     background-color: #212529c3;
     text-align: center;
@@ -160,68 +265,22 @@ nav {
     height: 7.3vh;
     display: flex;
     justify-content: center;
-    padding: 0.8rem 0.5rem;
+    padding: 1.5rem 2rem;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
+    background-color: var(--bg-dark);
   }
 
-  a.nav-button.wide {
-    width: 100%;
-  }
+  @media only screen and (min-width: 500px) and (max-width: 1105px){
+    a.nav-button {
+      justify-content: left;
+      padding: 1.5rem 3rem 1.5rem 1.5rem;
+    }
 
-  .dropdown {
-    width: 100%;
-    height: 7.3vh;
-    display: flex;
-    align-content: center;
-    font-size: 1.5rem;
-  }
-  .dropbtn {
-    padding: 0rem;
-    align-content: center;
-  }
-
-  .dropdown-content {
-    position: absolute;
-    left: 17.9rem;
-    top: 0rem;
-  }
-
-  .dropdown-content a {
-    padding: 0.8rem 0.5rem;
-    width: 15rem;
-    height: 7.3vh;
-  }
-
-}
-
-@media only screen and (max-width: 527px) {
-  .dropdown-content {
-    left: 2.9rem;
-    top: 4rem;
-  }
-
-  .dropdown-content a {
-    color: var(--bg-light);
-    background-color: var(--blue-grey);
-    border: var(--bg-light) 0.05rem solid;
-  }
-
-}
-
-/* Mobile navigation backdrop and open/close buttons */
-
-@media only screen and (min-width: 1105px) {
-  #navBackdrop {
-    display: none;
-  }
-
-  #menuOpen {
-    display: none;
-  }
-
-  #menuClose {
-    display: none;
+    nav .btn {
+      text-align: left;
+      padding: 1.5rem 3rem 1.5rem 1.5rem;
+    }
   }
 
 }

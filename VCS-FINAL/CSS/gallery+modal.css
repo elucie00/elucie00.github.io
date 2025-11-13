@@ -252,7 +252,8 @@ button#modalPrev:disabled,button#modalNext:disabled {
 
 @media only screen and (min-width: 1200px) {
   .imgAndButtons button {
-    height: 50vh;
+    height: 30vh;
+    width: 5vw;
   }
 }
 
@@ -261,15 +262,23 @@ button#modalPrev:disabled,button#modalNext:disabled {
     width: 30rem;
     height: 30rem;
   }
+
+  .imgAndButtons button {
+    width: 3vw;
+  }
+
   .gallery-card img {
       height: 75%;
     }
+
   .card-body {
     height: 25%;
   }
+
   .card-body p {
     font-size: 1.3rem;
   }
+  
   .card-body h5 {
       font-size: 1.2rem;
   }
