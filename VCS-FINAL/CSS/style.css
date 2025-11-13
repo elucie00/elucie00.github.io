@@ -235,6 +235,7 @@ p {
   padding: 0rem;
   object-fit: cover;
   overflow: hidden;
+  object-position: 70% 50%;
 }
 
 .info-section-1 .text {
