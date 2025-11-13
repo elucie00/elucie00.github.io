@@ -1,4 +1,4 @@
-nav.collapse.show, nav.collapse, nav.collapsing{
+nav .collapse.show, nav .collapse, nav .collapsing{
   position: fixed;
   top:58px;
   background-color: var(--bg-dark);
