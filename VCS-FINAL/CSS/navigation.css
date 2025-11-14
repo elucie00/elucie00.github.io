@@ -197,10 +197,19 @@ nav {
   }
 
 nav .btn {
-  width: 100%;
+  /* width: 100%;
   font-size: 1.3rem;
   background-color: var(--bg-dark);
   padding: 1.5rem 2rem;
+  height: 7.3vh; */
+  width: 100%;
+    height: 7.3vh;
+    display: flex;
+    justify-content: center;
+    padding: 1.5rem 2rem;
+    text-align: center;
+    font-size: 1.3rem;
+    background-color: var(--bg-dark);
 }
 
 .collapse.show, .collapse, .collapsing{
@@ -212,6 +221,7 @@ nav .btn {
   left:0;
   top: 0;
   background-color: var(--bg-dark);
+  position: relative;
 }
 
 #collapseShop a, #collapseGallery a{
