@@ -215,6 +215,14 @@ nav .btn {
   background-color: var(--bg-dark);
 }
 
+  nav .btn .active{
+    color: var(--btn-text-active);
+    background-color: var(--bg-dark);
+    text-decoration: underline 1px #ffffff7b;
+    text-underline-offset: 4px;
+  }
+
+
 .collapse.show, .collapse, .collapsing{
   position: relative;
   left: 0;
@@ -283,6 +291,13 @@ nav .btn {
     font-size: 1.3rem;
     background-color: var(--bg-dark);
   }
+
+    a.nav-button .active{
+      color: var(--btn-text-active);
+      background-color: var(--bg-dark);
+      text-decoration: underline 1px #ffffff7b;
+      text-underline-offset: 4px;
+    }
 
   @media only screen and (min-width: 500px) and (max-width: 1105px){
     a.nav-button {

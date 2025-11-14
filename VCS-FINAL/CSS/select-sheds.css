@@ -18,13 +18,13 @@
     background-image: url(../images/headers/webP/select-shed-header-small.webp);
   }
   .gradient {
-    background-image: linear-gradient(to right, #212529, #212529a1, #21252965, #21252900);
+    background-image: linear-gradient(to right, #212529, #212529a1, #21252965, #21252937);
   }
 }
 
 @media only screen and (max-width: 1000px) {
   .gradient {
-    background-image: linear-gradient(to right, #212529ad, #21252955, #21252955, #21252900, #21252900);
+    background-image: linear-gradient(to right, #212529ad, #21252991, #21252955, #21252955, #21252900);
   }
 }
 
