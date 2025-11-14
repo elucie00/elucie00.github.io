@@ -73,6 +73,7 @@
   background-attachment: fixed;
   background-size: cover;
   color: var(--bg-light);
+  overflow: hidden;
 }
 
   .section-2 .text {
@@ -85,7 +86,14 @@
       line-height: 1.5;
     }
 
+    .section-2 .fb{
+      overflow: hidden;
+    }
+
     .section-2 .fb iframe {
-      float: right;
+      overflow: hidden;
+      object-fit: cover;
+      display: block;
+
     }
 
