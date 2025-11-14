@@ -110,6 +110,10 @@
   background-color: #343a40;
 }
 
+.pricing{
+  background-image: none;
+}
+
 .features .bold {
   font-weight: 600;
 }
@@ -343,4 +347,11 @@
   margin: 0;
   padding: 0;
   width: 20%;
+}
+
+@media only screen and (max-width: 1105px) {
+  .section-3 {
+    background-size: auto 100%;
+    background-position: center;
+  }
 }
