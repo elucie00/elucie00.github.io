@@ -391,7 +391,7 @@ svg.close-quote {
 
 .index-section-4 .text {
   display: flex;
-  height: 43%;
+  height: 40%;
   flex-direction: column;
   justify-content: center;
   background-color: var(--bg-light);
@@ -430,7 +430,7 @@ svg.close-quote {
 }
 
 .index-section-4 .slide-1 img,.slide-2 img {
-  height: 55%;
+  height: 60%;
   width: 100%;
   padding: 0rem;
   object-fit: cover;

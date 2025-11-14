@@ -215,7 +215,7 @@ nav .btn {
   background-color: var(--bg-dark);
 }
 
-  nav .btn .active{
+  nav .btn.active{
     color: var(--btn-text-active);
     background-color: var(--bg-dark);
     text-decoration: underline 1px #ffffff7b;
@@ -240,6 +240,12 @@ nav .btn {
   color: #e2e3e5;
   font-size: 1.2rem;
   font-style: italic;
+}
+
+#collapseShop a.active{
+  color: var(--btn-text-active);
+  text-decoration: underline 1px #ffffff7b;
+  text-underline-offset: 4px;
 }
 
 #collapseShop, #collapseGallery{
@@ -292,7 +298,7 @@ nav .btn {
     background-color: var(--bg-dark);
   }
 
-    a.nav-button .active{
+    a.nav-button.active{
       color: var(--btn-text-active);
       background-color: var(--bg-dark);
       text-decoration: underline 1px #ffffff7b;

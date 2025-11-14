@@ -50,17 +50,12 @@
 
 /* INFO SECTION 3 */
 
-@media only screen and (min-width: 992px) {
-  .info-section-3 {
-    margin: 0rem 0rem 1.5rem 0rem;
-  }
-}
-
 .info-section-3 #carousel {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  padding: 0.5rem;
+  padding: 0rem;
+  height: 28rem;
 }
 
 .info-section-3 .carousel-item img {
@@ -109,9 +104,5 @@
   .info-section-3 {
     flex-direction: column-reverse;
     justify-content: space-evenly;
-  }
-
-  .info-section-3 .carousel-item img {
-    height: auto;
   }
 }
