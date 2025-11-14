@@ -185,7 +185,7 @@ nav {
   }
 
   #navBackdrop{
-    height: 100vh;
+    min-height: 100dvh;
     width: 100vw;
     display: none;
     background-color: #21252992;
