@@ -185,8 +185,8 @@ nav {
   }
 
   #navBackdrop{
-    height: 150%;
-    width: 150%;
+    height: 100vh;
+    width: 100vw;
     display: none;
     background-color: #21252992;
     position: fixed;
