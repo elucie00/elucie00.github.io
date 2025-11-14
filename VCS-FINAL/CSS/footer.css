@@ -52,14 +52,14 @@ a.quick-link {
 }
 
     a.quick-link:hover {
-        color: #d0d5de;
+        color: var(--btn-text-hover);
     }
 
     a.quick-link-active {
         display: block;
         text-decoration: none;
         text-align: center;
-        color: #d8dce3;
+        color: var(--btn-text-active);
         font-weight: 500;
         letter-spacing: 0.12rem;
         font-size: 1.5rem;

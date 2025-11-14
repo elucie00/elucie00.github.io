@@ -117,25 +117,6 @@
   }
 }
 
-.section-2 .option a:hover {
-  color: #e2e3e5;
-  background-color: var(--blue-grey);
-  border: var(--bg-light) 0.05rem solid;
-  transition: 0.2s;
-}
-
-.section-2 .option a p {
-  width: 80%;
-  padding: 0rem;
-}
-
-.section-2 .option .arrow {
-  font-size: 2.1rem;
-  margin: 0;
-  padding: 0;
-  width: 20%;
-}
-
 @media only screen and (max-width: 1105px) {
   .section-2 {
     background-attachment: unset;

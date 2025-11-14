@@ -36,7 +36,7 @@
 }
 
 #prev:hover,#next:hover,#prev2:hover,#next2:hover {
-  color: #e2e3e5;
+  color: var(--btn-text-hover);
   background-color: var(--btn-hover);
   border: var(--bg-dark) 0.05rem solid;
   transition: 0.2s;

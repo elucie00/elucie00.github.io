@@ -21,14 +21,16 @@ nav .btn {
 }
 
 nav .btn:hover{
-  color: #c6c8c9;
+  color: var(--btn-text-hover);
   background-color: var(--btn-hover);
   transition: background-color .2s;
 }
 
 nav .btn.active{
-  color: #f8f9fa;
+  color: var(--btn-text-active);
   background-color: var(--bg-dark);
+  text-decoration: underline 1px #ffffff7b;
+  text-underline-offset: 4px;
 }
 
 #collapseShop, #collapseGallery{
@@ -50,14 +52,16 @@ nav .card.card-body{
 }
 
 #collapseShop a:hover, #collapseGallery a:hover{
-  color: #e2e3e5;
+  color: var(--btn-text-hover);
   background-color: var(--btn-hover);
   border: var(--blue-grey) 0.05rem solid;
   transition: 0.2s;
 }
 
 #collapseShop a.active, #collapseGallery a.active{
-  color: #f8f9fa;
+  color: var(--btn-text-active);
+  text-decoration: underline 1px #ffffff7b;
+  text-underline-offset: 4px;
 }
 
 #collapseShop.collapse.show, #collapseShop.collapsing{
@@ -103,13 +107,15 @@ nav {
 
 
 .nav-button:hover {
-  color: #c6c8c9;
+  color: var(--btn-text-hover);
   background-color: var(--btn-hover);
   transition: all .2s;
 }
 
 .nav-button.active {
-  color: #f8f9fa;
+  color: var(--btn-text-active);
+  text-decoration: underline 1px #ffffff7b;
+  text-underline-offset: 4px;
 }
 
 @media only screen and (min-width: 1105px) and (max-width: 1486px) {
@@ -185,8 +191,8 @@ nav {
   }
 
   #navBackdrop{
-    min-height: 200dvh;
-    min-width: 200vw;
+    min-height: 200lvh;
+    min-width: 200lvw;
     display: none;
     background-color: #21252992;
     position: fixed;
