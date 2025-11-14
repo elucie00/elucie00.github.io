@@ -188,5 +188,5 @@ function replaceShedGallery(pageSwitch) {
     "<p>Page " + (currentPage + 1) + "/" + (maxPage + 1) + "</p>";
   document.getElementById("page2").innerHTML =
     "<p>Page " + (currentPage + 1) + "/" + (maxPage + 1) + "</p>";
-  document.getElementById("page").scrollIntoView();
+  document.getElementById("gallery").scrollIntoView();
 }

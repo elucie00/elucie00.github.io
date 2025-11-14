@@ -169,6 +169,11 @@
     font-size: 1.5rem;
   }
 
+  .pricing .t-heading {
+    font-size: 1.7rem;
+    font-weight: 500;
+  }
+
   .pricing .cell svg {
     display: none;
   }
