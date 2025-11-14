@@ -3,11 +3,11 @@
 .features {
   margin: 0rem;
   padding: 1.5rem 1rem;
-  background-image: url(../images/background-images/webp/wood-background.webp);
+  background-image: linear-gradient(to top, #2125298a, #2125298a), url(../images/background-images/webp/wood-background.webp);
   background-size: cover;
   background-attachment: fixed;
-  background-blend-mode: darken;
-  background-color: #2125299c;
+  /* background-blend-mode: darken;
+  background-color: #2125299c; */
 }
 
 .features .section-title {
@@ -99,11 +99,11 @@
 .pricing {
   margin: 0rem;
   padding: 1.5rem 1rem;
-  background-image: url(../images/background-images/webp/wood-2-background.webp);
+  background-image: linear-gradient(to top, #212529a2, #212529a2), url(../images/background-images/webp/wood-2-background.webp);
   background-size: cover;
   background-attachment: fixed;
-  background-blend-mode: darken;
-  background-color: #2125297e;
+  /* background-blend-mode: darken;
+  background-color: #2125297e; */
 }
 
 .pricing .respon-table {
@@ -180,14 +180,10 @@
 }
 @media only screen and (max-width: 1105px) {
   .features {
-    background-size: contain;
-    background-blend-mode: darken;
-    background-color: #2125299c;
+    background-attachment: unset;
   }
 
   .pricing {
-    background-size: contain;
-    background-blend-mode: darken;
-  background-color: #2125297e;
+    background-attachment: unset;
   }
 }

@@ -20,7 +20,7 @@
   padding: 2rem 1rem;
   background-color: var(--bg-grey-blue);
   /* background-image: linear-gradient(to top, #343a40, #343a40, var(--bg-grey-blue), var(--bg-grey-blue)); */
-  background-image: linear-gradient(to top, #343a40, #343a409b, #2330479b, #233047), url(../images/background-images/webp/wood-2-background.webp);
+  background-image: linear-gradient(to top, #343a40, #343a409b, linear-gradient(to top, #212529a2, #212529a2), #2330479b, #233047), url(../images/background-images/webp/wood-2-background.webp);
 }
 
 .section-1 .options{
@@ -351,7 +351,7 @@
 
 @media only screen and (max-width: 1105px) {
   .section-3 {
-    background-size: cover;
-    background-position: center;
+    background-attachment: unset;
+    background-position: 75% 50%;
   }
 }

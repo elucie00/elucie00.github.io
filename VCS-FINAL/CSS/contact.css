@@ -65,9 +65,9 @@
   flex-direction: row;
   margin: 0rem;
   padding: 1.5rem 1rem;
-  background-image: url(../images/background-images/webp/wood-background.webp);
-  background-blend-mode: darken;
-  background-color: #212529b6;
+  background-image: linear-gradient(to top, #2125298a, #2125298a), url(../images/background-images/webp/wood-background.webp);
+  /* background-blend-mode: darken;
+  background-color: #212529b6; */
   border-bottom: 0.18rem solid var(--bg-grey);
   background-position: center;
   background-repeat: no-repeat;
@@ -98,3 +98,8 @@
 
     }
 
+@media only screen and (max-width: 1105px) {
+  .section-2 {
+    background-attachment: unset;
+  }
+}

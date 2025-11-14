@@ -100,19 +100,19 @@
   border-top: 0.18rem solid var(--bg-grey);
   border-bottom: none;
   color: var(--bg-light);
-  background-blend-mode: darken;
-  background-color: #212529b6;
+  /* background-blend-mode: darken;
+  background-color: #212529b6; */
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
 }
 
 #window.upgrade-section,#siding.upgrade-section,#misc.upgrade-section {
-  background-image: url(../images/background-images/webp/wood-2-background.webp);
+  background-image: linear-gradient(to top, #212529a2, #212529a2), url(../images/background-images/webp/wood-2-background.webp);
 }
 
 #door.upgrade-section,#roof.upgrade-section {
-  background-image: url(../images/background-images/webp/wood-background.webp);
+  background-image: linear-gradient(to top, #2125298a, #2125298a), url(../images/background-images/webp/wood-background.webp);
 }
 
 .upgrade-section .section-title {
@@ -164,9 +164,7 @@
 
 @media only screen and (max-width: 1105px) {
   .upgrade-section {
-    background-size: contain;
-    background-blend-mode: darken;
-    background-color: #212529b6;
+    background-attachment: unset;
   }
 }
 
