@@ -308,6 +308,12 @@
   padding: .75rem 1rem;
 }
 
+@media only screen and (max-width: 1105px) {
+  .index-section-3 {
+    background-size: contain;
+  }
+}
+
 /* QUOTATION MARKS SVG */
 
 .review svg {

@@ -288,6 +288,12 @@ p {
   object-position: left;
 }
 
+@media only screen and (max-width: 1105px) {
+  .features {
+    background-size: contain;
+  }
+}
+
 /* SKIP TOP JUMP BACK TO TOP */
 
 .skip-top {
