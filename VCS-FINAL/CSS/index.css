@@ -343,7 +343,7 @@ svg.close-quote {
   display: block;
   background-color: #e2e3e5;
   color: var(--bg-dark);
-  padding: 0.5rem 1rem;
+  padding: 0.5rem;
   height: 100%;
   margin: 0 0.75rem;
 }
@@ -357,7 +357,7 @@ svg.close-quote {
 .index-section-4 .slide-2 {
   background-color: #e2e3e5;
   color: var(--bg-dark);
-  padding: 0.5rem 1rem;
+  padding: 0.5rem;
   height: 100%;
   margin: 0 0.75rem;
   display: block;
@@ -373,6 +373,7 @@ svg.close-quote {
   color: var(--bg-dark);
   height: 100%;
   margin: 0 0.75rem;
+  object-fit: cover;
 }
 
 .index-section-4 .text {
@@ -426,8 +427,7 @@ svg.close-quote {
 }
 
 .index-section-4 .slide-3 img {
-  width: 95%;
-  padding: 0.1rem;
+  width: 100%;
   object-fit: cover;
   overflow: hidden;
 }

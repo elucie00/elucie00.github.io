@@ -155,8 +155,8 @@ button#prev:disabled,button#next:disabled,button#prev2:disabled,button#next2:dis
 }
 
 #closeButton {
-  height: 3.5rem;
-  width: 3.5rem;
+  height: 2.5rem;
+  width: 2.5rem;
   z-index: 200;
   color: var(--bg-light);
   background-color: #21252992;
