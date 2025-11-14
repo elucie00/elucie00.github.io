@@ -351,7 +351,7 @@
 
 @media only screen and (max-width: 1105px) {
   .section-3 {
-    background-size: auto 100%;
+    background-size: cover;
     background-position: center;
   }
 }
