@@ -17,6 +17,7 @@ nav .btn {
   color: var(--btn-text);
   font-size: 1.1rem;
   background-color: var(--bg-dark);
+  border-radius: 0;
 }
 
 nav .btn:hover{
