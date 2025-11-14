@@ -13,6 +13,12 @@
   width: 100%;
 }
 
+@media only screen and (max-width: 992px) {
+  .gradient {
+    background-image: linear-gradient(to right, #212529c9, #2125298d, #21252952, #2125291f);
+  }
+}
+
 /* JUMP TO SECTION */
 
 .btn-group {
@@ -158,8 +164,9 @@
 }
 
 .upgrade-section .content .option .price {
-  text-align: center;
+  text-align: right;
   align-self: center;
+  padding-right: 10%;
 }
 
 @media only screen and (max-width: 1105px) {

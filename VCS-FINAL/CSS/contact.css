@@ -13,6 +13,12 @@
   width: 100%;
 }
 
+@media only screen and (max-width: 992px) {
+  .gradient {
+    background-image: linear-gradient(to right, #212529c9, #2125298d, #21252952, #2125291f);
+  }
+}
+
 /* SECTION 1 */
 
 .section-1 {
@@ -66,8 +72,6 @@
   margin: 0rem;
   padding: 1.5rem 1rem;
   background-image: linear-gradient(to top, #2125298a, #2125298a), url(../images/background-images/webp/wood-background.webp);
-  /* background-blend-mode: darken;
-  background-color: #212529b6; */
   border-bottom: 0.18rem solid var(--bg-grey);
   background-position: center;
   background-repeat: no-repeat;

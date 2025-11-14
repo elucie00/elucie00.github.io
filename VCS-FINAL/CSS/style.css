@@ -86,7 +86,7 @@ p {
 }
 
 .large-header h1 {
-  padding: 4% 0.5rem;
+  padding: 4% 1.5rem;
   margin: 0rem;
   font-size: 4rem;
   color: var(--bg-light);
@@ -108,7 +108,7 @@ p {
 }
 
 .shed-header h1 {
-  padding: 4% 32% 4% 1rem;
+  padding: 4% 28% 4% 1.5rem;
   margin: 0rem;
   font-size: 3.5rem;
 }
