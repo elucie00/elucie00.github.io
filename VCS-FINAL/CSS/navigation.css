@@ -195,6 +195,7 @@ nav {
     border: none;
     padding-block: 0;
     padding-inline: 0;
+    overflow: visible;
   }
 
 nav .btn {
