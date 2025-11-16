@@ -302,6 +302,10 @@ nav .btn {
       color: var(--btn-text-active);
       background-color: var(--bg-dark);
       text-decoration: underline 1px #ffffff7b;
+      text-decoration-line: underline;
+      -webkit-text-decoration-line: underline;
+      text-decoration-color: #ffffff7b;
+      -webkit-text-decoration-color: #ffffff7b;
       text-underline-offset: 4px;
     }
 

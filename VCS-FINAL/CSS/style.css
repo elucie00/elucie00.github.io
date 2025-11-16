@@ -31,10 +31,8 @@
   margin: 0;
 }
 
-html * {
+html {
   scroll-padding-top: 69px;
-  font-family: "Montserrat", sans-serif;
-  letter-spacing: -.5px ;
 }
 
 body {
@@ -43,7 +41,8 @@ body {
   background-color: #343a40;
   color: var(--bg-light);
   width: 100%;
-
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: -.5px ;
 }
 
 main {
