@@ -299,17 +299,16 @@ p {
 
 .skip-top {
   width: 3.5rem;
-  height: 20%;
   font-size: 1rem;
   text-align: center;
   padding: 0.3rem;
-  margin: -1.5rem 0.75rem;
+  margin: 2rem 1.5rem;
   background-color: var(--bg-dark);
   border: var(--blue-grey) 0.05rem solid;
   border-radius: 0.3rem;
-  position: sticky;
-  top: 90%;
-  float: right;
+  position: fixed;
+  bottom: 0;
+  right: 0;
   z-index: 98;
 }
 

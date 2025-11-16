@@ -78,6 +78,7 @@ button#prev:disabled,button#next:disabled,button#prev2:disabled,button#next2:dis
     border-radius: 0.3rem;
     margin: 1rem 1rem;
     padding: 0.5rem;
+    position: relative;
   }
 
     .gallery-card img {
@@ -112,6 +113,15 @@ button#prev:disabled,button#next:disabled,button#prev2:disabled,button#next2:dis
         align-content: center;
         font-size: 1rem;
       }
+
+  .gallery-card svg{
+    position: absolute ;
+    top: 50px;
+    right: 50px;
+    margin: -30px;
+    color: var(--bg-light);
+    cursor: zoom-in;
+  }
 
 /* GALLERY MODAL */
 
