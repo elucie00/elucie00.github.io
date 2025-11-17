@@ -115,9 +115,9 @@ function createGalleryModal(ele) {
   if (currentCard.style.display === "none") {
     // calculate current page
 
-    if (currentPage != Math.floor(index / 18)) {
+    if (currentPage != Math.floor(index / 12)) {
       // call page change function
-      currentPage = Math.floor(index / 18);
+      currentPage = Math.floor(index / 12);
       replaceShedGallery(0);
     }
   }
@@ -147,8 +147,8 @@ function switchCard(next) {
 
 function replaceShedGallery(pageSwitch) {
   let galleryContainer = document.getElementById("galleryContainer");
-  const maxPage = Math.ceil(galleryContainer.children.length / 18 - 1);
-  // disable buttons if page number index is less than 0 or more than the number of elements/18
+  const maxPage = Math.ceil(galleryContainer.children.length / 12 - 1);
+  // disable buttons if page number index is less than 0 or more than the number of elements/12
   if (currentPage + pageSwitch < 0 || currentPage + pageSwitch > maxPage) {
     return;
   }
@@ -177,7 +177,7 @@ function replaceShedGallery(pageSwitch) {
       galleryChild.style = "display: none";
     }
     // reveal next set of images
-    if (Math.floor(i / 18) === currentPage + pageSwitch) {
+    if (Math.floor(i / 12) === currentPage + pageSwitch) {
       galleryChild.style = "";
     }
   }

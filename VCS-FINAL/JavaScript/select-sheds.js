@@ -140,7 +140,7 @@ function createSelectGallery() {
   let i = 0;
   gallery_content.forEach((content) => {
     let card = template.cloneNode(true);
-    if (i < 18) {
+    if (i < 12) {
       card.style = "";
     }
     card.children[0].setAttribute("src", content.imgSrc);
@@ -152,9 +152,9 @@ function createSelectGallery() {
   });
   template.remove();
   document.getElementById("page").innerHTML =
-    "<p>Page 1/" + Math.ceil(gallery.children.length / 18) + "</p>";
+    "<p>Page 1/" + Math.ceil(gallery.children.length / 12) + "</p>";
   document.getElementById("page2").innerHTML =
-    "<p>Page 1/" + Math.ceil(gallery.children.length / 18) + "</p>";
+    "<p>Page 1/" + Math.ceil(gallery.children.length / 12) + "</p>";
 }
 document.addEventListener("DOMContentLoaded", function () {
   createSelectGallery();
