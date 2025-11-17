@@ -121,6 +121,11 @@ button#prev:disabled,button#next:disabled,button#prev2:disabled,button#next2:dis
     margin: -30px;
     color: var(--bg-light);
     cursor: zoom-in;
+    filter: 
+      drop-shadow(-.25px -.25px 0px var(--bg-dark)) 
+      drop-shadow(1px -.25px 0px var(--bg-dark)) 
+      drop-shadow(1px 1px 0px var(--bg-dark))
+      drop-shadow(-.25px 1px 0px var(--bg-dark))
   }
 
 /* GALLERY MODAL */
