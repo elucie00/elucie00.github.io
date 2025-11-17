@@ -25,8 +25,7 @@
   margin: 0rem;
   padding: 2rem 1rem;
   background-color: var(--bg-grey-blue);
-  /* background-image: linear-gradient(to top, #343a40, #343a40, var(--bg-grey-blue), var(--bg-grey-blue)); */
-  background-image: linear-gradient(to top, #343a40, #343a409b, linear-gradient(to top, #212529a2, #212529a2), #2330479b, #233047), url(../images/background-images/webp/wood-2-background.webp);
+  background-image: linear-gradient(to top, #212529a2, #212529a2), url(../images/background-images/webp/wood-2-background.webp);
 }
 
 .section-1 .options{
@@ -71,6 +70,7 @@
   .section-1 .card-body .card-text {
     height: max-content;
     padding: .5rem;
+    align-content: center;
   }
 
   .section-1 .card-body .btn-grey {
@@ -80,18 +80,26 @@
     display: inline;
   }
 
-@media only screen and (min-width: 1187px) {
+
+    @media only screen and (min-width: 992px) {
   .section-1 .card-body .card-text{
-    height: 15rem;
+    height: 17rem;
   }
 }
+
+  @media only screen and (min-width: 1016px) {
+  .section-1 .card-body .card-text{
+    height: 16.5rem;
+  }
+}
+
 
 @media only screen and (min-width: 1483px) {
   .section-1 .card-body .card-text{
     height: 19rem;
   }
   .section-1 .card-body .card-text p{
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
 }
 
@@ -101,9 +109,15 @@
   }
 }
 
-@media only screen and (min-width: 2029px) {
-  .card-body .card-text{
-    height: 14rem;
+@media only screen and (min-width: 1933px) {
+  .section-1 .card-body .card-text{
+    height: 15.5rem;
+  }
+}
+
+@media only screen and (min-width: 2232px) {
+  .section-1 .card-body .card-text{
+    height: 12rem;
   }
 }
 
