@@ -70,7 +70,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
   if (menuOpen && navBar){
-    document.body.style.overflow = "scroll";
+    document.body.style.overflow = "auto";
   }
 
 });
