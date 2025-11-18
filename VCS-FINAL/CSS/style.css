@@ -6,6 +6,7 @@
   --bg-grey: #cbd2dc;
   --bg-grey-blue: #233047;
   --bg-dark-blue: #1b263b;
+  --dark-blue-shadow: #101a2c;
   --dusty-blue: #415a77;
   --shadow-navy: #15253f;
   --blue-grey: #3c4349;
@@ -131,7 +132,7 @@ p {
   color: var(--bg-light);
   background-color: var(--bg-dark-blue);
   border-radius: 0.75rem;
-  border: 0.18rem solid var(--dusty-blue);
+  box-shadow: 3px 3px var(--dark-blue-shadow);
 }
 
 .sub-heading {
@@ -141,8 +142,9 @@ p {
   margin: 0 0 1rem 0;
   color: var(--bg-light);
   background-color: var(--dusty-blue);
+  box-shadow: 4px 4px var(--shadow-navy);
   border-radius: 0.75rem;
-  border: 0.18rem solid var(--bg-grey);
+  border: .5px solid var(--bg-grey);
   font-size: 2rem;
   padding: 0.5rem 1.5rem;
 }
@@ -217,13 +219,11 @@ p {
   margin: 0rem;
   padding: 1.5rem 0rem 0rem 0rem;
   background-color: var(--dusty-blue);
-  border-top: 0.18rem solid var(--bg-grey);
-  border-bottom: 0.18rem solid var(--bg-grey);
   color: var(--bg-light);
 }
 
 .info-section-1 .section-title {
-  border: 0.18rem solid var(--bg-grey);
+
 }
 
 .info-section-1 .content {

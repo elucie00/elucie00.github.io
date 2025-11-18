@@ -190,10 +190,19 @@
   background-color: #f5f5f5a9;
 }
 
-.index-section-2 img {
+.index-section-2 .image {
   width: 100%;
-  object-fit: cover;
-  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-position-y: 60% ;
+  background-image: url(../images/index/webp/metal-roof-taller.webp);
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1500px) {
+  .index-section-2 .image{
+     background-image: linear-gradient(to bottom, #212529b9, #21252963, #21252900, #21252900, #21252900, #21252900, #21252900, #21252900, #21252900, #21252963, #212529b9), url(../images/index/webp/metal-roof-taller.webp);
+  }
 }
 
 .index-section-2 .text {
