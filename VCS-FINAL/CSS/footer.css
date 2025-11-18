@@ -5,27 +5,19 @@ footer.row {
   padding-top: 1rem;
 }
 
-    .card-row {
-        display: flex;
-        flex-direction: row;
-    }
-
-    footer .card-row {
-        flex-wrap: wrap;
-    }
-
-    footer .card-row .card {
+    footer .card-row .footer-card {
         text-align: center;
         color: var(--bg-light);
         background-color: var(--bg-dark);
         border: none;
         z-index: 1;
         padding: 0rem 1rem;
+        background-color: var(--bg-dark)
     }
 
     footer h2 {
-        margin: 0.7rem 0rem;
         font-size: 1.8rem;
+        margin-bottom: 1rem;
     }
 
 /* About us section */
@@ -68,17 +60,10 @@ a.quick-link {
 
 /* Info/contact us */
 
-footer .card-row .card.info {
+footer .card-row .footer-card.info {
   display: flex;
   flex-direction: column;
 }
-
-@media only screen and (min-width: 1012px) {
-    footer .card-row .card.info .body {
-        padding-left: 1rem;
-    }
-}
-
     .contact-info {
         overflow: hidden;
         padding-bottom: 1.5rem;
@@ -92,8 +77,17 @@ footer .card-row .card.info {
         text-decoration: none;
         font-size: 1rem;
         display: block;
+        color: var(--btn-text);
+    }
+
+    .contact-info a:hover {
+        color: var(--btn-text-hover);
     }
 
     .contact-info p {
         font-size: 1rem;
+    }
+
+    .contact-info a svg{
+        color:#1877f2;
     }
