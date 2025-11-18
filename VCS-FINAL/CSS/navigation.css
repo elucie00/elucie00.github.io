@@ -149,7 +149,7 @@ nav {
 }
 
 @media only screen and (min-width: 1226px) {
-    #collapseShop.collapse.show, #collapseShop.collapsing, #collapseGallery.collapse.show, #collapseGallery.collapsing{
+  #collapseShop.collapse.show, #collapseShop.collapsing, #collapseGallery.collapse.show, #collapseGallery.collapsing{
     top:48px;
   }
 }
@@ -173,16 +173,12 @@ nav {
     display: none;
   }
 
- button#navBackdrop{
-  display: none;
- }
+  button#navBackdrop{
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 1105px) {
-  html {
-
-  }
-
   button#menuClose,a.nav-button, nav .btn{
     border: 0.01rem var(--blue-grey) solid;
   }
@@ -205,8 +201,8 @@ nav {
   }
 
   #navBackdrop{
-    min-height: 200lvh;
-    min-width: 200lvw;
+    min-height: 150vh;
+    min-width: 150vw;
     display: none;
     background-color: #21252992;
     position: fixed;
@@ -218,16 +214,16 @@ nav {
     overflow: visible;
   }
 
-nav .btn {
-  width: 100%;
-  height: 7.3vh;
-  display: flex;
-  justify-content: center;
-  padding: 1.5rem 2rem;
-  text-align: center;
-  font-size: 1.3rem;
-  background-color: var(--bg-dark);
-}
+  nav .btn {
+    width: 100%;
+    height: 7.3vh;
+    display: flex;
+    justify-content: center;
+    padding: 1.5rem 2rem;
+    text-align: center;
+    font-size: 1.3rem;
+    background-color: var(--bg-dark);
+  }
 
   nav .btn.active{
     color: var(--btn-text-active);
@@ -241,39 +237,39 @@ nav .btn {
   }
 
 
-.collapse.show, .collapse, .collapsing{
-  position: relative;
-  left: 0;
-}
+  .collapse.show, .collapse, .collapsing{
+    position: relative;
+    left: 0;
+  }
 
-#collapseShop.collapse.show, #collapseShop.collapsing, #collapseGallery.collapse.show, #collapseGallery.collapsing{
-  left:0;
-  top: 0;
-  background-color: var(--bg-dark);
-  position: relative;
-}
+  #collapseShop.collapse.show, #collapseShop.collapsing, #collapseGallery.collapse.show, #collapseGallery.collapsing{
+    left:0;
+    top: 0;
+    background-color: var(--bg-dark);
+    position: relative;
+  }
 
-#collapseShop a, #collapseGallery a{
-  background-color: var(--btn-hover);
-  color: #e2e3e5;
-  font-size: 1.2rem;
-  font-style: italic;
-}
+  #collapseShop a, #collapseGallery a{
+    background-color: var(--btn-hover);
+    color: #e2e3e5;
+    font-size: 1.2rem;
+    font-style: italic;
+  }
 
-#collapseShop a.active{
-  color: var(--btn-text-active);
-  background-color: var(--bg-dark);
-  text-decoration: underline 1px #ffffff7b;
-  text-decoration-line: underline;
-  -webkit-text-decoration-line: underline;
-  text-decoration-color: #ffffff7b;
-  -webkit-text-decoration-color: #ffffff7b;
-  text-underline-offset: 4px;
-}
+  #collapseShop a.active{
+    color: var(--btn-text-active);
+    background-color: var(--bg-dark);
+    text-decoration: underline 1px #ffffff7b;
+    text-decoration-line: underline;
+    -webkit-text-decoration-line: underline;
+    text-decoration-color: #ffffff7b;
+    -webkit-text-decoration-color: #ffffff7b;
+    text-underline-offset: 4px;
+  }
 
-#collapseShop, #collapseGallery{
-  width:100%;
-}
+  #collapseShop, #collapseGallery{
+    width:100%;
+  }
 
   button#menuClose {
     width: 100%;
@@ -321,16 +317,16 @@ nav .btn {
     background-color: var(--bg-dark);
   }
 
-    a.nav-button.active{
-      color: var(--btn-text-active);
-      background-color: var(--bg-dark);
-      text-decoration: underline 1px #ffffff7b;
-      text-decoration-line: underline;
-      -webkit-text-decoration-line: underline;
-      text-decoration-color: #ffffff7b;
-      -webkit-text-decoration-color: #ffffff7b;
-      text-underline-offset: 4px;
-    }
+  a.nav-button.active{
+    color: var(--btn-text-active);
+    background-color: var(--bg-dark);
+    text-decoration: underline 1px #ffffff7b;
+    text-decoration-line: underline;
+    -webkit-text-decoration-line: underline;
+    text-decoration-color: #ffffff7b;
+    -webkit-text-decoration-color: #ffffff7b;
+    text-underline-offset: 4px;
+  }
 
   @media only screen and (min-width: 500px) and (max-width: 1105px){
     a.nav-button {
@@ -344,5 +340,4 @@ nav .btn {
       padding: 1.5rem 3rem 1.5rem 1.5rem;
     }
   }
-
 }

@@ -121,9 +121,9 @@
     width: 100%;
     padding: 0.5rem;
   }
-}
+  }
 
-@media only screen and (max-width: 1105px) {
+  @media only screen and (max-width: 1105px) {
   .section-2 {
     background-attachment: unset;
     background-position: 25% 50%;
@@ -215,11 +215,6 @@
 }
 
 /* BUILDING PROCESS GALLERY */
-
-/* .gallery-card {
-  width: 18.75rem;
-  height: 23.5rem;
-} */
 
 .gallery-card img {
   height: 70%;

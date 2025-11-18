@@ -6,8 +6,6 @@
   background-image: linear-gradient(to top, #2125298a, #2125298a), url(../images/background-images/webp/wood-background.webp);
   background-size: cover;
   background-attachment: fixed;
-  /* background-blend-mode: darken;
-  background-color: #2125299c; */
 }
 
 .features .section-title {
@@ -90,8 +88,8 @@
 
 @media only screen and (min-width: 1400px) {
   .features li {
-  font-size: 1.5rem;
-}
+    font-size: 1.5rem;
+  }
 }
 
 /* SHED PRICING TABLE/SECTION */
@@ -102,8 +100,6 @@
   background-image: linear-gradient(to top, #212529a2, #212529a2), url(../images/background-images/webp/wood-2-background.webp);
   background-size: cover;
   background-attachment: fixed;
-  /* background-blend-mode: darken;
-  background-color: #2125297e; */
 }
 
 .pricing .respon-table {
@@ -178,6 +174,7 @@
     display: none;
   }
 }
+
 @media only screen and (max-width: 1105px) {
   .features {
     background-attachment: unset;

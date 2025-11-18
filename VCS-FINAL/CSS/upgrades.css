@@ -106,8 +106,6 @@
   border-top: 0.18rem solid var(--bg-grey);
   border-bottom: none;
   color: var(--bg-light);
-  /* background-blend-mode: darken;
-  background-color: #212529b6; */
   background-position: center;
   background-attachment: fixed;
   background-size: cover;

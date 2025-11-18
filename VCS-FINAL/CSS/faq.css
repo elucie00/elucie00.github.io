@@ -25,13 +25,13 @@
   padding: 2rem 1rem;
 }
 
-  .section-title {
-    font-size: 1.5rem;
-    padding: 1.5rem;
-    margin: 1.5rem 0rem 0rem 0rem;
-    border-radius: 0.5rem;
-    text-align: left;
-  }
+.section-title {
+  font-size: 1.5rem;
+  padding: 1.5rem;
+  margin: 1.5rem 0rem 0rem 0rem;
+  border-radius: 0.5rem;
+  text-align: left;
+}
 
 /* BOOTSTRAP ACCORDIAN faq's*/
 
@@ -40,35 +40,36 @@
   border: none;
 }
 
-  .accordion-header button {
-    margin: 0.5rem 0rem 0rem 0rem;
-    padding: 1.5rem;
-    background-color: var(--dusty-blue);
-    align-content: center;
-    border: 0.18rem solid var(--bg-grey);
-    color: var(--bg-light);
-    font-size: 1.2rem;
-    font-weight: 500;
-  }
+.accordion-header button {
+  margin: 0.5rem 0rem 0rem 0rem;
+  padding: 1.5rem;
+  background-color: var(--dusty-blue);
+  align-content: center;
+  border: 0.18rem solid var(--bg-grey);
+  color: var(--bg-light);
+  font-size: 1.2rem;
+  font-weight: 500;
+}
 
-    .accordion-header button.accordion-button.collapsed::after {
-      filter: brightness(200);
-    }
+.accordion-header button.accordion-button.collapsed::after {
+  filter: brightness(200);
+}
 
-  .accordion-body {
-    overflow: hidden;
-    align-content: center;
-    background-color: var(--bg-light);
-    transition: height 1s;
-    padding: 1rem 1.5rem;
-    margin: 0;
-    color: var(--bg-dark);
-  }
+.accordion-body {
+  overflow: hidden;
+  align-content: center;
+  background-color: var(--bg-light);
+  transition: height 1s;
+  padding: 1rem 1.5rem;
+  margin: 0;
+  color: var(--bg-dark);
+}
 
 @media only screen and (min-width: 1400px) {
   .accordion-header button {
     font-size: 1.5rem;
   }
+
   .accordion-body p {
     font-size: 1.3rem;
   }
@@ -78,36 +79,37 @@
   color:var(--bg-dark);
   text-underline-offset: .2rem;
 }
+
 /* SECTION 2 contact us banner*/
 
 .banner {
   background-color: #3066be;
 }
 
-  .banner .section {
-    text-align: center;
-  }
+.banner .section {
+  text-align: center;
+}
 
-    .banner h4 {
-      margin: 0;
-      padding: 0rem 2rem;
-      font-size: 1.5rem;
-      font-weight: 400;
-      font-style: italic;
-      line-height: 1.5;
-    }
+.banner h4 {
+  margin: 0;
+  padding: 0rem 2rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+  font-style: italic;
+  line-height: 1.5;
+}
 
-  .banner .contact {
-    background-color: var(--bg-dark-blue);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    padding: 1rem 0rem 1rem 0rem;
-  }
+.banner .contact {
+  background-color: var(--bg-dark-blue);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 1rem 0rem 1rem 0rem;
+}
 
-    .banner h6 {
-      margin: 0rem;
-      padding: 1rem 1rem;
-      font-size: 1.2rem;
-    }
+.banner h6 {
+  margin: 0rem;
+  padding: 1rem 1rem;
+  font-size: 1.2rem;
+}
 

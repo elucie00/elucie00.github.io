@@ -28,42 +28,43 @@
   border-bottom: 0.18rem solid var(--bg-grey);
 }
 
-  .section-1 .section-title {
-    border: 0.18rem solid var(--bg-grey);
-  }
+.section-1 .section-title {
+  border: 0.18rem solid var(--bg-grey);
+}
 
-  .section-1 .contact {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    padding: 1.5rem 1rem;
-  }
+.section-1 .contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 1.5rem 1rem;
+}
 
-    .section-1 h6 {
-      margin: 0rem;
-      padding: 1rem 1rem;
-      font-size: 1.5rem;
-    }
+.section-1 h6 {
+  margin: 0rem;
+  padding: 1rem 1rem;
+  font-size: 1.5rem;
+}
 
-    .section-1 .contact p {
-      padding: 0.2rem 0rem;
-      font-size: 1.5rem;
-      font-style: italic;
-    }
+.section-1 .contact p {
+  padding: 0.2rem 0rem;
+  font-size: 1.5rem;
+  font-style: italic;
+}
 
-  .section-1 .text {
-    padding: 1.5rem 1rem;
-  }
+.section-1 .text {
+  padding: 1.5rem 1rem;
+}
 
-  .section-1 .btn-grey {
-    padding: 1rem 1rem;
-    font-size: 1.3rem;
-    text-align: left;
-  }
+.section-1 .btn-grey {
+  padding: 1rem 1rem;
+  font-size: 1.3rem;
+  text-align: left;
+}
 
-  .section-1 img{
-    object-fit: cover;
-  }
+.section-1 img{
+  object-fit: cover;
+}
+
 /* SECTION 2 */
 
 .section-2 {
@@ -81,27 +82,27 @@
   overflow: hidden;
 }
 
-  .section-2 .text {
-    padding: 0.5rem;
-    align-content: center;
-  }
+.section-2 .text {
+  padding: 0.5rem;
+  align-content: center;
+}
 
-    .section-2 p {
-      padding: 0.5rem 2rem;
-      font-size: 1.5rem;
-      line-height: 1.5;
-    }
+.section-2 p {
+  padding: 0.5rem 2rem;
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
 
-    .section-2 .fb{
-      overflow: hidden;
-    }
+.section-2 .fb{
+  overflow: hidden;
+}
 
-    .section-2 .fb iframe {
-      overflow: hidden;
-      object-fit: cover;
-      display: block;
+.section-2 .fb iframe {
+  overflow: hidden;
+  object-fit: cover;
+  display: block;
 
-    }
+}
 
 @media only screen and (max-width: 1105px) {
   .section-2 {

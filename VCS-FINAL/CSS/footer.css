@@ -1,93 +1,93 @@
 /* FOOTER */
 
 footer.row {
-  background-color: var(--bg-dark);
-  padding-top: 1rem;
+    background-color: var(--bg-dark);
+    padding-top: 1rem;
 }
 
-    footer .card-row .footer-card {
-        text-align: center;
-        color: var(--bg-light);
-        background-color: var(--bg-dark);
-        border: none;
-        z-index: 1;
-        padding: 0rem 1rem;
-        background-color: var(--bg-dark)
-    }
+footer .card-row .footer-card {
+    text-align: center;
+    color: var(--bg-light);
+    background-color: var(--bg-dark);
+    border: none;
+    z-index: 1;
+    padding: 0rem 1rem;
+    background-color: var(--bg-dark)
+}
 
-    footer h2 {
-        font-size: 1.8rem;
-        margin-bottom: 1rem;
-    }
+footer h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
 
 /* About us section */
 
 footer .about-us {
-  font-size: 1.2rem;
-  text-align: center;
-  padding: 0rem 0rem 0.5rem 0rem;
-  line-height: 1.5;
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 0rem 0rem 0.5rem 0rem;
+    line-height: 1.5;
 }
 
 /* Quick Links Section */
 
 a.quick-link {
-  width: 100%;
-  display: block;
-  text-decoration: none;
-  text-align: center;
-  color: #9fa6b2;
-  letter-spacing: 0.12rem;
-  font-size: 1.5rem;
-  padding: 1rem;
-  transition: color 0.2s;
+    width: 100%;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: #9fa6b2;
+    letter-spacing: 0.12rem;
+    font-size: 1.5rem;
+    padding: 1rem;
+    transition: color 0.2s;
 }
 
-    a.quick-link:hover {
-        color: var(--btn-text-hover);
-    }
+a.quick-link:hover {
+    color: var(--btn-text-hover);
+}
 
-    a.quick-link-active {
-        display: block;
-        text-decoration: none;
-        text-align: center;
-        color: var(--btn-text-active);
-        font-weight: 500;
-        letter-spacing: 0.12rem;
-        font-size: 1.5rem;
-        padding: 1rem;
-    }
+a.quick-link-active {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: var(--btn-text-active);
+    font-weight: 500;
+    letter-spacing: 0.12rem;
+    font-size: 1.5rem;
+    padding: 1rem;
+}
 
 /* Info/contact us */
 
 footer .card-row .footer-card.info {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
-    .contact-info {
-        overflow: hidden;
-        padding-bottom: 1.5rem;
-    }
+.contact-info {
+    overflow: hidden;
+    padding-bottom: 1.5rem;
+}
 
-    .contact-info h6 {
-        margin: 0rem;
-    }
+.contact-info h6 {
+    margin: 0rem;
+}
 
-    .contact-info a {
-        text-decoration: none;
-        font-size: 1rem;
-        display: block;
-        color: var(--btn-text);
-    }
+.contact-info a {
+    text-decoration: none;
+    font-size: 1rem;
+    display: block;
+    color: var(--btn-text);
+}
 
-    .contact-info a:hover {
-        color: var(--btn-text-hover);
-    }
+.contact-info a:hover {
+    color: var(--btn-text-hover);
+}
 
-    .contact-info p {
-        font-size: 1rem;
-    }
+.contact-info p {
+    font-size: 1rem;
+}
 
-    .contact-info a svg{
-        color:#1877f2;
-    }
+.contact-info a svg{
+    color:#1877f2;
+}
