@@ -19,7 +19,7 @@
   margin: 0rem auto;
   color: var(--bg-dark);
   font-size: 1.2rem;
-  border-radius: 1rem;
+  border-radius: .5rem;
 }
 
 .features .respon-row {
@@ -30,7 +30,7 @@
 }
 
 .features .cell {
-  border: var(--bg-dark) 0.01rem solid;
+  border: #2125291d 0.01rem solid;
   text-align: left;
   padding: 1rem 1rem;
   width: 50%;

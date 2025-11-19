@@ -45,8 +45,8 @@
   display: flex;
   color: var(--bg-light);
   background-color: var(--dusty-blue);
-  border-top-left-radius: 1rem;
-  border-top-right-radius: 1rem;
+  border-top-left-radius: .5rem;
+  border-top-right-radius: .5rem;
 }
 
 .features .heading .text {
@@ -82,7 +82,7 @@
   width: 100%;
   margin: 0rem 0rem;
   padding: 0rem;
-  background-color: var(--dusty-blue);
+  background-color: #415a77c4;
   color: var(--bg-light);
 }
 

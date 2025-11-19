@@ -23,20 +23,14 @@
 
 .section-1 {
   padding-top: 1.5rem;
-  background-color: var(--dusty-blue);
-  border-top: 0.18rem solid var(--bg-grey);
-  border-bottom: 0.18rem solid var(--bg-grey);
-}
-
-.section-1 .section-title {
-  border: 0.18rem solid var(--bg-grey);
+  background-color: #415a77c4;
 }
 
 .section-1 .contact {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  padding: 1.5rem 1rem;
+  padding: 1.5rem 1rem 1.5rem 0rem;
 }
 
 .section-1 h6 {
@@ -73,7 +67,6 @@
   margin: 0rem;
   padding: 1.5rem 1rem;
   background-image: linear-gradient(to top, #2125298a, #2125298a), url(../images/background-images/webp/wood-background.webp);
-  border-bottom: 0.18rem solid var(--bg-grey);
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -101,7 +94,7 @@
   overflow: hidden;
   object-fit: cover;
   display: block;
-
+  height:300px;
 }
 
 @media only screen and (max-width: 1105px) {

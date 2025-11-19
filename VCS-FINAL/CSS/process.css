@@ -68,7 +68,7 @@
 .banner h4 {
   margin: 0;
   padding: 0rem 1rem;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight: 400;
   font-style: italic;
 }
@@ -136,11 +136,7 @@
   padding: 0rem;
   background-color: var(--dusty-blue);
   font-size: 1.2rem;
-  border: 0.25rem solid var(--bg-grey);
-}
-
-.section-3 .section-title {
-  border: 0.18rem solid var(--bg-grey);
+  /* border: 0.25rem solid var(--bg-grey); */
 }
 
 .section-3 .option-1 {
@@ -190,8 +186,6 @@
   align-content: center;
   font-size: 1.3rem;
   padding: 2rem;
-  border: 0.18rem solid var(--bg-grey);
-  border-bottom: none;
   border-left: none;
   font-style: italic;
 }

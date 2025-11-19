@@ -131,8 +131,8 @@ p {
   margin: 0 0 1.5rem 0rem;
   color: var(--bg-light);
   background-color: var(--bg-dark-blue);
-  border-radius: 0.75rem;
-  box-shadow: 3px 3px var(--dark-blue-shadow);
+  border-radius: .5rem;
+  box-shadow: 3px 3px 3px var(--dark-blue-shadow);
 }
 
 .sub-heading {
@@ -142,9 +142,9 @@ p {
   margin: 0 0 1rem 0;
   color: var(--bg-light);
   background-color: var(--dusty-blue);
-  box-shadow: 4px 4px var(--shadow-navy);
-  border-radius: 0.75rem;
-  border: .5px solid var(--bg-grey);
+  box-shadow: 3px 3px 3px var(--shadow-navy);
+  border-radius: .5rem;
+  border: .5px solid #cbd2dc52;
   font-size: 2rem;
   padding: 0.5rem 1.5rem;
 }
@@ -218,7 +218,7 @@ p {
   width: 100%;
   margin: 0rem;
   padding: 1.5rem 0rem 0rem 0rem;
-  background-color: var(--dusty-blue);
+  background-color: #415a77c4;
   color: var(--bg-light);
 }
 
@@ -263,7 +263,7 @@ p {
   width: 100%;
   margin: 0rem;
   padding: 0rem;
-  background-color: var(--bg-grey-blue);
+  background-color: #2330471c;
   background-image: linear-gradient(to top, #343a40, var(--bg-grey-blue), var(--bg-grey-blue), var(--bg-grey-blue));
   color: var(--bg-light);
 }

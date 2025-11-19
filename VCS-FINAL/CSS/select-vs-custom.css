@@ -168,19 +168,13 @@
 
 @media only screen and (min-width: 1105px) {
   .features table thead tr {
-    top: 80px;
+    top: 75px;
   }
 }
 
-@media only screen and (min-width: 1142px) {
+@media only screen and (min-width: 1226px) {
   .features table thead tr {
-    top: 60px;
-  }
-}
-
-@media only screen and (min-width: 2411px) {
-  .features table thead tr {
-    top: 35px;
+    top: 45px;
   }
 }
 
@@ -196,12 +190,12 @@
 .features th {
   text-align: center;
   padding: 0.3rem 0rem;
-  border: var(--bg-dark) 1.5px solid;
+  
 }
 
 .features table td {
   width: 35%;
-  border: var(--bg-dark) 1.5px solid;
+  border: #2125291d 2px solid;
   font-size: 1.1rem;
   padding: 0.5rem;
 }
@@ -294,7 +288,7 @@
   position: sticky;
   top: 10%;
   align-content: center;
-  border: var(--bg-dark) 0.01rem solid;
+  border: #2125291d 0.01rem solid;
 }
 
 .resp-table-features .pricing .t-heading.feature {

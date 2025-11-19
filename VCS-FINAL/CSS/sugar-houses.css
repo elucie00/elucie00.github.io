@@ -58,8 +58,8 @@
   display: flex;
   color: var(--bg-light);
   background-color: var(--dusty-blue);
-  border-top-left-radius: 1rem;
-  border-top-right-radius: 1rem;
+  border-top-left-radius: .5rem;
+  border-top-right-radius: .5rem;
 }
 
 .features .title {
@@ -89,8 +89,8 @@
   width: 98%;
   color: var(--bg-light);
   background-color: var(--dusty-blue);
-  border-top-left-radius: 1rem;
-  border-top-right-radius: 1rem;
+  border-top-left-radius: .5rem;
+  border-top-right-radius: .5rem;
   text-align: center;
   margin: 0rem;
 }

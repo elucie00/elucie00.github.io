@@ -87,6 +87,7 @@
   border: none;
   height: auto;
   margin: 0rem 1rem;
+  border-radius: .5rem;
 }
 
 .index-section-1 .card-img-top {
@@ -263,8 +264,9 @@
   padding: 1rem;
   margin: 1rem 0rem;
   background-color: var(--dusty-blue);
-  border: var(--bg-light) 0.2rem solid;
-  border-radius: 1rem;
+  /* border: var(--bg-light) 0.2rem solid; */
+  box-shadow: 3px 3px 3px var(--bg-grey-blue);
+  border-radius: .5rem;
 }
 
 .index-section-3 .review .text {
