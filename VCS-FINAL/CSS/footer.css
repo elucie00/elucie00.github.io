@@ -2,12 +2,12 @@
 
 footer.row {
     background-color: var(--bg-dark);
-    padding-top: 1rem;
+    padding-top: 1.5rem;
 }
 
 footer .card-row .footer-card {
     text-align: center;
-    color: var(--bg-light);
+    color: var(--text-light);
     background-color: var(--bg-dark);
     border: none;
     z-index: 1;
@@ -26,7 +26,6 @@ footer .about-us {
     font-size: 1.2rem;
     text-align: center;
     padding: 0rem 0rem 0.5rem 0rem;
-    line-height: 1.5;
 }
 
 /* Quick Links Section */
@@ -78,6 +77,8 @@ footer .card-row .footer-card.info {
     font-size: 1rem;
     display: block;
     color: var(--btn-text);
+    /* height: 3.5rem; */
+    align-content: center;
 }
 
 .contact-info a:hover {
@@ -86,8 +87,4 @@ footer .card-row .footer-card.info {
 
 .contact-info p {
     font-size: 1rem;
-}
-
-.contact-info a svg{
-    color:#1877f2;
 }

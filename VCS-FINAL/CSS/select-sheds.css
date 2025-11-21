@@ -1,11 +1,11 @@
 /* HEADER */
 
 .shed-header {
-  background-image: url(../images/headers/webP/select-sheds-banner.webp);
+  background-image: url(../images/headers/select-sheds-banner.PNG);
 }
 
 .gradient {
-  background-image: linear-gradient(to right, #21252974, #21252943, #21252900, #21252900, #21252900);
+  background-image: linear-gradient(to right, #212529ad, #2125298c, #21252958, #21252900, #21252900);
   height: 100%;
   width: 100%;
   display: flex;
@@ -102,7 +102,6 @@
   text-align: center;
   padding: 0.3rem 1rem;
   color: var(--bg-dark);
-  line-height: 1.5;
 }
 
 @media only screen and (max-width: 992px) {

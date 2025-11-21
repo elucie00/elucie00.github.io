@@ -8,7 +8,7 @@
 }
 
 .gradient {
-  background-image: linear-gradient(to right, #212529ab, #21252958, #21252900, #21252900);
+  background-image: linear-gradient(to right, #212529ad, #2125299a, #2125297b, #21252943, #21252900, #21252900);
   height: 100%;
   width: 100%;
 }
@@ -19,32 +19,108 @@
   }
 }
 
+/* Jump to section buttons */
+
+.title .jump .sections{
+  display: flex;
+  width: 100%;
+  border-radius: .5rem;
+  overflow: hidden;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+  .title .jump .sections a{
+    width: 33%;
+    color: var(--text-light);
+    text-align: center;
+    align-content: center;
+    background-color: var(--bg-dark-blue);
+    padding: .6rem .1rem;
+    min-width: 150px ;
+    flex-wrap: wrap;
+  }
+
+  .title .jump .sections a:hover{
+    background-color: var(--dark-blue-shadow);
+  }
+
+  .title .jump .sections a p{
+    padding: 0rem;
+    font-size: 1rem;
+    height:20px;
+    margin: auto auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+
+  .title .jump .sections .vs-btn {
+    border-top-left-radius: .5rem;
+    border-bottom-left-radius: .5rem;
+  } 
+    .title .jump .sections .vs-btn p{
+      border-left: 2px var(--text-light) solid;
+    } 
+
+    .title .jump .sections .features-btn p{
+      border-left: 2px var(--text-light) solid;
+    } 
+
+.title .jump .sections .info-btn {
+  border-top-right-radius: .5rem;
+  border-bottom-right-radius: .5rem;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+} 
+  .title .jump .sections .info-btn p{
+    border-right: 2px var(--text-light) solid;
+  } 
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .title .jump .sections .features-btn p{
+    border-right: 2px var(--text-light) solid;
+    border-left: 2px var(--text-light) solid;
+  } 
+
+  .title .jump .sections .info-btn {
+    border-top-right-radius: .5rem;
+    border-bottom-right-radius: .5rem;
+    border-top-left-radius: .5rem;
+    border-bottom-left-radius: .5rem;
+  } 
+
+  .title .jump .sections .features-btn {
+    border-top-right-radius: .5rem;
+    border-bottom-right-radius: .5rem;
+  } 
+}
+
 /* SECTION 1 */
 
 .section-1 {
   margin: 0rem;
-  padding: 2rem 1rem;
-  background-color: var(--bg-grey-blue);
-  background-image: linear-gradient(to top, #212529a2, #212529a2), url(../images/background-images/webp/wood-2-background.webp);
+  padding-bottom: 2rem;
 }
 
 .section-1 .options{
   display: flex;
   justify-content: space-evenly;
+  padding: 0rem 1rem;
 }
 
 .section-1 .card {
   padding: 0rem;
   border: none;
   height: auto;
-  margin: 0rem 1rem;
+  margin: 0rem;
   border-radius: 0.5rem;
 }
 
 .section-1 .card-title {
   margin: 0rem;
   height: 4rem;
-  color: var(--bg-light);
+  color: var(--text-light);
   background-color: var(--dusty-blue);
   font-size: 2rem;
   padding: 0.5rem 1.5rem;
@@ -61,7 +137,7 @@
 
 .section-1 .card-body {
   height: max-content;
-  padding: 0rem .5rem 1rem 0.5rem;
+  padding: 0rem 1rem 1rem 1rem;
   display: flex;
   flex-direction: column;
   align-content: center;
@@ -70,7 +146,7 @@
 .section-1 .card-body .card-text {
   height: max-content;
   padding: .5rem;
-  align-content: center;
+  /* align-content: center; */
 }
 
 .section-1 .card-body .btn-grey {
@@ -83,42 +159,39 @@
 
 @media only screen and (min-width: 992px) {
   .section-1 .card-body .card-text{
-    height: 17rem;
+    height: 25.5rem;
   }
 }
 
-@media only screen and (min-width: 1016px) {
+@media only screen and (min-width: 1176px) {
   .section-1 .card-body .card-text{
-    height: 16.5rem;
+    height: 20.5rem;
   }
 }
 
 
-@media only screen and (min-width: 1483px) {
+/* @media only screen and (min-width: 1253px) {
   .section-1 .card-body .card-text{
-    height: 19rem;
+    height: 26rem;
   }
 
-  .section-1 .card-body .card-text p{
-    font-size: 1.4rem;
+} */
+
+@media only screen and (min-width: 1400px) {
+  .section-1 .card-body .card-text{
+    height: 22.5rem;
   }
 }
 
-@media only screen and (min-width: 1815px) {
+@media only screen and (min-width: 1462px) {
   .section-1 .card-body .card-text{
-    height: 17rem;
+    height: 20.5rem;
   }
 }
 
 @media only screen and (min-width: 1933px) {
   .section-1 .card-body .card-text{
-    height: 15.5rem;
-  }
-}
-
-@media only screen and (min-width: 2232px) {
-  .section-1 .card-body .card-text{
-    height: 12rem;
+    height: 18rem;
   }
 }
 
@@ -126,9 +199,7 @@
 
 .features {
   padding: 2rem 1rem;
-  background-image: none;
-  background-blend-mode: normal;
-  background-color: #343a40;
+  background-image: linear-gradient(to top, #212529a2, #212529a2), url(../images/background-images/webp/wood-2-background.webp);
 }
 
 .pricing{
@@ -151,7 +222,7 @@
 
 .features table thead tr {
   width: 100%;
-  color: var(--bg-light);
+  color: var(--text-light);
   background-color: var(--dusty-blue);
   font-size: 2rem;
   margin: 0rem;
@@ -196,7 +267,6 @@
 .features table td {
   width: 35%;
   border: #2125291d 2px solid;
-  font-size: 1.1rem;
   padding: 0.5rem;
 }
 
@@ -282,7 +352,7 @@
   font-size: 1.2rem;
   font-weight: 400;
   padding: 1rem 0.5rem;
-  color: var(--bg-light);
+  color: var(--text-light);
   background-color: var(--dusty-blue);
   margin: 0rem;
   position: sticky;

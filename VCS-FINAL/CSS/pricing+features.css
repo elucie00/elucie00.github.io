@@ -2,7 +2,7 @@
 
 .features {
   margin: 0rem;
-  padding: 1.5rem 1rem;
+  padding: 2rem 1rem;
   background-image: linear-gradient(to top, #2125298a, #2125298a), url(../images/background-images/webp/wood-background.webp);
   background-size: cover;
   background-attachment: fixed;
@@ -96,7 +96,7 @@
 
 .pricing {
   margin: 0rem;
-  padding: 1.5rem 1rem;
+  padding: 2rem 1rem;
   background-image: linear-gradient(to top, #212529a2, #212529a2), url(../images/background-images/webp/wood-2-background.webp);
   background-size: cover;
   background-attachment: fixed;

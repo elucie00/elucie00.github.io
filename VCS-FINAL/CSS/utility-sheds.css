@@ -1,11 +1,11 @@
 /* HEADER */
 
 .shed-header {
-  background-image: url(../images/headers/webP/utility-sheds-banner.webp);
+  background-image: url(../images/headers/utility-sheds-banner.PNG);
 }
 
 .gradient {
-  background-image: linear-gradient(to right, #21252974, #21252943, #21252900, #21252900, #21252900);
+  background-image: linear-gradient(to right, #212529ad, #2125298c, #21252958, #21252900, #21252900);
   height: 100%;
   width: 100%;
 }
