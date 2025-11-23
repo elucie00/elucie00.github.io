@@ -161,19 +161,10 @@
 
 .banner .contact {
   display: flex;
+  flex-direction: column;
   justify-content: space-evenly;
   padding: 1rem 0rem 1.5rem 1rem;
 }
-
-.banner .contact .option{
-  display: flex;
-  flex-direction: column;
-}
-
-.banner .contact .option a{
-  width: 90%;
-}
-
 
 .banner h4 {
   margin: 0;
